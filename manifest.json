@@ -109,7 +109,8 @@
 			"tooltip": "Isle of Sgail",
 			"type": "checkbox",
 			"contentFolders": [
-				"Isle of Sgail"
+				"Isle of Sgail",
+				"ShareBerlinSgail"
 			]
 		},
 		{
@@ -149,7 +150,8 @@
 			"tooltip": "Berlin",
 			"type": "checkbox",
 			"contentFolders": [
-				"Berlin"
+				"Berlin",
+				"ShareBerlinSgail"
 			]
 		},
 		{
@@ -174,14 +176,6 @@
 			"type": "checkbox",
 			"contentFolders": [
 				"Carpathian Mountains"
-			]
-		},
-		{
-			"name": "Tests",
-			"tooltip": "Tests",
-			"type": "checkbox",
-			"contentFolders": [
-				"Tests"
 			]
 		}
 	]
