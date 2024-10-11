@@ -1,0 +1,41 @@
+{
+	"tempHash": "00982C54180D3996",
+	"tbluHash": "005F3F52E18135AA",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"52318412c97202a8",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/templates/fox/char_fox_tomorrowland.template?/outfit_tomorrowland_reward_m_actor_v0.entitytemplate].pc_entitytemplate",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b89c6697a6418b37",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0004DB88C5814956",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
