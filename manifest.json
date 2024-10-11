@@ -119,7 +119,8 @@
             "tooltip": "Dubai",
             "type": "checkbox",
             "contentFolders": [
-                "Dubai"
+                "Dubai",
+                "ShareDubaiDartmoor"
             ],
             "dependencies": [{
                     "runtimeID": "00E3AC6141A1094B",
@@ -139,7 +140,8 @@
             "tooltip": "Dartmoor",
             "type": "checkbox",
             "contentFolders": [
-                "Dartmoor"
+                "Dartmoor",
+                "ShareDubaiDartmoor"
             ]
         }, {
             "name": "Berlin",
