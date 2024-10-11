@@ -110,7 +110,8 @@
 			"type": "checkbox",
 			"contentFolders": [
 				"Isle of Sgail",
-				"ShareBerlinSgail"
+				"ShareBerlinSgail",
+				"ShareRomaniaSgail"
 			]
 		},
 		{
@@ -175,7 +176,8 @@
 			"tooltip": "Carpathian Mountains",
 			"type": "checkbox",
 			"contentFolders": [
-				"Carpathian Mountains"
+				"Carpathian Mountains",
+				"ShareRomaniaSgail"
 			]
 		}
 	]
