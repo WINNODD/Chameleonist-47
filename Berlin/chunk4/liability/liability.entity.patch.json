@@ -1,0 +1,41 @@
+{
+	"tempHash": "00269783374FE750",
+	"tbluHash": "0032482CB6810347",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f440a9f7a7376a84",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "006819D91DD846BF",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7335b6bc2d009fba",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0063F30F239C8BBC",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
