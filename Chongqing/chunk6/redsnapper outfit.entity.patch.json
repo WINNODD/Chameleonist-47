@@ -1,1 +1,29 @@
-{"tempHash":"0007FC4E06910AC4","tbluHash":"006F0A89E4BA62D7","patch":[{"SubEntityOperation":["114e3cac1edb3731",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["847aefe74f33b610",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]}],"patchVersion":6}
+{
+	"tempHash": "0007FC4E06910AC4",
+	"tbluHash": "006F0A89E4BA62D7",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"114e3cac1edb3731",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"847aefe74f33b610",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

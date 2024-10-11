@@ -1,0 +1,448 @@
+{
+	"tempHash": "00B91689C58FB1CD",
+	"tbluHash": "00437BBD1A90538D",
+	"rootEntity": "0587842fc0650bc4",
+	"entities": {
+		"4a1d18f629434336": {
+			"parent": "0587842fc0650bc4",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		},
+		"49f432c7176b6163": {
+			"parent": "0587842fc0650bc4",
+			"name": "TShirt_CrewNeck_Tkd",
+			"factory": "00315E5B72C1A976",
+			"blueprint": "00E85FA3F3B639A8",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#e8e8e8"
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "009A72D435E7647A",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"c754b46002f67b26": {
+			"parent": "0587842fc0650bc4",
+			"name": "Legs_Ankle_Shoe",
+			"factory": "00ABDD120246BCDC",
+			"blueprint": "0021DE526F3B8B7D"
+		},
+		"fac037dfeec1f7b7": {
+			"parent": "0587842fc0650bc4",
+			"name": "Shoes_Sport_Baseball",
+			"factory": "006D7B5625F47F88",
+			"blueprint": "008A640CD76405FA",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#595959"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.6200000047683716
+				}
+			}
+		},
+		"0587842fc0650bc4": {
+			"parent": null,
+			"name": "OUTFIT_Azalea_BlockGuard_PigMask_M_Actor_v0",
+			"factory": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -25.611440658569336,
+							"y": 1.673406958580017,
+							"z": 0.0
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bUseSkinningPosNormalConstrains": {
+					"type": "bool",
+					"value": false
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"4d34308cd237d3f5",
+						"c754b46002f67b26",
+						"37b330360e2b6d0a",
+						"49f432c7176b6163",
+						"03c989bac6fe1aef",
+						"fac037dfeec1f7b7",
+						"2408a214520e08f1",
+						"4a1d18f629434336"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"81d8bf15cdaf1714": {
+			"parent": "2408a214520e08f1",
+			"name": "fox_worker_staff_pigmask",
+			"factory": "0093859CF043C8F4",
+			"blueprint": "00AA97A774458736",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#6ebbff"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 13.0
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0587842fc0650bc4"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["2408a214520e08f1"],
+					"postInit": true
+				}
+			}
+		},
+		"4e3b95c8597422c3": {
+			"parent": "37b330360e2b6d0a",
+			"name": "Mesh",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D2054AD2D6198D",
+						"flag": "5F"
+					}
+				},
+				"m_ClothColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		"4d34308cd237d3f5": {
+			"parent": "0587842fc0650bc4",
+			"name": "Hands",
+			"factory": "009A6D9F7927FB89",
+			"blueprint": "00F49463DEA8D412"
+		},
+		"2408a214520e08f1": {
+			"parent": "0587842fc0650bc4",
+			"name": "Mesh_PigMask_M",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00FE5F461CBB0ACF",
+						"flag": "5F"
+					}
+				},
+				"m_ClothColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		"78425db9f56ffb28": {
+			"parent": "37b330360e2b6d0a",
+			"name": "male_reg_shoulder_holster",
+			"factory": "[assembly:/_pro/characters/assets/guards/cicada_lab_guard/materials/male_reg_shoulder_holster.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/guards/cicada_lab_guard/materials/male_reg_shoulder_holster.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -8.224784193225885
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"ConstantVector1D_14_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_15_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Saturation_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Hue_Shift_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_03_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_15_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"ConstantVector1D_14_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/cicada_lab_guard/textures/male_reg_lab_guard_01_harness_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 0.029999999329447743
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/cicada_lab_guard/textures/male_reg_lab_guard_01_harness_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/cicada_lab_guard/textures/male_reg_lab_guard_01_harness_01.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0587842fc0650bc4"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["37b330360e2b6d0a"],
+					"postInit": true
+				}
+			}
+		},
+		"37b330360e2b6d0a": {
+			"parent": "0587842fc0650bc4",
+			"name": "Shoulder_Holster_Radio",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 0.029999999329447743
+				}
+			},
+			"propertyAliases": {
+				"ConstantVector1D_01_Value": [
+					{
+						"originalProperty": "ConstantVector1D_01_Value",
+						"originalEntity": "78425db9f56ffb28"
+					}
+				],
+				"ConstantVector1D_03_Value": [
+					{
+						"originalProperty": "ConstantVector1D_03_Value",
+						"originalEntity": "78425db9f56ffb28"
+					}
+				],
+				"ConstantVector1D_14_Value": [
+					{
+						"originalProperty": "ConstantVector1D_14_Value",
+						"originalEntity": "78425db9f56ffb28"
+					}
+				],
+				"ConstantVector1D_15_Value": [
+					{
+						"originalProperty": "ConstantVector1D_15_Value",
+						"originalEntity": "78425db9f56ffb28"
+					}
+				],
+				"Diffuse_Color_01_Value": [
+					{
+						"originalProperty": "Diffuse_Color_01_Value",
+						"originalEntity": "78425db9f56ffb28"
+					}
+				],
+				"Diffuse_Hue_Shift_01_Value": [
+					{
+						"originalProperty": "Diffuse_Hue_Shift_01_Value",
+						"originalEntity": "78425db9f56ffb28"
+					}
+				],
+				"Diffuse_Saturation_01_Value": [
+					{
+						"originalProperty": "Diffuse_Saturation_01_Value",
+						"originalEntity": "78425db9f56ffb28"
+					}
+				],
+				"Texture2DNormal_01": [
+					{
+						"originalProperty": "Texture2DNormal_01",
+						"originalEntity": "78425db9f56ffb28"
+					}
+				],
+				"Texture2D_01": [
+					{
+						"originalProperty": "Texture2D_01",
+						"originalEntity": "78425db9f56ffb28"
+					}
+				],
+				"Texture2D_03": [
+					{
+						"originalProperty": "Texture2D_03",
+						"originalEntity": "78425db9f56ffb28"
+					}
+				],
+				"m_pMeshResource": [
+					{
+						"originalProperty": "m_pMeshResource",
+						"originalEntity": "4e3b95c8597422c3"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"ZBodyPartEntity": "4e3b95c8597422c3",
+				"ZClothColliderGroupAspect": "4e3b95c8597422c3"
+			}
+		},
+		"03c989bac6fe1aef": {
+			"parent": "0587842fc0650bc4",
+			"name": "DustSuit_Open_HoodDwn",
+			"factory": "00600B92907BFB20",
+			"blueprint": "00684B89C86B55BA",
+			"properties": {
+				"Texture2D_01_1": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0086EBA4582A92E6",
+						"flag": "5F"
+					}
+				},
+				"Diffuse_Color_01_Value_1": {
+					"type": "SColorRGB",
+					"value": "#aaccf0"
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "003EC1B99A14C6B3",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "000B633B8879DE76", "flag": "5F" },
+		{ "resource": "00B40E9503CF9271", "flag": "5F" },
+		{ "resource": "003268165F545A77", "flag": "5F" },
+		{ "resource": "0076B72F204BB036", "flag": "5F" },
+		{ "resource": "00C10E4450216056", "flag": "5F" },
+		{ "resource": "0083A161D684143B", "flag": "5F" },
+		{ "resource": "00A534D51D017580", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/hokkaido/baseballplayer/textures/baseballplayer_shoes.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/hokkaido/baseballplayer/textures/baseballplayer_shoes.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/hokkaido/baseballplayer/textures/baseballplayer_shoes.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "0010885603456A70", "flag": "5F" },
+		{ "resource": "002D0BDECEC71AE2", "flag": "5F" },
+		{ "resource": "00C52082126FF4CF", "flag": "5F" },
+		{ "resource": "002F747F47C5E9B3", "flag": "5F" },
+		{ "resource": "0095F941A77E69B2", "flag": "5F" },
+		{ "resource": "00166A77B2A32F8A", "flag": "5F" },
+		{ "resource": "00003C62E2343221", "flag": "5F" },
+		{ "resource": "0091FBA017372507", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00C5DEA56B29F493", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
