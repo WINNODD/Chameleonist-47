@@ -1,1 +1,0 @@
-{"tempHash":"00537D16B5CE7286","tbluHash":"00F2E4A932ECAA63","patch":[{"SubEntityOperation":["d0e8754f54850000",{"AddPropertyAliasConnection":["m_pMeshResource",{"originalProperty":"m_pMeshResource","originalEntity":"d0b16ee34555492f"}]}]}],"patchVersion":6}
