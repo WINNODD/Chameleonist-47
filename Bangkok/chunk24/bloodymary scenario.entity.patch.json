@@ -1,1 +1,163 @@
-{"tempHash":"006D1E9C109EA52B","tbluHash":"009545585FB4CE13","patch":[{"op":"replace","path":"/entities/edecf4f4036ca8e0/properties/m_bBlockDisguisePickup/value","value":false},{"op":"replace","path":"/entities/58210279243db230/properties/m_bBlockDisguisePickup/value","value":false}],"patchVersion":4}
+{
+	"tempHash": "006D1E9C109EA52B",
+	"tbluHash": "009545585FB4CE13",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"edecf4f4036ca8e0",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"58210279243db230",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "0efb3be017aa05e2",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/dressing_arrival.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 106.89860499464305
+						},
+						"position": {
+							"x": 27.15399932861328,
+							"y": -24.248889923095703,
+							"z": -2.943511962890625
+						}
+					}
+				}
+			}
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "d57d074a3271f507",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 109.99975075947171
+						},
+						"position": {
+							"x": 1.5759049654006958,
+							"y": -1.0582400560379028,
+							"z": 1.002953052520752
+						}
+					}
+				}
+			}
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "12ab76265e3a7f3f",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/dressing_wing_b_vip_suite.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 104.99975812873899
+						},
+						"position": {
+							"x": 29.413799285888672,
+							"y": -34.539920806884766,
+							"z": -25.77869033813477
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "0efb3be017aa05e2",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/dressing_arrival.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 106.89860499464304
+						},
+						"position": {
+							"x": 27.15399932861328,
+							"y": -24.248889923095703,
+							"z": -2.943511962890625
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "d57d074a3271f507",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 109.99975075947172
+						},
+						"position": {
+							"x": 1.5759049654006958,
+							"y": -1.0582400560379028,
+							"z": 1.002953052520752
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "12ab76265e3a7f3f",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/dressing_wing_b_vip_suite.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 104.999758128739
+						},
+						"position": {
+							"x": 29.413799285888672,
+							"y": -34.539920806884766,
+							"z": -25.77869033813477
+						}
+					}
+				}
+			}
+		}
+	],
+	"patchVersion": 6
+}

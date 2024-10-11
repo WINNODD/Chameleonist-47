@@ -1,1 +1,13 @@
-{"tempHash":"0000C3CE492807D2","tbluHash":"002EA1AFC127657D","patch":[{"op":"replace","path":"/entities/98db34e145799013/properties/m_bBlockDisguisePickup/value","value":false}],"patchVersion":4}
+{
+	"tempHash": "0000C3CE492807D2",
+	"tbluHash": "002EA1AFC127657D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"98db34e145799013",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		}
+	],
+	"patchVersion": 6
+}

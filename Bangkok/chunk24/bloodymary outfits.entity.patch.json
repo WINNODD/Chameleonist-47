@@ -1,1 +1,18 @@
-{"tempHash":"0084B32BD6FF4620","tbluHash":"0029E63156DD25AB","patch":[{"op":"replace","path":"/entities/2476139c392a2dbc/properties/m_bHeroDisguiseAvailable/value","value":true}],"patchVersion":4}
+{
+	"tempHash": "0084B32BD6FF4620",
+	"tbluHash": "0029E63156DD25AB",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"2476139c392a2dbc",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

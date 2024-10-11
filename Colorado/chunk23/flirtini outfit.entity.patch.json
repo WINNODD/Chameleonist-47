@@ -1,1 +1,1 @@
-{"tempHash":"008510E2EFB91698","tbluHash":"0079D420E1191B35","patch":[{"op":"replace","path":"/entities/fda3d298412128ee/properties/m_bHeroDisguiseAvailable/value","value":true}],"patchVersion":4}
+{"tempHash":"008510E2EFB91698","tbluHash":"0079D420E1191B35","patch":[{"SubEntityOperation":["fda3d298412128ee",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]}],"patchVersion":6}

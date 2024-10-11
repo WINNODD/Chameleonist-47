@@ -1,1 +1,1 @@
-{"tempHash":"00C411928345A4EF","tbluHash":"003D4BF36ADEC241","patch":[{"op":"replace","path":"/entities/ff10f67481046796/properties/m_bHeroDisguiseAvailable/value","value":true}],"patchVersion":4}
+{"tempHash":"00C411928345A4EF","tbluHash":"003D4BF36ADEC241","patch":[{"SubEntityOperation":["ff10f67481046796",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]}],"patchVersion":6}

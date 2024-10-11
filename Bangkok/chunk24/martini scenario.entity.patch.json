@@ -1,1 +1,31 @@
-{"tempHash":"00FED13C7A6E0F35","tbluHash":"0062EA4AB6D92DBA","patch":[{"op":"replace","path":"/entities/2ad049b579a88dd1/properties/m_bBlockDisguisePickup/value","value":false},{"op":"replace","path":"/entities/3c399774dc4b3351/properties/m_bBlockDisguisePickup/value","value":false},{"op":"replace","path":"/entities/8010b50844173aea/properties/m_bBlockDisguisePickup/value","value":false},{"op":"replace","path":"/entities/10e4ba3bd7b693f3/properties/m_bBlockDisguisePickup/value","value":false}],"patchVersion":4}
+{
+	"tempHash": "00FED13C7A6E0F35",
+	"tbluHash": "0062EA4AB6D92DBA",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"2ad049b579a88dd1",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3c399774dc4b3351",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8010b50844173aea",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"10e4ba3bd7b693f3",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		}
+	],
+	"patchVersion": 6
+}

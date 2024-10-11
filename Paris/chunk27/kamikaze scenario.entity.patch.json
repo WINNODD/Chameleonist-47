@@ -1,1 +1,1 @@
-{"tempHash":"005160675062E009","tbluHash":"000FAB11E8D41FD2","patch":[{"op":"replace","path":"/entities/36284ffd9e2aad39/properties/m_bBlockDisguisePickup/value","value":false}],"patchVersion":4}
+{"tempHash":"005160675062E009","tbluHash":"000FAB11E8D41FD2","patch":[{"SubEntityOperation":["36284ffd9e2aad39",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]}],"patchVersion":6}
