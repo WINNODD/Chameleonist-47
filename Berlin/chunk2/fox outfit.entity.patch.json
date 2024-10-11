@@ -1,1 +1,117 @@
-{"tempHash":"00AAF7A62718DE49","tbluHash":"00782A77D7261C71","patch":[{"SubEntityOperation":["7637b518f2c2af17",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["a3e749234496b3fa",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["fc18daa02b89eed3",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["1c32be6773e3af56",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["4a532e8e7a608b4d",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]}],"patchVersion":6}
+{
+	"tempHash": "00AAF7A62718DE49",
+	"tbluHash": "00782A77D7261C71",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"4ae4ade27e5dc434",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"080676230e834e4d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7637b518f2c2af17",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b57de17701947d58",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a3e749234496b3fa",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fc18daa02b89eed3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1c32be6773e3af56",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4a532e8e7a608b4d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4194705e63a2c914",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"236ff6a8779c94cf",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

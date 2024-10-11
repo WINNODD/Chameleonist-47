@@ -1,17 +1,17 @@
 {
-	"tempHash": "0057131EC2808DAA",
-	"tbluHash": "0080FA5719C928C4",
+	"tempHash": "00AB81D85CBDEC86",
+	"tbluHash": "007B1510DA376C78",
 	"patch": [
 		{
 			"SubEntityOperation": [
-				"ed322c6babc8b625",
+				"77aea0a997cd627c",
 				{
 					"AddProperty": [
 						"m_Outfit",
 						{
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "00F2E3F5CFB14C83",
+								"resource": "00DAE583084457F8",
 								"flag": "9F"
 							}
 						}
@@ -21,14 +21,14 @@
 		},
 		{
 			"SubEntityOperation": [
-				"6d3f45ce1e62f835",
+				"663710793a88583e",
 				{
 					"AddProperty": [
 						"m_Outfit",
 						{
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "00634A920B4A4AAA",
+								"resource": "0038AEB63B86C4FD",
 								"flag": "9F"
 							}
 						}

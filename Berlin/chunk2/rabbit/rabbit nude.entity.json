@@ -1,0 +1,203 @@
+{
+	"tempHash": "0038AEB63B86C4FD",
+	"tbluHash": "003AF39A0FF4DB4E",
+	"rootEntity": "e327acbc5bf8b621",
+	"entities": {
+		"7e0bc808e5858505": {
+			"parent": "e327acbc5bf8b621",
+			"name": "Body_Full",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5"
+		},
+		"d3d5487eb1eb389f": {
+			"parent": "e327acbc5bf8b621",
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5"
+		},
+		"e327acbc5bf8b621": {
+			"parent": null,
+			"name": "OUTFIT_GrassSnake_Unique_WhiteRabbit_M_Actor_v0",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -7.774561882019043,
+							"y": 1.4896600246429443,
+							"z": 0.0
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0017416135CF879C",
+						"flag": "5F"
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"196e4ce259379a92",
+						"d3d5487eb1eb389f",
+						"7e0bc808e5858505"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"196e4ce259379a92": {
+			"parent": "e327acbc5bf8b621",
+			"name": "Head_african_20s_02",
+			"factory": "00E314C6A971AC8E",
+			"blueprint": "00EA55FF19C753BF",
+			"properties": {
+				"ConstantVector1D_02_Value": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"Texture2D_Eye": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00AB30351C50E17B",
+						"flag": "5F"
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00BF451DE4B6CAB8",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_02": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00751F249D042475",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/bangkok/kenmorgan/textures/male_reg_kenmorgan_bowtie.texture?/normal_white.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/bangkok/kenmorgan/textures/male_reg_kenmorgan_bowtie.texture?/specular_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/bangkok/kenmorgan/textures/male_reg_kenmorgan_bowtie.texture?/diffuse_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00F2C2BC9DB9C083", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/misc/textures/acc_flower_rose.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/misc/textures/acc_flower_rose.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "007CE39FE812E2C2", "flag": "5F" },
+		{ "resource": "0045F839B337D2B6", "flag": "5F" },
+		{ "resource": "00188997D678EF0B", "flag": "5F" },
+		{ "resource": "006A9072F2C78523", "flag": "5F" },
+		{ "resource": "005A3A86E39FBFB7", "flag": "5F" },
+		{ "resource": "006258232B3126D5", "flag": "5F" },
+		{ "resource": "00CDCC93A176E238", "flag": "5F" },
+		{ "resource": "0016A69BF5988335", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/directional_a.texture?/normal_b.tex](ascompoundnormal).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00FDC1735F93870C", "flag": "5F" },
+		{ "resource": "00E59442A60B52F8", "flag": "5F" },
+		{ "resource": "0040A17A06398CD3", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00C197DBB1B74FF6", "flag": "5F" },
+		{ "resource": "007E2F6DB1068A8D", "flag": "5F" },
+		{ "resource": "00AAD107E192CFAE", "flag": "5F" },
+		{ "resource": "00144DAC9CEFBAFA", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/masks/geometry/masks_face_plain.wl2?/mask_bunny_half.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_gloves_white.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_gloves_white.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_gloves_white.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00011DE6E784E34C", "flag": "5F" },
+		{ "resource": "00B40E9503CF9271", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "000B7220476BEDE6", "flag": "5F" },
+		{ "resource": "00F2928EC806EC5E", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
