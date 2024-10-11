@@ -1,0 +1,262 @@
+{
+	"tempHash": "00A452312A5EAB43",
+	"tbluHash": "007D16F60EE57F90",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b827caded59366e5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "00F9384EFA49CA4D",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f7acb16287bc08a8",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[
+							{
+								"AddItemAfter": [
+									"d0a44bb01032a26e",
+									"abcd297072a534f1"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"29d992eb0935684a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "0029AC242BA86232",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"abcd11d5e07851a0",
+				{
+					"parent": "f7acb16287bc08a8",
+					"name": "bodyguard_jacketopen_01",
+					"factory": "[assembly:/_pro/characters/assets/guards/bodyguards_01/materials/bodyguard_jacketopen_01.mi].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/assets/guards/bodyguards_01/materials/bodyguard_jacketopen_01.mi].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"Texture2DNormal_01_enab": {
+							"type": "bool",
+							"value": true
+						},
+						"Texture2DNormal_01": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00F3727205E999AF",
+								"flag": "5F"
+							}
+						},
+						"Texture2D_01_enab": {
+							"type": "bool",
+							"value": true
+						},
+						"Texture2D_01": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00D96267091D1A34",
+								"flag": "5F"
+							}
+						},
+						"Texture2D_03_enab": {
+							"type": "bool",
+							"value": true
+						},
+						"Texture2D_03": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "001B2E068A43605B",
+								"flag": "5F"
+							}
+						},
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["f7acb16287bc08a8"],
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "f7acb16287bc08a8",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"abcdab50c2c2350c",
+				{
+					"parent": "f7acb16287bc08a8",
+					"name": "male_formal_01_shirtwaistcoat_01_jacket",
+					"factory": "00D4FCAF00797081",
+					"blueprint": "0096994828A1183C",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"Texture2DNormal_01_enab": {
+							"type": "bool",
+							"value": true
+						},
+						"Texture2DNormal_01": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "004A46B50F326AF3",
+								"flag": "5F"
+							}
+						},
+						"Texture2D_01_enab": {
+							"type": "bool",
+							"value": true
+						},
+						"Texture2D_01": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "002B3874AFD9C618",
+								"flag": "5F"
+							}
+						},
+						"Texture2D_03_enab": {
+							"type": "bool",
+							"value": true
+						},
+						"Texture2D_03": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0053B58AB964C658",
+								"flag": "5F"
+							}
+						},
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["f7acb16287bc08a8"],
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "f7acb16287bc08a8",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"abcd297072a534f1",
+				{
+					"parent": "f7acb16287bc08a8",
+					"name": "Mesh_Tie_Solved",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00F336868B86292A",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"abcd600a55a01c0c",
+				{
+					"parent": "f7acb16287bc08a8",
+					"name": "male_reg_philip_01_tie_01",
+					"factory": "[assembly:/_pro/characters/assets/individuals/paris/philip/materials/male_reg_philip_01_tie_01.mi].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/assets/individuals/paris/philip/materials/male_reg_philip_01_tie_01.mi].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"Texture2DNormal_01_enab": {
+							"type": "bool",
+							"value": true
+						},
+						"Texture2DNormal_01": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00FC420E1364F672",
+								"flag": "5F"
+							}
+						},
+						"Texture2D_01_enab": {
+							"type": "bool",
+							"value": true
+						},
+						"Texture2D_01": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00542A8A9163131B",
+								"flag": "5F"
+							}
+						},
+						"Texture2D_03_enab": {
+							"type": "bool",
+							"value": true
+						},
+						"Texture2D_03": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0087393F98172089",
+								"flag": "5F"
+							}
+						},
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["f7acb16287bc08a8"],
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "f7acb16287bc08a8",
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
