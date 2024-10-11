@@ -1,0 +1,359 @@
+{
+	"tempHash": "00C21A9B01B36DCC",
+	"tbluHash": "0000205C687DCFEB",
+	"patch": [
+		{ "RemoveEntityByID": "c947e54dde21025b" },
+		{ "RemoveEntityByID": "fe0644c948b4b987" },
+		{ "RemoveEntityByID": "d6c594055b335ffa" },
+		{ "RemoveEntityByID": "bdd6a281d88efc00" },
+		{ "RemoveEntityByID": "b5c67d96aff0f1c4" },
+		{ "RemoveEntityByID": "86e6e13a644a5c06" },
+		{ "RemoveEntityByID": "4b9181f88ed97525" },
+		{ "RemoveEntityByID": "ab7b312c5bd3ba89" },
+		{ "RemoveEntityByID": "9b761d2d994c9c1b" },
+		{ "RemoveEntityByID": "d9cc1d81e4a10ea0" },
+		{ "RemoveEntityByID": "9cf478d14c4b0a5a" },
+		{ "RemoveEntityByID": "248883e322828615" },
+		{ "RemoveEntityByID": "64cde007cca3416c" },
+		{ "RemoveEntityByID": "40aecf461d4b7008" },
+		{ "RemoveEntityByID": "fc4da4d0259d9130" },
+		{ "RemoveEntityByID": "948ec76f7e7fc1f1" },
+		{ "RemoveEntityByID": "2a19128b77c360a1" },
+		{ "RemoveEntityByID": "4b61c8ab4e4cd9fb" },
+		{ "RemoveEntityByID": "981ddc895bc85a0a" },
+		{ "RemoveEntityByID": "4bae40f0f5cbf575" },
+		{ "RemoveEntityByID": "6b4fa4c846622f8d" },
+		{ "RemoveEntityByID": "336bd65d3100409f" },
+		{ "RemoveEntityByID": "55d0461334c9b19e" },
+		{ "RemoveEntityByID": "f7555afdd0794e9b" },
+		{ "RemoveEntityByID": "8ced565b061977bb" },
+		{ "RemoveEntityByID": "6409adfa28fd8f8e" },
+		{ "RemoveEntityByID": "b3cd75c52267f15f" },
+		{ "RemoveEntityByID": "9f11b95c7bff472e" },
+		{ "RemoveEntityByID": "b077c4162a961e78" },
+		{ "RemoveEntityByID": "58f9d20dce7c3233" },
+		{ "RemoveEntityByID": "41828297388cf5cc" },
+		{
+			"SubEntityOperation": [
+				"e2f27f04b39db00d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "00D50FF5571117B4",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"46ce9b818890a0c7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0, "y": 0, "z": 0 },
+							"position": { "x": 0, "y": 0, "z": 0 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f78fef3859d84e83",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "009B5182C6638B75",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2874c299c7d6e4e2",
+				{ "SetFactory": "002183800CC9472C" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2874c299c7d6e4e2",
+				{ "SetBlueprint": "00F34B370F002913" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2874c299c7d6e4e2",
+				{
+					"AddProperty": [
+						"m_pMeshResource",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/individuals/rat/hush_bodyguard/geometry/male_reg_hush_bodyguard.wl2?/tie.weightedprim](bodypart).pc_weightedprim",
+								"flag": "5F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2874c299c7d6e4e2",
+				{
+					"RemoveAllInputCopyConnectionsForInput": "ConstantVector1D_04_Value"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2874c299c7d6e4e2",
+				{
+					"RemoveAllInputCopyConnectionsForInput": "ConstantVector1D_01_Value"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2874c299c7d6e4e2",
+				{ "RemovePropertyAlias": "ConstantColorRGB_02_Value" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2874c299c7d6e4e2",
+				{ "RemovePropertyAlias": "ConstantColorRGB_05_Value" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2874c299c7d6e4e2",
+				{ "RemovePropertyAlias": "ConstantVector1D_01_Value" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2874c299c7d6e4e2",
+				{ "RemovePropertyAlias": "Texture2DNormal_01" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2874c299c7d6e4e2",
+				{ "RemovePropertyAlias": "Texture2D_01" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2874c299c7d6e4e2",
+				{ "RemovePropertyAlias": "Texture2D_03" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2874c299c7d6e4e2",
+				{ "RemoveExposedInterface": "ZClothColliderGroupAspect" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2874c299c7d6e4e2",
+				{ "RemoveExposedInterface": "ZBodyPartEntity" }
+			]
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "00D790732E8C2D6B",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "001A5838D3AC6A31",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "006FC31B17B5DF35",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "[assembly:/_pro/environment/textures/constants/directional_a.texture?/normal_a.tex](ascompoundnormal).pc_tex",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "0006237DF989C3F0",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "00B40E9503CF9271",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "00E2D159F9700B40",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "00F6A6C76C74C59F",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "0013F0C8B8AAE0C8",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "006F835120511247",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "00188997D678EF0B",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "0045F839B337D2B6",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/specular_a.tex](ascolormap).pc_tex",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "0055E1B8F6C689CB",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "00F2E4BD55974C97",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "004DD93664DC2D16",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "0002E60FEA5C2D51",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "00C197DBB1B74FF6",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "007E2F6DB1068A8D",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "00AAD107E192CFAE",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "0063B05E0712FBB3",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "00E4CE86EE7A5CC2",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "001083E516801F5E",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/male_reg_agent47_sapienza_belt_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/male_reg_agent47_sapienza_belt_01.texture?/specular_a.tex](ascolormap).pc_tex",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/male_reg_agent47_sapienza_belt_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "007D850436B0A092",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "00D247582859CA87",
+				"flag": "5F"
+			}
+		},
+		{
+			"RemoveExtraFactoryDependency": {
+				"resource": "00D20CA72E352D16",
+				"flag": "5F"
+			}
+		}
+	],
+	"patchVersion": 6
+}
