@@ -1,0 +1,216 @@
+{
+	"tempHash": "00FF883A32926B02",
+	"tbluHash": "008CF7789C3EFFC3",
+	"rootEntity": "db8de79161cb05ac",
+	"entities": {
+		"1ed3e2246be5c794": {
+			"parent": "db8de79161cb05ac",
+			"name": "Mesh_Shoes",
+			"template": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/bulldog/gregorycarlisle/geometry/male_reg_gregorycarlisle.wl2?/shoes.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5bb3bda162e3e36e": {
+			"parent": "db8de79161cb05ac",
+			"name": "pants_tux_slim",
+			"template": "00ED279D6E85F9BE",
+			"blueprint": "00A291FE80B0DEAA",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"1285af5757bea6bc": {
+			"parent": "db8de79161cb05ac",
+			"name": "PocketSquare_Closed_SinglePeak",
+			"template": "0063450369CF28FA",
+			"blueprint": "00FF6D3C396FCC7F",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.68000000715255737
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"d50ae789279b20c8": {
+			"parent": "db8de79161cb05ac",
+			"name": "Hands",
+			"template": "009A6D9F7927FB89",
+			"blueprint": "00F49463DEA8D412",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"522263625f4780f2": {
+			"parent": "db8de79161cb05ac",
+			"name": "bowtie_butterfly_double",
+			"template": "00728AB6CC9AC966",
+			"blueprint": "00304ED8E8A3F754",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"955f9879c15be6ba": {
+			"parent": "1ed3e2246be5c794",
+			"name": "shoes_slippers_princealbert",
+			"template": "[assembly:/_pro/characters/assets/individuals/bulldog/gregorycarlisle/materials/shoes_slippers_princealbert.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/bulldog/gregorycarlisle/materials/shoes_slippers_princealbert.mi].pc_entityblueprint",
+			"properties": {
+				"3516673141": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1ed3e2246be5c794"]
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#4a4a4a"
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#757575"
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "db8de79161cb05ac"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"54644af859d80ef0": {
+			"parent": "db8de79161cb05ac",
+			"name": "Belt_StrapBuckle",
+			"template": "0017355DDB3D75A3",
+			"blueprint": "005F1B0540C7F863",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#292929"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5925ce93f91bec3c": {
+			"parent": "db8de79161cb05ac",
+			"name": "Jacket_Tux_Shawl_Closed_Pockets",
+			"template": "0047D96F213A5E8D",
+			"blueprint": "0026B297F995E2BA",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#474747"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"edaf5b542fad3cd8": {
+			"parent": "db8de79161cb05ac",
+			"name": "Shirt_Tux_Closed_WingCollar",
+			"template": "00F98898051E909A",
+			"blueprint": "00A21A33560EF058",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"7adc507982857b27": {
+			"parent": "db8de79161cb05ac",
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"db8de79161cb05ac": {
+			"parent": null,
+			"name": "OUTFIT_Llama_Civilian_PartyCrowd_M_Actor_v4",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["d50ae789279b20c8", "1ed3e2246be5c794", "edaf5b542fad3cd8", "5925ce93f91bec3c", "5bb3bda162e3e36e", "522263625f4780f2", "7adc507982857b27", "54644af859d80ef0", "1285af5757bea6bc"]
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 5.580581188201904,
+							"y": -3.1373579502105713,
+							"z": 0
+						}
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

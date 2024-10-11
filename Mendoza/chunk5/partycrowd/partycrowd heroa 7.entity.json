@@ -1,0 +1,289 @@
+{
+	"tempHash": "00617A4117F885A4",
+	"tbluHash": "00A492A79B833DF3",
+	"rootEntity": "8860772b9bac57a0",
+	"entities": {
+		"f39ef5a65ff7fe68": {
+			"parent": "8860772b9bac57a0",
+			"name": "Attacher_Head_01",
+			"template": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": {
+					"type": "ZString",
+					"value": "Head"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "8860772b9bac57a0"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "8860772b9bac57a0"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"700ca543a00a6985": {
+			"parent": "8860772b9bac57a0",
+			"name": "Jacket_Tux_Peak_Closed",
+			"template": "008F0BAC9DF01E17",
+			"blueprint": "000EFFD607FB8E7C",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#c9a87d"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c9bcce4d21bac02e": {
+			"parent": "8860772b9bac57a0",
+			"name": "PocketSquare_Closed_Stuffed",
+			"template": "0085838B8B184B67",
+			"blueprint": "0039591F99F24CB1",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#d97777"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"66b83c3798d33ac6": {
+			"parent": "8860772b9bac57a0",
+			"name": "Agent47_Shoes_BoatLoafers",
+			"template": "007B544B592E2620",
+			"blueprint": "00E2C30B7B4A9AB9",
+			"properties": {
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#4a3325"
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 1
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 0.80000001192092896
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": -0.05000000074505806
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/textures/constants/color_white.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"fdb96baf764e7b54": {
+			"parent": "8860772b9bac57a0",
+			"name": "legs_ankle_shoe",
+			"template": "00ABDD120246BCDC",
+			"blueprint": "0021DE526F3B8B7D",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"8bf57ce1649978ed": {
+			"parent": "8860772b9bac57a0",
+			"name": "Pants_Dress_Regular",
+			"template": "00324595397CC0A5",
+			"blueprint": "00D58D62EFA4579E",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#c9a87d"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00AF802D36A4241A",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"edea14725d7db43a": {
+			"parent": "8860772b9bac57a0",
+			"name": "Belt_StrapBuckle",
+			"template": "0017355DDB3D75A3",
+			"blueprint": "005F1B0540C7F863",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#292929"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"961ec6f1ca6b5b27": {
+			"parent": "f39ef5a65ff7fe68",
+			"name": "glasses_round_metal",
+			"template": "0009C92ED80BEA0D",
+			"blueprint": "00072FB86078A71D",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 7.869914404425632,
+							"y": 89.6199929434357,
+							"z": 165.13231250829335
+						},
+						"position": {
+							"x": 0.08113499730825424,
+							"y": 0.0046270000748336315,
+							"z": 6.70000008540228e-05
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f39ef5a65ff7fe68"
+				},
+				"Diffuse_Tint_Value": {
+					"type": "SColorRGB",
+					"value": "#383838"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"436a341b386fc57c": {
+			"parent": "8860772b9bac57a0",
+			"name": "Bowtie_Butterfly",
+			"template": "00C6F2DC43EEA14F",
+			"blueprint": "008FCCBAB5E09F21",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#4c4c4c"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#ababab"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"89f599413be4bb5": {
+			"parent": "8860772b9bac57a0",
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"4422123da3e981de": {
+			"parent": "8860772b9bac57a0",
+			"name": "Hands",
+			"template": "009A6D9F7927FB89",
+			"blueprint": "00F49463DEA8D412",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"eeb14cfc94df31ce": {
+			"parent": "8860772b9bac57a0",
+			"name": "Shirt_Tux_Closed_WingCollar",
+			"template": "00CD0490AC49A5F7",
+			"blueprint": "008D09143A27E247",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"8860772b9bac57a0": {
+			"parent": null,
+			"name": "OUTFIT_Llama_Civilian_PartyCrowd_M_Actor_v7",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["4422123da3e981de", "eeb14cfc94df31ce", "700ca543a00a6985", "8bf57ce1649978ed", "436a341b386fc57c", "89f599413be4bb5", "edea14725d7db43a", "c9bcce4d21bac02e", "fdb96baf764e7b54", "66b83c3798d33ac6"]
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 10.311349868774414,
+							"y": -3.1373579502105713,
+							"z": 0
+						}
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

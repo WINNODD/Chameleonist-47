@@ -1,0 +1,123 @@
+{
+	"tempHash": "00D7D888FB3692D5",
+	"tbluHash": "002719A9B5310E9B",
+	"rootEntity": "be343e7d22b36a52",
+	"entities": {
+		"be343e7d22b36a52": {
+			"parent": null,
+			"name": "OUTFIT_Skunk_Civilian_Resident_M_Actor_v1",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 2.809583902359009,
+							"y": 0.0,
+							"z": 0.0
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["8cf7ef6e9916c82c", "a5962c14f4535163", "2ba82059965973de", "1fa6b67aa6c9189a", "1ddb4a9cbfc4df5e"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a5962c14f4535163": {
+			"parent": "be343e7d22b36a52",
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"8cf7ef6e9916c82c": {
+			"parent": "be343e7d22b36a52",
+			"name": "Arms_Biceps_Hand",
+			"template": "0081BA55B3D8292E",
+			"blueprint": "00CFA61BB1571AF8",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"1fa6b67aa6c9189a": {
+			"parent": "be343e7d22b36a52",
+			"name": "Shoes_Sneakers_Running",
+			"template": "0020B1EE3222169A",
+			"blueprint": "0063987782F9EC56",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"1ddb4a9cbfc4df5e": {
+			"parent": "be343e7d22b36a52",
+			"name": "Pants_Dress_Dbl_Pleat",
+			"template": "001CC85F9989A527",
+			"blueprint": "00CD4FA88CC5018A",
+			"properties": {
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"Diffuse_Color_01_Value_1": {
+					"type": "SColorRGB",
+					"value": "#9c9687"
+				},
+				"Texture2D_01_1": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D90E15E9F9C79E",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"2ba82059965973de": {
+			"parent": "be343e7d22b36a52",
+			"name": "Poloshirt_RegFit_Tkd",
+			"template": "00D2EC2A369E5D77",
+			"blueprint": "003C18D407FFE6AF",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0047C8873C7372D8",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

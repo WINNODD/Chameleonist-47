@@ -1,0 +1,124 @@
+{
+	"tempHash": "00C226416D89243A",
+	"tbluHash": "00C0073D6D5B2291",
+	"rootEntity": "a04179e51cd45d0",
+	"entities": {
+		"9931a1906ec56e4b": {
+			"parent": "a04179e51cd45d0",
+			"name": "Arms_Biceps_Hand",
+			"template": "0081BA55B3D8292E",
+			"blueprint": "00CFA61BB1571AF8",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"6c03b72299bf8530": {
+			"parent": "a04179e51cd45d0",
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"8e684d04206ee143": {
+			"parent": "a04179e51cd45d0",
+			"name": "Shorts_Cargo_Slim",
+			"template": "00C5D0599CB30831",
+			"blueprint": "00AFE7E769631B0A",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#94362e"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"d44cd63d30559719": {
+			"parent": "a04179e51cd45d0",
+			"name": "TShirt_CrewNeck",
+			"template": "00B3F442B79BC755",
+			"blueprint": "0070C89B0DEBD9E3",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#4a4a4a"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5083edd0498b4903": {
+			"parent": "a04179e51cd45d0",
+			"name": "Legs_Thigh_Foot",
+			"template": "00437CF5F116E7E9",
+			"blueprint": "00B815E6A54B09EE",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a04179e51cd45d0": {
+			"parent": null,
+			"name": "OUTFIT_Mongoose_Civilian_Poor_M_Actor_v4",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 8.449028015136719,
+							"y": 4.58619499206543,
+							"z": 0.0
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["9931a1906ec56e4b", "6c03b72299bf8530", "d44cd63d30559719", "82c8c835d6512973", "8e684d04206ee143", "5083edd0498b4903"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"82c8c835d6512973": {
+			"parent": "a04179e51cd45d0",
+			"name": "Shoes_FlipFlops_ThickBand",
+			"template": "00EAB12AB970C4C5",
+			"blueprint": "000F6E44D5F61F4E",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#777c91"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

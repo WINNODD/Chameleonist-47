@@ -1,0 +1,147 @@
+{
+	"tempHash": "008EF18B9E803081",
+	"tbluHash": "002CFDFC0C5A3108",
+	"rootEntity": "fd0647ee63786690",
+	"entities": {
+		"ac2cad711b399227": {
+			"parent": "fd0647ee63786690",
+			"name": "Head_african_20s_02",
+			"template": "00E314C6A971AC8E",
+			"blueprint": "00EA55FF19C753BF",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#d1f7ff"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ccf6ff"
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00EB0F2969F8962D",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00EEB8BBC78E3A07",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"99c142d8c5f6d573": {
+			"parent": "fd0647ee63786690",
+			"name": "Body_Full",
+			"template": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"fd0647ee63786690": {
+			"parent": null,
+			"name": "OUTFIT_Magpie_Civilian_ArkianTier1_M_Actor_v2",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 5.762059211730957,
+							"y": -3.1373579502105713,
+							"z": 0
+						}
+					}
+				},
+				"m_BodyPartLODCutOffMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00C51DDDFEB371A5",
+						"flag": "5F"
+					}
+				},
+				"m_nBodypartLODCutOff": {
+					"type": "uint32",
+					"value": 3
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["99c142d8c5f6d573", "fe89516034090359", "3440fa507c32ced9", "f59db7d2022077b1", "ac2cad711b399227"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"fe89516034090359": {
+			"parent": "fd0647ee63786690",
+			"name": "Underwear_Boxers",
+			"template": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"3440fa507c32ced9": {
+			"parent": "fd0647ee63786690",
+			"name": "Bowtie_Butterfly_Double",
+			"template": "00AAED9734FFE5BF",
+			"blueprint": "00E86A4C0466F168",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#4a4a4a"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#4a4a4a"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f59db7d2022077b1": {
+			"parent": "fd0647ee63786690",
+			"name": "Beard_Goatee",
+			"template": "009C71B6E8AB0A9B",
+			"blueprint": "00621A64CDD31307",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#524a42"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

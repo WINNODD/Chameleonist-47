@@ -1,0 +1,147 @@
+{
+	"tempHash": "002F93ADB392A12C",
+	"tbluHash": "001301556CB6E00C",
+	"rootEntity": "9a22a707b3f885f6",
+	"entities": {
+		"8a2e8383ca536df5": {
+			"parent": "9a22a707b3f885f6",
+			"name": "Hair_Cap",
+			"template": "006594C7AF2B3472",
+			"blueprint": "000B3B438FC8C9AC",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#666666"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#666666"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#292929"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"298650defefcfe4e": {
+			"parent": "9a22a707b3f885f6",
+			"name": "Underwear_Boxers",
+			"template": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f0054430be40a9fe": {
+			"parent": "9a22a707b3f885f6",
+			"name": "Head_Caucasian_20s_02",
+			"template": "002450307D5AEA26",
+			"blueprint": "0018BAB34F6C645E",
+			"properties": {
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D247582859CA87",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00166A77B2A32F8A",
+						"flag": "5F"
+					}
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#d9bfad"
+				},
+				"ConstantColorRGB_01_Value_1": {
+					"type": "SColorRGB",
+					"value": "#d9d9d9"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"9a22a707b3f885f6": {
+			"parent": null,
+			"name": "OUTFIT_Fox_Civilian_Raver_M_Actor_v11",
+			"template": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -1.0022688995714155
+						},
+						"position": {
+							"x": 18.47072982788086,
+							"y": 0.7852820158004761,
+							"z": -1.158486008644104
+						}
+					}
+				},
+				"m_BodyPartLODCutOffMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0010C57E70B56C1B",
+						"flag": "5F"
+					}
+				},
+				"m_nBodypartLODCutOff": {
+					"type": "uint32",
+					"value": 8
+				},
+				"m_bSimulationEnabled": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["be508f6501c50334", "f0054430be40a9fe", "298650defefcfe4e", "8a2e8383ca536df5"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"be508f6501c50334": {
+			"parent": "9a22a707b3f885f6",
+			"name": "Body_Full",
+			"template": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

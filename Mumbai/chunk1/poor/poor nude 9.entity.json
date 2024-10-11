@@ -1,0 +1,119 @@
+{
+	"tempHash": "00080CCDF8E1B4AE",
+	"tbluHash": "00D87A6FBB854357",
+	"rootEntity": "7a9050fd7b18fcc0",
+	"entities": {
+		"22a0d106a860381e": {
+			"parent": "7a9050fd7b18fcc0",
+			"name": "Body_Full",
+			"template": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"7a9050fd7b18fcc0": {
+			"parent": null,
+			"name": "OUTFIT_Mongoose_Civilian_Poor_M_Actor_v9",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 15.399279594421387,
+							"y": 4.586183071136475,
+							"z": 0.0
+						}
+					}
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 10
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["22a0d106a860381e", "a64076b51d9df330", "458b14485e15d1b3", "23a901c9d98f4609"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"23a901c9d98f4609": {
+			"parent": "7a9050fd7b18fcc0",
+			"name": "Hair_Full_M_SweptBack_SidePart",
+			"template": "0085A55E951074AE",
+			"blueprint": "00DBE00C4F756167",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#333333"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#f5bdb3"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.4900000095367432
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"458b14485e15d1b3": {
+			"parent": "7a9050fd7b18fcc0",
+			"name": "Underwear_Boxers",
+			"template": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a64076b51d9df330": {
+			"parent": "7a9050fd7b18fcc0",
+			"name": "Head_Indian_20s_02",
+			"template": "00E0B87D9DEB4A8B",
+			"blueprint": "0006EDB117A50818",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#979dc4"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#979dc4"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

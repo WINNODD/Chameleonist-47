@@ -1,0 +1,115 @@
+{
+	"tempHash": "008B667896D35D31",
+	"tbluHash": "00A7EA6914303B09",
+	"rootEntity": "1cc5cb28eb72c174",
+	"entities": {
+		"af756b48ddbfdcf6": {
+			"parent": "1cc5cb28eb72c174",
+			"name": "Head_Caucasian_40s_05",
+			"template": "00D755E0922FE189",
+			"blueprint": "00BD53BBADA8CBAB",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"1af69a5a7f0053b6": {
+			"parent": "1cc5cb28eb72c174",
+			"name": "Underwear_Boxers",
+			"template": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"1cc5cb28eb72c174": {
+			"parent": null,
+			"name": "OUTFIT_Raccoon_Unique_Spy_M_Actor_v0",
+			"template": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -6.722746980312562
+						},
+						"position": {
+							"x": 7.261092185974121,
+							"y": 0.23659799993038177,
+							"z": 0
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["af756b48ddbfdcf6", "1af69a5a7f0053b6", "a63511887cfd2416", "b7b389bc56a9372f", "908181e47b4f3ed1"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"908181e47b4f3ed1": {
+			"parent": "1cc5cb28eb72c174",
+			"name": "Hair_Top_XS_CrewCut",
+			"template": "004CE4C97F8E841C",
+			"blueprint": "00585E7B4B541CD5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"b7b389bc56a9372f": {
+			"parent": "1cc5cb28eb72c174",
+			"name": "Hair_Sides_MS",
+			"template": "004269370D1F2B1E",
+			"blueprint": "0013E8AD280449CA",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#66503c"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#66503c"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a63511887cfd2416": {
+			"parent": "1cc5cb28eb72c174",
+			"name": "Body_Full",
+			"template": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

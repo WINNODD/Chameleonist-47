@@ -1,0 +1,214 @@
+{
+	"tempHash": "00376695D87696BD",
+	"tbluHash": "00930BE96BC3C957",
+	"rootEntity": "4abf5bf37baadf8d",
+	"entities": {
+		"3ee40241a23f0a2d": {
+			"parent": "4abf5bf37baadf8d",
+			"name": "Ghutra_FoldedBack",
+			"template": "00F831E051180478",
+			"blueprint": "00E2FACEEC7A60B2",
+			"properties": {
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00EE64816AA58841",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"3693114089ddbee7": {
+			"parent": "4abf5bf37baadf8d",
+			"name": "Feet",
+			"template": "00E1AF913D40CF42",
+			"blueprint": "003BE20739D6D5EF",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f908ebad1cfa7af9": {
+			"parent": "4abf5bf37baadf8d",
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"351f5fced16a671d": {
+			"parent": "4abf5bf37baadf8d",
+			"name": "Shirt_Kandura_ShirtCuffs",
+			"template": "0074BA7B78D549E9",
+			"blueprint": "00F61683DF23FB1A",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f5987fb003a12369": {
+			"parent": "4abf5bf37baadf8d",
+			"name": "Hands",
+			"template": "009A6D9F7927FB89",
+			"blueprint": "00F49463DEA8D412",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"4abf5bf37baadf8d": {
+			"parent": null,
+			"name": "OUTFIT_Gecko_Civilian_Traditional_M_Actor_v1",
+			"template": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.3265899419784546,
+							"y": 2.3169989585876465,
+							"z": 0
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_fSkirtConstraintFraction": {
+					"type": "float32",
+					"value": 2
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_fSkirtConstraintOffset": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_fWindConstant": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_fDamping": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_nIterations": {
+					"type": "uint32",
+					"value": 3
+				},
+				"m_fFrequency": {
+					"type": "float32",
+					"value": 90
+				},
+				"m_bCreateSkirtConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eBendConstrainType": {
+					"type": "EClothBendConstrainType",
+					"value": "eClothBendConstrainType_Triangle"
+				},
+				"m_BodyPartLODCutOffMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0084ABE58E21A31F",
+						"flag": "5F"
+					}
+				},
+				"m_nBodypartLODCutOff": {
+					"type": "uint32",
+					"value": 3
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["8233d72d00debc07", "351f5fced16a671d", "f908ebad1cfa7af9", "3693114089ddbee7", "f5987fb003a12369", "b16265a44d424882", "3ee40241a23f0a2d"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"exposedInterfaces": [
+				["ZBodyPartEntity", "351f5fced16a671d"],
+				["ZClothColliderGroupAspect", "351f5fced16a671d"]
+			]
+		},
+		"8233d72d00debc07": {
+			"parent": "4abf5bf37baadf8d",
+			"name": "Shoes_Sandals_Slide",
+			"template": "0091A755375478CE",
+			"blueprint": "0005CBF3F77342F4",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#786756"
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0.0099999997764825821
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.5
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"b16265a44d424882": {
+			"parent": "4abf5bf37baadf8d",
+			"name": "Pants_Kandura",
+			"template": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0028D9C89337F986",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

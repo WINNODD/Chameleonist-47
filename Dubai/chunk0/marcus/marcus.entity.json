@@ -1,0 +1,128 @@
+{
+    "tempHash": "0034A9A2FC86C2E0",
+    "tbluHash": "004432F61632112A",
+    "rootEntity": "457b849aaf5196e7",
+    "entities": {
+        "d42259da97dc77e6": {
+            "parent": "457b849aaf5196e7",
+            "name": "Actor",
+            "template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+            "blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+            "properties": {},
+            "postInitProperties": {
+                "m_aVariations": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": ["7ea8e3e9df9977ef"]
+                }
+            },
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "6726137400c83211": {
+            "parent": "28fd464d8b0cfb61",
+            "name": "Var0",
+            "template": "[modules:/zoutfitvariation.class].pc_entitytype",
+            "blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+            "properties": {
+                "m_Outfit": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "0096326B554B830B",
+                        "flag": "9F"
+                    }
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "28fd464d8b0cfb61": {
+            "parent": "457b849aaf5196e7",
+            "name": "Nude",
+            "template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+            "blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+            "properties": {
+                "m_aVariations": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": ["6726137400c83211"]
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "13463bfa072ae7d2": {
+            "parent": "457b849aaf5196e7",
+            "name": "HeroA",
+            "template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+            "blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+            "properties": {},
+            "postInitProperties": {
+                "m_aVariations": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": ["1ec79243564a3ec3"]
+                }
+            },
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "457b849aaf5196e7": {
+            "parent": null,
+            "name": "CHARSET_Gecko_Target_MarcusStyvessant_M",
+            "template": "004470A9E6A7722D",
+            "blueprint": "00E21A11EC782D9E",
+            "properties": {
+                "m_aCharacters": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": ["d42259da97dc77e6", "28fd464d8b0cfb61", "13463bfa072ae7d2"]
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "1ec79243564a3ec3": {
+            "parent": "13463bfa072ae7d2",
+            "name": "Var0",
+            "template": "[modules:/zoutfitvariation.class].pc_entitytype",
+            "blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+            "properties": {
+                "m_Outfit": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00BC54FE0D0CB5C2",
+                        "flag": "9F"
+                    }
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "7ea8e3e9df9977ef": {
+            "parent": "d42259da97dc77e6",
+            "name": "0",
+            "template": "[modules:/zoutfitvariation.class].pc_entitytype",
+            "blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+            "properties": {
+                "m_Outfit": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/characters/templates/gecko/char_gecko_unique.template?/outfit_gecko_target_marcusstyvessant_m_actor_v0.entitytemplate].pc_entitytemplate",
+                        "flag": "9F"
+                    }
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        }
+    },
+    "propertyOverrides": [],
+    "overrideDeletes": [],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": [],
+    "externalScenes": [],
+    "subType": 0,
+    "quickEntityVersion": 2.1
+}

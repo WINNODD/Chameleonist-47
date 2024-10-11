@@ -1,0 +1,191 @@
+{
+	"tempHash": "000CA8AACA63DE7D",
+	"tbluHash": "0024D12F4CFC0748",
+	"rootEntity": "c9eae916cb472b65",
+	"entities": {
+		"c9eae916cb472b65": {
+			"parent": null,
+			"name": "OUTFIT_Civilian_Bearded_M_Actor_v1",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 4.385781764984131,
+							"y": -7.127285957336426,
+							"z": 0.0
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["14ba38261a5c8c44", "eba3ac65301569e9", "832fea844dfb4eb3", "1f0fb84194944b8e", "f89a0d89dccd4554", "53160117ac57c493"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f89a0d89dccd4554": {
+			"parent": "c9eae916cb472b65",
+			"name": "Hair_Sides_M",
+			"template": "00335EEC0B57C48C",
+			"blueprint": "00C63A4D0E7334FA",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#3b3b3b"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#fff8f0"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.4900000095367432
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#3b3b3b"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"57136a0681b3fd1b": {
+			"parent": "53160117ac57c493",
+			"name": "male_reg_plumber_hair_01",
+			"template": "[assembly:/_pro/characters/assets/individuals/italy/plumbers/materials/male_reg_plumber_hair_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/italy/plumbers/materials/male_reg_plumber_hair_01.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						}
+					}
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.25
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "c9eae916cb472b65"
+				}
+			},
+			"postInitProperties": {
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["53160117ac57c493"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"14ba38261a5c8c44": {
+			"parent": "c9eae916cb472b65",
+			"name": "Body_Full",
+			"template": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"53160117ac57c493": {
+			"parent": "c9eae916cb472b65",
+			"name": "Moustache_Walrus",
+			"template": "006D21BB3201FBC9",
+			"blueprint": "00126AC7C6969704",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#3d3b39"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#deccc3"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"1f0fb84194944b8e": {
+			"parent": "c9eae916cb472b65",
+			"name": "Hair_Top_M_SweptBack",
+			"template": "0059DAB55E1B9CFD",
+			"blueprint": "00A240002838DCE1",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"832fea844dfb4eb3": {
+			"parent": "c9eae916cb472b65",
+			"name": "Underwear_Boxers",
+			"template": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"eba3ac65301569e9": {
+			"parent": "c9eae916cb472b65",
+			"name": "Head_Indian_30s_01_Beard",
+			"template": "005B1ABD3206513D",
+			"blueprint": "00633196C3D986AB",
+			"properties": {
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#e3d8dc"
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#e3d8dc"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

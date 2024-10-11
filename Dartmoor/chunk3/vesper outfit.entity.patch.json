@@ -1,0 +1,1 @@
+{"tempHash":"00B1CC0A32BD22D8","tbluHash":"00493E942189CFA8","patch":[{"op":"add","path":"/entities/38bfcfadb796d31f/properties/m_bHeroDisguiseAvailable","value":{"type":"bool","value":true}},{"op":"add","path":"/entities/522f06853b8a215b/properties/m_bHeroDisguiseAvailable","value":{"type":"bool","value":true}}],"patchVersion":4}

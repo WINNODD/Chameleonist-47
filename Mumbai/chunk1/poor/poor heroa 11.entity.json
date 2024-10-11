@@ -1,0 +1,138 @@
+{
+	"tempHash": "0020BB21901A52D1",
+	"tbluHash": "007BEE2A1F9AF87C",
+	"rootEntity": "3d7b51dcbc8404e6",
+	"entities": {
+		"ee7871089ef734c4": {
+			"parent": "3d7b51dcbc8404e6",
+			"name": "Pants_Jeans_Slim",
+			"template": "00D8F98FFC2766FE",
+			"blueprint": "0027BE58478DD2EC",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#a7c6d9"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"28b531edc2c853e2": {
+			"parent": "3d7b51dcbc8404e6",
+			"name": "Shoes_FlipFlops_ThickBand",
+			"template": "00EAB12AB970C4C5",
+			"blueprint": "000F6E44D5F61F4E",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#4f4f4f"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"98a9d8a7ed97525f": {
+			"parent": "3d7b51dcbc8404e6",
+			"name": "Shirt_Btnup_SrtSlv_HalfOpen",
+			"template": "00BAFD450E8380FC",
+			"blueprint": "00A5178E8B379B43",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#8f5a7b"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"3a1ef870683ca54": {
+			"parent": "3d7b51dcbc8404e6",
+			"name": "Torso_Full",
+			"template": "00A5D4779E6AA927",
+			"blueprint": "00B53E161DA42DC5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"3d7b51dcbc8404e6": {
+			"parent": null,
+			"name": "OUTFIT_Mongoose_Civilian_Poor_M_Actor_v11",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 18.176679611206056,
+							"y": 4.5861711502075199,
+							"z": 0.0
+						}
+					}
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 10
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["b0003791250d869d", "dcbf52ec4e1269c0", "98a9d8a7ed97525f", "28b531edc2c853e2", "ee7871089ef734c4", "c3d9f2ac3a60070c", "3a1ef870683ca54"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"dcbf52ec4e1269c0": {
+			"parent": "3d7b51dcbc8404e6",
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"b0003791250d869d": {
+			"parent": "3d7b51dcbc8404e6",
+			"name": "Arms_Biceps_Hand",
+			"template": "0081BA55B3D8292E",
+			"blueprint": "00CFA61BB1571AF8",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c3d9f2ac3a60070c": {
+			"parent": "3d7b51dcbc8404e6",
+			"name": "Legs_Thigh_Foot",
+			"template": "00437CF5F116E7E9",
+			"blueprint": "00B815E6A54B09EE",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

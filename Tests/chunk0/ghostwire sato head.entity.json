@@ -1,0 +1,303 @@
+{
+	"tempHash": "009F107E9A36D12E",
+	"tbluHash": "00DFA7BD4B3E989B",
+	"rootEntity": "cd18dbe99923d385",
+	"entities": {
+		"14905f9097ac281a": {
+			"parent": "cd18dbe99923d385",
+			"name": "base_eye",
+			"template": "00FDEC17A5A2BF5F",
+			"blueprint": "00C4E4179AE75353",
+			"properties": {
+				"695796197": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"1762730872": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"2181834798": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"2590701087": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"3474060796": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"3480721934": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"4103203329": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Texture2D_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00CB41D8760D4C07",
+						"flag": "5F"
+					}
+				},
+				"EyeShader_01_IrisWorldRadius": {
+					"type": "float32",
+					"value": 0.006500000134110451
+				},
+				"EyeShader_01_Albedo": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"EyeShader_01_IrisBrightness": {
+					"type": "float32",
+					"value": 0.9900000095367432
+				},
+				"EyeShader_01_IrisHueShift": {
+					"type": "float32",
+					"value": 0
+				},
+				"EyeShader_01_IrisTextureRadius": {
+					"type": "float32",
+					"value": 0.18000000715255738
+				},
+				"EyeShader_01_PupilTextureRadius": {
+					"type": "float32",
+					"value": 0.03999999910593033
+				},
+				"EyeShader_01_PupilSize": {
+					"type": "float32",
+					"value": 0.2199999988079071
+				}
+			},
+			"postInitProperties": {
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cd18dbe99923d385"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"8d6ad839c468e92f": {
+			"parent": "cd18dbe99923d385",
+			"name": "male_reg_eyelashes",
+			"template": "00AF6FD15BFAC222",
+			"blueprint": "00926F11E3C00813",
+			"properties": {
+				"1787395739": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 1.5
+				},
+				"Active": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cd18dbe99923d385"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"682a91f1cec9cd1d": {
+			"parent": "cd18dbe99923d385",
+			"name": "Mesh",
+			"template": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00DD1EA72219114F",
+						"flag": "5F"
+					}
+				},
+				"m_ClothColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"94341bd903a03fbb": {
+			"parent": "cd18dbe99923d385",
+			"name": "male_reg_body",
+			"template": "003DCA5E22F37B5F",
+			"blueprint": "0041C89DFA9D7801",
+			"properties": {
+				"1737952988": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"1787395739": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"2287298018": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"Texture2D_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"Active": {
+					"type": "bool",
+					"value": true
+				},
+				"Texture2D_03_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.550000011920929
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.5899999737739563
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 1.1100000143051148
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0.17000000178813935
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002A91695E748772",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00A07AE8903D816A",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0050DDCE91E6C6A3",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cd18dbe99923d385"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"cd18dbe99923d385": {
+			"parent": null,
+			"name": "Head_SebastianSato",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"propertyAliases": [{
+				"exposeProperty": "EyeShader_01_IrisWorldRadius",
+				"onEntity": "14905f9097ac281a",
+				"asProperty": "EyeShader_01_IrisWorldRadius"
+			}, {
+				"exposeProperty": "EyeShader_01_Albedo",
+				"onEntity": "14905f9097ac281a",
+				"asProperty": "EyeShader_01_Albedo"
+			}, {
+				"exposeProperty": "EyeShader_01_IrisBrightness",
+				"onEntity": "14905f9097ac281a",
+				"asProperty": "EyeShader_01_IrisBrightness"
+			}, {
+				"exposeProperty": "EyeShader_01_IrisHueShift",
+				"onEntity": "14905f9097ac281a",
+				"asProperty": "EyeShader_01_IrisHueShift"
+			}, {
+				"exposeProperty": "Texture2D_01",
+				"onEntity": "14905f9097ac281a",
+				"asProperty": "Texture2D_Eye"
+			}, {
+				"exposeProperty": "Texture2DNormal_01",
+				"onEntity": "94341bd903a03fbb",
+				"asProperty": "Texture2DNormal_02"
+			}, {
+				"exposeProperty": "Texture2D_03",
+				"onEntity": "94341bd903a03fbb",
+				"asProperty": "Texture2D_04"
+			}, {
+				"exposeProperty": "ConstantColorRGB_01_Value",
+				"onEntity": "94341bd903a03fbb",
+				"asProperty": "ConstantColorRGB_02_Value"
+			}, {
+				"exposeProperty": "Texture2D_01",
+				"onEntity": "94341bd903a03fbb",
+				"asProperty": "Texture2D_02"
+			}, {
+				"exposeProperty": "EyeShader_01_IrisTextureRadius",
+				"onEntity": "14905f9097ac281a",
+				"asProperty": "EyeShader_01_IrisTextureRadius"
+			}, {
+				"exposeProperty": "EyeShader_01_PupilTextureRadius",
+				"onEntity": "14905f9097ac281a",
+				"asProperty": "EyeShader_01_PupilTextureRadius"
+			}, {
+				"exposeProperty": "EyeShader_01_PupilSize",
+				"onEntity": "14905f9097ac281a",
+				"asProperty": "EyeShader_01_PupilSize"
+			}],
+			"exposedInterfaces": [
+				["ZClothColliderGroupAspect", "682a91f1cec9cd1d"],
+				["ZBodyPartEntity", "682a91f1cec9cd1d"]
+			]
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

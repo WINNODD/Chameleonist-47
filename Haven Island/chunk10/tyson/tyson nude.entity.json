@@ -1,0 +1,167 @@
+{
+	"tempHash": "0019A46134BFA923",
+	"tbluHash": "00250376DAB43E15",
+	"rootEntity": "82513b11c2c062ab",
+	"entities": {
+		"c47400612dfb9eed": {
+			"parent": "82513b11c2c062ab",
+			"name": "Hair_Full_M_SweptBack_SidePart",
+			"template": "0085A55E951074AE",
+			"blueprint": "00DBE00C4F756167",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#4c4c4c"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"e72ea4e3b1bf9a6b": {
+			"parent": "82513b11c2c062ab",
+			"name": "Upper_Body",
+			"template": "00E7208BAEDDB24F",
+			"blueprint": "003C889C79F6A7B1",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E3AC6141A1094B",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"37f951457d30891c": {
+			"parent": "82513b11c2c062ab",
+			"name": "head_tysonwilliams",
+			"template": "003A35DB8761E441",
+			"blueprint": "006138BC8BAA668A",
+			"properties": {
+				"EyeShader_01_PupilSize": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"EyeShader_01_IrisBrightness": {
+					"type": "float32",
+					"value": 5
+				},
+				"Texture2D_01_2": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00CB41D8760D4C07",
+						"flag": "5F"
+					}
+				},
+				"ConstantColorRGB_02_Value_2": {
+					"type": "SColorRGB",
+					"value": "#474342"
+				},
+				"ConstantColorRGB_02_Value_4": {
+					"type": "SColorRGB",
+					"value": "#786050"
+				},
+				"ConstantColorRGB_02_Value_1": {
+					"type": "SColorRGB",
+					"value": "#57473f"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"ConstantColorRGB_05_Value_3": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"EyeShader_01_Albedo": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"Texture2DNormal_02": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00BAA9450EE3CE14",
+						"flag": "5F"
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#f2e1eb"
+				},
+				"Texture2D_02": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00C6E0B7A1D770C4",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_04": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "007321FCEC365A50",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"82513b11c2c062ab": {
+			"parent": null,
+			"name": "OUTFIT_Opulent_Unique_TysonWilliams_M_Actor_v0",
+			"template": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["37f951457d30891c", "e72ea4e3b1bf9a6b"]
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -2.861952066421509,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 200
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

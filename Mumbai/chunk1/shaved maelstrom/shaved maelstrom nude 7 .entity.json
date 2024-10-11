@@ -1,0 +1,146 @@
+{
+	"tempHash": "009F96B09C88D61C",
+	"tbluHash": "00E67D8BCAAF3DC4",
+	"rootEntity": "662e38df6881cd87",
+	"entities": {
+		"abee5e1688c04e08": {
+			"parent": "662e38df6881cd87",
+			"name": "Body_Full",
+			"template": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a1faa0ddad205372": {
+			"parent": "662e38df6881cd87",
+			"name": "Head_Maelstrom",
+			"template": "00BB3C81777D1561",
+			"blueprint": "009AF58EBDEE4C3A",
+			"properties": {
+				"Texture2D_01_1": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "001767C4BCBE7071",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03_1": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002B73D98254E1BC",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"d48d08c53acaf50": {
+			"parent": "662e38df6881cd87",
+			"name": "Hair_Top_M_SideSweptFringe",
+			"template": "00E643B2AD09B654",
+			"blueprint": "00B022136AB827D8",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c09f4ab525ec51cd": {
+			"parent": "662e38df6881cd87",
+			"name": "Hair_Sides_MS",
+			"template": "004269370D1F2B1E",
+			"blueprint": "0013E8AD280449CA",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#3b3b3b"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#fff8f0"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.4900000095367432
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#3b3b3b"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"662e38df6881cd87": {
+			"parent": null,
+			"name": "OUTFIT_Maelstrom_Shaved_M_Actor_v7",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 13.655730247497559,
+							"y": -1.3518179655075074,
+							"z": 0.0
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0031D11394DACDF3",
+						"flag": "5F"
+					}
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 10
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abee5e1688c04e08", "a1faa0ddad205372", "e61afdc6e4eafa83", "d48d08c53acaf50", "c09f4ab525ec51cd"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"e61afdc6e4eafa83": {
+			"parent": "662e38df6881cd87",
+			"name": "Underwear_Boxers",
+			"template": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

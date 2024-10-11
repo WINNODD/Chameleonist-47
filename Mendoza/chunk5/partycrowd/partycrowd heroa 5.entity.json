@@ -1,0 +1,157 @@
+{
+	"tempHash": "000219DFABAA035D",
+	"tbluHash": "009DA139CD5A6209",
+	"rootEntity": "c4539cd4516a674c",
+	"entities": {
+		"ef2166040592fb8e": {
+			"parent": "c4539cd4516a674c",
+			"name": "Shirt_Tux_Closed_WingCollar",
+			"template": "00F98898051E909A",
+			"blueprint": "00A21A33560EF058",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c4539cd4516a674c": {
+			"parent": null,
+			"name": "OUTFIT_Llama_Civilian_PartyCrowd_M_Actor_v5",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 7.029404163360596,
+							"y": -3.1373579502105713,
+							"z": 0
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["7614403434f36b48", "43067c5a7e5c7d85", "ef2166040592fb8e", "237556aa1968dedd", "ae91eaf6c95caf68", "e222a1fc05b19301", "e122bcba92c226fa", "f41ff11497fc15e4"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f41ff11497fc15e4": {
+			"parent": "c4539cd4516a674c",
+			"name": "PocketSquare_Closed_Stuffed",
+			"template": "0085838B8B184B67",
+			"blueprint": "0039591F99F24CB1",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#424242"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"43067c5a7e5c7d85": {
+			"parent": "c4539cd4516a674c",
+			"name": "Shoes_Derby_PlainToe_PointTip",
+			"template": "00B1BAF877E8C318",
+			"blueprint": "008E56C0A0A10813",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#383838"
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 1.4299999475479126
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"237556aa1968dedd": {
+			"parent": "c4539cd4516a674c",
+			"name": "Jacket_Tux_Peak_Closed",
+			"template": "008F0BAC9DF01E17",
+			"blueprint": "000EFFD607FB8E7C",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#fcf0de"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"7614403434f36b48": {
+			"parent": "c4539cd4516a674c",
+			"name": "Hands",
+			"template": "009A6D9F7927FB89",
+			"blueprint": "00F49463DEA8D412",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"e222a1fc05b19301": {
+			"parent": "c4539cd4516a674c",
+			"name": "Pants_Tux_Slim",
+			"template": "00ED279D6E85F9BE",
+			"blueprint": "00A291FE80B0DEAA",
+			"properties": {
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"e122bcba92c226fa": {
+			"parent": "c4539cd4516a674c",
+			"name": "Bowtie_Butterfly_Double",
+			"template": "00728AB6CC9AC966",
+			"blueprint": "00304ED8E8A3F754",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"ae91eaf6c95caf68": {
+			"parent": "c4539cd4516a674c",
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

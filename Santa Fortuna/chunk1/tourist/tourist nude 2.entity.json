@@ -1,0 +1,144 @@
+{
+	"tempHash": "001C9D9E9839CE20",
+	"tbluHash": "002273AF168D9D18",
+	"rootEntity": "f62fb20165c62cfe",
+	"entities": {
+		"1284dfe1d0a7f202": {
+			"parent": "f62fb20165c62cfe",
+			"name": "Hair_Full_L_SidePart",
+			"template": "005BCBBB8A400A73",
+			"blueprint": "00DC05481C5441ED",
+			"properties": {
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.63999998569488525
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#594f3d"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#ffb996"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#59524b"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"de1bc7d3bf5848e8": {
+			"parent": "f62fb20165c62cfe",
+			"name": "Body_Full",
+			"template": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"66bddb14f77f27be": {
+			"parent": "f62fb20165c62cfe",
+			"name": "Head_Caucasian_30s_01_Beard",
+			"template": "0092161DC1655A42",
+			"blueprint": "002766F30BC868B6",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#dee6ff"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ced1d9"
+				},
+				"Texture2D_02": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0060F29586D51A20",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f62fb20165c62cfe": {
+			"parent": null,
+			"name": "OUTFIT_Hippo_Civilian_Tourist_M_Actor_v2",
+			"template": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -5.801538015320101
+						},
+						"position": {
+							"x": 0.3163520097732544,
+							"y": 0.011482000350952148,
+							"z": 0.01824899949133396
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 10
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["66bddb14f77f27be", "f59256c56826143f", "7c1a4aaa45b57664", "1284dfe1d0a7f202", "de1bc7d3bf5848e8"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f59256c56826143f": {
+			"parent": "f62fb20165c62cfe",
+			"name": "Underwear_Boxers",
+			"template": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"7c1a4aaa45b57664": {
+			"parent": "f62fb20165c62cfe",
+			"name": "Beard_Cap",
+			"template": "00EF778CA0CE61B6",
+			"blueprint": "008310C47ABF12C7",
+			"properties": {
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#756b61"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

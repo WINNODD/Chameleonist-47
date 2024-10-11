@@ -1,0 +1,137 @@
+{
+	"tempHash": "00DFF0ADADA3F589",
+	"tbluHash": "00F49E0FF177F08A",
+	"rootEntity": "2294667c0dcf9215",
+	"entities": {
+		"2408d054b4f30b4f": {
+			"parent": "2294667c0dcf9215",
+			"name": "Hair_Top_XS_CrewCut",
+			"template": "004CE4C97F8E841C",
+			"blueprint": "00585E7B4B541CD5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"b4698360eb86001c": {
+			"parent": "2294667c0dcf9215",
+			"name": "Underwear_Boxers",
+			"template": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"2c0ea83ddcba2425": {
+			"parent": "2294667c0dcf9215",
+			"name": "Body_Full_Slim",
+			"template": "00F448703BCA480F",
+			"blueprint": "00D7F003FB6F4940",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"42de76a173ebeb67": {
+			"parent": "2294667c0dcf9215",
+			"name": "Hair_Cap",
+			"template": "006594C7AF2B3472",
+			"blueprint": "000B3B438FC8C9AC",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#2e2e2e"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#292929"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#bfbfbf"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"72e49865b4efc73a": {
+			"parent": "2294667c0dcf9215",
+			"name": "Head_Hispanic_30s_02",
+			"template": "009D7D60A74F87D4",
+			"blueprint": "0029402EA5B2DAA5",
+			"properties": {
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#9d9fa6"
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#9d9fa6"
+				},
+				"ConstantVector1D_05_Value_1": {
+					"type": "float32",
+					"value": 0.75999999046325684
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.75999999046325684
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"2294667c0dcf9215": {
+			"parent": null,
+			"name": "OUTFIT_Hippo_Civilian_Fisherman_M_Actor_v4",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -1.717010426755565
+						},
+						"position": {
+							"x": -1.1984519958496094,
+							"y": -4.915305137634277,
+							"z": 0
+						}
+					}
+				},
+				"m_vBodypartBoundingMarginMax": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": 0.009999999776482582
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["b4698360eb86001c", "72e49865b4efc73a", "2c0ea83ddcba2425", "42de76a173ebeb67", "2408d054b4f30b4f"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

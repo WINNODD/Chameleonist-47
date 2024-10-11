@@ -1,0 +1,275 @@
+{
+	"tempHash": "00CFC6F175B86BC3",
+	"tbluHash": "007AA00AE8A67810",
+	"rootEntity": "ea1934ec28d14366",
+	"entities": {
+		"b5e5ea0b2c67cee6": {
+			"parent": "ea1934ec28d14366",
+			"name": "Upper_Body_01",
+			"template": "00E7208BAEDDB24F",
+			"blueprint": "003C889C79F6A7B1",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"681be14fa9d39c8": {
+			"parent": "ea1934ec28d14366",
+			"name": "Arms_Biceps_Hand",
+			"template": "0081BA55B3D8292E",
+			"blueprint": "00CFA61BB1571AF8",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"ea1934ec28d14366": {
+			"parent": null,
+			"name": "OUTFIT_Fox_Civilian_Raver_M_Actor_v4",
+			"template": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 11.673919677734375,
+							"y": 0.7289530038833618,
+							"z": -1.158486008644104
+						}
+					}
+				},
+				"m_BodyPartLODCutOffMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0010C57E70B56C1B",
+						"flag": "5F"
+					}
+				},
+				"m_nBodypartLODCutOff": {
+					"type": "uint32",
+					"value": 8
+				},
+				"m_bSimulationEnabled": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["681be14fa9d39c8", "7b01c6b27bac80bd", "5f052f9b0784be63", "bbd75e33ef04d101", "5d24f3c2a44761f8", "17d2ae7571c9e286", "c11f3f3e85515d0d"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c11f3f3e85515d0d": {
+			"parent": "ea1934ec28d14366",
+			"name": "TShirt_CrewNeck_Tkd",
+			"template": "00315E5B72C1A976",
+			"blueprint": "00E85FA3F3B639A8",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 0.40000000596046448
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "001ECEAD8065CB53",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"7b01c6b27bac80bd": {
+			"parent": "ea1934ec28d14366",
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"bbd75e33ef04d101": {
+			"parent": "ea1934ec28d14366",
+			"name": "Socks_Ankle_Cut_Shoe",
+			"template": "00C50F4D59B78463",
+			"blueprint": "0060BDFBAAFA9324",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#e8e8e8"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.5
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"695c22e21eb98d67": {
+			"parent": "ea1934ec28d14366",
+			"name": "Head_Attacher",
+			"template": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": {
+					"type": "ZString",
+					"value": "Head"
+				},
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "ea1934ec28d14366"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "ea1934ec28d14366"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"17d2ae7571c9e286": {
+			"parent": "ea1934ec28d14366",
+			"name": "Shirt_Summer_Btndup_ShrtSlv_OvrSzd",
+			"template": "00F1CD85ACA5DFF1",
+			"blueprint": "00037CE651A7BAF8",
+			"properties": {
+				"Diffuse_Color_01_Value_4": {
+					"type": "SColorRGB",
+					"value": "#c2c2c2"
+				},
+				"Texture2D_01_3": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/bulldog/patrickcarlisle/textures/patrickcarlisle_shirt.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_03_Value_3": {
+					"type": "float32",
+					"value": 0.40999999642372131
+				},
+				"ConstantVector1D_05_Value_3": {
+					"type": "float32",
+					"value": 0.23000000417232513
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0050DC7A68468183",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5f052f9b0784be63": {
+			"parent": "ea1934ec28d14366",
+			"name": "Shoes_Sneakers_Standard",
+			"template": "001CEDC5CA47F844",
+			"blueprint": "009CE096277BA564",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#2b2b2b"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.43000000715255737
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5d24f3c2a44761f8": {
+			"parent": "ea1934ec28d14366",
+			"name": "Pants_Jeans_Skinny",
+			"template": "00468CE157B575D3",
+			"blueprint": "00189B6B9F6568F8",
+			"properties": {
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#e8e8e8"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.75
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 0.75
+				},
+				"ConstantVector1D_16_Value": {
+					"type": "float32",
+					"value": 0.81999999284744263
+				},
+				"ConstantVector1D_13_Value": {
+					"type": "float32",
+					"value": 0.019999999552965164
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

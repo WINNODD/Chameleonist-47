@@ -1,0 +1,250 @@
+{
+	"tempHash": "0012D81411E67771",
+	"tbluHash": "0096DD5D4CF71701",
+	"rootEntity": "cc73bfebe5dbe145",
+	"entities": {
+		"30c91ab242beab6f": {
+			"parent": "cc73bfebe5dbe145",
+			"name": "Attacher_L_ForeTwist2",
+			"template": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": {
+					"type": "ZString",
+					"value": "L_ForeTwist2"
+				}
+			},
+			"postInitProperties": {
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cc73bfebe5dbe145"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cc73bfebe5dbe145"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"cc73bfebe5dbe145": {
+			"parent": null,
+			"name": "OUTFIT_Agent47_Hippo_HeroA_v1",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 51.43865966796875,
+							"y": 6.158907890319824,
+							"z": 0.0
+						}
+					}
+				},
+				"m_vBodypartBoundingMarginMax": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": 0.009999999776482582
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0017416135CF879C",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["55b174609e6daaaa", "91d2713daaa6a0e9", "c4de369408ac9840", "b187adae8052751e", "77f14845fca8a516", "506e98b8ee36ca99", "5fbd4b60562da6df"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c4de369408ac9840": {
+			"parent": "cc73bfebe5dbe145",
+			"name": "Arms_Elbow_Hand",
+			"template": "00A29B00CF575A54",
+			"blueprint": "006FE46DA08946A8",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"55b174609e6daaaa": {
+			"parent": "cc73bfebe5dbe145",
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"506e98b8ee36ca99": {
+			"parent": "cc73bfebe5dbe145",
+			"name": "Pants_Dress_Linen",
+			"template": "00AD890A49F66D83",
+			"blueprint": "00BDFD2CD3A863A4",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"b187adae8052751e": {
+			"parent": "cc73bfebe5dbe145",
+			"name": "Torso_Neck_LowCut",
+			"template": "00AC8D5EB0F5A755",
+			"blueprint": "00CC398F7A37A27F",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"139743919597b934": {
+			"parent": "5cf3327b23f25662",
+			"name": "stone_watch",
+			"template": "00F8A1276963070B",
+			"blueprint": "008BBD18F8AA33A0",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						}
+					}
+				},
+				"Texture2D_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/watches/textures/male_reg_watch_a.texture?/diffuse_c.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["5cf3327b23f25662"]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5cf3327b23f25662"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5fbd4b60562da6df": {
+			"parent": "cc73bfebe5dbe145",
+			"name": "Shirt_Linen_Base",
+			"template": "006D16B07B35370B",
+			"blueprint": "0033DCF5395282B4",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"77f14845fca8a516": {
+			"parent": "cc73bfebe5dbe145",
+			"name": "Shirt_Linen_RldSlv",
+			"template": "00BC1AFE5A514CD8",
+			"blueprint": "00D8D733DDCD5F3C",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5cf3327b23f25662": {
+			"parent": "30c91ab242beab6f",
+			"name": "Watch_Stone",
+			"template": "00223BFE91C07EAF",
+			"blueprint": "007DD70C233C978B",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -5.272718906402588,
+							"y": 7.189244270324707,
+							"z": -89.26667022705078
+						},
+						"position": {
+							"x": 0.06882999837398529,
+							"y": -0.00008600000001024455,
+							"z": 0.001357999979518354
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "30c91ab242beab6f"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"91d2713daaa6a0e9": {
+			"parent": "cc73bfebe5dbe145",
+			"name": "Shoes_Derby_PlainToe_PointTip",
+			"template": "00B1BAF877E8C318",
+			"blueprint": "008E56C0A0A10813",
+			"properties": {
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 1
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#3d3d3d"
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "000CA6E3AB7595CF",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

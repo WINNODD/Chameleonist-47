@@ -1,0 +1,155 @@
+{
+	"tempHash": "007CF83FB9E0A34F",
+	"tbluHash": "00173B413A461846",
+	"rootEntity": "6d6e91f6fb81112c",
+	"entities": {
+		"f4de35b15d091b88": {
+			"parent": "6d6e91f6fb81112c",
+			"name": "Belt_StrapBuckle",
+			"template": "0017355DDB3D75A3",
+			"blueprint": "005F1B0540C7F863",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#52463c"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"edbc9ecf4f52b51b": {
+			"parent": "6d6e91f6fb81112c",
+			"name": "Arms_Biceps_Hand",
+			"template": "0081BA55B3D8292E",
+			"blueprint": "00CFA61BB1571AF8",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f18f6a2efacdf097": {
+			"parent": "6d6e91f6fb81112c",
+			"name": "Legs_Thigh_Foot",
+			"template": "00437CF5F116E7E9",
+			"blueprint": "00B815E6A54B09EE",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"3ac6ba2033d33d00": {
+			"parent": "6d6e91f6fb81112c",
+			"name": "Shoes_Sandals_Floaters",
+			"template": "00D0CF8B548B1A83",
+			"blueprint": "00CC534F66B52F02",
+			"properties": {
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0.30000001192092898
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.5699999928474426
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"7cb4dd14d603da95": {
+			"parent": "6d6e91f6fb81112c",
+			"name": "Sweater_RldSlv",
+			"template": "0053E469529E6A70",
+			"blueprint": "00C351C68E997A8D",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#94918d"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"e9e3efd73f766ee": {
+			"parent": "6d6e91f6fb81112c",
+			"name": "Pants_Jeans_Slim",
+			"template": "00D8F98FFC2766FE",
+			"blueprint": "0027BE58478DD2EC",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 1
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 1
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"ca6b6447f4dbd321": {
+			"parent": "6d6e91f6fb81112c",
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"6d6e91f6fb81112c": {
+			"parent": null,
+			"name": "OUTFIT_Maelstrom_Bearded_M_Actor_v4",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 8.996566772460938,
+							"y": -3.568708896636963,
+							"z": 0.0
+						}
+					}
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 10
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["edbc9ecf4f52b51b", "ca6b6447f4dbd321", "3ac6ba2033d33d00", "e9e3efd73f766ee", "7cb4dd14d603da95", "f18f6a2efacdf097", "f4de35b15d091b88"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

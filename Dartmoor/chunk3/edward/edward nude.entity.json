@@ -1,0 +1,332 @@
+{
+    "tempHash": "00CFFFE574D87EC1",
+    "tbluHash": "00E877373612BC3C",
+    "rootEntity": "a65b7304f81f506e",
+    "entities": {
+        "a65b7304f81f506e": {
+            "parent": null,
+            "name": "OUTFIT_Bulldog_Unique_EdwardCarlisle_M_Actor_v0",
+            "template": "00C0753FBF784C66",
+            "blueprint": "007294473357329E",
+            "properties": {
+                "m_LocalColliders": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": []
+                },
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": -10.052789688110352,
+                            "y": -0.09251800179481506,
+                            "z": 0
+                        }
+                    }
+                },
+                "m_vBodypartBoundingMarginMax": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0.009999999776482582
+                    }
+                },
+                "m_pBonesAndCollisionResource": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "009B2F8A2E0ED605",
+                        "flag": "5F"
+                    }
+                }
+            },
+            "postInitProperties": {
+                "m_aBodyParts": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": ["da0018c9fb5513b8", "f595fd331959e555", "5411ed9b06f4c640", "e36113a13e5deb3b"]
+                }
+            },
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "e36113a13e5deb3b": {
+            "parent": "a65b7304f81f506e",
+            "name": "Mesh_Hair",
+            "template": "[modules:/zbodypartentity.class].pc_entitytype",
+            "blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+            "properties": {
+                "m_pMeshResource": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00833DCD5F0CAA44",
+                        "flag": "5F"
+                    }
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "24ce2abcb7ef6044": {
+            "parent": "a65b7304f81f506e",
+            "name": "Attacher_Head",
+            "template": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_BoneName": {
+                    "type": "ZString",
+                    "value": "Head"
+                },
+                "m_linkedEntity": {
+                    "type": "SEntityTemplateReference",
+                    "value": "a65b7304f81f506e"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "a65b7304f81f506e"
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "5411ed9b06f4c640": {
+            "parent": "a65b7304f81f506e",
+            "name": "Underwear_Boxers",
+            "template": "008736C2691685B1",
+            "blueprint": "00692FFA2F8F0EB5",
+            "properties": {},
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "3c5d1cc8211b07ba": {
+            "parent": "a65b7304f81f506e",
+            "name": "agent47_eyebrows",
+            "template": "[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_eyebrows.mi].pc_entitytype",
+            "blueprint": "[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_eyebrows.mi].pc_entityblueprint",
+            "properties": {
+                "2368669741": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                },
+                "Clients": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": ["a65b7304f81f506e"]
+                },
+                "Lerp_06_s": {
+                    "type": "float32",
+                    "value": 0.75
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "a65b7304f81f506e"
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "da0018c9fb5513b8": {
+            "parent": "a65b7304f81f506e",
+            "name": "Body_Full",
+            "template": "008C9419C0263DF3",
+            "blueprint": "009E702203139DF5",
+            "properties": {},
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "70b224f8c8c7540a": {
+            "parent": "a65b7304f81f506e",
+            "name": "base_teeth",
+            "template": "0083E944D3809191",
+            "blueprint": "00BBA882C49213A4",
+            "properties": {
+                "1737952988": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "1787395739": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                },
+                "Clients": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": ["a65b7304f81f506e"]
+                },
+                "ConstantColorRGB_01_Value_op": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "ConstantColorRGB_01_Value": {
+                    "type": "SColorRGB",
+                    "value": "#e0c4a8"
+                },
+                "ConstantVector1D_03_Value": {
+                    "type": "float32",
+                    "value": 0.74000000953674316
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "a65b7304f81f506e"
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "f595fd331959e555": {
+            "parent": "a65b7304f81f506e",
+            "name": "Head_EdwardCarlisle",
+            "template": "00B7DD03C5A016E6",
+            "blueprint": "0002DA1B8E9F8695",
+            "properties": {
+                "ConstantColorRGB_02_Value": {
+                    "type": "SColorRGB",
+                    "value": "#ffffff"
+                },
+                "EyeShader_01_Albedo": {
+                    "type": "float32",
+                    "value": 0.43000000715255737
+                },
+                "EyeShader_01_IrisBrightness": {
+                    "type": "float32",
+                    "value": 1.1299999952316284
+                },
+                "EyeShader_01_PupilSize": {
+                    "type": "float32",
+                    "value": 0.18999999761581421
+                },
+                "ConstantColorRGB_02_Value_5": {
+                    "type": "SColorRGB",
+                    "value": "#5e4226"
+                },
+                "DiffuseColorB": {
+                    "type": "SColorRGB",
+                    "value": "#b29679"
+                },
+                "ConstantColorRGB_05_Value_4": {
+                    "type": "SColorRGB",
+                    "value": "#f0aa65"
+                },
+                "Texture2D_02": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "0091FBA017372507",
+                        "flag": "5F"
+                    }
+                },
+                "Texture2DNormal_02": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "009FE4BCDE2966EC",
+                        "flag": "5F"
+                    }
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "781f6c20d02b5b47": {
+            "parent": "e36113a13e5deb3b",
+            "name": "male_reg_beard_vertexcolor",
+            "template": "00A34104284DF797",
+            "blueprint": "004A1E003F081FB3",
+            "properties": {
+                "683226513": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                },
+                "Clients": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": ["e36113a13e5deb3b"]
+                },
+                "ConstantColorRGB_02_Value_op": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "ConstantColorRGB_02_Value": {
+                    "type": "SColorRGB",
+                    "value": "#c9a67d"
+                },
+                "DiffuseColorB": {
+                    "type": "SColorRGB",
+                    "value": "#8a6b43"
+                },
+                "ConstantColorRGB_05_Value_op": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "ConstantColorRGB_05_Value": {
+                    "type": "SColorRGB",
+                    "value": "#946d3b"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "a65b7304f81f506e"
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        }
+    },
+    "propertyOverrides": [],
+    "overrideDeletes": [],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": [],
+    "externalScenes": [],
+    "subType": 0,
+    "quickEntityVersion": 2.1
+}

@@ -1,0 +1,356 @@
+{
+	"tempHash": "005A9492A7CA144C",
+	"tbluHash": "001AA61AE060F331",
+	"rootEntity": "7e18dbd0defaee79",
+	"entities": {
+		"7e18dbd0defaee79": {
+			"parent": null,
+			"name": "OUTFIT_Flamingo_Unique_DerekMcInnis_M_Actor_v0",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -3.4502999782562256,
+							"y": 0.9165350198745728,
+							"z": 0.004666999913752079
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1c054f3358197000", "dcbe130aa1dc1141", "d6f061a05d61d4f", "9ac021b67a2d5ca3", "aefe8de677ab694c", "2dfa818189dcf680", "f2f04355033da264", "f6137c10b2146938", "6ed9ff878123eb43", "fe389006adff3553", "e4a9eccbd464dd18", "975f7c987caefc96"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"dcbe130aa1dc1141": {
+			"parent": "7e18dbd0defaee79",
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"9ac021b67a2d5ca3": {
+			"parent": "7e18dbd0defaee79",
+			"name": "Shirt_Dress_BtnUp_Tkd_Cut_Coat",
+			"template": "002B15468DBAE59A",
+			"blueprint": "00870E83131D0F48",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#8b8f79"
+				},
+				"Diffuse_Color_02_Value": {
+					"type": "SColorRGB",
+					"value": "#8b8f79"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"1c054f3358197000": {
+			"parent": "7e18dbd0defaee79",
+			"name": "Hands",
+			"template": "009A6D9F7927FB89",
+			"blueprint": "00F49463DEA8D412",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"aefe8de677ab694c": {
+			"parent": "7e18dbd0defaee79",
+			"name": "Pants_Dress_Slim",
+			"template": "0076615B954B3D2E",
+			"blueprint": "0060443386E41695",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#665d5b"
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/flamingo/derekmcinnis/geometry/male_reg_derekmcinnis.wl2?/pants.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5701a36b3d88755": {
+			"parent": "7e18dbd0defaee79",
+			"name": "Chest_Attacher",
+			"template": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": {
+					"type": "ZString",
+					"value": "Spine1"
+				},
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "7e18dbd0defaee79"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "7e18dbd0defaee79"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"4e4c2407542f914d": {
+			"parent": "5701a36b3d88755",
+			"name": "ID_Badge",
+			"template": "00E911E63B4D90AA",
+			"blueprint": "00C003C71B149AF5",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.59803084404406,
+							"y": 55.09820832267836,
+							"z": 90.54024849513145
+						},
+						"position": {
+							"x": 0.12589000165462494,
+							"y": 0.15060000121593475,
+							"z": 0.14209100604057312
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5701a36b3d88755"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f6137c10b2146938": {
+			"parent": "7e18dbd0defaee79",
+			"name": "LegBrace",
+			"template": "0076615B954B3D2E",
+			"blueprint": "0060443386E41695",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#665d5b"
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/flamingo/derekmcinnis/geometry/male_reg_derekmcinnis.wl2?/legbrace.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f2f04355033da264": {
+			"parent": "7e18dbd0defaee79",
+			"name": "Belt_StrapBuckle",
+			"template": "0017355DDB3D75A3",
+			"blueprint": "005F1B0540C7F863",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#333231"
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "005F32122BCD0C2F",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"d6f061a05d61d4f": {
+			"parent": "7e18dbd0defaee79",
+			"name": "Socks_Ankle_Cut_Shoe",
+			"template": "00C50F4D59B78463",
+			"blueprint": "0060BDFBAAFA9324",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#787878"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"975f7c987caefc96": {
+			"parent": "7e18dbd0defaee79",
+			"name": "Paper",
+			"template": "00AB98C7028D392E",
+			"blueprint": "00219A3CB9072C28",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D9EFA7CB805E9D",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"6ed9ff878123eb43": {
+			"parent": "7e18dbd0defaee79",
+			"name": "Glasses",
+			"template": "0076615B954B3D2E",
+			"blueprint": "0060443386E41695",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#665d5b"
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/flamingo/derekmcinnis/geometry/male_reg_derekmcinnis.wl2?/glasses.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"2dfa818189dcf680": {
+			"parent": "7e18dbd0defaee79",
+			"name": "Shoes_Loafer_Penny",
+			"template": "005F7BC595CAD77F",
+			"blueprint": "005B31A52C2F6C88",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#754b3d"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"fe389006adff3553": {
+			"parent": "7e18dbd0defaee79",
+			"name": "Tie_Simple",
+			"template": "008DAFF880E54167",
+			"blueprint": "00A31B49E5A8A9FC",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00CCEAAE18F189BC",
+						"flag": "5F"
+					}
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00A860CA73E8D0ED",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D41D341DF30B62",
+						"flag": "5F"
+					}
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00C07C105BFEE103",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"e4a9eccbd464dd18": {
+			"parent": "7e18dbd0defaee79",
+			"name": "Coat_Lab_Open",
+			"template": "00AB98C7028D392E",
+			"blueprint": "00219A3CB9072C28",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

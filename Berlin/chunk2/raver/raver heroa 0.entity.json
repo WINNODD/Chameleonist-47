@@ -1,0 +1,274 @@
+{
+	"tempHash": "008CC7B02E3706B7",
+	"tbluHash": "008C4979F16AEF34",
+	"rootEntity": "d17101f6cb73e3",
+	"entities": {
+		"4e47c6b8a589288c": {
+			"parent": "d17101f6cb73e3",
+			"name": "Head_Attacher",
+			"template": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": {
+					"type": "ZString",
+					"value": "Head"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "d17101f6cb73e3"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d17101f6cb73e3"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"9142e1c1ca1064d4": {
+			"parent": "d17101f6cb73e3",
+			"name": "Shoes_Sneakers_Skate",
+			"template": "0051CDBE526A5788",
+			"blueprint": "005E95DA5C8F37F9",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#8c8c8c"
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 1
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.80000001192092896
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"8a6a43888c28b9dc": {
+			"parent": "d17101f6cb73e3",
+			"name": "Torso_Full",
+			"template": "00A5D4779E6AA927",
+			"blueprint": "00B53E161DA42DC5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"bf08cd9aebc3542": {
+			"parent": "d17101f6cb73e3",
+			"name": "Socks_Ankle_Cut_Shoe",
+			"template": "00C50F4D59B78463",
+			"blueprint": "0060BDFBAAFA9324",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#e8e8e8"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.5
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"d17101f6cb73e3": {
+			"parent": null,
+			"name": "OUTFIT_Fox_Civilian_Raver_M_Actor_v0",
+			"template": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -1.0022688995714155
+						},
+						"position": {
+							"x": 7.883337020874023,
+							"y": 0.7852820158004761,
+							"z": -1.158486008644104
+						}
+					}
+				},
+				"m_BodyPartLODCutOffMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0010C57E70B56C1B",
+						"flag": "5F"
+					}
+				},
+				"m_nBodypartLODCutOff": {
+					"type": "uint32",
+					"value": 8
+				},
+				"m_bSimulationEnabled": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["43b9f508fe830369", "bcc5d69859fc3e3b", "c6ed1858a143e9b4", "9142e1c1ca1064d4", "7734a6476119e462", "305dffcca62386a6", "bf08cd9aebc3542", "6fc51f2c24db66b9"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"6fc51f2c24db66b9": {
+			"parent": "d17101f6cb73e3",
+			"name": "Sweater_Turtleneck_SlimFit",
+			"template": "0043CA45F28A931C",
+			"blueprint": "009A8C3DDC612740",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#363636"
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00061C2FBC2A14F6",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"bcc5d69859fc3e3b": {
+			"parent": "d17101f6cb73e3",
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"43b9f508fe830369": {
+			"parent": "d17101f6cb73e3",
+			"name": "Hands",
+			"template": "009A6D9F7927FB89",
+			"blueprint": "00F49463DEA8D412",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"305dffcca62386a6": {
+			"parent": "d17101f6cb73e3",
+			"name": "Legs_Thigh_Ankle",
+			"template": "009D25214F946327",
+			"blueprint": "0075AFEEE09221B7",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"7734a6476119e462": {
+			"parent": "d17101f6cb73e3",
+			"name": "TShirt_Oversized_CrewNeck",
+			"template": "00DAE5D7C2245CA4",
+			"blueprint": "00D2422FF4453F47",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#5c5c5c"
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 0.40000000596046448
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0078E4206606380F",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c6ed1858a143e9b4": {
+			"parent": "d17101f6cb73e3",
+			"name": "Shorts_Chino_Plain",
+			"template": "0008A28616E5946D",
+			"blueprint": "006915A1B1609400",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#404040"
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.62999999523162842
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00F5CCDAFD728B2B",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

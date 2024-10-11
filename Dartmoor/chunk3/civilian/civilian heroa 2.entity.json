@@ -1,0 +1,202 @@
+{
+	"tempHash": "004DF11A1AB3A3E7",
+	"tbluHash": "00408A20463BEC32",
+	"rootEntity": "9858f213f85bce1b",
+	"entities": {
+		"bb627eece6df86be": {
+			"parent": "9858f213f85bce1b",
+			"name": "Jacket_Suit_Open",
+			"template": "00D195ECE100716C",
+			"blueprint": "007686A5F3DAB3ED",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#4f4f4f"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c57d854f60e4ecd5": {
+			"parent": "9858f213f85bce1b",
+			"name": "Hands",
+			"template": "009A6D9F7927FB89",
+			"blueprint": "00F49463DEA8D412",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"95313675267c6411": {
+			"parent": "9858f213f85bce1b",
+			"name": "legs_ankle_shoe",
+			"template": "00ABDD120246BCDC",
+			"blueprint": "0021DE526F3B8B7D",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"e23205a61dca43b2": {
+			"parent": "9858f213f85bce1b",
+			"name": "Belt_StrapBuckle",
+			"template": "0017355DDB3D75A3",
+			"blueprint": "005F1B0540C7F863",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#292929"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"9858f213f85bce1b": {
+			"parent": null,
+			"name": "OUTFIT_SmoothSnake_Civilian_M_Actor_v2",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 2.813019037246704,
+							"y": -3.1373579502105715,
+							"z": 0.0
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["c57d854f60e4ecd5", "214ab7783a7d8fe9", "bb627eece6df86be", "a9fe4275564e445a", "780015f69caf42a9", "e23205a61dca43b2", "95313675267c6411", "b73c68c42ffe16e4", "3829daa1aa3326b7"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"214ab7783a7d8fe9": {
+			"parent": "9858f213f85bce1b",
+			"name": "Shirt_Dress_BtnUp_Tkd_2open_Cut_Jacket",
+			"template": "00F15236FC53B0E8",
+			"blueprint": "0076A4499F0A79F8",
+			"properties": {
+				"Diffuse_Color_02_Value": {
+					"type": "SColorRGB",
+					"value": "#f0d8ea"
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#f0d8ea"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"3829daa1aa3326b7": {
+			"parent": "9858f213f85bce1b",
+			"name": "Torso_Neck",
+			"template": "00D43167687E61AD",
+			"blueprint": "007E9340AD2C2425",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"b73c68c42ffe16e4": {
+			"parent": "9858f213f85bce1b",
+			"name": "Agent47_Shoes_BoatLoafers",
+			"template": "007B544B592E2620",
+			"blueprint": "00E2C30B7B4A9AB9",
+			"properties": {
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#2e2c2c"
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 1
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": -0.05000000074505806
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/textures/constants/color_white.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"780015f69caf42a9": {
+			"parent": "9858f213f85bce1b",
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a9fe4275564e445a": {
+			"parent": "9858f213f85bce1b",
+			"name": "Pants_Dress_Regular_NoBrk",
+			"template": "007AFD22CAA820F2",
+			"blueprint": "0042F784FA484B44",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#4a4a4a"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00AF802D36A4241A",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

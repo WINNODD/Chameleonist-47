@@ -1,0 +1,181 @@
+{
+	"tempHash": "004C35E863C22DC1",
+	"tbluHash": "008AC5F0E011A58B",
+	"rootEntity": "18ca3bd47b6df81d",
+	"entities": {
+		"4b4e1385b5d46268": {
+			"parent": "18ca3bd47b6df81d",
+			"name": "PocketSquare_Closed_Stuffed",
+			"template": "0085838B8B184B67",
+			"blueprint": "0039591F99F24CB1",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#cccccc"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#c7c7c7"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"27f91debf9446a7f": {
+			"parent": "18ca3bd47b6df81d",
+			"name": "Belt_StrapBuckle",
+			"template": "0017355DDB3D75A3",
+			"blueprint": "005F1B0540C7F863",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#292929"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a51ae1a387bf4586": {
+			"parent": "18ca3bd47b6df81d",
+			"name": "Jacket_Tux_Shawl_Closed",
+			"template": "00CDB6C9D5C46410",
+			"blueprint": "004C521AC0F1BC27",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#494c61"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"df8ca052bdff9fee": {
+			"parent": "18ca3bd47b6df81d",
+			"name": "Shoes_Derby_PlainToe_PointTip",
+			"template": "00B1BAF877E8C318",
+			"blueprint": "008E56C0A0A10813",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#303030"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"10b39fd172f78c66": {
+			"parent": "18ca3bd47b6df81d",
+			"name": "Hands",
+			"template": "009A6D9F7927FB89",
+			"blueprint": "00F49463DEA8D412",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"18ca3bd47b6df81d": {
+			"parent": null,
+			"name": "OUTFIT_SmoothSnake_Civilian_M_Actor_v8",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 11.76714038848877,
+							"y": -3.1373579502105715,
+							"z": 0.0
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["10b39fd172f78c66", "df8ca052bdff9fee", "cbb240a2b90fd19", "a51ae1a387bf4586", "521bfe0c11d4211f", "a85cec0bdd002523", "c20dea573da76e0", "27f91debf9446a7f", "4b4e1385b5d46268"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"521bfe0c11d4211f": {
+			"parent": "18ca3bd47b6df81d",
+			"name": "Pants_Dress_Loose_HlfBrk",
+			"template": "0068ED07370D62FC",
+			"blueprint": "003E1EC5EF91B5D8",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#494c61"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.5400000214576721
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a85cec0bdd002523": {
+			"parent": "18ca3bd47b6df81d",
+			"name": "Bowtie_Butterfly_Double",
+			"template": "00AAED9734FFE5BF",
+			"blueprint": "00E86A4C0466F168",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#5b6f8a"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#ababab"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"cbb240a2b90fd19": {
+			"parent": "18ca3bd47b6df81d",
+			"name": "Shirt_Tux_Closed_WingCollar",
+			"template": "00F98898051E909A",
+			"blueprint": "00A21A33560EF058",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c20dea573da76e0": {
+			"parent": "18ca3bd47b6df81d",
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

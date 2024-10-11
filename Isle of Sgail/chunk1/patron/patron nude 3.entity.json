@@ -1,0 +1,108 @@
+{
+	"tempHash": "0019B4B0D0344E36",
+	"tbluHash": "009C5BF45C80BBB8",
+	"rootEntity": "1d4bc32589e4e873",
+	"entities": {
+		"331013ca82664ea1": {
+			"parent": "1d4bc32589e4e873",
+			"name": "Hair_Full_Ponytail",
+			"template": "00F0B99B141326F1",
+			"blueprint": "009ECCE92613C3E8",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#524a42"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#524a42"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"7b49581b19b5356a": {
+			"parent": "1d4bc32589e4e873",
+			"name": "Head_Caucasian_50s_03_Beard",
+			"template": "00AD21AA7BD72907",
+			"blueprint": "0003712173B9C97B",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a12fb72a85f126dc": {
+			"parent": "1d4bc32589e4e873",
+			"name": "Body_Full",
+			"template": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c4f15170a2fab641": {
+			"parent": "1d4bc32589e4e873",
+			"name": "Underwear_Boxers",
+			"template": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"1d4bc32589e4e873": {
+			"parent": null,
+			"name": "OUTFIT_Magpie_Civilian_ArkianTier1_M_Actor_v3",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["a12fb72a85f126dc", "7b49581b19b5356a", "c4f15170a2fab641", "331013ca82664ea1"]
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 7.094979763031006,
+							"y": -3.1373579502105713,
+							"z": 0
+						}
+					}
+				},
+				"m_BodyPartLODCutOffMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D428E404B6F436",
+						"flag": "5F"
+					}
+				},
+				"m_nBodypartLODCutOff": {
+					"type": "uint32",
+					"value": 3
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

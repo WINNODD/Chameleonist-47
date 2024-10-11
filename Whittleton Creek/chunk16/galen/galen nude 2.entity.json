@@ -1,0 +1,125 @@
+{
+	"tempHash": "00A00D827A9053BE",
+	"tbluHash": "00A10F82AC8C65CD",
+	"rootEntity": "8c84d20b7ab64454",
+	"entities": {
+		"8c84d20b7ab64454": {
+			"parent": null,
+			"name": "OUTFIT_GarterSnake_Unique_GalenVholes_M_Actor_v2",
+			"template": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.5924140214920044,
+							"y": 0.9780920147895813,
+							"z": 0.0
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["31457ea667b7e02b", "2dc81c9cb5f4cb84", "c8fc09467e39fa7b", "e3b2ac6e2b9002bc"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"31457ea667b7e02b": {
+			"parent": "8c84d20b7ab64454",
+			"name": "Hair_Full_Receding_M_SidePart",
+			"template": "0098A85415D2BC5E",
+			"blueprint": "00C6E4C47333FE8F",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#9c725f"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#8a6858"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#ffc5a8"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c8fc09467e39fa7b": {
+			"parent": "8c84d20b7ab64454",
+			"name": "Head_Caucasian_30s_02",
+			"template": "0050AEF8331CCF8F",
+			"blueprint": "00598455CCBDA494",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#e6e6e6"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#e6e6e6"
+				},
+				"Texture2D_02": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0060F29586D51A20",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"e3b2ac6e2b9002bc": {
+			"parent": "8c84d20b7ab64454",
+			"name": "Underwear_Boxers",
+			"template": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"2dc81c9cb5f4cb84": {
+			"parent": "8c84d20b7ab64454",
+			"name": "Body_Full_Slim",
+			"template": "00F448703BCA480F",
+			"blueprint": "00D7F003FB6F4940",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

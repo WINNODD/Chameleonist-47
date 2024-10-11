@@ -1,0 +1,101 @@
+{
+	"tempHash": "001CA431F3532DE3",
+	"tbluHash": "009B5BC3DBFCA47E",
+	"rootEntity": "5d7b4c2624020f54",
+	"entities": {
+		"59844dc207048d90": {
+			"parent": "5d7b4c2624020f54",
+			"name": "Hair_Full_Receding_S_BrushBack",
+			"template": "0007449A28430BD0",
+			"blueprint": "007B8D427E51E3ED",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#4c4b49"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5d7b4c2624020f54": {
+			"parent": null,
+			"name": "OUTFIT_Flamingo_Civilian_Casual_M_Actor_v11",
+			"template": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 13.241310119628906,
+							"y": 9.934063911437988,
+							"z": 0.004666999913752079
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 10
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["ec5b3cf84b92ceea", "cd9326366702eed9", "59844dc207048d90", "5bc2b59c82dbbe53"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"cd9326366702eed9": {
+			"parent": "5d7b4c2624020f54",
+			"name": "Underwear_Boxers",
+			"template": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"ec5b3cf84b92ceea": {
+			"parent": "5d7b4c2624020f54",
+			"name": "Head_Hispanic_50s_01_Beard",
+			"template": "00C17559684A1698",
+			"blueprint": "0009649C5908733B",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5bc2b59c82dbbe53": {
+			"parent": "5d7b4c2624020f54",
+			"name": "Body_Full",
+			"template": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

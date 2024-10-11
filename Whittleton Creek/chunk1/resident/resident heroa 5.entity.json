@@ -1,0 +1,235 @@
+{
+	"tempHash": "006DDF9E592B238D",
+	"tbluHash": "0046079899C2944B",
+	"rootEntity": "57d81405b8afbf7c",
+	"entities": {
+		"bf82d2836eb81583": {
+			"parent": "d36ff5c18878d43b",
+			"name": "hat_cap_visor",
+			"template": "00DF37E380379E1F",
+			"blueprint": "00E3C0BDBAA3743E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -89.84122769811087,
+							"y": 89.68596468019425,
+							"z": -89.84122769811087
+						},
+						"position": {
+							"x": 0.07996299862861633,
+							"y": 0.024952000007033348,
+							"z": -9.999999747378752e-05
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.9509580135345459,
+						"y": 0.9471700191497803,
+						"z": 1
+					}
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#8594a1"
+				}
+			},
+			"postInitProperties": {
+				"m_rLinkedProxyEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "57d81405b8afbf7c"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d36ff5c18878d43b"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"17abe57e8bea0070": {
+			"parent": "57d81405b8afbf7c",
+			"name": "Shorts_Running_Short",
+			"template": "005CEB633F201813",
+			"blueprint": "004E90FEC8C6CF0B",
+			"properties": {
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 10
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#2e2822"
+				},
+				"ConstantVector1D_15_Value": {
+					"type": "float32",
+					"value": 0
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c328b49786223580": {
+			"parent": "57d81405b8afbf7c",
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"e497d1f4aecf687e": {
+			"parent": "57d81405b8afbf7c",
+			"name": "TankTop_Loose",
+			"template": "008501F137D5F8B2",
+			"blueprint": "00F2FC02C36A8399",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/civilians/tourist_beach/textures/male_reg_tourist_tank_top_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0099FB02AD3493BC",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"97e3950acf947f1d": {
+			"parent": "57d81405b8afbf7c",
+			"name": "Legs_Thigh_Shoe",
+			"template": "00D35AA766FE96D4",
+			"blueprint": "00B13FA86035685D",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"9d37e8dd84882e9f": {
+			"parent": "57d81405b8afbf7c",
+			"name": "Arms_Shoulder_Hand",
+			"template": "00D0A46D325392B0",
+			"blueprint": "0038B023C4284F44",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"57d81405b8afbf7c": {
+			"parent": null,
+			"name": "OUTFIT_Skunk_Civilian_Resident_M_Actor_v5",
+			"template": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 8.727154731750489,
+							"y": 0.0,
+							"z": 0.0
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["9d37e8dd84882e9f", "c328b49786223580", "e497d1f4aecf687e", "67e1b14bde1d9056", "17abe57e8bea0070", "97e3950acf947f1d"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"67e1b14bde1d9056": {
+			"parent": "57d81405b8afbf7c",
+			"name": "Shoes_Sneakers_Running",
+			"template": "0020B1EE3222169A",
+			"blueprint": "0063987782F9EC56",
+			"properties": {
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 1
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 2
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"d36ff5c18878d43b": {
+			"parent": "57d81405b8afbf7c",
+			"name": "Attacher_Head",
+			"template": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": {
+					"type": "ZString",
+					"value": "Head"
+				},
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "57d81405b8afbf7c"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "57d81405b8afbf7c"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

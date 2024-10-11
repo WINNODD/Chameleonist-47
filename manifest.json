@@ -1,0 +1,188 @@
+{
+	"version": "1.0.0",
+	"id": "WINNODD.ChameleonUltimate",
+	"name": "Champion Chameleon",
+	"description": "Disguise as everyone in WoA!",
+	"authors": [
+		"WINNODD"
+	],
+	"frameworkVersion": "2.0.0",
+	"options": [
+		{
+			"name": "ICA Facility",
+			"tooltip": "ICA Facility",
+			"type": "checkbox",
+			"contentFolders": [
+				"ICA Facility"
+			]
+		},
+		{
+			"name": "Paris",
+			"tooltip": "Paris",
+			"type": "checkbox",
+			"contentFolders": [
+				"Paris"
+			]
+		},
+		{
+			"name": "Sapienza",
+			"tooltip": "Sapienza",
+			"type": "checkbox",
+			"contentFolders": [
+				"Sapienza"
+			]
+		},
+		{
+			"name": "Marrakesh",
+			"tooltip": "Marrakesh",
+			"type": "checkbox",
+			"contentFolders": [
+				"Marrakesh"
+			]
+		},
+		{
+			"name": "Bangkok",
+			"tooltip": "Bangkok",
+			"type": "checkbox",
+			"contentFolders": [
+				"Bangkok"
+			]
+		},
+		{
+			"name": "Colorado",
+			"tooltip": "Colorado",
+			"type": "checkbox",
+			"contentFolders": [
+				"Colorado"
+			]
+		},
+		{
+			"name": "Hokkaido",
+			"tooltip": "Hokkaido",
+			"type": "checkbox",
+			"contentFolders": [
+				"Hokkaido"
+			]
+		},
+		{
+			"name": "Hawke's Bay",
+			"tooltip": "Hawke's Bay",
+			"type": "checkbox",
+			"contentFolders": [
+				"Hawke's Bay"
+			]
+		},
+		{
+			"name": "Miami",
+			"tooltip": "Miami",
+			"type": "checkbox",
+			"contentFolders": [
+				"Miami"
+			]
+		},
+		{
+			"name": "Santa Fortuna",
+			"tooltip": "Santa Fortuna",
+			"type": "checkbox",
+			"contentFolders": [
+				"Santa Fortuna"
+			]
+		},
+		{
+			"name": "Mumbai",
+			"tooltip": "Mumbai",
+			"type": "checkbox",
+			"contentFolders": [
+				"Mumbai"
+			]
+		},
+		{
+			"name": "Whittleton Creek",
+			"tooltip": "Whittleton Creek",
+			"type": "checkbox",
+			"contentFolders": [
+				"Whittleton Creek"
+			]
+		},
+		{
+			"name": "Isle of Sgail",
+			"tooltip": "Isle of Sgail",
+			"type": "checkbox",
+			"contentFolders": [
+				"Isle of Sgail"
+			]
+		},
+		{
+			"name": "New York",
+			"tooltip": "New York",
+			"type": "checkbox",
+			"contentFolders": [
+				"New York"
+			]
+		},
+		{
+			"name": "Haven Island",
+			"tooltip": "Haven Island",
+			"type": "checkbox",
+			"contentFolders": [
+				"Haven Island"
+			]
+		},
+		{
+			"name": "Dubai",
+			"tooltip": "Dubai",
+			"type": "checkbox",
+			"contentFolders": [
+				"Dubai"
+			]
+		},
+		{
+			"name": "Dartmoor",
+			"tooltip": "Dartmoor",
+			"type": "checkbox",
+			"contentFolders": [
+				"Dartmoor"
+			]
+		},
+		{
+			"name": "Berlin",
+			"tooltip": "Berlin",
+			"type": "checkbox",
+			"contentFolders": [
+				"Berlin"
+			]
+		},
+		{
+			"name": "Chongqing",
+			"tooltip": "Chongqing",
+			"type": "checkbox",
+			"contentFolders": [
+				"Chongqing"
+			]
+		},
+		{
+			"name": "Mendoza",
+			"tooltip": "Mendoza",
+			"type": "checkbox",
+			"contentFolders": [
+				"Mendoza"
+			]
+		},
+		{
+			"name": "Carpathian Mountains",
+			"tooltip": "Carpathian Mountains",
+			"type": "checkbox",
+			"contentFolders": [
+				"Carpathian Mountains"
+			]
+		},
+		{
+			"name": "Tests",
+			"tooltip": "Tests",
+			"type": "checkbox",
+			"contentFolders": [
+				"Tests"
+			]
+		}
+	]
+}

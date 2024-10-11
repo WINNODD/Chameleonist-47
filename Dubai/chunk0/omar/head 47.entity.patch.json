@@ -1,0 +1,1 @@
+{"tempHash":"00537D16B5CE7286","tbluHash":"00F2E4A932ECAA63","patch":[{"op":"add","path":"/entities/d0e8754f54850000/propertyAliases/-","value":{"exposeProperty":"m_pMeshResource","onEntity":"d0b16ee34555492f","asProperty":"m_pMeshResource"}}],"patchVersion":4}

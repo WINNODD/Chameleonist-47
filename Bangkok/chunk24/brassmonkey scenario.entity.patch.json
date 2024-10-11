@@ -1,0 +1,1 @@
+{"tempHash":"000527E8ABB28124","tbluHash":"006EF3387DEFB855","patch":[{"op":"replace","path":"/entities/44358db7a9f237af/properties/m_bBlockDisguisePickup/value","value":false}],"patchVersion":4}

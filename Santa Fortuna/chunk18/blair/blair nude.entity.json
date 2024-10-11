@@ -1,0 +1,138 @@
+{
+	"tempHash": "0049496125976172",
+	"tbluHash": "006F56B312E28B5F",
+	"rootEntity": "ac1780daf3110a2c",
+	"entities": {
+		"aa818113086e9761": {
+			"parent": "ac1780daf3110a2c",
+			"name": "Hair_Full_M_SweptBack_SidePart",
+			"template": "0085A55E951074AE",
+			"blueprint": "00DBE00C4F756167",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#4c4c4c"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a4db79666d75dd95": {
+			"parent": "ac1780daf3110a2c",
+			"name": "Beard_Full",
+			"template": "00E75AC8293726D9",
+			"blueprint": "005616E05892F400",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#4f4f4f"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"cd4e4f5f146c3edb": {
+			"parent": "ac1780daf3110a2c",
+			"name": "Underwear_Boxers",
+			"template": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"d085c628e4d34485": {
+			"parent": "ac1780daf3110a2c",
+			"name": "Head_BlairReddington",
+			"template": "002F4316A1EE8854",
+			"blueprint": "00405E73277CA483",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#ffe8f5"
+				},
+				"EyeShader_01_IrisBrightness": {
+					"type": "float32",
+					"value": 1.2000000476837159
+				},
+				"EyeShader_01_IrisHueShift": {
+					"type": "float32",
+					"value": 0.949999988079071
+				},
+				"EyeShader_01_PupilSize": {
+					"type": "float32",
+					"value": 0.20000000298023225
+				},
+				"ConstantColorRGB_02_Value_2": {
+					"type": "SColorRGB",
+					"value": "#474342"
+				},
+				"ConstantColorRGB_02_Value_4": {
+					"type": "SColorRGB",
+					"value": "#424242"
+				},
+				"ConstantColorRGB_02_Value_1": {
+					"type": "SColorRGB",
+					"value": "#363636"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"ConstantColorRGB_05_Value_3": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"ac1780daf3110a2c": {
+			"parent": null,
+			"name": "OUTFIT_Anaconda_Target_BlairReddington_M_Actor_v0",
+			"template": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["94425adf8a10703", "cd4e4f5f146c3edb", "d085c628e4d34485"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"94425adf8a10703": {
+			"parent": "ac1780daf3110a2c",
+			"name": "Body_Full",
+			"template": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}
