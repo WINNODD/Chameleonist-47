@@ -1,1 +1,41 @@
-{"tempHash":"00A67B9A8E43796D","tbluHash":"0049FC233F626808","patch":[{"SetRootEntity":"8c7a24cd70f7bff0"},{"RemoveEntityByID":"e06c08b92c63da4e"},{"RemoveEntityByID":"880cdd7d379dd30f"},{"RemoveEntityByID":"cc8726e8c6f5ddce"},{"RemoveEntityByID":"34d80cd1eb4b7076"},{"RemoveEntityByID":"2a182993e781af14"},{"RemoveEntityByID":"bb4e6b82627947ed"},{"RemoveEntityByID":"2c69c0698918bb87"},{"RemoveEntityByID":"9716b30aba99ac23"},{"RemoveEntityByID":"05e0ab27e5217199"},{"RemoveEntityByID":"c2b0200da797ce2f"},{"RemoveEntityByID":"fe71603f3b910f62"},{"AddEntity":["1952176ef2a1d4bd",{"parent":"19c9bf95c4c03de5","name":"0","factory":"[modules:/zoutfitvariation.class].pc_entitytype","blueprint":"[modules:/zoutfitvariation.class].pc_entityblueprint","properties":{"m_Outfit":{"type":"ZRuntimeResourceID","value":{"resource":"0061809050CCE17D\n","flag":"9F"}}}}]},{"AddEntity":["bd8f7929c60f790c",{"parent":"df4cb5b2817810e0","name":"Var0","factory":"[modules:/zoutfitvariation.class].pc_entitytype","blueprint":"[modules:/zoutfitvariation.class].pc_entityblueprint","properties":{"m_Outfit":{"type":"ZRuntimeResourceID","value":{"resource":"0087D272AB90BEAA\n","flag":"9F"}}}}]},{"AddEntity":["df4cb5b2817810e0",{"parent":"8c7a24cd70f7bff0","name":"Nude","factory":"[modules:/zcharsetcharactertype.class].pc_entitytype","blueprint":"[modules:/zcharsetcharactertype.class].pc_entityblueprint","properties":{"m_aVariations":{"type":"TArray<SEntityTemplateReference>","value":["bd8f7929c60f790c"]}}}]},{"AddEntity":["8c7a24cd70f7bff0",{"parent":null,"name":"CHARSET_Gecko_Unique_Chef_M","factory":"004470A9E6A7722D","blueprint":"00E21A11EC782D9E","properties":{"m_aCharacters":{"type":"TArray<SEntityTemplateReference>","value":["19c9bf95c4c03de5","df4cb5b2817810e0","2b707ae3f1c79026"],"postInit":true}}}]},{"AddEntity":["e61ea54d222a6d84",{"parent":"2b707ae3f1c79026","name":"Var0","factory":"[modules:/zoutfitvariation.class].pc_entitytype","blueprint":"[modules:/zoutfitvariation.class].pc_entityblueprint","properties":{"m_Outfit":{"type":"ZRuntimeResourceID","value":{"resource":"00980A8BA343F62C\n","flag":"9F"}}}}]},{"AddEntity":["2b707ae3f1c79026",{"parent":"8c7a24cd70f7bff0","name":"HeroA","factory":"[modules:/zcharsetcharactertype.class].pc_entitytype","blueprint":"[modules:/zcharsetcharactertype.class].pc_entityblueprint","properties":{"m_aVariations":{"type":"TArray<SEntityTemplateReference>","value":["e61ea54d222a6d84"]}}}]},{"AddEntity":["19c9bf95c4c03de5",{"parent":"8c7a24cd70f7bff0","name":"Actor","factory":"[modules:/zcharsetcharactertype.class].pc_entitytype","blueprint":"[modules:/zcharsetcharactertype.class].pc_entityblueprint","properties":{"m_aVariations":{"type":"TArray<SEntityTemplateReference>","value":["1952176ef2a1d4bd"]}}}]}],"patchVersion":6}
+{
+	"tempHash": "00A67B9A8E43796D",
+	"tbluHash": "0049FC233F626808",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"e06c08b92c63da4e",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0087D272AB90BEAA",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"880cdd7d379dd30f",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00980A8BA343F62C",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
