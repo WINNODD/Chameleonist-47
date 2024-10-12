@@ -1,1 +1,13 @@
-{"tempHash":"00CBB0EDEDADBDF7","tbluHash":"00243AF1CE72AD33","patch":[{"SubEntityOperation":["65969952e08f8f4a",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]}],"patchVersion":6}
+{
+	"tempHash": "00CBB0EDEDADBDF7",
+	"tbluHash": "00243AF1CE72AD33",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"65969952e08f8f4a",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		}
+	],
+	"patchVersion": 6
+}
