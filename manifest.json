@@ -168,7 +168,9 @@
             "tooltip": "Miami",
             "type": "checkbox",
             "contentFolders": [
-                "Miami"
+                "Miami",
+                "ShareHector",
+                "ShareMiamiMendoza"
             ],
             "dependencies": [{
                     "runtimeID": "0021AD85CA03D38B",
@@ -192,7 +194,8 @@
             "tooltip": "Santa Fortuna",
             "type": "checkbox",
             "contentFolders": [
-                "Santa Fortuna"
+                "Santa Fortuna",
+                "ShareHector"
             ]
         }, {
             "name": "Mumbai",
@@ -288,7 +291,9 @@
             "tooltip": "Mendoza",
             "type": "checkbox",
             "contentFolders": [
-                "Mendoza"
+                "Mendoza",
+                "ShareHector",
+                "ShareMiamiMendoza"
             ],
             "dependencies": [{
                     "runtimeID": "0021AD85CA03D38B",
