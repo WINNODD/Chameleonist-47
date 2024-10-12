@@ -12,21 +12,26 @@
             "tooltip": "ICA Facility",
             "type": "checkbox",
             "contentFolders": [
-                "ICA Facility"
+                "ICA Facility",
+                "ShareFormals",
+                "ShareBeaches"
             ]
         }, {
             "name": "Paris",
             "tooltip": "Paris",
             "type": "checkbox",
             "contentFolders": [
-                "Paris"
+                "Paris",
+                "ShareFormals",
+                "ShareBeaches"
             ]
         }, {
             "name": "Sapienza",
             "tooltip": "Sapienza",
             "type": "checkbox",
             "contentFolders": [
-                "Sapienza"
+                "Sapienza",
+                "ShareFormals"
             ],
             "dependencies": [{
                     "runtimeID": "00C48A703EA35E08",
