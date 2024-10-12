@@ -1,1 +1,37 @@
-{"tempHash":"007FE9B3470D4D35","tbluHash":"005BABED7A0D322C","patch":[{"SubEntityOperation":["62e135c52a0c94fc",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]},{"SubEntityOperation":["a83db21b466bdc0a",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]},{"SubEntityOperation":["1dce85d54d77a6ce",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]},{"SubEntityOperation":["a9e95e5f4c2d2827",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]},{"SubEntityOperation":["acbbc2e8bc591e19",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]}],"patchVersion":6}
+{
+	"tempHash": "007FE9B3470D4D35",
+	"tbluHash": "005BABED7A0D322C",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"62e135c52a0c94fc",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a83db21b466bdc0a",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1dce85d54d77a6ce",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a9e95e5f4c2d2827",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"acbbc2e8bc591e19",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		}
+	],
+	"patchVersion": 6
+}

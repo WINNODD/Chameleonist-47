@@ -1,1 +1,61 @@
-{"tempHash":"0071AFFF5B386C90","tbluHash":"001E7B6CC33145A0","patch":[{"SubEntityOperation":["5d24807d8e2cadc1",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]}],"patchVersion":6}
+{
+	"tempHash": "0071AFFF5B386C90",
+	"tbluHash": "001E7B6CC33145A0",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"5d24807d8e2cadc1",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "d95ca9f43e8d7ead",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -162.80016363878983,
+							"y": 89.42551409771927,
+							"z": 109.27394605531939
+						},
+						"position": {
+							"x": -10.390310287475586,
+							"y": -152.4853973388672,
+							"z": -28.212230682373047
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "d95ca9f43e8d7ead",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -162.80016363878983,
+							"y": 89.42551409771927,
+							"z": 109.2739460553194
+						},
+						"position": {
+							"x": -10.390310287475586,
+							"y": -152.4853973388672,
+							"z": -28.212230682373047
+						}
+					}
+				}
+			}
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,1 +1,163 @@
-{"tempHash":"00EF1F6E111F6F08","tbluHash":"00E5855B85782261","patch":[{"SubEntityOperation":["57e229b4e7543caa",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]},{"SubEntityOperation":["67f6c22407232163",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]}],"patchVersion":6}
+{
+	"tempHash": "00EF1F6E111F6F08",
+	"tbluHash": "00E5855B85782261",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"57e229b4e7543caa",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"67f6c22407232163",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "0bb971bb45fee168",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/npc_ambient_streets_generic.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -105.90724875559431
+						},
+						"position": {
+							"x": -4.087274074554443,
+							"y": 46.25263977050781,
+							"z": 0.000011000000085914508
+						}
+					}
+				}
+			}
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "4521ed746cb507f9",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/npc_ambient_market_generic.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -119.63151529970929
+						},
+						"position": {
+							"x": 97.43934631347656,
+							"y": -12.810009956359863,
+							"z": 3.0500669479370117
+						}
+					}
+				}
+			}
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "7eb23a82a09a1f2f",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -121.82396075173895
+						},
+						"position": {
+							"x": 41.414039611816406,
+							"y": 15.004910469055176,
+							"z": -0.039712000638246536
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "0bb971bb45fee168",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/npc_ambient_streets_generic.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -105.90724875559432
+						},
+						"position": {
+							"x": -4.087274074554443,
+							"y": 46.25263977050781,
+							"z": 0.000011000000085914508
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "4521ed746cb507f9",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/npc_ambient_market_generic.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -119.63151529970928
+						},
+						"position": {
+							"x": 97.43934631347656,
+							"y": -12.810009956359863,
+							"z": 3.0500669479370117
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "7eb23a82a09a1f2f",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -121.82396075173897
+						},
+						"position": {
+							"x": 41.414039611816406,
+							"y": 15.004910469055176,
+							"z": -0.039712000638246536
+						}
+					}
+				}
+			}
+		}
+	],
+	"patchVersion": 6
+}

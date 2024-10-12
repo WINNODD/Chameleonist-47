@@ -1,1 +1,67 @@
-{"tempHash":"007A11AAC4947561","tbluHash":"00F9B5789EBE9F2A","patch":[{"SubEntityOperation":["28433e998f0f6321",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]},{"SubEntityOperation":["d875d8de08d2fa30",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]}],"patchVersion":6}
+{
+	"tempHash": "007A11AAC4947561",
+	"tbluHash": "00F9B5789EBE9F2A",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"28433e998f0f6321",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d875d8de08d2fa30",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "3c2625351d32cb87",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/dressing_streets_python.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 104.99999581901791
+						},
+						"position": {
+							"x": -18.922719955444336,
+							"y": -12.773870468139648,
+							"z": -1.269016981124878
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "3c2625351d32cb87",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/dressing_streets_python.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 104.99999581901793
+						},
+						"position": {
+							"x": -18.922719955444336,
+							"y": -12.773870468139648,
+							"z": -1.269016981124878
+						}
+					}
+				}
+			}
+		}
+	],
+	"patchVersion": 6
+}

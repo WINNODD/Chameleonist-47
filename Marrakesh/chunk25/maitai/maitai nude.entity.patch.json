@@ -1,0 +1,225 @@
+{
+	"tempHash": "00A8F79559859E8E",
+	"tbluHash": "007C539D7885DEE4",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"8a5b147503a5f2ae",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pBonesAndCollisionResource",
+						"value": {
+							"resource": "00DE60F03C0FAE64",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"34e99cba349ec887",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "00DD6158C2F516B4",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"501181c8bb961867",
+				{ "SetName": "male_reg_bloodymary_hair" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"501181c8bb961867",
+				{ "SetFactory": "00FD84366CFEE0B4" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"501181c8bb961867",
+				{ "SetBlueprint": "00C2E1A7545F5A81" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"501181c8bb961867",
+				{
+					"AddProperty": [
+						"1076894296",
+						{
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"501181c8bb961867",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0, "y": 0, "z": 0 },
+							"position": { "x": 0, "y": 0, "z": 0 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"501181c8bb961867",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantVector1D_01_Value",
+						"value": 2.7699999809265137
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"501181c8bb961867",
+				{
+					"AddProperty": [
+						"Texture2D_01_enab",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"501181c8bb961867",
+				{
+					"AddProperty": [
+						"Texture2D_01",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00C974CC96C3591B",
+								"flag": "5F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"501181c8bb961867",
+				{
+					"AddProperty": [
+						"ConstantVector1D_10_Value",
+						{ "type": "float32", "value": -10 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"df5db20ab9ac12c1",
+				{ "SetName": "maitai_head" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"df5db20ab9ac12c1",
+				{ "SetFactory": "009ED8E9EAF2E5FC" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"df5db20ab9ac12c1",
+				{ "SetBlueprint": "004FFB4A4D5631DF" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"df5db20ab9ac12c1",
+				{ "RemovePropertyByName": "Texture2D_01_enab" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"df5db20ab9ac12c1",
+				{ "RemovePropertyByName": "Texture2D_01" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"df5db20ab9ac12c1",
+				{
+					"AddProperty": [
+						"303926141",
+						{
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"df5db20ab9ac12c1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 0,
+								"y": 0,
+								"z": -53.83014678955078
+							},
+							"position": {
+								"x": -3.000000106112566e-6,
+								"y": -3.999999989900971e-6,
+								"z": 0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"df5db20ab9ac12c1",
+				{
+					"AddProperty": [
+						"ConstantVector2D_01_Value",
+						{
+							"type": "SVector2",
+							"value": { "x": 10, "y": 10 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d5996af49f5da10d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "0029B70E6A44B402",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

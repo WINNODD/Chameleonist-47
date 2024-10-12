@@ -1,1 +1,18 @@
-{"tempHash":"00C20259BA1CBD6E","tbluHash":"00D94787384D1547","patch":[{"SubEntityOperation":["53996ffa364c5292",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]}],"patchVersion":6}
+{
+	"tempHash": "00C20259BA1CBD6E",
+	"tbluHash": "00D94787384D1547",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"53996ffa364c5292",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
