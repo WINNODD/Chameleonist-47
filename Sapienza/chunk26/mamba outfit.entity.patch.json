@@ -1,1 +1,40 @@
-{"tempHash":"00AB32727BCC4B27","tbluHash":"00AD02C70077C159","patch":[{"SubEntityOperation":["02193ee6589ffae7",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["e641a53c3dba75c3",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["af81232323e6e55a",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]}],"patchVersion":6}
+{
+	"tempHash": "00AB32727BCC4B27",
+	"tbluHash": "00AD02C70077C159",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"02193ee6589ffae7",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e641a53c3dba75c3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"af81232323e6e55a",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,21 @@
+{
+	"tempHash": "004B16F67C4277A9",
+	"tbluHash": "006D4E15C436D1E7",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"85bc3a7143e9134f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "001706CDDEFDA9CC",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

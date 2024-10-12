@@ -1,1 +1,40 @@
-{"tempHash":"0034859BD2BDD9C0","tbluHash":"00FDF35743EA15EA","patch":[{"SubEntityOperation":["47467104ba00387a",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["3d0f06e9a6e4a10f",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["f5f47155d741b631",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]}],"patchVersion":6}
+{
+	"tempHash": "0034859BD2BDD9C0",
+	"tbluHash": "00FDF35743EA15EA",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"47467104ba00387a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3d0f06e9a6e4a10f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f5f47155d741b631",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

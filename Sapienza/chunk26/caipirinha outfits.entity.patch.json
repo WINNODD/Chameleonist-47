@@ -1,1 +1,29 @@
-{"tempHash":"000F296CD5178932","tbluHash":"001A4052A24BFC2B","patch":[{"SubEntityOperation":["e8099ff23a166fcb",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["d5381c539b4b998f",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]}],"patchVersion":6}
+{
+	"tempHash": "000F296CD5178932",
+	"tbluHash": "001A4052A24BFC2B",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"e8099ff23a166fcb",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d5381c539b4b998f",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
