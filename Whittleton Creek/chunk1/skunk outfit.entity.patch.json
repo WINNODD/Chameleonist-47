@@ -1,1 +1,73 @@
-{"tempHash":"00D98058A63761D7","tbluHash":"006439893DFD8415","patch":[{"SubEntityOperation":["9985f23dc3f62452",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["e6ccc744286a354a",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["79271c57192ad96d",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["86e73aef7d71d99b",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["abcc3f59f28f48aa",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["e243e54ccfbf3316",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]}],"patchVersion":6}
+{
+	"tempHash": "00D98058A63761D7",
+	"tbluHash": "006439893DFD8415",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"9985f23dc3f62452",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e6ccc744286a354a",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"79271c57192ad96d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"86e73aef7d71d99b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"abcc3f59f28f48aa",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e243e54ccfbf3316",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

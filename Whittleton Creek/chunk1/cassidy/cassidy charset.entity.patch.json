@@ -1,1 +1,41 @@
-{"tempHash":"007547CDD9C0B2DB","tbluHash":"00DF54DA9D34403C","patch":[{"SetRootEntity":"8c7a24cd70f7bff0"},{"RemoveEntityByID":"8d7ee06b98b3ca34"},{"RemoveEntityByID":"6e076eb1b62c99b4"},{"RemoveEntityByID":"ffbb4355df1e2a64"},{"RemoveEntityByID":"fbb4037001ee3f2a"},{"RemoveEntityByID":"a2ed09fcd96924fe"},{"RemoveEntityByID":"76a39d7220a45416"},{"RemoveEntityByID":"4bf870321e877e8a"},{"AddEntity":["1952176ef2a1d4bd",{"parent":"19c9bf95c4c03de5","name":"0","factory":"[modules:/zoutfitvariation.class].pc_entitytype","blueprint":"[modules:/zoutfitvariation.class].pc_entityblueprint","properties":{"m_Outfit":{"type":"ZRuntimeResourceID","value":{"resource":"00E05F645150F311","flag":"9F"}}}}]},{"AddEntity":["bd8f7929c60f790c",{"parent":"df4cb5b2817810e0","name":"Var0","factory":"[modules:/zoutfitvariation.class].pc_entitytype","blueprint":"[modules:/zoutfitvariation.class].pc_entityblueprint","properties":{"m_Outfit":{"type":"ZRuntimeResourceID","value":{"resource":"0058367ECBFCB210","flag":"9F"}}}}]},{"AddEntity":["df4cb5b2817810e0",{"parent":"8c7a24cd70f7bff0","name":"Nude","factory":"[modules:/zcharsetcharactertype.class].pc_entitytype","blueprint":"[modules:/zcharsetcharactertype.class].pc_entityblueprint","properties":{"m_aVariations":{"type":"TArray<SEntityTemplateReference>","value":["bd8f7929c60f790c"]}}}]},{"AddEntity":["8c7a24cd70f7bff0",{"parent":null,"name":"CHARSET_Gecko_Unique_Chef_M","factory":"004470A9E6A7722D","blueprint":"00E21A11EC782D9E","properties":{"m_aCharacters":{"type":"TArray<SEntityTemplateReference>","value":["19c9bf95c4c03de5","df4cb5b2817810e0","2b707ae3f1c79026"],"postInit":true}}}]},{"AddEntity":["e61ea54d222a6d84",{"parent":"2b707ae3f1c79026","name":"Var0","factory":"[modules:/zoutfitvariation.class].pc_entitytype","blueprint":"[modules:/zoutfitvariation.class].pc_entityblueprint","properties":{"m_Outfit":{"type":"ZRuntimeResourceID","value":{"resource":"005DB6A919A7015D","flag":"9F"}}}}]},{"AddEntity":["2b707ae3f1c79026",{"parent":"8c7a24cd70f7bff0","name":"HeroA","factory":"[modules:/zcharsetcharactertype.class].pc_entitytype","blueprint":"[modules:/zcharsetcharactertype.class].pc_entityblueprint","properties":{"m_aVariations":{"type":"TArray<SEntityTemplateReference>","value":["e61ea54d222a6d84"]}}}]},{"AddEntity":["19c9bf95c4c03de5",{"parent":"8c7a24cd70f7bff0","name":"Actor","factory":"[modules:/zcharsetcharactertype.class].pc_entitytype","blueprint":"[modules:/zcharsetcharactertype.class].pc_entityblueprint","properties":{"m_aVariations":{"type":"TArray<SEntityTemplateReference>","value":["1952176ef2a1d4bd"]}}}]}],"patchVersion":6}
+{
+	"tempHash": "007547CDD9C0B2DB",
+	"tbluHash": "00DF54DA9D34403C",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"6e076eb1b62c99b4",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "005DB6A919A7015D",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fbb4037001ee3f2a",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0058367ECBFCB210",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
