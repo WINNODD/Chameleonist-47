@@ -1,1 +1,19 @@
-{"tempHash":"0056406088754691","tbluHash":"00CF14C55C3BCCA8","patch":[{"SubEntityOperation":["5d7e6bbad42beabd",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]}],"patchVersion":6}
+{
+	"tempHash": "0056406088754691",
+	"tbluHash": "00CF14C55C3BCCA8",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"5d7e6bbad42beabd",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ca54d9a8a9356d69",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		}
+	],
+	"patchVersion": 6
+}
