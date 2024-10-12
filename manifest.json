@@ -16,6 +16,11 @@
                 "ShareFormals",
                 "ShareBeaches",
                 "ShareNovikovGlasses47"
+            ],
+            "dependencies": [{
+                    "runtimeID": "0072C345D02ADE97",
+                    "toChunk": 0
+                }
             ]
         }, {
             "name": "Paris",
@@ -26,6 +31,11 @@
                 "ShareFormals",
                 "ShareBeaches",
                 "ShareNovikovGlasses47"
+            ],
+            "dependencies": [{
+                    "runtimeID": "0072C345D02ADE97",
+                    "toChunk": 0
+                }
             ]
         }, {
             "name": "Sapienza",
@@ -38,6 +48,10 @@
                 "ShareNovikovGlasses47"
             ],
             "dependencies": [{
+                    "runtimeID": "0072C345D02ADE97",
+                    "toChunk": 0
+                },
+                {
                     "runtimeID": "00C48A703EA35E08",
                     "toChunk": 0
                 }
@@ -50,6 +64,11 @@
                 "Marrakesh",
                 "ShareTouristFormal",
                 "ShareNovikovGlasses47"
+            ],
+            "dependencies": [{
+                    "runtimeID": "0072C345D02ADE97",
+                    "toChunk": 0
+                }
             ]
         }, {
             "name": "Bangkok",
@@ -59,6 +78,10 @@
                 "Bangkok"
             ],
             "dependencies": [{
+                    "runtimeID": "0072C345D02ADE97",
+                    "toChunk": 0
+                },
+                {
                     "runtimeID": "00C48A703EA35E08",
                     "toChunk": 0
                 }
@@ -69,6 +92,11 @@
             "type": "checkbox",
             "contentFolders": [
                 "Colorado"
+            ],
+            "dependencies": [{
+                    "runtimeID": "0072C345D02ADE97",
+                    "toChunk": 0
+                }
             ]
         }, {
             "name": "Hokkaido",
@@ -76,6 +104,11 @@
             "type": "checkbox",
             "contentFolders": [
                 "Hokkaido"
+            ],
+            "dependencies": [{
+                    "runtimeID": "0072C345D02ADE97",
+                    "toChunk": 0
+                }
             ]
         }, {
             "name": "Hawke's Bay",
