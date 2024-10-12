@@ -31,7 +31,8 @@
             "type": "checkbox",
             "contentFolders": [
                 "Sapienza",
-                "ShareFormals"
+                "ShareFormals",
+                "ShareTouristFormal"
             ],
             "dependencies": [{
                     "runtimeID": "00C48A703EA35E08",
@@ -43,7 +44,8 @@
             "tooltip": "Marrakesh",
             "type": "checkbox",
             "contentFolders": [
-                "Marrakesh"
+                "Marrakesh",
+                "ShareTouristFormal"
             ]
         }, {
             "name": "Bangkok",
