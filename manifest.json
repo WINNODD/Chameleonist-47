@@ -13,9 +13,8 @@
             "type": "checkbox",
             "contentFolders": [
                 "ICA Facility",
-                "ShareFormals",
-                "ShareBeaches",
-                "ShareNovikovGlasses47"
+                "ShareICAParisSapiMarrakesh",
+                "ShareICAParis"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
@@ -36,10 +35,9 @@
             "type": "checkbox",
             "contentFolders": [
                 "Paris",
-                "ShareFormals",
-                "ShareBeaches",
-                "ShareTouristCasual",
-                "ShareNovikovGlasses47"
+                "ShareICAParisSapiMarrakesh",
+                "ShareICAParis",
+                "ShareParisMarrakesh"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
@@ -56,10 +54,9 @@
             "type": "checkbox",
             "contentFolders": [
                 "Sapienza",
-                "ShareFormals",
-                "ShareTouristFormal",
-                "ShareNovikovGlasses47",
-                "ShareScrewdriverGlasses47"
+                "ShareICAParisSapiMarrakesh",
+                "ShareSapiMarrakesh",
+                "ShareSapiMarrakeshBangkok"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
@@ -96,11 +93,10 @@
             "type": "checkbox",
             "contentFolders": [
                 "Marrakesh",
-                "ShareFormals",
-                "ShareTouristFormal",
-                "ShareTouristCasual",
-                "ShareNovikovGlasses47",
-                "ShareScrewdriverGlasses47"
+                "ShareICAParisSapiMarrakesh",
+                "ShareSapiMarrakesh",
+                "ShareParisMarrakesh",
+                "ShareSapiMarrakeshBangkok"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
@@ -121,7 +117,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "Bangkok",
-                "ShareScrewdriverGlasses47"
+                "ShareSapiMarrakeshBangkok"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
@@ -173,7 +169,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "Miami",
-                "ShareHector",
+                "ShareMiamiSFMendoza",
                 "ShareMiamiMendoza"
             ],
             "dependencies": [{
@@ -199,7 +195,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "Santa Fortuna",
-                "ShareHector"
+                "ShareMiamiSFMendoza"
             ]
         }, {
             "name": "Mumbai",
@@ -221,8 +217,8 @@
             "type": "checkbox",
             "contentFolders": [
                 "Isle of Sgail",
-                "ShareBerlinSgail",
-                "ShareRomaniaSgail"
+                "ShareSgailBerlin",
+                "ShareSgailRomania"
             ]
         }, {
             "name": "New York",
@@ -230,7 +226,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "New York",
-                "ShareButtonlessJacket"
+                "ShareNYDubaiCQ"
             ]
         }, {
             "name": "Haven Island",
@@ -246,7 +242,7 @@
             "contentFolders": [
                 "Dubai",
                 "ShareDubaiDartmoor",
-                "ShareButtonlessJacket"
+                "ShareNYDubaiCQ"
             ],
             "dependencies": [{
                     "runtimeID": "00E3AC6141A1094B",
@@ -275,7 +271,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "Berlin",
-                "ShareBerlinSgail"
+                "ShareSgailBerlin"
             ],
             "dependencies": [{
                     "runtimeID": "0021B7AF35ADF425",
@@ -288,7 +284,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "Chongqing",
-                "ShareButtonlessJacket"
+                "ShareNYDubaiCQ"
             ]
         }, {
             "name": "Mendoza",
@@ -296,7 +292,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "Mendoza",
-                "ShareHector",
+                "ShareMiamiSFMendoza",
                 "ShareMiamiMendoza"
             ],
             "dependencies": [{
@@ -322,7 +318,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "Carpathian Mountains",
-                "ShareRomaniaSgail"
+                "ShareSgailRomania"
             ]
         }
     ]
