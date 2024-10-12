@@ -14,7 +14,8 @@
             "contentFolders": [
                 "ICA Facility",
                 "ShareFormals",
-                "ShareBeaches"
+                "ShareBeaches",
+                "ShareNovikovGlasses47"
             ]
         }, {
             "name": "Paris",
@@ -23,7 +24,8 @@
             "contentFolders": [
                 "Paris",
                 "ShareFormals",
-                "ShareBeaches"
+                "ShareBeaches",
+                "ShareNovikovGlasses47"
             ]
         }, {
             "name": "Sapienza",
@@ -32,7 +34,8 @@
             "contentFolders": [
                 "Sapienza",
                 "ShareFormals",
-                "ShareTouristFormal"
+                "ShareTouristFormal",
+                "ShareNovikovGlasses47"
             ],
             "dependencies": [{
                     "runtimeID": "00C48A703EA35E08",
@@ -45,7 +48,8 @@
             "type": "checkbox",
             "contentFolders": [
                 "Marrakesh",
-                "ShareTouristFormal"
+                "ShareTouristFormal",
+                "ShareNovikovGlasses47"
             ]
         }, {
             "name": "Bangkok",
