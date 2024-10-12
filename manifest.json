@@ -58,7 +58,8 @@
                 "Sapienza",
                 "ShareFormals",
                 "ShareTouristFormal",
-                "ShareNovikovGlasses47"
+                "ShareNovikovGlasses47",
+                "ShareScrewdriverGlasses47"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
@@ -93,7 +94,8 @@
                 "Marrakesh",
                 "ShareTouristFormal",
                 "ShareTouristCasual",
-                "ShareNovikovGlasses47"
+                "ShareNovikovGlasses47",
+                "ShareScrewdriverGlasses47"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
@@ -113,7 +115,8 @@
             "tooltip": "Bangkok",
             "type": "checkbox",
             "contentFolders": [
-                "Bangkok"
+                "Bangkok",
+                "ShareScrewdriverGlasses47"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
