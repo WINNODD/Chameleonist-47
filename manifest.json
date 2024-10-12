@@ -105,7 +105,8 @@
             "tooltip": "New York",
             "type": "checkbox",
             "contentFolders": [
-                "New York"
+                "New York",
+                "ShareButtonlessJacket"
             ]
         }, {
             "name": "Haven Island",
@@ -120,7 +121,8 @@
             "type": "checkbox",
             "contentFolders": [
                 "Dubai",
-                "ShareDubaiDartmoor"
+                "ShareDubaiDartmoor",
+                "ShareButtonlessJacket"
             ],
             "dependencies": [{
                     "runtimeID": "00E3AC6141A1094B",
@@ -161,7 +163,8 @@
             "tooltip": "Chongqing",
             "type": "checkbox",
             "contentFolders": [
-                "Chongqing"
+                "Chongqing",
+                "ShareButtonlessJacket"
             ]
         }, {
             "name": "Mendoza",
