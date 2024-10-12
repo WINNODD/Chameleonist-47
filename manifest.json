@@ -150,6 +150,11 @@
             "contentFolders": [
                 "Berlin",
                 "ShareBerlinSgail"
+            ],
+            "dependencies": [{
+                    "runtimeID": "0021B7AF35ADF425",
+                    "toChunk": 4
+                }
             ]
         }, {
             "name": "Chongqing",
