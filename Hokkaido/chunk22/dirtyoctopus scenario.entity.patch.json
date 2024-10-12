@@ -1,1 +1,25 @@
-{"tempHash":"00E77D670A41F353","tbluHash":"00C72836A75630D5","patch":[{"SubEntityOperation":["a29660dc0f7601ed",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]},{"SubEntityOperation":["a14411ff1792f6f1",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]},{"SubEntityOperation":["57293b471beebb4a",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]}],"patchVersion":6}
+{
+	"tempHash": "00E77D670A41F353",
+	"tbluHash": "00C72836A75630D5",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"a29660dc0f7601ed",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a14411ff1792f6f1",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"57293b471beebb4a",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		}
+	],
+	"patchVersion": 6
+}
