@@ -20,6 +20,10 @@
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
                     "toChunk": 0
+                },
+                {
+                    "runtimeID": "005CB07C69DFFF2A",
+                    "toChunk": 0
                 }
             ]
         }, {
@@ -30,10 +34,15 @@
                 "Paris",
                 "ShareFormals",
                 "ShareBeaches",
+                "ShareTouristCasual",
                 "ShareNovikovGlasses47"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
+                    "toChunk": 0
+                },
+                {
+                    "runtimeID": "005CB07C69DFFF2A",
                     "toChunk": 0
                 }
             ]
@@ -54,6 +63,10 @@
                 {
                     "runtimeID": "00C48A703EA35E08",
                     "toChunk": 0
+                },
+                {
+                    "runtimeID": "005CB07C69DFFF2A",
+                    "toChunk": 0
                 }
             ]
         }, {
@@ -63,10 +76,15 @@
             "contentFolders": [
                 "Marrakesh",
                 "ShareTouristFormal",
+                "ShareTouristCasual",
                 "ShareNovikovGlasses47"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
+                    "toChunk": 0
+                },
+                {
+                    "runtimeID": "005CB07C69DFFF2A",
                     "toChunk": 0
                 }
             ]
