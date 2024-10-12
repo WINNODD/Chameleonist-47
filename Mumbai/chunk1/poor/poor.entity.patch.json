@@ -1,1 +1,313 @@
-{"tempHash":"007D9BF0983F616C","tbluHash":"00722FA080541C1D","patch":[{"SubEntityOperation":["6e1613490381af30",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00080CCDF8E1B4AE\n","flag":"9F"}}]}]},{"SubEntityOperation":["c976500f7b1485cb",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/templates/mongoose/char_mongoose_civilians.template?/outfit_mongoose_civilian_poor_m_actor_v0.entitytemplate].pc_entitytemplate","flag":"9F"}}]}]},{"SubEntityOperation":["99e2ac5984f389a9",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00C0E9F91A165847\n","flag":"9F"}}]}]},{"SubEntityOperation":["a67e2021028121a1",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/templates/mongoose/char_mongoose_civilians.template?/outfit_mongoose_civilian_poor_m_actor_v0.entitytemplate].pc_entitytemplate","flag":"9F"}}]}]},{"SubEntityOperation":["0de92a6b3554ff89",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"0066DB8FA1CC655F\n","flag":"9F"}}]}]},{"SubEntityOperation":["2fe917653206f95a",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/templates/mongoose/char_mongoose_civilians.template?/outfit_mongoose_civilian_poor_m_actor_v0.entitytemplate].pc_entitytemplate","flag":"9F"}}]}]},{"SubEntityOperation":["6f10772aebd1bae1",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00DDC87A40484D25\n","flag":"9F"}}]}]},{"SubEntityOperation":["ff567aa8caf22cf1",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/templates/mongoose/char_mongoose_civilians.template?/outfit_mongoose_civilian_poor_m_actor_v0.entitytemplate].pc_entitytemplate","flag":"9F"}}]}]},{"SubEntityOperation":["2935ba11a8eb3cbf",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/templates/mongoose/char_mongoose_civilians.template?/outfit_mongoose_civilian_poor_m_actor_v0.entitytemplate].pc_entitytemplate","flag":"9F"}}]}]},{"SubEntityOperation":["64fe2ea2cfda5df0",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00D7D97B8E2BF589\n","flag":"9F"}}]}]},{"SubEntityOperation":["11a27cd689393f71",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00B7D427F59C86A5\n","flag":"9F"}}]}]},{"SubEntityOperation":["38a9e0c376fc6106",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/templates/mongoose/char_mongoose_civilians.template?/outfit_mongoose_civilian_poor_m_actor_v0.entitytemplate].pc_entitytemplate","flag":"9F"}}]}]},{"SubEntityOperation":["24ec480cdeb78635",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"0042309DE3DF5FF9\n","flag":"9F"}}]}]},{"SubEntityOperation":["942a058707cf746e",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/templates/mongoose/char_mongoose_civilians.template?/outfit_mongoose_civilian_poor_m_actor_v0.entitytemplate].pc_entitytemplate","flag":"9F"}}]}]},{"SubEntityOperation":["c5e0f23c89076c5c",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"0033FDA0715800A3\n","flag":"9F"}}]}]},{"SubEntityOperation":["054811cb1669cfe5",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00CE7B10AFDE6E4F\n","flag":"9F"}}]}]},{"SubEntityOperation":["f55796e6c0194449",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00E6852347E3AB39\n","flag":"9F"}}]}]},{"SubEntityOperation":["5efb6af5e5f8c8f7",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/templates/mongoose/char_mongoose_civilians.template?/outfit_mongoose_civilian_poor_m_actor_v0.entitytemplate].pc_entitytemplate","flag":"9F"}}]}]},{"SubEntityOperation":["fea597785246200d",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00D64782FEDD74D0\n","flag":"9F"}}]}]},{"SubEntityOperation":["c27e4eeb8f4a1356",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/templates/mongoose/char_mongoose_civilians.template?/outfit_mongoose_civilian_poor_m_actor_v0.entitytemplate].pc_entitytemplate","flag":"9F"}}]}]},{"SubEntityOperation":["d5ac4681af8fba98",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/templates/mongoose/char_mongoose_civilians.template?/outfit_mongoose_civilian_poor_m_actor_v0.entitytemplate].pc_entitytemplate","flag":"9F"}}]}]},{"SubEntityOperation":["a664b6c8ca9d67dc",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00C29F103A5CEBF1\n","flag":"9F"}}]}]},{"SubEntityOperation":["752f162797a66cd9",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"0020BB21901A52D1\n","flag":"9F"}}]}]},{"SubEntityOperation":["9eecfaff5876154a",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/templates/mongoose/char_mongoose_civilians.template?/outfit_mongoose_civilian_poor_m_actor_v0.entitytemplate].pc_entitytemplate","flag":"9F"}}]}]},{"SubEntityOperation":["f5e7433e2c366dcd",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00A585435162C0F2\n","flag":"9F"}}]}]},{"SubEntityOperation":["bba09276232a4633",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/templates/mongoose/char_mongoose_civilians.template?/outfit_mongoose_civilian_poor_m_actor_v0.entitytemplate].pc_entitytemplate","flag":"9F"}}]}]},{"SubEntityOperation":["0cd28ebee0365935",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00C226416D89243A\n","flag":"9F"}}]}]},{"SubEntityOperation":["95c17dd328ccda74",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00E2DBA6FFCDB097\n","flag":"9F"}}]}]},{"SubEntityOperation":["4dc86d3afe7f62a6",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/templates/mongoose/char_mongoose_civilians.template?/outfit_mongoose_civilian_poor_m_actor_v0.entitytemplate].pc_entitytemplate","flag":"9F"}}]}]},{"SubEntityOperation":["36ba0e806b0a74e5",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"009A1AC4B4648300\n","flag":"9F"}}]}]},{"SubEntityOperation":["d94bf1df119d6ba6",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00904F6DC900CDA4\n","flag":"9F"}}]}]},{"SubEntityOperation":["1166efeac10007af",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/characters/templates/mongoose/char_mongoose_civilians.template?/outfit_mongoose_civilian_poor_m_actor_v0.entitytemplate].pc_entitytemplate","flag":"9F"}}]}]}],"patchVersion":6}
+{
+	"tempHash": "007D9BF0983F616C",
+	"tbluHash": "00722FA080541C1D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"6e1613490381af30",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00080CCDF8E1B4AE",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"99e2ac5984f389a9",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00C0E9F91A165847",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0de92a6b3554ff89",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0066DB8FA1CC655F",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6f10772aebd1bae1",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00DDC87A40484D25",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"64fe2ea2cfda5df0",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00D7D97B8E2BF589",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"11a27cd689393f71",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00B7D427F59C86A5",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"24ec480cdeb78635",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0042309DE3DF5FF9",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c5e0f23c89076c5c",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0033FDA0715800A3",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"054811cb1669cfe5",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00CE7B10AFDE6E4F",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f55796e6c0194449",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00E6852347E3AB39",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fea597785246200d",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00D64782FEDD74D0",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a664b6c8ca9d67dc",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00C29F103A5CEBF1",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"752f162797a66cd9",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0020BB21901A52D1",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f5e7433e2c366dcd",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00A585435162C0F2",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0cd28ebee0365935",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00C226416D89243A",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"95c17dd328ccda74",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00E2DBA6FFCDB097",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"36ba0e806b0a74e5",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "009A1AC4B4648300",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d94bf1df119d6ba6",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00904F6DC900CDA4",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
