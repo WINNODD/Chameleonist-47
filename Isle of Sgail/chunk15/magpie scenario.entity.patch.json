@@ -1,1 +1,67 @@
-{"tempHash":"009792BC33857D2A","tbluHash":"00B8EE64611429CC","patch":[{"SubEntityOperation":["8cc6d84588ff3cd8",{"SetPropertyValue":{"property_name":"m_bBlockDisguisePickup","value":false}}]}],"patchVersion":6}
+{
+	"tempHash": "009792BC33857D2A",
+	"tbluHash": "00B8EE64611429CC",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c4fd13fb6a8eff71",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d1a7a2a3dde7bb3e",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"66fd6f165e577085",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ea43f56a745cc4f4",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"33a2b7466a8617b4",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"127f8303645e4316",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8cc6d84588ff3cd8",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"67d3f3475bfa223e",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"94990deac31009ee",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"29422fa2f28e524c",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		}
+	],
+	"patchVersion": 6
+}
