@@ -1,1 +1,35 @@
-{"tempHash":"00F254E00E70746A","tbluHash":"00944909F33311A0","patch":[{"SubEntityOperation":["e509db7d793cb214",{"SetPropertyValue":{"property_name":"m_Outfit","value":{"resource":"006CE23F17B4BC49\n","flag":"9F"}}}]},{"SubEntityOperation":["09a9e528c6b59a55",{"SetPropertyValue":{"property_name":"m_Outfit","value":{"resource":"002F3AE415FE9BEE\n","flag":"9F"}}}]}],"patchVersion":6}
+{
+	"tempHash": "00F254E00E70746A",
+	"tbluHash": "00944909F33311A0",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"e509db7d793cb214",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_Outfit",
+						"value": {
+							"resource": "006CE23F17B4BC49",
+							"flag": "9F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"09a9e528c6b59a55",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_Outfit",
+						"value": {
+							"resource": "002F3AE415FE9BEE",
+							"flag": "9F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

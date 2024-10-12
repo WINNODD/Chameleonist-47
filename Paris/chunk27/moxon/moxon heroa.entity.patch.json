@@ -1,0 +1,109 @@
+{
+	"tempHash": "004ADB24CA2D8826",
+	"tbluHash": "00EFCAEE0729023B",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f97066c582b1cd2f",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[
+							{
+								"AddItemAfter": [
+									"71f56d6794eea2db",
+									"abcd69bb3fed234d"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"71f56d6794eea2db",
+									"abcd3e2bf38e679d"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fc6506c7c687c41a",
+				{ "SetFactory": "00CA99F2781135D2" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fc6506c7c687c41a",
+				{ "SetBlueprint": "0078A816A3E9D118" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fc6506c7c687c41a",
+				{ "RemovePropertyByName": "m_pMeshResource" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fc6506c7c687c41a",
+				{ "RemovePropertyByName": "m_IsHiddenInVR" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"71f56d6794eea2db",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "002B28D64E18D80C",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"abcd69bb3fed234d",
+				{
+					"parent": "f97066c582b1cd2f",
+					"name": "Mesh_Hands",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "009B141405F226E2",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"abcd3e2bf38e679d",
+				{
+					"parent": "f97066c582b1cd2f",
+					"name": "Mesh_Glasses",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "009E4B47AE25F8AD",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

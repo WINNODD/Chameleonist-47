@@ -1,0 +1,35 @@
+{
+	"tempHash": "00B70B8FC685F039",
+	"tbluHash": "0004A9A6006A523F",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"9600569e11ef274f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pBonesAndCollisionResource",
+						"value": {
+							"resource": "003AAB3D2C739F59",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1616146739648e9a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "001706CDDEFDA9CC",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
