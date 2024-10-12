@@ -1,0 +1,273 @@
+{
+	"tempHash": "003B74ADC125F26C",
+	"tbluHash": "00F5C21366D2C279",
+	"patch": [
+		{ "RemoveEntityByID": "6ca1e3a0cec26115" },
+		{ "RemoveEntityByID": "b9fea06542341d58" },
+		{ "RemoveEntityByID": "e7d288b91d5d6a0f" },
+		{ "RemoveEntityByID": "9aadfb17889b4efb" },
+		{ "RemoveEntityByID": "240f7c35e1a21525" },
+		{ "RemoveEntityByID": "88f14f2440ebe498" },
+		{ "RemoveEntityByID": "5df82731a634cb01" },
+		{ "RemoveEntityByID": "386300131fcc1b22" },
+		{ "RemoveEntityByID": "6da2ff5ba8652793" },
+		{ "RemoveEntityByID": "0f0f36dd25fbf591" },
+		{ "RemoveEntityByID": "33de41797dbb5b5e" },
+		{ "RemoveEntityByID": "5fcbea6a5888d741" },
+		{ "RemoveEntityByID": "aca4d1dec44bcaf8" },
+		{ "RemoveEntityByID": "249e3628cc26b7c0" },
+		{ "RemoveEntityByID": "3bd3c9e44965ade4" },
+		{ "RemoveEntityByID": "526f8d56ce1e30a7" },
+		{ "RemoveEntityByID": "e1cc50a4d1a8c4b9" },
+		{ "RemoveEntityByID": "7708c6ffd8efff31" },
+		{ "RemoveEntityByID": "2f5d2a4023bf604d" },
+		{ "RemoveEntityByID": "ddfee073470d80ec" },
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{ "SetFactory": "00D195ECE100716C" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{ "SetBlueprint": "007686A5F3DAB3ED" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{ "RemovePropertyByName": "m_mTransform" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{ "RemovePropertyByName": "Diffuse_Color_01_Value_1" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{ "RemovePropertyByName": "m_eidParent" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantVector1D_01_Value",
+						"value": 1
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Saturation_01_Value",
+						"value": 0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{
+					"AddProperty": [
+						"m_pMeshResource",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00D50FF5571117B4",
+								"flag": "5F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{
+					"AddProperty": [
+						"Texture2DNormal_01_enab",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{
+					"AddProperty": [
+						"Texture2D_03_enab",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{
+					"AddProperty": [
+						"Texture2D_01_enab",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{
+					"AddProperty": [
+						"Texture2DNormal_01",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "008631A82AC9BD09",
+								"flag": "5F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{
+					"AddProperty": [
+						"Texture2D_03",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00E4D84877F98EC6",
+								"flag": "5F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{
+					"AddProperty": [
+						"Diffuse_Hue_Shift_01_Value",
+						{ "type": "float32", "value": 0 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{ "RemovePropertyAlias": "ConstantVector1D_01_Value" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{ "RemovePropertyAlias": "Diffuse_Color_01_Value" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{ "RemovePropertyAlias": "Diffuse_Color_01_Value_1" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{ "RemovePropertyAlias": "Diffuse_Hue_Shift_01_Value" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{ "RemovePropertyAlias": "Diffuse_Saturation_01_Value" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{ "RemovePropertyAlias": "Texture2DNormal_01" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{ "RemovePropertyAlias": "Texture2D_01" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{ "RemovePropertyAlias": "Texture2D_03" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{ "RemoveExposedInterface": "ZBodyPartEntity" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"74f8fc6d4d4be1cb",
+				{ "RemoveExposedInterface": "ZClothColliderGroupAspect" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"705311bfd089eed1",
+				{
+					"AddProperty": [
+						"m_pMeshResource",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "009B5182C6638B75",
+								"flag": "5F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8cf7108c025bac6f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 106.93700730338377,
+								"y": 66.14700289478965,
+								"z": 91.49947439570752
+							},
+							"position": {
+								"x": 0.027688000351190567,
+								"y": 0.1438329964876175,
+								"z": 0.1505420058965683
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

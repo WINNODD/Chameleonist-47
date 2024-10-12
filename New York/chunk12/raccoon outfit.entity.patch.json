@@ -1,1 +1,62 @@
-{"tempHash":"000F9CDCD9CA537F","tbluHash":"00CC79657FFC6F38","patch":[{"SubEntityOperation":["4d3d01ed27573583",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["a6d7a4df5de7e591",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["b809de6c483c37c8",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["a47cc6d9e7ce2cac",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["4226dbdaeb047378",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]}],"patchVersion":6}
+{
+	"tempHash": "000F9CDCD9CA537F",
+	"tbluHash": "00CC79657FFC6F38",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"4d3d01ed27573583",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a6d7a4df5de7e591",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b809de6c483c37c8",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a47cc6d9e7ce2cac",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4226dbdaeb047378",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
