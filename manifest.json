@@ -169,6 +169,23 @@
             "type": "checkbox",
             "contentFolders": [
                 "Miami"
+            ],
+            "dependencies": [{
+                    "runtimeID": "0021AD85CA03D38B",
+                    "toChunk": 1
+                },
+                {
+                    "runtimeID": "00D82F252DB80A99",
+                    "toChunk": 1
+                },
+                {
+                    "runtimeID": "00865BD6F5F8CF45",
+                    "toChunk": 1
+                },
+                {
+                    "runtimeID": "003C7095A9457C39",
+                    "toChunk": 1
+                }
             ]
         }, {
             "name": "Santa Fortuna",
@@ -272,6 +289,23 @@
             "type": "checkbox",
             "contentFolders": [
                 "Mendoza"
+            ],
+            "dependencies": [{
+                    "runtimeID": "0021AD85CA03D38B",
+                    "toChunk": 1
+                },
+                {
+                    "runtimeID": "00D82F252DB80A99",
+                    "toChunk": 1
+                },
+                {
+                    "runtimeID": "00865BD6F5F8CF45",
+                    "toChunk": 1
+                },
+                {
+                    "runtimeID": "003C7095A9457C39",
+                    "toChunk": 1
+                }
             ]
         }, {
             "name": "Carpathian Mountains",
