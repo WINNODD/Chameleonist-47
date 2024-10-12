@@ -1,1 +1,41 @@
-{"tempHash":"00445E5BE64CE1B9","tbluHash":"00F5176690F30634","patch":[{"SubEntityOperation":["cde88d2902947659",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00E772FAB6448B8F\n","flag":"9F"}}]}]},{"SubEntityOperation":["48bbb887bae5fe28",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00F2DD010AB2A434\n","flag":"9F"}}]}]}],"patchVersion":6}
+{
+	"tempHash": "00445E5BE64CE1B9",
+	"tbluHash": "00F5176690F30634",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"cde88d2902947659",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00E772FAB6448B8F",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"48bbb887bae5fe28",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00F2DD010AB2A434",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

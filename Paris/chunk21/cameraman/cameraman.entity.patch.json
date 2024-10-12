@@ -1,1 +1,109 @@
-{"tempHash":"0089790A9E6F4C5E","tbluHash":"00E26195C3F61BE6","patch":[{"SubEntityOperation":["9ba0cb2a7a7ab9e4",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"003FC5B287DF164D\n","flag":"9F"}}]}]},{"SubEntityOperation":["35bd545c137b4a0a",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"006097AD1413E8C7\n","flag":"9F"}}]}]},{"SubEntityOperation":["c9b0cb5e5c394425",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"005EE5AFC189494F\n","flag":"9F"}}]}]},{"SubEntityOperation":["86e13d6c9e0b928f",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00D48D640B22842E\n","flag":"9F"}}]}]},{"SubEntityOperation":["13b54b54a3c38e23",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"0099F98C9A68D65C\n","flag":"9F"}}]}]},{"SubEntityOperation":["04e04c738f2d2599",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00546EF5811FD65D\n","flag":"9F"}}]}]}],"patchVersion":6}
+{
+	"tempHash": "0089790A9E6F4C5E",
+	"tbluHash": "00E26195C3F61BE6",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"9ba0cb2a7a7ab9e4",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "003FC5B287DF164D",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"35bd545c137b4a0a",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "006097AD1413E8C7",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c9b0cb5e5c394425",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "005EE5AFC189494F",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"86e13d6c9e0b928f",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00D48D640B22842E",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"13b54b54a3c38e23",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0099F98C9A68D65C",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04e04c738f2d2599",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00546EF5811FD65D",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
