@@ -27,6 +27,11 @@
             "type": "checkbox",
             "contentFolders": [
                 "Sapienza"
+            ],
+            "dependencies": [{
+                    "runtimeID": "00C48A703EA35E08",
+                    "toChunk": 0
+                }
             ]
         }, {
             "name": "Marrakesh",
@@ -41,6 +46,11 @@
             "type": "checkbox",
             "contentFolders": [
                 "Bangkok"
+            ],
+            "dependencies": [{
+                    "runtimeID": "00C48A703EA35E08",
+                    "toChunk": 0
+                }
             ]
         }, {
             "name": "Colorado",
