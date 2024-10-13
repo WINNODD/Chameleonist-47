@@ -222,6 +222,13 @@
                 "ShareEGWC"
             ]
         }, {
+            "name": "Ambrose Island",
+            "tooltip": "Ambrose Island",
+            "type": "checkbox",
+            "contentFolders": [
+                "Ambrose Island"
+            ]
+        }, {
             "name": "Isle of Sgail",
             "tooltip": "Isle of Sgail",
             "type": "checkbox",

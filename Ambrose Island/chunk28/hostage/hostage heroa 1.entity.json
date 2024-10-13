@@ -1,0 +1,251 @@
+{
+	"tempHash": "0005238CFC620BE5",
+	"tbluHash": "007D5F8F7D28B04A",
+	"rootEntity": "8a9b816a3ad6b868",
+	"entities": {
+		"0a70dfd116ed1d62": {
+			"parent": "8a9b816a3ad6b868",
+			"name": "head_Bag_01",
+			"factory": "00A5D4779E6AA927",
+			"blueprint": "00B53E161DA42DC5",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E0369483CC8B92",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"32aa2ee339e0d721": {
+			"parent": "8a9b816a3ad6b868",
+			"name": "Body_Full_Slim",
+			"factory": "00F448703BCA480F",
+			"blueprint": "00D7F003FB6F4940",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00B1232CD95615BC",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"eec2b2e1779e138f": {
+			"parent": "8a9b816a3ad6b868",
+			"name": "Shorts_Swim",
+			"factory": "00141B69B7010E25",
+			"blueprint": "001958668799101B",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#518194"
+				}
+			}
+		},
+		"c24512e863294b00": {
+			"parent": "8a9b816a3ad6b868",
+			"name": "male_reg_body",
+			"factory": "003DCA5E22F37B5F",
+			"blueprint": "0041C89DFA9D7801",
+			"properties": {
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002A91695E748772",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00A07AE8903D816A",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0050DDCE91E6C6A3",
+						"flag": "5F"
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["8a9b816a3ad6b868"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "8a9b816a3ad6b868",
+					"postInit": true
+				}
+			}
+		},
+		"aeb75af98ea1427b": {
+			"parent": "8a9b816a3ad6b868",
+			"name": "Legs_Thigh_Foot",
+			"factory": "00437CF5F116E7E9",
+			"blueprint": "00B815E6A54B09EE"
+		},
+		"dfadc09731642809": {
+			"parent": "8a9b816a3ad6b868",
+			"name": "TankTop_Fit",
+			"factory": "0006B4140C3D01DA",
+			"blueprint": "0097BED111F7DC27",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#d3e6f2"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0083FA3DE6931842",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"79b0ad19eee2cba1": {
+			"parent": "8a9b816a3ad6b868",
+			"name": "Shoes_Sandals_Slide",
+			"factory": "0091A755375478CE",
+			"blueprint": "0005CBF3F77342F4",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#56535c"
+				}
+			}
+		},
+		"cb750c7643be5ed7": {
+			"parent": "8a9b816a3ad6b868",
+			"name": "Torso_Neck",
+			"factory": "00D43167687E61AD",
+			"blueprint": "007E9340AD2C2425"
+		},
+		"6ada3f95ed0e25cc": {
+			"parent": "0a70dfd116ed1d62",
+			"name": "headbag",
+			"factory": "005E368205357769",
+			"blueprint": "00555EFB56E4236F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00EDF8AD672C1854",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "8a9b816a3ad6b868",
+					"postInit": true
+				}
+			}
+		},
+		"8a9b816a3ad6b868": {
+			"parent": null,
+			"name": "OUTFIT_Dugong_Unique_Hostage_M_Actor_v1",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"0a70dfd116ed1d62",
+						"eec2b2e1779e138f",
+						"dfadc09731642809",
+						"79b0ad19eee2cba1",
+						"aeb75af98ea1427b",
+						"cb750c7643be5ed7",
+						"32aa2ee339e0d721"
+					]
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 36.31201934814453,
+							"y": 4.348772048950195,
+							"z": 0.0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/hokkaido/yogainstructor/textures/male_reg_yogainstructor_tanktop.texture?/specular_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/hokkaido/yogainstructor/textures/male_reg_yogainstructor_tanktop.texture?/normal_white.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "003326647263AAA3", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00F3654BB38A68EC", "flag": "5F" },
+		{ "resource": "00416AEE98A04929", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "00BC38B1FBD65A9A", "flag": "5F" },
+		{ "resource": "007C9737A03E217F", "flag": "5F" },
+		{ "resource": "00EA8EACBC56C460", "flag": "5F" },
+		{ "resource": "0053B36A5B26B31A", "flag": "5F" },
+		{ "resource": "00A4ACA58900C197", "flag": "5F" },
+		{ "resource": "00F044854D9A6C61", "flag": "5F" },
+		{ "resource": "007170873AAF14D2", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/hippie/textures/male_reg_hippie_shorts_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/hippie/textures/male_reg_hippie_shorts_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/hippie/textures/male_reg_hippie_shorts_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00C7A991C84C3A0D", "flag": "5F" },
+		{ "resource": "00DFCD342CBD9931", "flag": "5F" },
+		{ "resource": "00E3FB8777D30676", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
