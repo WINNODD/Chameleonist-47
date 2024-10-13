@@ -342,7 +342,17 @@
 			"parent": "f2c30ba8eb4817bc",
 			"name": "Head_47_2016",
 			"factory": "00CA99F2781135D2",
-			"blueprint": "0078A816A3E9D118"
+			"blueprint": "0078A816A3E9D118",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E80F661317E478",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
 		},
 		"acaeb6114f002b98": {
 			"parent": "f2c30ba8eb4817bc",

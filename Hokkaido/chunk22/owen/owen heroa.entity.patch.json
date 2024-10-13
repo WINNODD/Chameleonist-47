@@ -1,0 +1,68 @@
+{
+	"tempHash": "0038F3960A760BF7",
+	"tbluHash": "004D181B72273546",
+	"patch": [
+		{ "RemoveEntityByID": "0fd1eb1ae3690fde" },
+		{ "RemoveEntityByID": "9c149fc5b80cb2ef" },
+		{ "RemoveEntityByID": "06593d5aa0e147d2" },
+		{ "RemoveEntityByID": "d14b0d8b3cef3a7c" },
+		{ "RemoveEntityByID": "06ebfe75d79a46b5" },
+		{ "RemoveEntityByID": "e2c55998d1e18332" },
+		{ "RemoveEntityByID": "97fab064af9fa891" },
+		{
+			"SubEntityOperation": [
+				"8cc8ebdb2c92c2d2",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[{ "RemoveItemByValue": "97fab064af9fa891" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9219592ef0ef6a87",
+				{ "SetName": "Head_47_2016" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9219592ef0ef6a87",
+				{ "SetFactory": "00CA99F2781135D2" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9219592ef0ef6a87",
+				{ "SetBlueprint": "0078A816A3E9D118" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9219592ef0ef6a87",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "00E80F661317E478",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9219592ef0ef6a87",
+				{
+					"AddProperty": [
+						"m_IsHiddenInVR",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
