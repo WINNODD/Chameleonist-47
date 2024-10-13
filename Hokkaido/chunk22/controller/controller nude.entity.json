@@ -1,0 +1,458 @@
+{
+	"tempHash": "00BE3A0C62B68623",
+	"tbluHash": "008E318F4759656A",
+	"rootEntity": "f2c30ba8eb4817bc",
+	"entities": {
+		"94a586bd00a81f4e": {
+			"parent": "f2c30ba8eb4817bc",
+			"name": "hokkaido_character_decals",
+			"factory": "00EE80F9FBC973C7",
+			"blueprint": "00B9C8DB20B8C66C",
+			"properties": {
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#940080"
+				},
+				"ConstantVector1D_05_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.3499999940395355
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["f2c30ba8eb4817bc"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f2c30ba8eb4817bc",
+					"postInit": true
+				}
+			}
+		},
+		"387972321eb07418": {
+			"parent": "f2c30ba8eb4817bc",
+			"name": "base_male_arms",
+			"factory": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_arms.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_arms.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#fcfff0"
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["f2c30ba8eb4817bc"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f2c30ba8eb4817bc",
+					"postInit": true
+				}
+			}
+		},
+		"0ae515f1963c6a2f": {
+			"parent": "f2c30ba8eb4817bc",
+			"name": "Mesh_Body",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "001706CDDEFDA9CC",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"c62d1a60f3e59385": {
+			"parent": "f2c30ba8eb4817bc",
+			"name": "base_male_teeth",
+			"factory": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_teeth.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_teeth.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_teeth.texture?/diffuse_b.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["f2c30ba8eb4817bc"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f2c30ba8eb4817bc",
+					"postInit": true
+				}
+			}
+		},
+		"f2c30ba8eb4817bc": {
+			"parent": null,
+			"name": "OUTFIT_SeaBreeze_M_Actor_v0",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_fLODScale": { "type": "float32", "value": 100.0 },
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/hokkaido/tobaccobillionaire/geometry/male_reg_tobaccobillionaire.wl2?/bones.weightedprim](bodypart).pc_bonerig",
+						"flag": "5F"
+					}
+				},
+				"m_bUsePerVertexStiffness": {
+					"type": "bool",
+					"value": false
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_bGlobalCollidersEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWindConstant": { "type": "float32", "value": 0.0 },
+				"m_fShearStiffness": { "type": "float32", "value": 1.0 },
+				"m_bUseSkinningNegNormalConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.7383338423244988
+						},
+						"position": {
+							"x": -0.2699959874153137,
+							"y": -1.7408640384674072,
+							"z": 0.0
+						}
+					}
+				},
+				"m_fFrequency": { "type": "float32", "value": 60.0 },
+				"m_nIterations": { "type": "uint32", "value": 2 },
+				"m_bUseSkinningPosNormalConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["0ae515f1963c6a2f", "52af09ba240ed986"],
+					"postInit": true
+				}
+			}
+		},
+		"c828671ba1b16c01": {
+			"parent": "f2c30ba8eb4817bc",
+			"name": "male_reg_body",
+			"factory": "003DCA5E22F37B5F",
+			"blueprint": "0041C89DFA9D7801",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["f2c30ba8eb4817bc"]
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#e6fffe"
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "003F6FE3FE730188",
+						"flag": "5F"
+					}
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00FA3AB506F70BAF",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f2c30ba8eb4817bc"
+				}
+			}
+		},
+		"52af09ba240ed986": {
+			"parent": "f2c30ba8eb4817bc",
+			"name": "Mesh_Head",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00C89F94E2C0105F",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"18be816af992d5d8": {
+			"parent": "f2c30ba8eb4817bc",
+			"name": "base_male_body",
+			"factory": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_body.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_body.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["f2c30ba8eb4817bc"]
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffe6d6"
+				},
+				"Active": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f2c30ba8eb4817bc"
+				}
+			}
+		},
+		"5926b122a06a350a": {
+			"parent": "f2c30ba8eb4817bc",
+			"name": "base_male_eyeball",
+			"factory": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_eyeball.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_eyeball.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -99.9722930583427
+						},
+						"position": {
+							"x": -0.00013600000238511711,
+							"y": 0.00005900000178371556,
+							"z": 0.0
+						}
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["f2c30ba8eb4817bc"]
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0091B6894999AD18",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"EyeShader_01_IrisHueShift_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"EyeShader_01_IrisHueShift": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"EyeShader_01_IrisBrightness_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"EyeShader_01_IrisBrightness": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Active": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f2c30ba8eb4817bc"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_body.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00F3654BB38A68EC", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_body.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_body.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/variance_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_teeth.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_teeth.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_eyes.texture?/normal_outer.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/variance_a.tex](asheightmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_eyes.texture?/height_a.tex](asheightmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_eyes.texture?/height_b.tex](asheightmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/hokkaido/patients/male/textures/male_reg_patient_01_kimono.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/hokkaido/patients/male/textures/male_reg_patient_01_kimono.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/hokkaido/patients/male/textures/male_reg_patient_01_kimono.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/normalmap.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/color_grey.texture?/diffuse_60.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/architecture/doors/doors_hokkaido_signs_a.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_arms.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_arms.texture?/transmission.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_arms.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_arms.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/hokkaido/patients/male/textures/male_reg_patient_01_belt.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/hokkaido/patients/male/textures/male_reg_patient_01_belt.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/hokkaido/patients/male/textures/male_reg_patient_01_belt.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00416AEE98A04929", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "00BC38B1FBD65A9A", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
