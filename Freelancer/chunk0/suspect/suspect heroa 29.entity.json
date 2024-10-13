@@ -1,0 +1,398 @@
+{
+	"tempHash": "00DAB0371A20DE89",
+	"tbluHash": "004403F42205C095",
+	"rootEntity": "ab388ec8c3b7e5f7",
+	"entities": {
+		"770e8343d74ce56e": {
+			"parent": "0f980dff382b2a62",
+			"name": "glasses_aviator_fullframe_bridge_slvr",
+			"factory": "00379F0995149DAA",
+			"blueprint": "00BD730C0722F7C4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 64.4112335757169,
+							"y": 88.17926668422365,
+							"z": 158.689720767478
+						},
+						"position": {
+							"x": 0.0754999965429306,
+							"y": 0.01384500041604042,
+							"z": -0.0007609999738633633
+						}
+					}
+				},
+				"Texture2D_01_1": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/glasses/textures/lens_basic.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0200400352478027,
+						"y": 1.0,
+						"z": 1.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0f980dff382b2a62",
+					"postInit": true
+				}
+			}
+		},
+		"f2d83b98bb582f32": {
+			"parent": "0f980dff382b2a62",
+			"name": "earring_hoop_big",
+			"factory": "000708374235EA00",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -41.24066137387517,
+							"y": -0.02904897657997456,
+							"z": 0.240929574102554
+						},
+						"position": {
+							"x": 0.031046999618411064,
+							"y": 0.015460999682545662,
+							"z": 0.07283899933099747
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.32499998807907104,
+						"y": 0.32499998807907104,
+						"z": 0.8583580255508423
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0f980dff382b2a62",
+					"postInit": true
+				}
+			}
+		},
+		"0f980dff382b2a62": {
+			"parent": "ab388ec8c3b7e5f7",
+			"name": "Attacher_Head",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "Head" },
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "ab388ec8c3b7e5f7",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "ab388ec8c3b7e5f7",
+					"postInit": true
+				}
+			}
+		},
+		"1643ad0108e0d0a4": {
+			"parent": "ab388ec8c3b7e5f7",
+			"name": "Legs_Ankle_Shoe",
+			"factory": "00ABDD120246BCDC",
+			"blueprint": "0021DE526F3B8B7D"
+		},
+		"ab388ec8c3b7e5f7": {
+			"parent": null,
+			"name": "OUTFIT_Suspect_M_Actor_v29",
+			"factory": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 62.78693008422851,
+							"y": -13.535329818725586,
+							"z": 0.0
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"a1f742cea5312a12",
+						"bfcf001aa4aa6ace",
+						"1643ad0108e0d0a4",
+						"909a869eac9a3796",
+						"5d719804ac20dc21",
+						"3a1ec1526d1a4fce",
+						"96af8df3331648f9",
+						"472df552dfa2bbcc",
+						"27486723796168f2"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"bfcf001aa4aa6ace": {
+			"parent": "ab388ec8c3b7e5f7",
+			"name": "Torso_Neck",
+			"factory": "00D43167687E61AD",
+			"blueprint": "007E9340AD2C2425"
+		},
+		"909a869eac9a3796": {
+			"parent": "ab388ec8c3b7e5f7",
+			"name": "Poloshirt_RegFit_Tkd",
+			"factory": "00D2EC2A369E5D77",
+			"blueprint": "003C18D407FFE6AF",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#c2ae95"
+				}
+			}
+		},
+		"a1f742cea5312a12": {
+			"parent": "ab388ec8c3b7e5f7",
+			"name": "Arms_Biceps_Hand",
+			"factory": "0081BA55B3D8292E",
+			"blueprint": "00CFA61BB1571AF8"
+		},
+		"27486723796168f2": {
+			"parent": "ab388ec8c3b7e5f7",
+			"name": "Tattoo_L_Forearm",
+			"factory": "00FDA77DE543CE4D",
+			"blueprint": "002062F58BABBD74",
+			"properties": {
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0076EFEAD0F22349",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"472df552dfa2bbcc": {
+			"parent": "ab388ec8c3b7e5f7",
+			"name": "necklace",
+			"factory": "00D43167687E61AD",
+			"blueprint": "007E9340AD2C2425",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0065AA50C72D3478",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"96af8df3331648f9": {
+			"parent": "ab388ec8c3b7e5f7",
+			"name": "Pants_Dress_Regular",
+			"factory": "00324595397CC0A5",
+			"blueprint": "00D58D62EFA4579E",
+			"properties": {
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00DA32FE59BE6DAF",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#dbcbbf"
+				}
+			}
+		},
+		"0c889916e620b6ee": {
+			"parent": "0f980dff382b2a62",
+			"name": "earring_hoop_big_01",
+			"factory": "000708374235EA00",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 25.255603746354375,
+							"y": 0.03856008238620898,
+							"z": 0.4280608753959914
+						},
+						"position": {
+							"x": 0.03097499907016754,
+							"y": 0.014368000440299513,
+							"z": -0.07418599724769592
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.32499998807907104,
+						"y": 0.32499998807907104,
+						"z": 0.8583580255508423
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0f980dff382b2a62"
+				}
+			}
+		},
+		"5d719804ac20dc21": {
+			"parent": "ab388ec8c3b7e5f7",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		},
+		"3a1ec1526d1a4fce": {
+			"parent": "ab388ec8c3b7e5f7",
+			"name": "Shoes_Derby_Apron_RoundTip",
+			"factory": "001F27A375F5E117",
+			"blueprint": "0042C69041A75DE4",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#5c3e33"
+				}
+			}
+		},
+		"3676f4e7ef49c09b": {
+			"parent": "ab388ec8c3b7e5f7",
+			"name": "Attacher_L_Forearm",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "L_Forearm" },
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "ab388ec8c3b7e5f7"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "ab388ec8c3b7e5f7"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "000B633B8879DE76", "flag": "5F" },
+		{ "resource": "007C9737A03E217F", "flag": "5F" },
+		{ "resource": "0006B0721F695069", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "00CA5982C9585288", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00F20085C474F944", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/flamingo/floridaman/textures/floridaman_head.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/variance_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00F7F23614B9A7F9", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/color_white.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "001B53E09DC3916F", "flag": "5F" },
+		{ "resource": "00C58D6F5C03088C", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/textures/male_reg_silviocaruso_shirt_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/textures/male_reg_silviocaruso_shirt_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/textures/male_reg_silviocaruso_shirt_01.texture?/diffuse_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00824EC64F409166", "flag": "5F" },
+		{ "resource": "0051A1136DC9485E", "flag": "5F" },
+		{ "resource": "001EE759F57B6DCE", "flag": "5F" },
+		{ "resource": "005CF2C7C8B423F8", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/textures/male_reg_silviocaruso_necklace_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/textures/male_reg_silviocaruso_necklace_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/textures/male_reg_silviocaruso_necklace_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "0024C285BF59EBE4", "flag": "5F" },
+		{ "resource": "005F0F785C08A9C4", "flag": "5F" },
+		{ "resource": "004CF88A75B64F61", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/male_reg_agent47_sapienza_glasses_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/glasses/textures/lens_basic.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/male_reg_agent47_sapienza_glasses_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/paris/max_decker/textures/male_reg_maxdecker_01_shoes_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/paris/max_decker/textures/male_reg_maxdecker_01_shoes_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/paris/max_decker/textures/male_reg_maxdecker_01_shoes_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00E764F1CB568D2B", "flag": "5F" },
+		{ "resource": "00288E19E4E79023", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

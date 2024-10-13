@@ -1,0 +1,515 @@
+{
+	"tempHash": "0013E18ADBEFE1D0",
+	"tbluHash": "00248ECDE4E0F646",
+	"rootEntity": "43244694e3beab70",
+	"entities": {
+		"f2121b1d388552a2": {
+			"parent": "43244694e3beab70",
+			"name": "Shirt_Btnup_RegFit_FlippedCuffs",
+			"factory": "00716DBBE656EED6",
+			"blueprint": "0017404935A381E4",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				}
+			}
+		},
+		"43244694e3beab70": {
+			"parent": null,
+			"name": "OUTFIT_Suspect_M_Actor_v2",
+			"factory": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 17.396249771118164,
+							"y": -13.58296012878418,
+							"z": 0.0
+						}
+					}
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 10.0
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"0a6a49eff594849e",
+						"03704472a7a524cc",
+						"76f2087db4a94bda",
+						"e1f04ca505b8edcb",
+						"d22a66e25deba026",
+						"f2121b1d388552a2",
+						"94a38fb022431836",
+						"1aa22d28061c50a1"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"5b69acc86a8dea3c": {
+			"parent": "43244694e3beab70",
+			"name": "male_reg_locals_02_long_sleeves_open_01_a",
+			"factory": "[assembly:/_pro/characters/assets/civilians/italy/local_mens/materials/male_reg_locals_02_long_sleeves_open_01_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/civilians/italy/local_mens/materials/male_reg_locals_02_long_sleeves_open_01_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["43244694e3beab70"]
+				},
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#8a877b"
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "43244694e3beab70"
+				}
+			}
+		},
+		"d22a66e25deba026": {
+			"parent": "43244694e3beab70",
+			"name": "Pants_Dress_Regular",
+			"factory": "00324595397CC0A5",
+			"blueprint": "00D58D62EFA4579E",
+			"properties": {
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#363636"
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0.0
+				}
+			}
+		},
+		"0a6a49eff594849e": {
+			"parent": "43244694e3beab70",
+			"name": "Hair_Sides_S",
+			"factory": "00538F0D8B33EA7C",
+			"blueprint": "00616A7BAAB2C145",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#242424"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#4c4440"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#c5d9e0"
+				}
+			}
+		},
+		"94a38fb022431836": {
+			"parent": "43244694e3beab70",
+			"name": "Torso_Neck",
+			"factory": "00D43167687E61AD",
+			"blueprint": "007E9340AD2C2425"
+		},
+		"4ecf7a8fa0f24da7": {
+			"parent": "5959099f90102faa",
+			"name": "male_reg_silviocaruso_watch_01",
+			"factory": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/materials/male_reg_silviocaruso_watch_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/materials/male_reg_silviocaruso_watch_01.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/textures/male_reg_silviocaruso_watch_01.texture?/diffuse_b.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["5959099f90102faa"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5959099f90102faa",
+					"postInit": true
+				}
+			}
+		},
+		"21dde74893221e74": {
+			"parent": "6fb5a14c46d4b13b",
+			"name": "mintjulep_hat_01",
+			"factory": "0092B58FB563A23F",
+			"blueprint": "00BA8CBDC3995830",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "003E25BA7E05DCAC",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["6fb5a14c46d4b13b"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6fb5a14c46d4b13b",
+					"postInit": true
+				}
+			}
+		},
+		"fa17952c91cad285": {
+			"parent": "43244694e3beab70",
+			"name": "Attacher_Head",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "Head" },
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "43244694e3beab70"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "43244694e3beab70"
+				}
+			}
+		},
+		"f9e1479df7a26290": {
+			"parent": "5959099f90102faa",
+			"name": "Watch_Retro",
+			"factory": "008A8AF1901F19D9",
+			"blueprint": "00FFD31D53B6FB2D",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 1.3627091506053148,
+							"y": 1.6206562529693374,
+							"z": -86.73019605375772
+						},
+						"position": {
+							"x": 4.2478179931640625,
+							"y": 6.909275054931641,
+							"z": 3.5763089656829834
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0491600036621094,
+						"y": 1.0209300518035889,
+						"z": 1.043619990348816
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "5959099f90102faa",
+					"postInit": true
+				}
+			}
+		},
+		"6fb5a14c46d4b13b": {
+			"parent": "fa17952c91cad285",
+			"name": "hat_fedora_variation",
+			"factory": "0073E74924F432CC",
+			"blueprint": "00CEA5959F0D35D8",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 99.19285573490566,
+							"y": 85.53731603880989,
+							"z": 92.95109662657632
+						},
+						"position": {
+							"x": 0.08206299692392349,
+							"y": 0.026342999190092087,
+							"z": 0.0005990000208839774
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0286699533462524,
+						"y": 1.0,
+						"z": 1.0
+					}
+				},
+				"m_rLinkedProxyEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "43244694e3beab70"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fa17952c91cad285"
+				}
+			}
+		},
+		"5959099f90102faa": {
+			"parent": "43244694e3beab70",
+			"name": "L_Arm_Attacher",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "L_Forearm" },
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "43244694e3beab70"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": -0.32446769686033916,
+							"z": -0.0
+						},
+						"position": {
+							"x": -4.020679950714111,
+							"y": -6.907649993896484,
+							"z": -3.5516040325164795
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "43244694e3beab70"
+				}
+			}
+		},
+		"e1f04ca505b8edcb": {
+			"parent": "43244694e3beab70",
+			"name": "Shoes_Sneakers_Skate",
+			"factory": "0051CDBE526A5788",
+			"blueprint": "005E95DA5C8F37F9"
+		},
+		"1aa22d28061c50a1": {
+			"parent": "43244694e3beab70",
+			"name": "Head_Caucasian_20s_01",
+			"factory": "00A4D4248E75DF81",
+			"blueprint": "001D20214216826F",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#d8ccd9"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#dddeed"
+				},
+				"Texture2D_01_1": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/fox/clubsecpick/textures/clubsecpick_body.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"03704472a7a524cc": {
+			"parent": "43244694e3beab70",
+			"name": "Hands",
+			"factory": "009A6D9F7927FB89",
+			"blueprint": "00F49463DEA8D412"
+		},
+		"470db0aca4e6208d": {
+			"parent": "0a6a49eff594849e",
+			"name": "base_hair",
+			"factory": "00E71D84A55D0739",
+			"blueprint": "0005F23475432C1C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["43244694e3beab70"]
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#383736"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#e6d4ca"
+				},
+				"ConstantColorRGB_05_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "43244694e3beab70"
+				}
+			}
+		},
+		"76f2087db4a94bda": {
+			"parent": "43244694e3beab70",
+			"name": "necklace",
+			"factory": "00D43167687E61AD",
+			"blueprint": "007E9340AD2C2425",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0065AA50C72D3478",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "00AE15B3B8457635", "flag": "5F" },
+		{ "resource": "004B97334EC9DF94", "flag": "5F" },
+		{ "resource": "00BB43F1B17767D5", "flag": "5F" },
+		{ "resource": "00A9AACE6819FD05", "flag": "5F" },
+		{ "resource": "00310AE9D83D5B99", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00EE887FF8DAA2A0", "flag": "5F" },
+		{ "resource": "007E15614B7ED4B2", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/color_grey.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "0089C0D3A41A2DE1", "flag": "5F" },
+		{ "resource": "00D790732E8C2D6B", "flag": "5F" },
+		{ "resource": "001A5838D3AC6A31", "flag": "5F" },
+		{ "resource": "006FC31B17B5DF35", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/directional_a.texture?/normal_a.tex](ascompoundnormal).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "0006237DF989C3F0", "flag": "5F" },
+		{ "resource": "0051A1136DC9485E", "flag": "5F" },
+		{ "resource": "001EE759F57B6DCE", "flag": "5F" },
+		{ "resource": "008AF0148905C2C2", "flag": "5F" },
+		{ "resource": "005CF2C7C8B423F8", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/male/casual_01/textures/male_casual_01_shoes_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/male/casual_01/textures/male_casual_01_shoes_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/male/casual_01/textures/male_casual_01_shoes_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "001042253CCEF227", "flag": "5F" },
+		{ "resource": "009F818A1930E8F6", "flag": "5F" },
+		{ "resource": "00805288E400FD72", "flag": "5F" },
+		{ "resource": "00BFCB4F0CCC5565", "flag": "5F" },
+		{ "resource": "004D13182DDE304B", "flag": "5F" },
+		{ "resource": "00767C52DE9FB6FD", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00B40E9503CF9271", "flag": "5F" },
+		{ "resource": "007C9737A03E217F", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/italy/local_mens/textures/male_reg_locals_02_long_sleeves_open_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/italy/local_mens/textures/male_reg_locals_02_long_sleeves_open_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/italy/local_mens/textures/male_reg_locals_02_long_sleeves_open_01.texture?/diffuse_d.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "0072757711E6CCB0", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/italy/local_mens/textures/male_reg_locals_02_long_sleeves_open_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/textures/male_reg_silviocaruso_watch_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/silviocaruso/textures/male_reg_silviocaruso_watch_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "0068F4D4679318D3", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
