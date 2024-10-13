@@ -13,6 +13,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "ICA Facility",
+                "ShareS1",
                 "ShareICAParisSapiMarrakesh",
                 "ShareICAParis",
                 "ShareEGICAParisSapiMarrakesh"
@@ -36,6 +37,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "Paris",
+                "ShareS1",
                 "ShareICAParisSapiMarrakesh",
                 "ShareICAParis",
                 "ShareParisMarrakesh",
@@ -56,6 +58,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "Sapienza",
+                "ShareS1",
                 "ShareICAParisSapiMarrakesh",
                 "ShareEGSapiMarrakesh",
                 "ShareSapiMarrakeshBangkok",
@@ -97,6 +100,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "Marrakesh",
+                "ShareS1",
                 "ShareICAParisSapiMarrakesh",
                 "ShareEGSapiMarrakesh",
                 "ShareParisMarrakesh",
@@ -122,6 +126,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "Bangkok",
+                "ShareS1",
                 "ShareSapiMarrakeshBangkok",
                 "ShareEGBangkok"
             ],
@@ -143,7 +148,8 @@
             "tooltip": "Colorado",
             "type": "checkbox",
             "contentFolders": [
-                "Colorado"
+                "Colorado",
+                "ShareS1"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
@@ -155,7 +161,8 @@
             "tooltip": "Hokkaido",
             "type": "checkbox",
             "contentFolders": [
-                "Hokkaido"
+                "Hokkaido",
+                "ShareS1"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
