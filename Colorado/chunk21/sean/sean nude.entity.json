@@ -116,11 +116,6 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["fe436f726f682172", "da75fa65fb026b3f"],
 					"postInit": true
-				},
-				"m_LocalColliders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
-					"postInit": true
 				}
 			}
 		},

@@ -118,10 +118,6 @@
 					"type": "bool",
 					"value": false
 				},
-				"m_LocalColliders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": []
-				},
 				"m_bGlobalCollidersEnabled": {
 					"type": "bool",
 					"value": false

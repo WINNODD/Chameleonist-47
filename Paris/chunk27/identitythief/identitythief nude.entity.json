@@ -82,11 +82,6 @@
 						"d2bd85b98e260364"
 					],
 					"postInit": true
-				},
-				"m_LocalColliders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
-					"postInit": true
 				}
 			}
 		},
