@@ -41,6 +41,7 @@
                 "ShareICAParisSapiMarrakesh",
                 "ShareICAParis",
                 "ShareParisMarrakesh",
+                "ShareParisMarrakeshColorado",
                 "ShareEGICAParisSapiMarrakesh"
             ],
             "dependencies": [{
@@ -105,6 +106,7 @@
                 "ShareICAParisSapiMarrakesh",
                 "ShareEGSapiMarrakesh",
                 "ShareParisMarrakesh",
+                "ShareParisMarrakeshColorado",
                 "ShareSapiMarrakeshBangkok",
                 "ShareEGICAParisSapiMarrakesh"
             ],
@@ -152,6 +154,7 @@
             "contentFolders": [
                 "Colorado",
                 "ShareS1",
+                "ShareParisMarrakeshColorado",
                 "ShareSapiBangkokColoradoHokkaido"
             ],
             "dependencies": [{
