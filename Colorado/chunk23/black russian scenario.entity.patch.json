@@ -1,0 +1,35 @@
+{
+	"tempHash": "00E7DDB770DEAB94",
+	"tbluHash": "00C25BB7ED1DC0CF",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"0289aefaa8f09ce1",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0289aefaa8f09ce1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 11.842612841848949
+							},
+							"position": {
+								"x": 6.406505107879639,
+								"y": 56.988739013671875,
+								"z": 12.917960166931152
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

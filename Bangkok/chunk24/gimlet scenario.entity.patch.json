@@ -1,0 +1,13 @@
+{
+	"tempHash": "0080AD2B9A4587B8",
+	"tbluHash": "00A954759AA563CA",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"528f5e8d62f6fddf",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		}
+	],
+	"patchVersion": 6
+}

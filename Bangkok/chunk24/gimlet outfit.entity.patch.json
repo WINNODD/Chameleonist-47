@@ -1,0 +1,18 @@
+{
+	"tempHash": "00A54194696D863A",
+	"tbluHash": "00307D4BFE3F71E5",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f8d59b611048a29f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
