@@ -63,7 +63,8 @@
                 "ShareEGSapiMarrakesh",
                 "ShareSapiMarrakeshBangkok",
                 "ShareEGSapi",
-                "ShareEGICAParisSapiMarrakesh"
+                "ShareEGICAParisSapiMarrakesh",
+                "ShareSapiBangkokColoradoHokkaido"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
@@ -128,7 +129,8 @@
                 "Bangkok",
                 "ShareS1",
                 "ShareSapiMarrakeshBangkok",
-                "ShareEGBangkok"
+                "ShareEGBangkok",
+                "ShareSapiBangkokColoradoHokkaido"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
@@ -149,7 +151,8 @@
             "type": "checkbox",
             "contentFolders": [
                 "Colorado",
-                "ShareS1"
+                "ShareS1",
+                "ShareSapiBangkokColoradoHokkaido"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
@@ -162,7 +165,8 @@
             "type": "checkbox",
             "contentFolders": [
                 "Hokkaido",
-                "ShareS1"
+                "ShareS1",
+                "ShareSapiBangkokColoradoHokkaido"
             ],
             "dependencies": [{
                     "runtimeID": "0072C345D02ADE97",
