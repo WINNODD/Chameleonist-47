@@ -1,0 +1,102 @@
+{
+	"tempHash": "00877BBDCEC2AF2D",
+	"tbluHash": "00A995FD24398968",
+	"rootEntity": "678a35caeaeb334d",
+	"entities": {
+		"cb0bda2b0f31356b": {
+			"parent": "678a35caeaeb334d",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["34335df1f3722b1c"],
+					"postInit": true
+				}
+			}
+		},
+		"eda013acdcd5de85": {
+			"parent": "678a35caeaeb334d",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["6ba1aca0498fbc36"],
+					"postInit": true
+				}
+			}
+		},
+		"2968d1adcfe8887a": {
+			"parent": "9953f937c458ca4f",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": { "type": "ZRuntimeResourceID", "value": null }
+			}
+		},
+		"678a35caeaeb334d": {
+			"parent": null,
+			"name": "CHARSET_Sheep_Unique_Victim_M",
+			"factory": "004470A9E6A7722D",
+			"blueprint": "00E21A11EC782D9E",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cb0bda2b0f31356b",
+						"9953f937c458ca4f",
+						"eda013acdcd5de85"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"6ba1aca0498fbc36": {
+			"parent": "eda013acdcd5de85",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0013B096CE09AD72",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"9953f937c458ca4f": {
+			"parent": "678a35caeaeb334d",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["2968d1adcfe8887a"]
+				}
+			}
+		},
+		"34335df1f3722b1c": {
+			"parent": "cb0bda2b0f31356b",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

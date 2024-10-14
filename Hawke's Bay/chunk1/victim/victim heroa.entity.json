@@ -1,0 +1,148 @@
+{
+	"tempHash": "0013B096CE09AD72",
+	"tbluHash": "003669FAF1050798",
+	"rootEntity": "95145607e1812f7d",
+	"entities": {
+		"447a45e4394a3a29": {
+			"parent": "95145607e1812f7d",
+			"name": "Shirt_Dress_Torso_BtnUp_Tkd_3open",
+			"factory": "0048C4FC007FC707",
+			"blueprint": "00B4A9BD02A90D81",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#e6e6e6"
+				}
+			}
+		},
+		"67ff746044a6be2f": {
+			"parent": "95145607e1812f7d",
+			"name": "Pants_Dress_Slim",
+			"factory": "0076615B954B3D2E",
+			"blueprint": "0060443386E41695",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#404040"
+				}
+			}
+		},
+		"95145607e1812f7d": {
+			"parent": null,
+			"name": "OUTFIT_Sheep_Unique_Victim_M_Actor_v0",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 2.747853994369507,
+							"y": 0.0,
+							"z": 0.0
+						}
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"fa4cfd5130f8f6a4",
+						"1e8c124b14c2e81c",
+						"67ff746044a6be2f",
+						"447a45e4394a3a29",
+						"914e58f5e21939f9",
+						"1bc75812b0540018",
+						"2628712af48120f7"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"1e8c124b14c2e81c": {
+			"parent": "95145607e1812f7d",
+			"name": "Feet",
+			"factory": "00E1AF913D40CF42",
+			"blueprint": "003BE20739D6D5EF"
+		},
+		"914e58f5e21939f9": {
+			"parent": "95145607e1812f7d",
+			"name": "Shirt_Dress_Sleeves_Rolled",
+			"factory": "008CB2D0700C7E65",
+			"blueprint": "0094139155BEECF6",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#e6e6e6"
+				}
+			}
+		},
+		"1bc75812b0540018": {
+			"parent": "95145607e1812f7d",
+			"name": "Torso_Neck_LowCut",
+			"factory": "00AC8D5EB0F5A755",
+			"blueprint": "00CC398F7A37A27F"
+		},
+		"2628712af48120f7": {
+			"parent": "95145607e1812f7d",
+			"name": "Arms_Biceps_Hand",
+			"factory": "0081BA55B3D8292E",
+			"blueprint": "00CFA61BB1571AF8"
+		},
+		"fa4cfd5130f8f6a4": {
+			"parent": "95145607e1812f7d",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "0049A5375518F033", "flag": "5F" },
+		{ "resource": "00C8EC7C62C69CFF", "flag": "5F" },
+		{ "resource": "00F7F23614B9A7F9", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "004D13182DDE304B", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00F20085C474F944", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/variance_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/hokkaido/hospitaldirector/textures/hospitaldirector_pants.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/hokkaido/hospitaldirector/textures/hospitaldirector_pants.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/hokkaido/hospitaldirector/textures/hospitaldirector_pants.texture?/diffuse_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00C48BCE68F17B93", "flag": "5F" },
+		{ "resource": "00B3C3C3BDCF1F4D", "flag": "5F" },
+		{ "resource": "007ED19D3E183A9D", "flag": "5F" },
+		{ "resource": "002633D5A806AC20", "flag": "5F" },
+		{ "resource": "0009597AECE4126C", "flag": "5F" },
+		{ "resource": "0045F839B337D2B6", "flag": "5F" },
+		{ "resource": "006F835120511247", "flag": "5F" },
+		{ "resource": "004B531A1A65B221", "flag": "5F" },
+		{ "resource": "00F7CD08AB2506C7", "flag": "5F" },
+		{ "resource": "007DCD6227647D40", "flag": "5F" },
+		{ "resource": "006F77B2B1322E4C", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

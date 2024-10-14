@@ -12,6 +12,203 @@
 					}
 				}
 			]
+		},
+		{
+			"AddEntity": [
+				"cafe6f656a4c598e",
+				{
+					"parent": "21df0503f4bed2c4",
+					"name": "Sheep_Unique_Victim_M",
+					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+					"properties": {
+						"m_DamageMultipliers": {
+							"type": "SBodyPartDamageMultipliers",
+							"value": {
+								"m_fHeadDamageMultiplier": 3.0,
+								"m_fFaceDamageMultiplier": 3.0,
+								"m_fArmDamageMultiplier": 1.0,
+								"m_fLArmDamageScalar": 0.0,
+								"m_fRArmDamageScalar": 0.0,
+								"m_fHandDamageMultiplier": 0.5,
+								"m_fLHandDamageScalar": 0.0,
+								"m_fRHandDamageScalar": 0.0,
+								"m_fLegDamageMultiplier": 0.6000000238418579,
+								"m_fLLegDamageScalar": 0.0,
+								"m_fRLegDamageScalar": 0.0,
+								"m_fTorsoDamageMultiplier": 1.0,
+								"m_bApplyLeftRightScalars": false
+							}
+						},
+						"m_bHeroDisguiseAvailable": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bWeaponsAllowed": {
+							"type": "bool",
+							"value": true
+						},
+						"m_eSoundFootwearType": {
+							"type": "EHM5SoundFootwearType",
+							"value": "EFWT_LEATHER"
+						},
+						"m_sId": {
+							"type": "ZGuid",
+							"value": "1dbef079-d322-46ae-b9eb-8050a875d582"
+						},
+						"m_pParentOutfit": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "6736fcbbd3e73209",
+								"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+							}
+						},
+						"m_AvailableWeaponKeys": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": []
+						},
+						"m_sCommonName": {
+							"type": "ZString",
+							"value": "Colorado_Unique_Hostage_M_HPA2138"
+						},
+						"m_sTitle": {
+							"type": "ZString",
+							"value": "Hostage"
+						},
+						"m_eOutfitAICategory": {
+							"type": "EOutfitAICategory",
+							"value": "OAC_Undefined"
+						},
+						"m_rNameTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_hostage_m_hpa2138_name_465e6eff-8c42-41bb-88e5-c43780b536e5.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_rDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_hostage_m_hpa2138_description_465e6eff-8c42-41bb-88e5-c43780b536e5.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_rDefaultVoiceVariations": {
+							"type": "TArray<EActorVoiceVariation>",
+							"value": ["eAVV_ORSON"]
+						},
+						"m_eActorCCClass": {
+							"type": "EActorCCPreset",
+							"value": "ACCP_CivilianeMale"
+						},
+						"m_eActorType": {
+							"type": "EActorType",
+							"value": "eAT_Civilian"
+						},
+						"m_aCharSets": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafef3013557bc9b"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee661abcc9aca",
+				{
+					"parent": "cafe6f656a4c598e",
+					"name": "Prof_Agent47",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe6f656a4c598e"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef3013557bc9b",
+				{
+					"parent": "cafe6f656a4c598e",
+					"name": "CHARSET_Sheep_Unique_Victim_M",
+					"factory": "00877BBDCEC2AF2D",
+					"blueprint": "00A995FD24398968"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeaafa6b9bfd09",
+				{
+					"parent": "cafe6f656a4c598e",
+					"name": "Prof_Sheep_Unique",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe6f656a4c598e"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee0748a8a1654",
+				{
+					"parent": "cafe6f656a4c598e",
+					"name": "Prof_Sheep",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe6f656a4c598e"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe64b36ae040e6",
+				{
+					"parent": "cafe6f656a4c598e",
+					"name": "Keyword_Prof_Class_Default",
+					"factory": "007A51A2AFEC0D1A",
+					"blueprint": "00B0282A41C1CF2E",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe6f656a4c598e"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef5cf41e80628",
+				{
+					"parent": "cafe6f656a4c598e",
+					"name": "KeywordEntity_FOLEY_OUTFIT_NAKED",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe6f656a4c598e"]
+						}
+					}
+				}
+			]
 		}
 	],
 	"patchVersion": 6
