@@ -1,0 +1,154 @@
+{
+	"tempHash": "0082ED12265482ED",
+	"tbluHash": "0070C971497CE600",
+	"rootEntity": "ca3c4e5f0a8800c2",
+	"entities": {
+		"1fbd327c74f0f470": {
+			"parent": "3d862bde749fe265",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00323E97AEEEABF9",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"ca3c4e5f0a8800c2": {
+			"parent": null,
+			"name": "CHARSET_Soders_M",
+			"factory": "[modules:/zoutfitvariationcollection.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariationcollection.class].pc_entityblueprint",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"34c66ba9eeb38211",
+						"3d862bde749fe265",
+						"d2c381b9491d4fdd",
+						"142758d3cb5cca27",
+						"a668b59584f79b12"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"3d862bde749fe265": {
+			"parent": "ca3c4e5f0a8800c2",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1fbd327c74f0f470"]
+				}
+			}
+		},
+		"78cf7f8afce43bc9": {
+			"parent": "142758d3cb5cca27",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"d2c381b9491d4fdd": {
+			"parent": "ca3c4e5f0a8800c2",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1d835e6e5344289d"],
+					"postInit": true
+				}
+			}
+		},
+		"0590540c49e82e10": {
+			"parent": "a668b59584f79b12",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"c7c0677656bf868f": {
+			"parent": "34c66ba9eeb38211",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hokkaido/char_hokkaido_unique.template?/outfit_soders_m_actor_v0.entitytemplate].pc_entitytype",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"34c66ba9eeb38211": {
+			"parent": "ca3c4e5f0a8800c2",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["c7c0677656bf868f"]
+				}
+			}
+		},
+		"142758d3cb5cca27": {
+			"parent": "ca3c4e5f0a8800c2",
+			"name": "HeroB",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["78cf7f8afce43bc9"]
+				}
+			}
+		},
+		"1d835e6e5344289d": {
+			"parent": "d2c381b9491d4fdd",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "003815FB978E6304",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"a668b59584f79b12": {
+			"parent": "ca3c4e5f0a8800c2",
+			"name": "HeroC",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["0590540c49e82e10"]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

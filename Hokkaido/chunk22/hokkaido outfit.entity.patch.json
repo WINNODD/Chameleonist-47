@@ -1,0 +1,36 @@
+{
+	"tempHash": "004579B8AC90A75E",
+	"tbluHash": "00FA3F576B9F0C80",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"48038fac83a9df05",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aCharSets",
+						[
+							{
+								"AddItemBefore": [
+									"faf894d96bcff859",
+									"cafe5a139542c165"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5a139542c165",
+				{
+					"parent": "48038fac83a9df05",
+					"name": "CHARSET_Soders_M",
+					"factory": "0082ED12265482ED",
+					"blueprint": "0070C971497CE600"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
