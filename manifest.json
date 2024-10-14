@@ -7,6 +7,9 @@
         "WINNODD"
     ],
     "frameworkVersion": "2.0.0",
+    "contentFolders": [
+        "ShareAll"
+    ],
     "options": [{
             "name": "ICA Facility",
             "tooltip": "ICA Facility",
