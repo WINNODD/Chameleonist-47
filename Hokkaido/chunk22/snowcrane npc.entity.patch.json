@@ -116,9 +116,9 @@
 									"z": -0.0
 								},
 								"position": {
-									"x": -71.14473724365234,
-									"y": 58.84012985229492,
-									"z": 4.008999824523926
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
 								}
 							}
 						},
@@ -198,7 +198,7 @@
 						"m_bIsIllegal": { "type": "bool", "value": true },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "cafe7d5c05f4bbd1"
+							"value": "10e3da8b1549740c"
 						},
 						"m_aPromptPositions": {
 							"type": "TArray<SEntityTemplateReference>",
@@ -318,7 +318,7 @@
 				"cafed2baa26e70b4",
 				{
 					"parent": "a5bb0c094db376ed",
-					"name": "Spatial",
+					"name": "Spatial UI",
 					"factory": "[modules:/zspatialentity.class].pc_entitytype",
 					"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 					"properties": {
@@ -339,7 +339,7 @@
 						},
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
-							"value": "cafe7d5c05f4bbd1",
+							"value": "10e3da8b1549740c",
 							"postInit": true
 						}
 					}
@@ -358,6 +358,11 @@
 						"m_RepositoryId": {
 							"type": "ZGuid",
 							"value": "b1e34557-5277-41bc-8876-d318dc9f22d7"
+						},
+						"m_rBundlePosition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafeea1b3be8abc6",
+							"postInit": true
 						}
 					}
 				}
@@ -1215,6 +1220,39 @@
 								"resource": "001C1F33A4C97333",
 								"flag": "5F"
 							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeea1b3be8abc6",
+				{
+					"parent": "a5bb0c094db376ed",
+					"name": "Spatial Bundle",
+					"factory": "[modules:/zspatialentity.class].pc_entitytype",
+					"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -0.0,
+									"y": 1.5,
+									"z": -0.0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "10e3da8b1549740c",
+							"postInit": true
 						}
 					}
 				}
