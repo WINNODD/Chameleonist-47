@@ -1,0 +1,539 @@
+{
+	"tempHash": "0093E2EDAEA77B05",
+	"tbluHash": "0097201D8ACEF275",
+	"rootEntity": "cafeeab31c2690f7",
+	"entities": {
+		"cafe9c38deb98717": {
+			"parent": "cafeeab31c2690f7",
+			"name": "Body_Full_Slim",
+			"factory": "00F448703BCA480F",
+			"blueprint": "00D7F003FB6F4940"
+		},
+		"cafeeab31c2690f7": {
+			"parent": null,
+			"name": "OUTFIT_Bulldog_Unique_ZacharyCarlisle_M_Actor_v0",
+			"factory": "006BFFBB4748101C",
+			"blueprint": "00B9297DD667370F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.0,
+							"y": -74.17765787269235,
+							"z": -180.0
+						},
+						"position": {
+							"x": -0.5554580092430115,
+							"y": 0.0,
+							"z": 0.2213599979877472
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "003ADCF8147A008F",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_BodyPartLODCutOffMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "003B1B3C3C950355",
+						"flag": "5F"
+					}
+				},
+				"m_nBodypartLODCutOff": { "type": "uint32", "value": 8 },
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe1dc7f48baecb",
+						"cafe9c38deb98717",
+						"cafeb2fbc14820a5"
+					],
+					"postInit": true
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				}
+			}
+		},
+		"cafe1dc7f48baecb": {
+			"parent": "cafeeab31c2690f7",
+			"name": "Underwear_String",
+			"factory": "00537F4E2559E888",
+			"blueprint": "003EE7F53D21C18F"
+		},
+		"cafe04024b909f8c": {
+			"parent": "cafeb2fbc14820a5",
+			"name": "base_hair",
+			"factory": "00E71D84A55D0739",
+			"blueprint": "0005F23475432C1C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0030B823F2B4F0F9",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": false },
+				"Global": { "type": "bool", "value": false },
+				"Override": { "type": "bool", "value": false },
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#857871"
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_06_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"ConstantColorRGB_05_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#e3e3e3"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"Active": { "type": "bool", "value": true },
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.4300000071525574
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeb2fbc14820a5"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb2fbc14820a5",
+					"postInit": true
+				}
+			}
+		},
+		"cafebd3af71c7c32": {
+			"parent": "cafeb2fbc14820a5",
+			"name": "Mesh",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00252CDFC26C296D",
+						"flag": "5F"
+					}
+				},
+				"m_ClothColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		"cafe7adb396e2104": {
+			"parent": "cafeb2fbc14820a5",
+			"name": "base_eye",
+			"factory": "00FDEC17A5A2BF5F",
+			"blueprint": "00C4E4179AE75353",
+			"properties": {
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0095B635EC1C6E38",
+						"flag": "5F"
+					}
+				},
+				"EyeShader_01_PupilSize_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"EyeShader_01_PupilTextureRadius_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"EyeShader_01_IrisTextureRadius_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"EyeShader_01_IrisHueShift_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"EyeShader_01_IrisBrightness_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"EyeShader_01_Albedo_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"EyeShader_01_IrisWorldRadius_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"EyeShader_01_IrisWorldRadius": {
+					"type": "float32",
+					"value": 0.006500000134110451
+				},
+				"EyeShader_01_Albedo": { "type": "float32", "value": 0.5 },
+				"EyeShader_01_IrisBrightness": {
+					"type": "float32",
+					"value": 0.8999999761581421
+				},
+				"EyeShader_01_IrisHueShift": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"EyeShader_01_IrisTextureRadius": {
+					"type": "float32",
+					"value": 0.18000000715255737
+				},
+				"EyeShader_01_PupilTextureRadius": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"EyeShader_01_PupilSize": {
+					"type": "float32",
+					"value": 0.18000000715255737
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeb2fbc14820a5"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb2fbc14820a5",
+					"postInit": true
+				}
+			}
+		},
+		"cafe6d4d19d1b3ec": {
+			"parent": "cafeb2fbc14820a5",
+			"name": "male_reg_body",
+			"factory": "003DCA5E22F37B5F",
+			"blueprint": "0041C89DFA9D7801",
+			"properties": {
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Active": { "type": "bool", "value": true },
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00FA3AB506F70BAF",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "008B9B82794B4DF3",
+						"flag": "5F"
+					}
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#dacfcf"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "003F6FE3FE730188",
+						"flag": "5F"
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeb2fbc14820a5"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb2fbc14820a5",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb2fbc14820a5": {
+			"parent": "cafeeab31c2690f7",
+			"name": "Head_ZacharyCarlisle",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"Texture2D_Eye": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0095B635EC1C6E38",
+						"flag": "5F"
+					}
+				},
+				"EyeShader_01_IrisWorldRadius": {
+					"type": "float32",
+					"value": 0.006500000134110451
+				},
+				"EyeShader_01_IrisBrightness": {
+					"type": "float32",
+					"value": 0.8999999761581421
+				},
+				"EyeShader_01_IrisHueShift": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"EyeShader_01_PupilTextureRadius": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"EyeShader_01_PupilSize": {
+					"type": "float32",
+					"value": 0.18000000715255737
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeab31c2690f7"
+				}
+			},
+			"propertyAliases": {
+				"ConstantColorRGB_02_Value": [
+					{
+						"originalProperty": "ConstantColorRGB_01_Value",
+						"originalEntity": "cafe6d4d19d1b3ec"
+					}
+				],
+				"EyeShader_01_Albedo": [
+					{
+						"originalProperty": "EyeShader_01_Albedo",
+						"originalEntity": "cafe7adb396e2104"
+					}
+				],
+				"EyeShader_01_IrisBrightness": [
+					{
+						"originalProperty": "EyeShader_01_IrisBrightness",
+						"originalEntity": "cafe7adb396e2104"
+					}
+				],
+				"EyeShader_01_IrisHueShift": [
+					{
+						"originalProperty": "EyeShader_01_IrisHueShift",
+						"originalEntity": "cafe7adb396e2104"
+					}
+				],
+				"EyeShader_01_IrisTextureRadius": [
+					{
+						"originalProperty": "EyeShader_01_IrisTextureRadius",
+						"originalEntity": "cafe7adb396e2104"
+					}
+				],
+				"EyeShader_01_IrisWorldRadius": [
+					{
+						"originalProperty": "EyeShader_01_IrisWorldRadius",
+						"originalEntity": "cafe7adb396e2104"
+					}
+				],
+				"EyeShader_01_PupilSize": [
+					{
+						"originalProperty": "EyeShader_01_PupilSize",
+						"originalEntity": "cafe7adb396e2104"
+					}
+				],
+				"EyeShader_01_PupilTextureRadius": [
+					{
+						"originalProperty": "EyeShader_01_PupilTextureRadius",
+						"originalEntity": "cafe7adb396e2104"
+					}
+				],
+				"Texture2DNormal_02": [
+					{
+						"originalProperty": "Texture2DNormal_01",
+						"originalEntity": "cafe6d4d19d1b3ec"
+					}
+				],
+				"Texture2D_02": [
+					{
+						"originalProperty": "Texture2D_01",
+						"originalEntity": "cafe6d4d19d1b3ec"
+					}
+				],
+				"Texture2D_04": [
+					{
+						"originalProperty": "Texture2D_03",
+						"originalEntity": "cafe6d4d19d1b3ec"
+					}
+				],
+				"Texture2D_Eye": [
+					{
+						"originalProperty": "Texture2D_01",
+						"originalEntity": "cafe7adb396e2104"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"ZClothColliderGroupAspect": "cafebd3af71c7c32",
+				"ZBodyPartEntity": "cafebd3af71c7c32"
+			}
+		},
+		"cafe998fb0930660": {
+			"parent": "cafeb2fbc14820a5",
+			"name": "male_reg_eyelashes",
+			"factory": "00AF6FD15BFAC222",
+			"blueprint": "00926F11E3C00813",
+			"properties": {
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeb2fbc14820a5"]
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 1.5
+				},
+				"ConstantVector1D_03_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Active": { "type": "bool", "value": true },
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_05_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#995d5d"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#e3bfbf"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb2fbc14820a5"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{ "resource": "00D42C1814EE6AAA", "flag": "5F" },
+		{ "resource": "000C42902EACDDC8", "flag": "5F" },
+		{ "resource": "00D9D560FAA3E014", "flag": "5F" },
+		{ "resource": "005BF43C2BE4454A", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/paris/philip/textures/male_reg_philip_01_tie_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "0045F839B337D2B6", "flag": "5F" },
+		{ "resource": "00188997D678EF0B", "flag": "5F" },
+		{ "resource": "006A9072F2C78523", "flag": "5F" },
+		{ "resource": "005A3A86E39FBFB7", "flag": "5F" },
+		{ "resource": "006258232B3126D5", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/mansionstaff_01/textures/male_mansion_butler_01_jacket_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/mansionstaff_01/textures/male_mansion_butler_01_jacket_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/textures/female_reg_eyelashes.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/textures/female_reg_eyelashes.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/detailmaps/default.texture?/detail_a.tex](ascompoundnormal).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/marrakesh/screwdriver/textures/male_reg_screwdriver_vest.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/marrakesh/screwdriver/textures/male_reg_screwdriver_vest.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/marrakesh/screwdriver/textures/male_reg_screwdriver_vest.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00A67086C8996AB4", "flag": "5F" },
+		{ "resource": "0075F98DD09DA4D1", "flag": "5F" },
+		{ "resource": "00C292DD6F6AF4DB", "flag": "5F" },
+		{ "resource": "007CAD7BA34D0988", "flag": "5F" },
+		{ "resource": "001A0B743B388FBA", "flag": "5F" },
+		{ "resource": "0051A1136DC9485E", "flag": "5F" },
+		{ "resource": "001EE759F57B6DCE", "flag": "5F" },
+		{ "resource": "005CF2C7C8B423F8", "flag": "5F" },
+		{ "resource": "00219C193B4D426B", "flag": "5F" },
+		{ "resource": "004B420901477A20", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

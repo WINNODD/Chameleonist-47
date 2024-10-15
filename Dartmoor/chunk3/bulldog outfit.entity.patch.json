@@ -1,1 +1,97 @@
-{"tempHash":"008B1B203C9F6275","tbluHash":"00342E071F8F2181","patch":[{"SubEntityOperation":["23922fd0882a207e",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["06843a7816dd65aa",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["58425a0642ded68d",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]}],"patchVersion":6}
+{
+	"tempHash": "008B1B203C9F6275",
+	"tbluHash": "00342E071F8F2181",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"23922fd0882a207e",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"06843a7816dd65aa",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"693eecf737088a42",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aCharSets",
+						[
+							{
+								"AddItemBefore": [
+									"62c51c89b9b1dcc3",
+									"cafeb185e3b24274"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"693eecf737088a42",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_hokkaido.sweetmenutext?/outfits_hokkaido_civilian_donor_m_hpa1050_name_e927ccab-d026-49b2-aaad-6cf4341c87e8.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"693eecf737088a42",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_hokkaido.sweetmenutext?/outfits_hokkaido_civilian_donor_m_hpa1050_description_e927ccab-d026-49b2-aaad-6cf4341c87e8.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"58425a0642ded68d",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb185e3b24274",
+				{
+					"parent": "693eecf737088a42",
+					"name": "CHARSET_Ancestral_Unique_ZacharyCarlisle_M",
+					"factory": "001168C8F7D5E898",
+					"blueprint": "00E0CCB483DBCE43"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
