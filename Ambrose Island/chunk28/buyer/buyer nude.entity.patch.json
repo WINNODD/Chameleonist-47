@@ -1,0 +1,87 @@
+{
+	"tempHash": "002E959298D7E4E6",
+	"tbluHash": "00B871F54EEFFF5B",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"1ff1d4cfbcfc5c90",
+				{ "SetFactory": "00A9AD805B92ED71" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1ff1d4cfbcfc5c90",
+				{ "SetBlueprint": "00B1F416EEE92077" }
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe6f9fdce8bf1f",
+				{
+					"parent": "1ff1d4cfbcfc5c90",
+					"name": "KinematicLinkedPhysics",
+					"factory": "[modules:/zkinematiclinkedphysicsentity.class].pc_entitytype",
+					"blueprint": "[modules:/zkinematiclinkedphysicsentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pCollisionResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0092CCBF4CD207B8",
+								"flag": "5F"
+							}
+						},
+						"m_pLinked": {
+							"type": "SEntityTemplateReference",
+							"value": "1ff1d4cfbcfc5c90"
+						},
+						"m_pOwner": {
+							"type": "SEntityTemplateReference",
+							"value": "1ff1d4cfbcfc5c90"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe17162d851407",
+				{
+					"parent": "1ff1d4cfbcfc5c90",
+					"name": "FX_Logic_ShotActivate",
+					"factory": "[assembly:/_pro/effects/templates/logic/fx_logic_shotactivate.template?/fx_logic_shotactivate.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_shotactivate.template?/fx_logic_shotactivate.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_Listener": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe6f9fdce8bf1f"]
+						},
+						"m_bReset": { "type": "bool", "value": false }
+					},
+					"events": { "OnHit": { "In": ["cafeabffebd0b038"] } },
+					"outputCopying": {
+						"OnHit": { "OnHit": ["1ff1d4cfbcfc5c90"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeabffebd0b038",
+				{
+					"parent": "1ff1d4cfbcfc5c90",
+					"name": "TimerSimple",
+					"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"Delay time (ms)": {
+							"type": "int32",
+							"value": 500
+						}
+					},
+					"events": { "Out": { "Enable": ["cafe17162d851407"] } }
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

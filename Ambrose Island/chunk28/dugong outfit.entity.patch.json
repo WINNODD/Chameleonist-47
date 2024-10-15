@@ -37,6 +37,34 @@
 		},
 		{
 			"SubEntityOperation": [
+				"bf984172df867705",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_hostage_m_hpa2138_name_465e6eff-8c42-41bb-88e5-c43780b536e5.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bf984172df867705",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_hostage_m_hpa2138_description_465e6eff-8c42-41bb-88e5-c43780b536e5.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"70fb16e6e0fdeb5f",
 				{
 					"SetPropertyValue": {
