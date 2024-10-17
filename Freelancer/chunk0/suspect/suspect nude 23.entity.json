@@ -3,143 +3,11 @@
 	"tbluHash": "00AD6EA9FB377B4B",
 	"rootEntity": "b5ad260e1b66cce9",
 	"entities": {
-		"e77bb511a2749e25": {
-			"parent": "49533db2e5542de1",
-			"name": "fem_reg_jewelry_catalinadelgado",
-			"factory": "[assembly:/_pro/characters/assets/individuals/hippo/barman/materials/fem_reg_jewelry_catalinadelgado.mi].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/assets/individuals/hippo/barman/materials/fem_reg_jewelry_catalinadelgado.mi].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": 4.328022003173828,
-							"y": -0.030650140717625615,
-							"z": 0.0
-						}
-					}
-				},
-				"Texture2D_03_enab": { "type": "bool", "value": true },
-				"Texture2D_03": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0072A1599EF3308E",
-						"flag": "5F"
-					}
-				},
-				"ConstantVector1D_03_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantVector1D_03_Value": {
-					"type": "float32",
-					"value": 14.0
-				},
-				"ConstantVector1D_14_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantVector1D_14_Value": {
-					"type": "float32",
-					"value": 0.3499999940395355
-				},
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["49533db2e5542de1"],
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b5ad260e1b66cce9",
-					"postInit": true
-				}
-			}
-		},
-		"3fbdc83937ff42a2": {
-			"parent": "b5ad260e1b66cce9",
-			"name": "Shoes_Sandals_Cork",
-			"factory": "0021D9BDB1F210AE",
-			"blueprint": "008CDF516DDF4092"
-		},
-		"93fd8a844c86c7d6": {
-			"parent": "fc137676c972b7b3",
-			"name": "glasses_square_fullframe",
-			"factory": "0033BB9A776E6353",
-			"blueprint": "008F11EF63063E71",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#424242"
-				},
-				"Diffuse_Saturation_01_Value": {
-					"type": "float32",
-					"value": 0.0
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -87.22688848018439,
-							"y": 89.64982931525134,
-							"z": -90.9556301756938
-						},
-						"position": {
-							"x": 0.06402400135993958,
-							"y": 0.003504999913275242,
-							"z": 0.0015320000238716602
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fc137676c972b7b3",
-					"postInit": true
-				}
-			}
-		},
-		"2636440d8638724a": {
-			"parent": "49533db2e5542de1",
-			"name": "moscowmule_male_gloves_01",
-			"factory": "00D52DBBC25054AD",
-			"blueprint": "00172C14B11B277E",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": 4.328022003173828,
-							"y": -0.030650140717625615,
-							"z": 0.0
-						}
-					}
-				},
-				"Texture2D_01_enab": { "type": "bool", "value": true },
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0057B99716D7380D",
-						"flag": "5F"
-					}
-				},
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["49533db2e5542de1"],
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b5ad260e1b66cce9",
-					"postInit": true
-				}
-			}
-		},
 		"31a9b7a2a4eb161d": {
 			"parent": "b5ad260e1b66cce9",
-			"name": "Arms_Shoulder_Hand",
-			"factory": "00D0A46D325392B0",
-			"blueprint": "0038B023C4284F44"
+			"name": "Body_Full",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5"
 		},
 		"a85da97c85280685": {
 			"parent": "fc137676c972b7b3",
@@ -169,36 +37,11 @@
 				}
 			}
 		},
-		"22319b51c710deb8": {
-			"parent": "b5ad260e1b66cce9",
-			"name": "Torso_Neck",
-			"factory": "00D43167687E61AD",
-			"blueprint": "007E9340AD2C2425"
-		},
-		"5a55e8d0fd7e9647": {
-			"parent": "b5ad260e1b66cce9",
-			"name": "Feet",
-			"factory": "00E1AF913D40CF42",
-			"blueprint": "003BE20739D6D5EF"
-		},
 		"c7783188b680cf37": {
 			"parent": "b5ad260e1b66cce9",
-			"name": "Pants_Sweats_Baggy",
-			"factory": "00D74EBB5567B808",
-			"blueprint": "002B5030134DE07E",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#404040"
-				},
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "001543B52FC58B77",
-						"flag": "5F"
-					}
-				}
-			}
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5"
 		},
 		"55829ef5a6ea52c8": {
 			"parent": "b5ad260e1b66cce9",
@@ -253,14 +96,9 @@
 					"value": [
 						"d54f471e4c80d168",
 						"31a9b7a2a4eb161d",
-						"22319b51c710deb8",
-						"5a55e8d0fd7e9647",
-						"950108d62d970d8e",
 						"e19a4e51932eef16",
-						"3fbdc83937ff42a2",
 						"c7783188b680cf37",
-						"55829ef5a6ea52c8",
-						"49533db2e5542de1"
+						"55829ef5a6ea52c8"
 					],
 					"postInit": true
 				}
@@ -280,18 +118,6 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "b5ad260e1b66cce9"
-				}
-			}
-		},
-		"950108d62d970d8e": {
-			"parent": "b5ad260e1b66cce9",
-			"name": "TankTop_Fit_Tkd",
-			"factory": "00274F13C30B131E",
-			"blueprint": "0028BF8660DA5A96",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#9c9c9c"
 				}
 			}
 		},
@@ -356,21 +182,6 @@
 					"type": "ZRuntimeResourceID",
 					"value": {
 						"resource": "00BFCB4F0CCC5565",
-						"flag": "5F"
-					}
-				}
-			}
-		},
-		"49533db2e5542de1": {
-			"parent": "b5ad260e1b66cce9",
-			"name": "Mesh_Necklace_01",
-			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
-			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00921CCEF5276777",
 						"flag": "5F"
 					}
 				}

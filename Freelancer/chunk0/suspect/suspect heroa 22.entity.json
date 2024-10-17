@@ -65,45 +65,8 @@
 						"7893c1104ed57fd0",
 						"f7d28f022a5a363e",
 						"4debe7e74f82d453",
-						"db5c2ec5c2709109",
-						"7846e1bda583c98c"
+						"db5c2ec5c2709109"
 					],
-					"postInit": true
-				}
-			}
-		},
-		"842038beb52fc7be": {
-			"parent": "94a6dadf5669f88b",
-			"name": "earring_hoop_big",
-			"factory": "000708374235EA00",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -29.991774990258737,
-							"y": -0.10748685106694836,
-							"z": 0.40130388502453634
-						},
-						"position": {
-							"x": 0.0192718505859375,
-							"y": 0.012997630052268503,
-							"z": 0.07497700303792953
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.32499998807907104,
-						"y": 0.32499998807907104,
-						"z": 0.8583580255508423
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "94a6dadf5669f88b",
 					"postInit": true
 				}
 			}
@@ -151,23 +114,23 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -87.21148334771561,
-							"y": 89.6559860874815,
-							"z": -90.97377213956582
+							"x": -123.25030197292462,
+							"y": 89.74709776213697,
+							"z": -63.36000739511368
 						},
 						"position": {
-							"x": 0.0616610012948513,
-							"y": 0.003504999913275242,
-							"z": -0.00038300000596791506
+							"x": 0.0697140023112297,
+							"y": 0.007352999877184629,
+							"z": 0.0007699999841861427
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0491600036621094,
-						"y": 1.0209300518035889,
-						"z": 1.1911499500274658
+						"x": 0.9577969908714294,
+						"y": 1.0350099802017212,
+						"z": 0.944786012172699
 					}
 				},
 				"ConstantVector2D_02_Value": {
@@ -220,21 +183,6 @@
 			"factory": "00C50F4D59B78463",
 			"blueprint": "0060BDFBAAFA9324"
 		},
-		"7846e1bda583c98c": {
-			"parent": "f4d504031e3380a7",
-			"name": "Tattoo_L_Hand",
-			"factory": "002436EBD26EC629",
-			"blueprint": "00BD5EF404BC0FFC",
-			"properties": {
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "008060C3BFA32E4C",
-						"flag": "5F"
-					}
-				}
-			}
-		},
 		"2a0a8e32d7c5d2e6": {
 			"parent": "f4d504031e3380a7",
 			"name": "Torso_Neck",
@@ -269,14 +217,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 6.943470107452874,
-							"y": 89.71084012412405,
-							"z": 169.83845467768867
+							"x": 89.40826052429635,
+							"y": 89.65584713110222,
+							"z": 86.39032991390694
 						},
 						"position": {
-							"x": 0.07236400246620178,
-							"y": 0.019204000011086464,
-							"z": -0.000379000004613772
+							"x": 0.07938800007104874,
+							"y": 0.02094399929046631,
+							"z": 0.0005549999768845737
 						}
 					}
 				},

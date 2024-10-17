@@ -98,23 +98,15 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 17.992102094650726,
-							"y": 89.70793160559273,
-							"z": 159.17941772289177
+							"x": 89.40826052429635,
+							"y": 89.65584713110222,
+							"z": 86.39032991390694
 						},
 						"position": {
-							"x": -2.6633729934692383,
-							"y": 0.011610999703407288,
-							"z": -0.005235000047832727
+							"x": 0.07938800007104874,
+							"y": 0.02094399929046631,
+							"z": 0.0005549999768845737
 						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 1.1507699489593506,
-						"y": 1.1304199695587158,
-						"z": 1.0112700462341309
 					}
 				},
 				"Diffuse_Color_01_Value": {
@@ -168,21 +160,6 @@
 			"name": "Legs_Ankle_Shoe",
 			"factory": "00ABDD120246BCDC",
 			"blueprint": "0021DE526F3B8B7D"
-		},
-		"b0c7dccbb82ec464": {
-			"parent": "6a32831e29b60394",
-			"name": "Tattoo_L_Hand",
-			"factory": "002436EBD26EC629",
-			"blueprint": "00BD5EF404BC0FFC",
-			"properties": {
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00450CC43A2DCCBA",
-						"flag": "5F"
-					}
-				}
-			}
 		},
 		"a4550752f2471cec": {
 			"parent": "6a32831e29b60394",
@@ -272,8 +249,7 @@
 						"b6ac51c6cd2667fc",
 						"2198b0e061dcf70a",
 						"ecaee9eae62f6bc1",
-						"446374f7ab96b643",
-						"b0c7dccbb82ec464"
+						"446374f7ab96b643"
 					]
 				},
 				"m_pBonesAndCollisionResource": {

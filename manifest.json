@@ -382,6 +382,18 @@
                 "ShareEGCQ",
                 "ShareEGMendoza"
             ]
+        }, {
+            "name": "Debug",
+            "tooltip": "Debug",
+            "type": "checkbox",
+            "contentFolders": [
+                "Debug"
+            ],
+            "dependencies": [{
+                    "runtimeID": "00E0A4D7CEB97FE9",
+                    "toChunk": 0
+                }
+            ]
         }
     ]
 }

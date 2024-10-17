@@ -19,21 +19,6 @@
 				}
 			}
 		},
-		"e2b7faa66cf9bc0b": {
-			"parent": "f0cc81cd0f854a46",
-			"name": "Tattoo_L_Hand",
-			"factory": "002436EBD26EC629",
-			"blueprint": "00BD5EF404BC0FFC",
-			"properties": {
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00DB3FA097C98BE2",
-						"flag": "5F"
-					}
-				}
-			}
-		},
 		"257b4f6134350455": {
 			"parent": "92a1d87d05dd8ef1",
 			"name": "C_Pelvis_L",
@@ -619,8 +604,7 @@
 						"12eeddf828835f44",
 						"3f1cfe94c252a271",
 						"9b1dc116f25a197d",
-						"1ec0a2b2c989acb2",
-						"e2b7faa66cf9bc0b"
+						"1ec0a2b2c989acb2"
 					],
 					"postInit": true
 				}
@@ -636,20 +620,16 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -89.31128823442094,
-							"y": 89.49535008320164,
-							"z": -89.52574034753297
+							"x": 139.04751614710952,
+							"y": 89.72486611083248,
+							"z": 34.565066271855805
 						},
 						"position": {
-							"x": 0.06583300232887268,
-							"y": 0.008577000349760056,
-							"z": 0.00033099998836405575
+							"x": 0.07989700138568878,
+							"y": 0.008639000356197357,
+							"z": 0.00015199999324977398
 						}
 					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 1.050570011138916, "y": 1.0, "z": 1.0 }
 				},
 				"Diffuse_Hue_Shift_01_Value": {
 					"type": "float32",

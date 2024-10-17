@@ -50,14 +50,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -70.62924901288655,
-							"y": 89.09754181502645,
-							"z": -106.52743612064484
+							"x": -1.7569712831557618,
+							"y": 88.81667614705944,
+							"z": -176.3843684490477
 						},
 						"position": {
-							"x": 0.06100200116634369,
-							"y": 0.004881999921053648,
-							"z": 0.0017729999963194132
+							"x": 0.06181100010871887,
+							"y": 0.004846999887377024,
+							"z": 0.00006600000051548705
 						}
 					}
 				},
@@ -175,34 +175,6 @@
 			"name": "Hands",
 			"factory": "009A6D9F7927FB89",
 			"blueprint": "00F49463DEA8D412"
-		},
-		"07b02a42ec6c32ca": {
-			"parent": "4937f755442a6b12",
-			"name": "earring_stud_stone",
-			"factory": "00ADD10BD0BBFFDB",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -54.90280686685232,
-							"y": -1.6072426976293446,
-							"z": 2.0561040328267484
-						},
-						"position": {
-							"x": 0.022523999214172363,
-							"y": 0.01782199926674366,
-							"z": 0.07569800317287445
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "4937f755442a6b12",
-					"postInit": true
-				}
-			}
 		},
 		"a3bf8456b91ed0df": {
 			"parent": "08e5ac1c5f489029",

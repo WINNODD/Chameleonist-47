@@ -48,54 +48,6 @@
 				}
 			}
 		},
-		"c88f8a46d2bf5acc": {
-			"parent": "c43319e8adf2f5e3",
-			"name": "Belt_StrapBuckle",
-			"factory": "0017355DDB3D75A3",
-			"blueprint": "005F1B0540C7F863",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#3b0b0b"
-				}
-			}
-		},
-		"46e88070cb0fc70f": {
-			"parent": "961228fa4cd812e1",
-			"name": "earring_hoop_big",
-			"factory": "000708374235EA00",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.3758631959249467,
-							"y": -0.001145916654299146,
-							"z": 0.35661144147599905
-						},
-						"position": {
-							"x": 0.01559900026768446,
-							"y": 0.02228499948978424,
-							"z": 0.07711300253868103
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.3425619900226593,
-						"y": 0.3425619900226593,
-						"z": 0.7374849915504456
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "961228fa4cd812e1",
-					"postInit": true
-				}
-			}
-		},
 		"dcdbe92b9f5c2b8c": {
 			"parent": "c43319e8adf2f5e3",
 			"name": "Mesh_Necklace",
@@ -150,8 +102,7 @@
 						"bb1d92dfa82e0998",
 						"44d28500ba476582",
 						"952fdd8691c516df",
-						"dcdbe92b9f5c2b8c",
-						"6f708f0e7caa8c27"
+						"dcdbe92b9f5c2b8c"
 					],
 					"postInit": true
 				}
@@ -236,21 +187,6 @@
 					"type": "SEntityTemplateReference",
 					"value": "961228fa4cd812e1",
 					"postInit": true
-				}
-			}
-		},
-		"6f708f0e7caa8c27": {
-			"parent": "c43319e8adf2f5e3",
-			"name": "Tattoo_R_Hand",
-			"factory": "0086001E47F3D357",
-			"blueprint": "002F8AB65BC61DEA",
-			"properties": {
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00DB3FA097C98BE2",
-						"flag": "5F"
-					}
 				}
 			}
 		},

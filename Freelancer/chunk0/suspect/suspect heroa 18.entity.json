@@ -13,15 +13,23 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 69.41267772713779,
-							"y": 89.6558388382654,
-							"z": 109.41568186248492
+							"x": 21.55420876643505,
+							"y": 89.59115314636715,
+							"z": 152.38123234729122
 						},
 						"position": {
-							"x": 0.0647680014371872,
-							"y": 0.009583000093698502,
-							"z": 0.00004099999932805076
+							"x": 0.07990799844264984,
+							"y": 0.01961199939250946,
+							"z": -0.00042100000428035855
 						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.9412639737129213,
+						"y": 0.8812190294265747,
+						"z": 0.9374629855155944
 					}
 				},
 				"m_eidParent": {
@@ -227,39 +235,6 @@
 				}
 			}
 		},
-		"73cc9282ad11ccd4": {
-			"parent": "c2a7826fa6f10c4b",
-			"name": "male_reg_bangkok_bandcrew_02_ring_02",
-			"factory": "[assembly:/_pro/characters/assets/workers/eventscrew_01/materials/male_reg_bangkok_bandcrew_02_ring_02.mi].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/assets/workers/eventscrew_01/materials/male_reg_bangkok_bandcrew_02_ring_02.mi].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
-					}
-				},
-				"Texture2D_03": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_02_ring_02.texture?/specular_gold.tex](ascolormap).pc_tex",
-						"flag": "5F"
-					}
-				},
-				"Texture2D_03_enab": { "type": "bool", "value": true },
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["c2a7826fa6f10c4b"],
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "c2a7826fa6f10c4b",
-					"postInit": true
-				}
-			}
-		},
 		"363fe48142e888ad": {
 			"parent": null,
 			"name": "OUTFIT_Suspect_M_Actor_v18",
@@ -309,41 +284,6 @@
 			"name": "Torso_Neck",
 			"factory": "00D43167687E61AD",
 			"blueprint": "007E9340AD2C2425"
-		},
-		"c2a7826fa6f10c4b": {
-			"parent": "7e0376c9a9d28c87",
-			"name": "ring_simple",
-			"factory": "002E7D710FAFC2D2",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -83.58813040517279,
-							"y": 61.3011100731719,
-							"z": 84.73571219853899
-						},
-						"position": {
-							"x": 0.016815999522805214,
-							"y": 0.014007999561727049,
-							"z": 0.0743430033326149
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.3055799901485443,
-						"y": 0.5,
-						"z": 0.5
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "7e0376c9a9d28c87"
-				}
-			}
 		}
 	},
 	"propertyOverrides": [],

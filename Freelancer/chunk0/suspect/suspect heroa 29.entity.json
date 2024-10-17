@@ -47,42 +47,6 @@
 				}
 			}
 		},
-		"f2d83b98bb582f32": {
-			"parent": "0f980dff382b2a62",
-			"name": "earring_hoop_big",
-			"factory": "000708374235EA00",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -41.24066137387517,
-							"y": -0.02904897657997456,
-							"z": 0.240929574102554
-						},
-						"position": {
-							"x": 0.031046999618411064,
-							"y": 0.015460999682545662,
-							"z": 0.07283899933099747
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.32499998807907104,
-						"y": 0.32499998807907104,
-						"z": 0.8583580255508423
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "0f980dff382b2a62",
-					"postInit": true
-				}
-			}
-		},
 		"0f980dff382b2a62": {
 			"parent": "ab388ec8c3b7e5f7",
 			"name": "Attacher_Head",
@@ -146,8 +110,7 @@
 						"5d719804ac20dc21",
 						"3a1ec1526d1a4fce",
 						"96af8df3331648f9",
-						"472df552dfa2bbcc",
-						"27486723796168f2"
+						"472df552dfa2bbcc"
 					],
 					"postInit": true
 				}
@@ -176,21 +139,6 @@
 			"name": "Arms_Biceps_Hand",
 			"factory": "0081BA55B3D8292E",
 			"blueprint": "00CFA61BB1571AF8"
-		},
-		"27486723796168f2": {
-			"parent": "ab388ec8c3b7e5f7",
-			"name": "Tattoo_L_Forearm",
-			"factory": "00FDA77DE543CE4D",
-			"blueprint": "002062F58BABBD74",
-			"properties": {
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0076EFEAD0F22349",
-						"flag": "5F"
-					}
-				}
-			}
 		},
 		"472df552dfa2bbcc": {
 			"parent": "ab388ec8c3b7e5f7",
@@ -230,41 +178,6 @@
 				}
 			}
 		},
-		"0c889916e620b6ee": {
-			"parent": "0f980dff382b2a62",
-			"name": "earring_hoop_big_01",
-			"factory": "000708374235EA00",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 25.255603746354375,
-							"y": 0.03856008238620898,
-							"z": 0.4280608753959914
-						},
-						"position": {
-							"x": 0.03097499907016754,
-							"y": 0.014368000440299513,
-							"z": -0.07418599724769592
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.32499998807907104,
-						"y": 0.32499998807907104,
-						"z": 0.8583580255508423
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "0f980dff382b2a62"
-				}
-			}
-		},
 		"5d719804ac20dc21": {
 			"parent": "ab388ec8c3b7e5f7",
 			"name": "Head_47",
@@ -280,23 +193,6 @@
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
 					"value": "#5c3e33"
-				}
-			}
-		},
-		"3676f4e7ef49c09b": {
-			"parent": "ab388ec8c3b7e5f7",
-			"name": "Attacher_L_Forearm",
-			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
-			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
-			"properties": {
-				"m_BoneName": { "type": "ZString", "value": "L_Forearm" },
-				"m_linkedEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "ab388ec8c3b7e5f7"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "ab388ec8c3b7e5f7"
 				}
 			}
 		}

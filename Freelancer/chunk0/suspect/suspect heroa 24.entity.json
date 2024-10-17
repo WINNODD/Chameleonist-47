@@ -191,42 +191,6 @@
 				}
 			}
 		},
-		"c72a631d5405d91e": {
-			"parent": "144ff433d7bacd58",
-			"name": "earring_hoop_big",
-			"factory": "000708374235EA00",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -41.24066137387517,
-							"y": -0.02904897657997456,
-							"z": 0.240929574102554
-						},
-						"position": {
-							"x": 0.026983000338077545,
-							"y": 0.026611000299453735,
-							"z": 0.07126499712467194
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.32499998807907104,
-						"y": 0.32499998807907104,
-						"z": 0.8583580255508423
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "144ff433d7bacd58",
-					"postInit": true
-				}
-			}
-		},
 		"88126e6b97cae7d6": {
 			"parent": "8767dd74a7079276",
 			"name": "Attacher_L_Forearm",
@@ -383,15 +347,23 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -80.94257625030959,
-							"y": 89.08971361238041,
-							"z": -106.42368901587427
+							"x": 19.01829317323286,
+							"y": 89.60697951681522,
+							"z": 156.88543471548496
 						},
 						"position": {
-							"x": 0.07978100329637527,
-							"y": 0.007298000156879425,
-							"z": 0.00152900000102818
+							"x": 0.07622899860143661,
+							"y": 0.01590999960899353,
+							"z": -0.00015799999528098851
 						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.9376279711723328,
+						"y": 0.8773499727249146,
+						"z": 0.944495975971222
 					}
 				},
 				"ConstantVector1D_01_Value": {

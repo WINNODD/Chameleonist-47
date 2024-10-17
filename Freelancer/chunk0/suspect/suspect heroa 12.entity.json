@@ -49,15 +49,23 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 69.41267772713779,
-							"y": 89.6558388382654,
-							"z": 109.41568186248492
+							"x": 19.01829317323286,
+							"y": 89.60697951681522,
+							"z": 156.88543471548496
 						},
 						"position": {
-							"x": 0.0647680014371872,
-							"y": 0.009583000093698502,
-							"z": 0.00004099999932805076
+							"x": 0.07622899860143661,
+							"y": 0.01590999960899353,
+							"z": -0.00015799999528098851
 						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.9376279711723328,
+						"y": 0.8773499727249146,
+						"z": 0.944495975971222
 					}
 				},
 				"m_eidParent": {
@@ -83,18 +91,6 @@
 					"type": "SEntityTemplateReference",
 					"value": "5845feddd24aca51",
 					"postInit": true
-				}
-			}
-		},
-		"4791c17b1a5d06c5": {
-			"parent": "5845feddd24aca51",
-			"name": "Belt_StrapBuckle",
-			"factory": "0017355DDB3D75A3",
-			"blueprint": "005F1B0540C7F863",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#3b0b0b"
 				}
 			}
 		},
@@ -213,39 +209,6 @@
 				}
 			}
 		},
-		"03431d5963c36f2e": {
-			"parent": "70e753d63b536bc2",
-			"name": "male_reg_bangkok_bandcrew_02_ring_02",
-			"factory": "[assembly:/_pro/characters/assets/workers/eventscrew_01/materials/male_reg_bangkok_bandcrew_02_ring_02.mi].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/assets/workers/eventscrew_01/materials/male_reg_bangkok_bandcrew_02_ring_02.mi].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
-					}
-				},
-				"Texture2D_03": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_02_ring_02.texture?/specular_gold.tex](ascolormap).pc_tex",
-						"flag": "5F"
-					}
-				},
-				"Texture2D_03_enab": { "type": "bool", "value": true },
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["70e753d63b536bc2"],
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "70e753d63b536bc2",
-					"postInit": true
-				}
-			}
-		},
 		"5845feddd24aca51": {
 			"parent": null,
 			"name": "OUTFIT_Suspect_M_Actor_v12",
@@ -299,41 +262,6 @@
 				"ConstantColorRGB_02_Value": {
 					"type": "SColorRGB",
 					"value": "#494648"
-				}
-			}
-		},
-		"70e753d63b536bc2": {
-			"parent": "60646096eaa6fe60",
-			"name": "ring_simple",
-			"factory": "002E7D710FAFC2D2",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -83.58813040517279,
-							"y": 61.3011100731719,
-							"z": 84.73571219853899
-						},
-						"position": {
-							"x": 0.016815999522805214,
-							"y": 0.014007999561727049,
-							"z": 0.0743430033326149
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.3055799901485443,
-						"y": 0.5,
-						"z": 0.5
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "60646096eaa6fe60"
 				}
 			}
 		}

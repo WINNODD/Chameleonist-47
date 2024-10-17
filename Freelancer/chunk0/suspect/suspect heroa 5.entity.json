@@ -100,42 +100,6 @@
 				}
 			}
 		},
-		"b1335eea94f16838": {
-			"parent": "3b4fe6c8d485b6b7",
-			"name": "earring_hoop_big",
-			"factory": "000708374235EA00",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 15.786237275603986,
-							"y": 0.026470664667905115,
-							"z": 0.1909669976006049
-						},
-						"position": {
-							"x": 0.026859000325202945,
-							"y": 0.01839599944651127,
-							"z": -0.07562199980020523
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.5074999928474426,
-						"y": 0.5074999928474426,
-						"z": 1.0925699472427368
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "3b4fe6c8d485b6b7",
-					"postInit": true
-				}
-			}
-		},
 		"3b4fe6c8d485b6b7": {
 			"parent": "2b38b10b4999f4fa",
 			"name": "Head_Attacher",
@@ -232,38 +196,6 @@
 				}
 			}
 		},
-		"0ea5a23466e405ff": {
-			"parent": "2b38b10b4999f4fa",
-			"name": "Wrist_Attacher",
-			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
-			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
-			"properties": {
-				"m_BoneName": { "type": "ZString", "value": "R_Forearm" },
-				"m_linkedEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "2b38b10b4999f4fa"
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": -4.2246813456913155e-10
-						},
-						"position": {
-							"x": -3.60172208502263e-7,
-							"y": 4.554497934350366e-7,
-							"z": 0.0
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "2b38b10b4999f4fa"
-				}
-			}
-		},
 		"fa0d68738bb230f9": {
 			"parent": "3b4fe6c8d485b6b7",
 			"name": "glasses_aviator_fullframe_bridge_slvr",
@@ -274,15 +206,23 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -84.32666446028828,
-							"y": 88.89566276458744,
-							"z": -99.42129170576148
+							"x": 175.04697410811167,
+							"y": 90.0,
+							"z": 0.0
 						},
 						"position": {
-							"x": 0.07179199904203415,
-							"y": 0.009486000053584576,
-							"z": -0.0000670000008540228
+							"x": 0.07655499875545502,
+							"y": 0.006388999987393618,
+							"z": -0.000037999998312443495
 						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.9364789724349976,
+						"y": 1.0,
+						"z": 0.9631720185279846
 					}
 				},
 				"m_rLinkedProxyEntity": {

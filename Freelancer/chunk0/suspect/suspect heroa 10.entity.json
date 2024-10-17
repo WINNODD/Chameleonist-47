@@ -25,23 +25,23 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 55.256451263033355,
-							"y": 87.88527750307449,
-							"z": 122.41997845191804
+							"x": 101.29765563340725,
+							"y": 88.16370801338692,
+							"z": 70.59844351469808
 						},
 						"position": {
-							"x": 0.07108300179243088,
-							"y": 0.00761799979954958,
-							"z": -0.003025999991223216
+							"x": 0.07934500277042389,
+							"y": 0.0045529999770224094,
+							"z": -0.002051000017672777
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0121999979019165,
-						"y": 1.0,
-						"z": 1.0
+						"x": 0.9775879979133606,
+						"y": 1.0260299444198608,
+						"z": 1.068750023841858
 					}
 				},
 				"m_eidParent": {
@@ -62,42 +62,6 @@
 			"name": "Torso_Neck_LowCut",
 			"factory": "00AC8D5EB0F5A755",
 			"blueprint": "00CC398F7A37A27F"
-		},
-		"2a2f77019ca61eea": {
-			"parent": "8ea2d04eb40d046d",
-			"name": "earring_hoop_big",
-			"factory": "000708374235EA00",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.3758631959249467,
-							"y": -0.001145916654299146,
-							"z": 0.35661144147599905
-						},
-						"position": {
-							"x": 0.01559900026768446,
-							"y": 0.02228499948978424,
-							"z": 0.07711300253868103
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.3425619900226593,
-						"y": 0.3425619900226593,
-						"z": 0.7374849915504456
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "8ea2d04eb40d046d",
-					"postInit": true
-				}
-			}
 		},
 		"c958f63ba8ae5347": {
 			"parent": "590e0ad7522e9548",
@@ -127,21 +91,6 @@
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
 					"value": "#cfcfcf"
-				}
-			}
-		},
-		"9766b15aaa9461b4": {
-			"parent": "590e0ad7522e9548",
-			"name": "Tattoo_R_Forearm",
-			"factory": "00FDA77DE543CE4D",
-			"blueprint": "002062F58BABBD74",
-			"properties": {
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0095E9EF34ED9332",
-						"flag": "5F"
-					}
 				}
 			}
 		},
@@ -180,23 +129,23 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 4.064532804868296,
-							"y": 88.95833454897327,
-							"z": -179.84574242845645
+							"x": -90.07000091699891,
+							"y": 89.8953981011613,
+							"z": -89.89499883003067
 						},
 						"position": {
-							"x": 0.08213400095701218,
-							"y": 0.0156230004504323,
-							"z": 0.0005409999866969883
+							"x": 0.08733099699020386,
+							"y": 0.019360000267624855,
+							"z": 0.0008660000166855752
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0538400411605835,
-						"y": 0.9956719875335692,
-						"z": 0.975000023841858
+						"x": 0.949999988079071,
+						"y": 0.949999988079071,
+						"z": 0.949999988079071
 					}
 				},
 				"Diffuse_Color_01_Value": {
@@ -256,7 +205,6 @@
 						"4b51e8304be43d01",
 						"c5f42aed5e1ac9fc",
 						"505b4e1c80a51b90",
-						"9766b15aaa9461b4",
 						"c958f63ba8ae5347"
 					]
 				},

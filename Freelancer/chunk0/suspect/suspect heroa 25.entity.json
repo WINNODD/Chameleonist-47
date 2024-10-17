@@ -15,42 +15,6 @@
 				}
 			}
 		},
-		"0fec771ae3d4fe12": {
-			"parent": "c0006e840b7d85fc",
-			"name": "ring_simple_01",
-			"factory": "002E7D710FAFC2D2",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 134.59633019933264,
-							"y": 71.4604462847716,
-							"z": -137.12556738283595
-						},
-						"position": {
-							"x": 0.011063000187277794,
-							"y": 0.020387999713420868,
-							"z": -0.07607399672269821
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.3055799901485443,
-						"y": 0.5,
-						"z": 0.5
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "c0006e840b7d85fc",
-					"postInit": true
-				}
-			}
-		},
 		"2ebc2c42607fedbc": {
 			"parent": "940f1d0ed5534aaf",
 			"name": "male_casual_01_hat_03",
@@ -603,28 +567,28 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 128.80248829854506,
-							"y": 89.25490294337493,
-							"z": 50.560596683222705
+							"x": 82.10647463688763,
+							"y": 85.54429629889947,
+							"z": 92.95905985969654
 						},
 						"position": {
-							"x": 0.09816999733448029,
-							"y": 0.01196299958974123,
-							"z": 0.0004299999854993075
+							"x": 0.08378899842500687,
+							"y": 0.022487999871373177,
+							"z": 0.00036100001307204366
 						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 1.136620044708252,
-						"y": 1.0589499473571775,
-						"z": 1.0
 					}
 				},
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
 					"value": "#6e6767"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.9383320212364196,
+						"y": 0.9475759863853456,
+						"z": 1.0968899726867676
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -710,41 +674,6 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "8751e2ee69b744e1"
-				}
-			}
-		},
-		"0b88aff9f8ae2870": {
-			"parent": "c0006e840b7d85fc",
-			"name": "ring_simple",
-			"factory": "002E7D710FAFC2D2",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -77.5596821373392,
-							"y": 56.83764029230426,
-							"z": 74.21217297413472
-						},
-						"position": {
-							"x": 0.009134000167250632,
-							"y": 0.019102999940514565,
-							"z": 0.07648000121116638
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.3055799901485443,
-						"y": 0.5,
-						"z": 0.5
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "c0006e840b7d85fc"
 				}
 			}
 		}

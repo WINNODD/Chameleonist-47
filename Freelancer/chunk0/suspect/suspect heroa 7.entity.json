@@ -34,42 +34,6 @@
 				}
 			}
 		},
-		"a201708c7eb46aaa": {
-			"parent": "2711f724c54f6a59",
-			"name": "earring_hoop_big",
-			"factory": "000708374235EA00",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 15.787307777275656,
-							"y": 0.04314372479791747,
-							"z": 0.3110604136055126
-						},
-						"position": {
-							"x": 0.0245789997279644,
-							"y": 0.019130999222397804,
-							"z": -0.07303699851036072
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.41868698596954346,
-						"y": 0.41868698596954346,
-						"z": 0.9013699889183044
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "2711f724c54f6a59",
-					"postInit": true
-				}
-			}
-		},
 		"2ef40a134c9f6039": {
 			"parent": "9193b22b7200bc7a",
 			"name": "Necklace_Dogtag",
@@ -178,30 +142,6 @@
 				}
 			}
 		},
-		"dd43af6ec6d51ee2": {
-			"parent": "2711f724c54f6a59",
-			"name": "earring_dangle_circle",
-			"factory": "00ACFB3B6CF24415",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": 34.540809631347656,
-							"y": -5.517769813537598,
-							"z": 1.931628942489624
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "2711f724c54f6a59",
-					"postInit": true
-				}
-			}
-		},
 		"2711f724c54f6a59": {
 			"parent": "9193b22b7200bc7a",
 			"name": "Head_Attacher",
@@ -229,23 +169,23 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -75.62626812028574,
-							"y": 87.9565427419462,
-							"z": -104.2544873559204
+							"x": 170.49985874939176,
+							"y": 89.98930393590886,
+							"z": 0.0
 						},
 						"position": {
-							"x": 0.07401800155639648,
-							"y": 0.021571999415755272,
-							"z": -0.0008440000237897038
+							"x": 0.08324600011110306,
+							"y": 0.02201700024306774,
+							"z": -0.00019999999494757503
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0557399988174438,
-						"y": 0.975000023841858,
-						"z": 0.975000023841858
+						"x": 0.9610099792480468,
+						"y": 0.9427329897880554,
+						"z": 0.959999978542328
 					}
 				},
 				"Diffuse_Color_01_Value": {

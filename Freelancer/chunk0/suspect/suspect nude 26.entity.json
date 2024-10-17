@@ -3,84 +3,11 @@
 	"tbluHash": "00835D88AF0A65EF",
 	"rootEntity": "6a32831e29b60394",
 	"entities": {
-		"2198b0e061dcf70a": {
-			"parent": "6a32831e29b60394",
-			"name": "Shoes_Sneakers_Skate",
-			"factory": "0051CDBE526A5788",
-			"blueprint": "005E95DA5C8F37F9",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#b8b8b8"
-				}
-			}
-		},
-		"446374f7ab96b643": {
-			"parent": "6a32831e29b60394",
-			"name": "Necklace_Pendant_Indian",
-			"factory": "0051EBD0C3280590",
-			"blueprint": "00E10D6458D747BD",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "009ABB0C2B864FC5",
-						"flag": "5F"
-					}
-				}
-			}
-		},
 		"ecaee9eae62f6bc1": {
 			"parent": "6a32831e29b60394",
-			"name": "Pants_Harem",
-			"factory": "00B1434D60BDFAF7",
-			"blueprint": "00D0A2867A0A015C",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#171717"
-				},
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00AD8E2E2B1C6672",
-						"flag": "5F"
-					}
-				},
-				"Texture2DNormal_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00469FDE6E7A7E52",
-						"flag": "5F"
-					}
-				},
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00EE1CEE042DD3C7",
-						"flag": "5F"
-					}
-				}
-			}
-		},
-		"481d3c98b085af20": {
-			"parent": "6a32831e29b60394",
-			"name": "Attacher_L_Forearm",
-			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
-			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
-			"properties": {
-				"m_BoneName": { "type": "ZString", "value": "L_Forearm" },
-				"m_linkedEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "6a32831e29b60394",
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "6a32831e29b60394",
-					"postInit": true
-				}
-			}
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5"
 		},
 		"b6ac51c6cd2667fc": {
 			"parent": "6a32831e29b60394",
@@ -121,87 +48,6 @@
 					}
 				}
 			}
-		},
-		"2119691cc0542cfb": {
-			"parent": "51d6389bb19da240",
-			"name": "hat_outback",
-			"factory": "001031CC25CA43FF",
-			"blueprint": "00151083AAFF86D4",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 17.992102094650726,
-							"y": 89.70793160559273,
-							"z": 159.17941772289177
-						},
-						"position": {
-							"x": -2.6633729934692383,
-							"y": 0.011610999703407288,
-							"z": -0.005235000047832727
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 1.1507699489593506,
-						"y": 1.1304199695587158,
-						"z": 1.0112700462341309
-					}
-				},
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#595c57"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "51d6389bb19da240",
-					"postInit": true
-				}
-			}
-		},
-		"f673e5be5383a51c": {
-			"parent": "481d3c98b085af20",
-			"name": "Watch_Tactical",
-			"factory": "002B5621E02FB8FC",
-			"blueprint": "00C21FA071EBE76E",
-			"properties": {
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "481d3c98b085af20"
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 4.045258696949101,
-							"y": 0.5684402467109609,
-							"z": 96.18725708158405
-						},
-						"position": {
-							"x": 0.2436890006065369,
-							"y": 0.001306000049225986,
-							"z": 0.0006249999860301614
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 1.1100000143051147,
-						"y": 1.1100000143051147,
-						"z": 1.1408400535583496
-					}
-				}
-			}
-		},
-		"452704e66e9a5df6": {
-			"parent": "6a32831e29b60394",
-			"name": "Legs_Ankle_Shoe",
-			"factory": "00ABDD120246BCDC",
-			"blueprint": "0021DE526F3B8B7D"
 		},
 		"b0c7dccbb82ec464": {
 			"parent": "6a32831e29b60394",
@@ -261,150 +107,11 @@
 				}
 			}
 		},
-		"a4550752f2471cec": {
-			"parent": "6a32831e29b60394",
-			"name": "Torso_Neck",
-			"factory": "00D43167687E61AD",
-			"blueprint": "007E9340AD2C2425"
-		},
-		"90ae7911742990ee": {
-			"parent": "a441d79b19c58a2e",
-			"name": "base_hair_vertexcolor",
-			"factory": "000BF013336584CF",
-			"blueprint": "00757A40547A20B1",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": -57.74642181396485,
-							"y": 13.535329818725586,
-							"z": 0.0
-						}
-					}
-				},
-				"ConstantColorRGB_05_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantColorRGB_02_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"DiffuseColorB_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantColorRGB_02_Value": {
-					"type": "SColorRGB",
-					"value": "#d9d2ca"
-				},
-				"DiffuseColorB": {
-					"type": "SColorRGB",
-					"value": "#5e5a57"
-				},
-				"ConstantColorRGB_05_Value": {
-					"type": "SColorRGB",
-					"value": "#faf0e6"
-				},
-				"ConstantVector1D_03_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantVector1D_05_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantVector1D_04_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantVector1D_05_Value": {
-					"type": "float32",
-					"value": 0.4600000083446502
-				},
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["a441d79b19c58a2e"],
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "6a32831e29b60394",
-					"postInit": true
-				}
-			}
-		},
-		"a441d79b19c58a2e": {
-			"parent": "6a32831e29b60394",
-			"name": "Mesh_Photographer_Hair",
-			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
-			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/assets/individuals/bulldog/photographer/geometry/male_reg_photographer.wl2?/photographer_hair.weightedprim](bodypart).pc_weightedprim",
-						"flag": "5F"
-					}
-				}
-			}
-		},
-		"5870e91d2ffb51b0": {
-			"parent": "6a32831e29b60394",
-			"name": "Sweater_Hoodie_HoodDwn_NoZip",
-			"factory": "0018987178E8C43E",
-			"blueprint": "00E75C44FAFCCE97",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#8a8a8a"
-				},
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0008C2E87E00EEEF",
-						"flag": "5F"
-					}
-				}
-			}
-		},
-		"51d6389bb19da240": {
-			"parent": "6a32831e29b60394",
-			"name": "Attacher_Head_01",
-			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
-			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
-			"properties": {
-				"m_BoneName": { "type": "ZString", "value": "Head" },
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": 2.7701799869537354,
-							"y": 0.0,
-							"z": 0.0
-						}
-					}
-				},
-				"m_linkedEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "6a32831e29b60394",
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "6a32831e29b60394",
-					"postInit": true
-				}
-			}
-		},
 		"4c7f4fc6724f87c3": {
 			"parent": "6a32831e29b60394",
-			"name": "Hands",
-			"factory": "009A6D9F7927FB89",
-			"blueprint": "00F49463DEA8D412"
+			"name": "Body_Full",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5"
 		},
 		"6a32831e29b60394": {
 			"parent": null,
@@ -427,14 +134,8 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						"4c7f4fc6724f87c3",
-						"a4550752f2471cec",
-						"452704e66e9a5df6",
-						"5870e91d2ffb51b0",
 						"b6ac51c6cd2667fc",
-						"2198b0e061dcf70a",
 						"ecaee9eae62f6bc1",
-						"a441d79b19c58a2e",
-						"446374f7ab96b643",
 						"b0c7dccbb82ec464"
 					]
 				},

@@ -160,21 +160,6 @@
 				}
 			}
 		},
-		"1ebc2b7293bcc886": {
-			"parent": "87a11a2413898f66",
-			"name": "Tattoo_R_Forearm_Inner",
-			"factory": "00A29DC2D7E40BD2",
-			"blueprint": "0079EFFBBB441FCD",
-			"properties": {
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "009984D96A18D441",
-						"flag": "5F"
-					}
-				}
-			}
-		},
 		"809563e39748c8ab": {
 			"parent": "031b24cea61c5c4d",
 			"name": "Watch_Sporty_3Crown",
@@ -500,8 +485,7 @@
 						"ec373afe585c0efc",
 						"196536da5fa524ff",
 						"58fa1480d38258a0",
-						"5c7dcdfae9d37549",
-						"1ebc2b7293bcc886"
+						"5c7dcdfae9d37549"
 					]
 				},
 				"m_pBonesAndCollisionResource": {

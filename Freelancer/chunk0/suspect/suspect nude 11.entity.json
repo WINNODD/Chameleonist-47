@@ -5,60 +5,9 @@
 	"entities": {
 		"63d1f3ce3299f0fc": {
 			"parent": "c43319e8adf2f5e3",
-			"name": "Pants_Dress_Loose_HlfBrk_v2",
-			"factory": "0068ED07370D62FC",
-			"blueprint": "003E1EC5EF91B5D8",
-			"properties": {
-				"ConstantColorRGB_02_Value": {
-					"type": "SColorRGB",
-					"value": "#494648"
-				}
-			}
-		},
-		"e67b589f01f4cfdb": {
-			"parent": "dcdbe92b9f5c2b8c",
-			"name": "moscowmule_male_gloves_01",
-			"factory": "00D52DBBC25054AD",
-			"blueprint": "00172C14B11B277E",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
-					}
-				},
-				"Texture2D_01_enab": { "type": "bool", "value": true },
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0057B99716D7380D",
-						"flag": "5F"
-					}
-				},
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["dcdbe92b9f5c2b8c"],
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "c43319e8adf2f5e3",
-					"postInit": true
-				}
-			}
-		},
-		"c88f8a46d2bf5acc": {
-			"parent": "c43319e8adf2f5e3",
-			"name": "Belt_StrapBuckle",
-			"factory": "0017355DDB3D75A3",
-			"blueprint": "005F1B0540C7F863",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#3b0b0b"
-				}
-			}
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5"
 		},
 		"46e88070cb0fc70f": {
 			"parent": "961228fa4cd812e1",
@@ -96,21 +45,6 @@
 				}
 			}
 		},
-		"dcdbe92b9f5c2b8c": {
-			"parent": "c43319e8adf2f5e3",
-			"name": "Mesh_Necklace",
-			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
-			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0065AA50C72D3478",
-						"flag": "5F"
-					}
-				}
-			}
-		},
 		"c43319e8adf2f5e3": {
 			"parent": null,
 			"name": "OUTFIT_Suspect_M_Actor_v11",
@@ -142,17 +76,11 @@
 				"m_aBodyParts": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"bd6042e0c7c6bf80",
-						"3b0d60e133050d11",
 						"63d1f3ce3299f0fc",
 						"c0217b0f434a12a5",
 						"c87d7bb27c661d9f",
 						"ec71338b158eebf0",
-						"bb1d92dfa82e0998",
-						"44d28500ba476582",
-						"952fdd8691c516df",
 						"427cb639381c4035",
-						"dcdbe92b9f5c2b8c",
 						"6f708f0e7caa8c27"
 					],
 					"postInit": true
@@ -179,87 +107,11 @@
 				}
 			}
 		},
-		"bb1d92dfa82e0998": {
-			"parent": "c43319e8adf2f5e3",
-			"name": "Torso_Neck",
-			"factory": "00D43167687E61AD",
-			"blueprint": "007E9340AD2C2425"
-		},
-		"3b0d60e133050d11": {
-			"parent": "c43319e8adf2f5e3",
-			"name": "Shirt_Dress_BtnUp_Tkd_2open_Cut_Jacket",
-			"factory": "00F15236FC53B0E8",
-			"blueprint": "0076A4499F0A79F8",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#a17a7a"
-				},
-				"Diffuse_Color_02_Value": {
-					"type": "SColorRGB",
-					"value": "#a17a7a"
-				}
-			}
-		},
 		"ec71338b158eebf0": {
 			"parent": "c43319e8adf2f5e3",
-			"name": "Hands",
-			"factory": "009A6D9F7927FB89",
-			"blueprint": "00F49463DEA8D412"
-		},
-		"bd6042e0c7c6bf80": {
-			"parent": "c43319e8adf2f5e3",
-			"name": "Shoes_Derby_CapToe_SquareTip",
-			"factory": "0033E9BBFCA7B067",
-			"blueprint": "0002D822B863CAA8",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#333333"
-				}
-			}
-		},
-		"44d28500ba476582": {
-			"parent": "c43319e8adf2f5e3",
-			"name": "Socks_Ankle_Cut_Shoe",
-			"factory": "00C50F4D59B78463",
-			"blueprint": "0060BDFBAAFA9324"
-		},
-		"50a43fd08658fc38": {
-			"parent": "961228fa4cd812e1",
-			"name": "glasses_aviator_fullframe_bridge_slvr",
-			"factory": "00379F0995149DAA",
-			"blueprint": "00BD730C0722F7C4",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 100.79745315251252,
-							"y": 89.72015836309389,
-							"z": 114.47885754087277
-						},
-						"position": {
-							"x": 0.06688500195741653,
-							"y": 0.005818000063300133,
-							"z": -0.0008820000221021473
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 1.0501400232315063,
-						"y": 1.1439800262451172,
-						"z": 1.0750000476837158
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "961228fa4cd812e1",
-					"postInit": true
-				}
-			}
+			"name": "Body_Full",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5"
 		},
 		"6f708f0e7caa8c27": {
 			"parent": "c43319e8adf2f5e3",
@@ -275,12 +127,6 @@
 					}
 				}
 			}
-		},
-		"952fdd8691c516df": {
-			"parent": "c43319e8adf2f5e3",
-			"name": "Jacket_Suit_Closed_v2",
-			"factory": "00B339F96E0B613F",
-			"blueprint": "006E57ED77EDB018"
 		},
 		"c87d7bb27c661d9f": {
 			"parent": "c43319e8adf2f5e3",

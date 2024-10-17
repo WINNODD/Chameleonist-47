@@ -141,41 +141,6 @@
 				}
 			}
 		},
-		"f7e0f83bcca6bfea": {
-			"parent": "b10d1d367488e460",
-			"name": "earring_hoop_big",
-			"factory": "000708374235EA00",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -29.991852815240353,
-							"y": -0.10977875660179988,
-							"z": 0.4098414661384089
-						},
-						"position": {
-							"x": 0.02118300087749958,
-							"y": 0.014917000196874142,
-							"z": 0.0760980024933815
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.32499998807907104,
-						"y": 0.32499998807907104,
-						"z": 0.8583580255508423
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b10d1d367488e460"
-				}
-			}
-		},
 		"4c8bc855a8e3e1c5": {
 			"parent": "43e5bbe9fd8ddf5c",
 			"name": "Head_47",
@@ -192,28 +157,28 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 9.882930537855447,
-							"y": 89.71731543179573,
-							"z": 166.90009622026193
+							"x": 4.291938315314557,
+							"y": 89.61595030255094,
+							"z": 162.9427653152395
 						},
 						"position": {
-							"x": 0.07238499820232391,
-							"y": 0.0192050002515316,
-							"z": -0.0005619999719783664
+							"x": 0.08294499665498734,
+							"y": 0.020142000168561935,
+							"z": 0.0006300000241026282
 						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.9591439962387084,
-						"y": 0.975000023841858,
-						"z": 0.975000023841858
 					}
 				},
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
 					"value": "#515753"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.9700000286102296,
+						"y": 0.9800000190734864,
+						"z": 0.9700000286102296
+					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",

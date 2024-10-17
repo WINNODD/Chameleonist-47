@@ -1,0 +1,954 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe4bd71edfc3f8",
+				{
+					"parent": "fffffffffffffffe",
+					"name": "Debug Supect Outfits Showcase",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec3c7a9e925c1",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v26",
+					"factory": "0053A726E74C8461",
+					"blueprint": "00A05B9ED4D6292E",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -12, "y": 3, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea08cfcced479",
+				{
+					"parent": "cafe4bd71edfc3f8",
+					"name": "Spatial",
+					"factory": "[modules:/zspatialentity.class].pc_entitytype",
+					"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 90 },
+								"position": {
+									"x": 20,
+									"y": -165,
+									"z": 0.3
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb2fed213460b",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v23",
+					"factory": "00167ADE34914AAE",
+					"blueprint": "004C1EE8C356A4EF",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -7.5, "y": 3, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee0920bf8e66a",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v32",
+					"factory": "0061D4FBE5E5D017",
+					"blueprint": "00A3465427A18314",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -7.5, "y": 4.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe22af8a8a9592",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v10",
+					"factory": "0092070A211E1C88",
+					"blueprint": "00FEFC23E1C700EC",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -1.5, "y": 1.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9396f03872f4",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v18",
+					"factory": "0088EBB5C9101C8D",
+					"blueprint": "0098FE0DC34F4E4F",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 3, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe98c8a5115944",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v13",
+					"factory": "007125979601F503",
+					"blueprint": "0075A9AA75F45FCF",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -6, "y": 1.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe98c5a7a0263c",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v12",
+					"factory": "00C78490CCAEFF57",
+					"blueprint": "00A8C841E92875F2",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -4.5, "y": 1.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3f33a4905800",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v3",
+					"factory": "00B0AE3B098FA9E2",
+					"blueprint": "005E8887F41B7A5A",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -4.5, "y": 0, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe968906725fc7",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v21",
+					"factory": "00862EBB08C66793",
+					"blueprint": "00594946182E56BA",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -4.5, "y": 3, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeddb9f3b87829",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v29",
+					"factory": "0092A87D25D8E50A",
+					"blueprint": "00F754D79B41344A",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -3, "y": 4.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe6bf66a002c1f",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v5",
+					"factory": "00B9A72AEE668B3F",
+					"blueprint": "0005D803DCE0EEFE",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -7.5, "y": 0, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7067729328b6",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v22",
+					"factory": "009C9AF9B25C8C56",
+					"blueprint": "00D5346F0550B649",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -6, "y": 3, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7c5bec76ce96",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v6",
+					"factory": "00B5CA76D2DFFC2E",
+					"blueprint": "0079C9290B229390",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -9, "y": 0, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe412b6b85aa00",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v15",
+					"factory": "00CA9253E2D2CE57",
+					"blueprint": "006869986FA8CA9E",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -9, "y": 1.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0b262240ba80",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v0",
+					"factory": "000872CD0ACF04FF",
+					"blueprint": "00B835BE0741A88B",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2c11d16d7629",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v2",
+					"factory": "006F26172D0B2542",
+					"blueprint": "00F118358384DF8A",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -3, "y": 0, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4d96d354cb7e",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v4",
+					"factory": "00A1C2B9F3642C19",
+					"blueprint": "005463C393D6D2A3",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -6, "y": 0, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9e5a03731416",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v8",
+					"factory": "008741BC6D4439A0",
+					"blueprint": "00FF06EA9783562F",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -12, "y": 0, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee0e19f0a3e03",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v30",
+					"factory": "00E59679E62C86BA",
+					"blueprint": "009AB727B4BF80B6",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -4.5, "y": 4.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe405d6635e3a8",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v14",
+					"factory": "0029A485C1495F8F",
+					"blueprint": "00239459EF0ED453",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -7.5, "y": 1.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafedd79fbbd80e9",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v28",
+					"factory": "00A42814E8107433",
+					"blueprint": "0002FA88FB1A152B",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -1.5, "y": 4.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe21c3702ca894",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v9",
+					"factory": "005C4DAF6D1882F2",
+					"blueprint": "00088EB4CB7537B5",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 1.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe276459745ac0",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v20",
+					"factory": "00678E79DF59665F",
+					"blueprint": "000062F9CB32FC04",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -3, "y": 3, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1c4674af403d",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v1",
+					"factory": "009A3A7E01821DD2",
+					"blueprint": "006C78D41354C702",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -1.5, "y": 0, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe999290c268a3",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v19",
+					"factory": "00EB076F438ED5D6",
+					"blueprint": "00FA6B204F0CC2EB",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -1.5, "y": 3, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe630cc6635549",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v17",
+					"factory": "005396EA19E0E324",
+					"blueprint": "009E9B65E33E690D",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -12, "y": 1.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9c7d3f37054c",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v7",
+					"factory": "00741407974F3845",
+					"blueprint": "00BC1F5F41685B34",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -10.5, "y": 0, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0420b882a7f2",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v16",
+					"factory": "0033A11A598478C3",
+					"blueprint": "003D75A2846C83F4",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": {
+									"x": -10.5,
+									"y": 1.5,
+									"z": 0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebbdaad63bead",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v24",
+					"factory": "007C0460DF68DC2C",
+					"blueprint": "007BD3F4BF88251C",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -9, "y": 3, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe55ad21cef000",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v11",
+					"factory": "0053F566BF35C1F9",
+					"blueprint": "009EFFAA626F15E7",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -3, "y": 1.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef0df33f2e16c",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v33",
+					"factory": "0007CFB357165D01",
+					"blueprint": "00C92703E663DA2C",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -9, "y": 4.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafefb2c6e313e7c",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v35",
+					"factory": "00C1C4345E16C9E8",
+					"blueprint": "00E122250FF7736B",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -12, "y": 4.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebdc4cd60b5bc",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v25",
+					"factory": "0066B0DE79B1DF41",
+					"blueprint": "00F0FF30A77C130D",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -10.5, "y": 3, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee80f1a6f513e",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v31",
+					"factory": "004E588CDA390340",
+					"blueprint": "007EFB7FE7EBE174",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": -6, "y": 4.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef431571aa133",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v34",
+					"factory": "00E40E569AA11A9B",
+					"blueprint": "00B48F0DE8369F97",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": {
+									"x": -10.5,
+									"y": 4.5,
+									"z": 0
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecf34013a648b",
+				{
+					"parent": "cafea08cfcced479",
+					"name": "OUTFIT_Suspect_M_Actor_v27",
+					"factory": "00634A95735D9989",
+					"blueprint": "00EB34DCC3E2749E",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 4.5, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea08cfcced479",
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -36,23 +36,23 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -75.64025421758619,
-							"y": 87.95381123044763,
-							"z": -104.2375003289504
+							"x": 9.501127602532495,
+							"y": 89.57865917488478,
+							"z": 150.33706424180488
 						},
 						"position": {
-							"x": 0.07400400191545486,
-							"y": 0.021626999601721764,
-							"z": 0.0007200000109151006
+							"x": 0.08979299664497375,
+							"y": 0.02833300083875656,
+							"z": 0.00021499999274965376
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.0557399988174438,
-						"y": 0.975000023841858,
-						"z": 0.975000023841858
+						"x": 1.095829963684082,
+						"y": 1.0540399551391602,
+						"z": 0.8103790283203125
 					}
 				},
 				"Diffuse_Color_01_Value": {
@@ -65,12 +65,6 @@
 					"postInit": true
 				}
 			}
-		},
-		"5d393c10cdc8b6f9": {
-			"parent": "df8306d45a1369e2",
-			"name": "Necklace_Pendant_Indian",
-			"factory": "0051EBD0C3280590",
-			"blueprint": "00E10D6458D747BD"
 		},
 		"32cc84a7f55b4a39": {
 			"parent": "df8306d45a1369e2",
@@ -258,30 +252,6 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "32cc84a7f55b4a39"
-				}
-			}
-		},
-		"bf2da790ba24af21": {
-			"parent": "45c36b3720ce149a",
-			"name": "earring_dangle_circle",
-			"factory": "00ACFB3B6CF24415",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": {
-							"x": 34.540809631347656,
-							"y": -5.517769813537598,
-							"z": 1.931628942489624
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "45c36b3720ce149a",
-					"postInit": true
 				}
 			}
 		},

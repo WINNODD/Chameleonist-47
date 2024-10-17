@@ -3,18 +3,6 @@
 	"tbluHash": "000B0B3329FB0182",
 	"rootEntity": "7b2d520ccdcbd268",
 	"entities": {
-		"8d823ed56c9a01c0": {
-			"parent": "7b2d520ccdcbd268",
-			"name": "Socks_Ankle_Cut_Shoe",
-			"factory": "00C50F4D59B78463",
-			"blueprint": "0060BDFBAAFA9324",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#23527a"
-				}
-			}
-		},
 		"7b2d520ccdcbd268": {
 			"parent": null,
 			"name": "OUTFIT_Suspect_M_Actor_v35",
@@ -48,11 +36,7 @@
 					"value": [
 						"fcedafeb4b29dcc5",
 						"8979216650bd9f99",
-						"322dd763a8923afa",
-						"8d823ed56c9a01c0",
-						"b864a9661988f94c",
 						"e21dd568d0c4cecd",
-						"8c12fbf85d17e73f",
 						"fd75bc4e52a096bd"
 					],
 					"postInit": true
@@ -61,26 +45,9 @@
 		},
 		"8979216650bd9f99": {
 			"parent": "7b2d520ccdcbd268",
-			"name": "Pants_Jeans_Slim",
-			"factory": "00D8F98FFC2766FE",
-			"blueprint": "0027BE58478DD2EC",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#424242"
-				},
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00AF802D36A4241A",
-						"flag": "5F"
-					}
-				},
-				"ConstantVector1D_01_Value": {
-					"type": "float32",
-					"value": 0.5
-				}
-			}
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5"
 		},
 		"2e7968d9f1ed9a77": {
 			"parent": "331826a2df59c12e",
@@ -164,30 +131,6 @@
 				}
 			}
 		},
-		"8c12fbf85d17e73f": {
-			"parent": "7b2d520ccdcbd268",
-			"name": "Necklace_GoldChain_Thick",
-			"factory": "0058601305AF3C4F",
-			"blueprint": "00285EDB1B9CDF13",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#e0dcda"
-				}
-			}
-		},
-		"322dd763a8923afa": {
-			"parent": "7b2d520ccdcbd268",
-			"name": "Shoes_Sneakers_Skate",
-			"factory": "0051CDBE526A5788",
-			"blueprint": "005E95DA5C8F37F9",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#bfbfbf"
-				}
-			}
-		},
 		"2c94d05f92d2fae5": {
 			"parent": "3525e9c15c9cbafa",
 			"name": "ring_simple_01",
@@ -216,50 +159,6 @@
 						"y": 0.38999998569488525,
 						"z": 0.38999998569488525
 					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "3525e9c15c9cbafa",
-					"postInit": true
-				}
-			}
-		},
-		"cf57de997d710a07": {
-			"parent": "3525e9c15c9cbafa",
-			"name": "glasses_sporty_fullframe",
-			"factory": "004EF0F6B640F41B",
-			"blueprint": "00267B08CFE67D2B",
-			"properties": {
-				"Diffuse_Hue_Shift_01_Value": {
-					"type": "float32",
-					"value": 0.0
-				},
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#424242"
-				},
-				"Diffuse_Saturation_01_Value": {
-					"type": "float32",
-					"value": 0.0
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -92.06935742119909,
-							"y": 89.70499621316935,
-							"z": -90.77164998482321
-						},
-						"position": {
-							"x": 0.07311499863862991,
-							"y": 0.01097199972718954,
-							"z": 0.0012390000047162175
-						}
-					}
-				},
-				"m_rLinkedProxyEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "7b2d520ccdcbd268"
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -329,9 +228,9 @@
 		},
 		"fcedafeb4b29dcc5": {
 			"parent": "7b2d520ccdcbd268",
-			"name": "Arms_Pit_Hand",
-			"factory": "005DB086459BFBF0",
-			"blueprint": "001D9DD4ADE7A025"
+			"name": "Body_Full",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5"
 		},
 		"331826a2df59c12e": {
 			"parent": "3525e9c15c9cbafa",
@@ -383,22 +282,6 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "7b2d520ccdcbd268"
-				}
-			}
-		},
-		"b864a9661988f94c": {
-			"parent": "7b2d520ccdcbd268",
-			"name": "TShirt_Oversized_CrewNeck",
-			"factory": "00DAE5D7C2245CA4",
-			"blueprint": "00D2422FF4453F47",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#d99066"
-				},
-				"ConstantVector1D_01_Value": {
-					"type": "float32",
-					"value": 1.0
 				}
 			}
 		}

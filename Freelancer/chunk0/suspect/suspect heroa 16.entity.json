@@ -32,15 +32,23 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 61.585999600608446,
-							"y": 89.71503387469383,
-							"z": 114.2171748323387
+							"x": 100.79745315251252,
+							"y": 89.72015836309389,
+							"z": 114.47885754087277
 						},
 						"position": {
-							"x": 0.07453099638223648,
-							"y": 0.0015480000292882323,
-							"z": -0.0009239999926649034
+							"x": 0.06688500195741653,
+							"y": 0.005818000063300133,
+							"z": -0.0008820000221021473
 						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0501400232315063,
+						"y": 1.1439800262451172,
+						"z": 1.0750000476837158
 					}
 				},
 				"m_eidParent": {
@@ -76,33 +84,6 @@
 				"Diffuse_Color_01_Value": {
 					"type": "SColorRGB",
 					"value": "#333333"
-				}
-			}
-		},
-		"c46244e90d6b9e4d": {
-			"parent": "aa40e2ae9f0ed9e2",
-			"name": "earring_stud_stone",
-			"factory": "00ADD10BD0BBFFDB",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -22.764484142648307,
-							"y": 0.047670080728674055,
-							"z": 0.3728260169803283
-						},
-						"position": {
-							"x": 0.01950399950146675,
-							"y": 0.014558999799191952,
-							"z": 0.07693400233983994
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "aa40e2ae9f0ed9e2"
 				}
 			}
 		},
@@ -143,8 +124,7 @@
 						"6d4821dd1590a0c2",
 						"95d06c34d093a645",
 						"335208d98d7de9a4",
-						"3c42b853bdcfdb45",
-						"e4529db17b411b79"
+						"3c42b853bdcfdb45"
 					],
 					"postInit": true
 				}
@@ -181,21 +161,6 @@
 			"factory": "00537D16B5CE7286",
 			"blueprint": "00F2E4A932ECAA63"
 		},
-		"e4529db17b411b79": {
-			"parent": "71f67ca80e253809",
-			"name": "Tattoo_L_Hand",
-			"factory": "002436EBD26EC629",
-			"blueprint": "00BD5EF404BC0FFC",
-			"properties": {
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "008060C3BFA32E4C",
-						"flag": "5F"
-					}
-				}
-			}
-		},
 		"95d06c34d093a645": {
 			"parent": "71f67ca80e253809",
 			"name": "Hands",
@@ -212,23 +177,15 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -89.29512075281212,
-							"y": 87.85659423576791,
-							"z": -87.22390922772016
+							"x": 6.133551713657712,
+							"y": 89.7120905520809,
+							"z": 170.64970397769846
 						},
 						"position": {
-							"x": 0.07723899930715561,
-							"y": 0.02274399995803833,
-							"z": 0.003481999970972538
+							"x": 0.08441799879074097,
+							"y": 0.019202999770641327,
+							"z": -0.00030899999546818435
 						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 1.0538400411605835,
-						"y": 0.990082025527954,
-						"z": 0.975000023841858
 					}
 				},
 				"Diffuse_Color_01_Value": {

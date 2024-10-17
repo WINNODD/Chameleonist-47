@@ -286,42 +286,6 @@
 				}
 			}
 		},
-		"326494e65c981374": {
-			"parent": "c5d0b2d4d0826a75",
-			"name": "earring_hoop_big",
-			"factory": "000708374235EA00",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -27.844229772721896,
-							"y": 0.06898413933583035,
-							"z": -0.27822923874773314
-						},
-						"position": {
-							"x": 0.03116800077259541,
-							"y": 0.015734000131487846,
-							"z": 0.08052299916744232
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.7250000238418579,
-						"y": 0.7250000238418579,
-						"z": 2.3815701007843018
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "c5d0b2d4d0826a75",
-					"postInit": true
-				}
-			}
-		},
 		"c78ca053608df4b0": {
 			"parent": "6ce429b6e61596ec",
 			"name": "Socks_Ankle_Cut_Shoe",

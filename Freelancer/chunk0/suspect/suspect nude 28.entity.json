@@ -73,11 +73,7 @@
 						"8cafe79aedeb46f3",
 						"83dd8a83191b4ac6",
 						"39c857f538a9fcc3",
-						"f78a0f65600ee81b",
-						"49985a4e0360a8b7",
-						"2f931be96e80f145",
 						"e0515d762a59d3b6",
-						"b377f690f76a96cd",
 						"f18226b495fd9c66"
 					],
 					"postInit": true
@@ -86,9 +82,9 @@
 		},
 		"e0515d762a59d3b6": {
 			"parent": "076ba09f6cef3e67",
-			"name": "Arms_Shoulder_Hand",
-			"factory": "00D0A46D325392B0",
-			"blueprint": "0038B023C4284F44"
+			"name": "Body_Full",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5"
 		},
 		"e89acb5de4601970": {
 			"parent": "11ad017bf654d8a1",
@@ -101,7 +97,7 @@
 					"value": {
 						"rotation": {
 							"x": -29.991980922947366,
-							"y": -0.11121111344378103,
+							"y": -0.11121111344378104,
 							"z": 0.4151693698211083
 						},
 						"position": {
@@ -126,75 +122,11 @@
 				}
 			}
 		},
-		"49985a4e0360a8b7": {
-			"parent": "076ba09f6cef3e67",
-			"name": "Shoes_Boots_Military",
-			"factory": "00A7DC37E14B3676",
-			"blueprint": "000315500CD95840",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#4c4b4b"
-				}
-			}
-		},
-		"f78a0f65600ee81b": {
-			"parent": "076ba09f6cef3e67",
-			"name": "Shirt_Btnup_SrtSlv_Closed_v2",
-			"factory": "008917180ACA1941",
-			"blueprint": "00FC35C113818376",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#dae3d1"
-				},
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "001A43A971BECADE",
-						"flag": "5F"
-					}
-				}
-			}
-		},
 		"39c857f538a9fcc3": {
 			"parent": "076ba09f6cef3e67",
-			"name": "Pants_Cargo_Tucked_Low",
-			"factory": "00E45B9FE4AB5D3C",
-			"blueprint": "00B9CC80CD69339D",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#5c5349"
-				},
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "007389CC67F82957",
-						"flag": "5F"
-					}
-				}
-			}
-		},
-		"2f931be96e80f145": {
-			"parent": "076ba09f6cef3e67",
-			"name": "Vest_Utility",
-			"factory": "00AF0BA6DFA1C8B6",
-			"blueprint": "00DD1A1D3DC0DDD2",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#97997a"
-				},
-				"Diffuse_Saturation_01_Value": {
-					"type": "float32",
-					"value": 0.5
-				},
-				"ConstantVector1D_01_Value": {
-					"type": "float32",
-					"value": 1.0
-				}
-			}
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5"
 		},
 		"11ad017bf654d8a1": {
 			"parent": "076ba09f6cef3e67",
@@ -212,12 +144,6 @@
 					"value": "076ba09f6cef3e67"
 				}
 			}
-		},
-		"b377f690f76a96cd": {
-			"parent": "076ba09f6cef3e67",
-			"name": "Torso_Neck",
-			"factory": "00D43167687E61AD",
-			"blueprint": "007E9340AD2C2425"
 		},
 		"83dd8a83191b4ac6": {
 			"parent": "076ba09f6cef3e67",
@@ -253,84 +179,6 @@
 						"resource": "000CB1DEB8B50D3C",
 						"flag": "5F"
 					}
-				}
-			}
-		},
-		"74b5bf1a647c3fe2": {
-			"parent": "11ad017bf654d8a1",
-			"name": "hat_cap_flexfit",
-			"factory": "006D829170CB5046",
-			"blueprint": "003BA226113AE32E",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 10.041789365109418,
-							"y": 89.70687565149403,
-							"z": 167.15719875021813
-						},
-						"position": {
-							"x": 0.07652900367975235,
-							"y": 0.016938000917434692,
-							"z": -0.0005579999997280538
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 1.047760009765625,
-						"y": 1.007040023803711,
-						"z": 0.9407169818878174
-					}
-				},
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#44523c"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "11ad017bf654d8a1"
-				}
-			}
-		},
-		"50a1a527937411bc": {
-			"parent": "11ad017bf654d8a1",
-			"name": "glasses_sporty_fullframe",
-			"factory": "004EF0F6B640F41B",
-			"blueprint": "00267B08CFE67D2B",
-			"properties": {
-				"Diffuse_Hue_Shift_01_Value": {
-					"type": "float32",
-					"value": 0.0
-				},
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#424242"
-				},
-				"Diffuse_Saturation_01_Value": {
-					"type": "float32",
-					"value": 0.0
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -91.91327422125417,
-							"y": 89.65389875827303,
-							"z": -90.894579247434
-						},
-						"position": {
-							"x": 0.06976400315761566,
-							"y": 0.014747999608516691,
-							"z": 0.0006019999855197966
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "11ad017bf654d8a1"
 				}
 			}
 		}

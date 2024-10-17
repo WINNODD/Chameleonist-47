@@ -22,63 +22,6 @@
 				}
 			}
 		},
-		"cc7ff046cf1c1df1": {
-			"parent": "aa40e2ae9f0ed9e2",
-			"name": "glasses_aviator_fullframe_bridge_slvr",
-			"factory": "00379F0995149DAA",
-			"blueprint": "00BD730C0722F7C4",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 61.585999600608446,
-							"y": 89.71503387469383,
-							"z": 114.2171748323387
-						},
-						"position": {
-							"x": 0.07453099638223648,
-							"y": 0.0015480000292882323,
-							"z": -0.0009239999926649034
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "aa40e2ae9f0ed9e2"
-				}
-			}
-		},
-		"55cddbd28094cbf4": {
-			"parent": "71f67ca80e253809",
-			"name": "Sweater_Turtleneck_SlimFit",
-			"factory": "0043CA45F28A931C",
-			"blueprint": "009A8C3DDC612740",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#4b68ab"
-				}
-			}
-		},
-		"3c42b853bdcfdb45": {
-			"parent": "71f67ca80e253809",
-			"name": "Socks_Ankle_Cut_Shoe",
-			"factory": "00C50F4D59B78463",
-			"blueprint": "0060BDFBAAFA9324"
-		},
-		"25949988927fce13": {
-			"parent": "71f67ca80e253809",
-			"name": "Shoes_Derby_CapToe_SquareTip",
-			"factory": "0033E9BBFCA7B067",
-			"blueprint": "0002D822B863CAA8",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#333333"
-				}
-			}
-		},
 		"c46244e90d6b9e4d": {
 			"parent": "aa40e2ae9f0ed9e2",
 			"name": "earring_stud_stone",
@@ -91,7 +34,7 @@
 						"rotation": {
 							"x": -22.764484142648307,
 							"y": 0.047670080728674055,
-							"z": 0.37282601698032836
+							"z": 0.3728260169803283
 						},
 						"position": {
 							"x": 0.01950399950146675,
@@ -157,13 +100,9 @@
 				"m_aBodyParts": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"25949988927fce13",
-						"55cddbd28094cbf4",
 						"72305601c46d3689",
 						"6d4821dd1590a0c2",
 						"95d06c34d093a645",
-						"335208d98d7de9a4",
-						"3c42b853bdcfdb45",
 						"cb71495cccb6897c",
 						"e4529db17b411b79"
 					],
@@ -171,30 +110,11 @@
 				}
 			}
 		},
-		"335208d98d7de9a4": {
-			"parent": "71f67ca80e253809",
-			"name": "Torso_Neck",
-			"factory": "00D43167687E61AD",
-			"blueprint": "007E9340AD2C2425"
-		},
 		"72305601c46d3689": {
 			"parent": "71f67ca80e253809",
-			"name": "Pants_Jeans_Slim",
-			"factory": "00D8F98FFC2766FE",
-			"blueprint": "0027BE58478DD2EC",
-			"properties": {
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#31353b"
-				},
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "004D37664097C0FB",
-						"flag": "5F"
-					}
-				}
-			}
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5"
 		},
 		"6d4821dd1590a0c2": {
 			"parent": "71f67ca80e253809",
@@ -250,52 +170,9 @@
 		},
 		"95d06c34d093a645": {
 			"parent": "71f67ca80e253809",
-			"name": "Hands",
-			"factory": "009A6D9F7927FB89",
-			"blueprint": "00F49463DEA8D412"
-		},
-		"0a073c6787907ad6": {
-			"parent": "aa40e2ae9f0ed9e2",
-			"name": "hat_cap_flat_plain",
-			"factory": "0006F4B94399BEE7",
-			"blueprint": "008008263D5AF7C7",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -89.29512075281212,
-							"y": 87.85659423576791,
-							"z": -87.22390922772016
-						},
-						"position": {
-							"x": 0.07723899930715561,
-							"y": 0.02274399995803833,
-							"z": 0.003481999970972538
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 1.0538400411605835,
-						"y": 0.990082025527954,
-						"z": 0.975000023841858
-					}
-				},
-				"Diffuse_Color_01_Value": {
-					"type": "SColorRGB",
-					"value": "#adadad"
-				},
-				"Diffuse_Saturation_01_Value": {
-					"type": "float32",
-					"value": 0.0
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "aa40e2ae9f0ed9e2"
-				}
-			}
+			"name": "Body_Full",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5"
 		}
 	},
 	"propertyOverrides": [],
