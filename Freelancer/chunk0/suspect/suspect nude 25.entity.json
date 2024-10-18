@@ -174,18 +174,9 @@
 		},
 		"ff612c57ccc55704": {
 			"parent": "8751e2ee69b744e1",
-			"name": "Arms_Elbow_Hand",
-			"factory": "00A29B00CF575A54",
-			"blueprint": "006FE46DA08946A8",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00E3AC6141A1094B",
-						"flag": "5F"
-					}
-				}
-			}
+			"name": "Body_Full",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5"
 		},
 		"0b88aff9f8ae2870": {
 			"parent": "c0006e840b7d85fc",

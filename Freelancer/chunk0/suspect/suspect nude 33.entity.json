@@ -117,9 +117,18 @@
 		},
 		"3f1cfe94c252a271": {
 			"parent": "f0cc81cd0f854a46",
-			"name": "Body_Full",
-			"factory": "008C9419C0263DF3",
-			"blueprint": "009E702203139DF5"
+			"name": "Arms_Elbow_Hand",
+			"factory": "00A29B00CF575A54",
+			"blueprint": "006FE46DA08946A8",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E3AC6141A1094B",
+						"flag": "5F"
+					}
+				}
+			}
 		},
 		"f0cc81cd0f854a46": {
 			"parent": null,
@@ -169,9 +178,18 @@
 		},
 		"b9142f5f71397ae2": {
 			"parent": "f0cc81cd0f854a46",
-			"name": "Underwear_Boxers",
-			"factory": "008736C2691685B1",
-			"blueprint": "00692FFA2F8F0EB5"
+			"name": "Mesh_Underwear",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0075CF696561F7EA",
+						"flag": "5F"
+					}
+				}
+			}
 		},
 		"97680852532c7d3c": {
 			"parent": "278dfcd8fd30d325",

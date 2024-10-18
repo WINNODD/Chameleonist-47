@@ -52,7 +52,8 @@
 						"989cf7148917e07e",
 						"9889bc0afe45cb14",
 						"4b46aa8a4e394965",
-						"8e393b59783a6ade"
+						"8e393b59783a6ade",
+						"cafe587399ffbf38"
 					],
 					"postInit": true
 				}
@@ -98,16 +99,7 @@
 			"parent": "f388be84082a3c20",
 			"name": "Body_Full",
 			"factory": "008C9419C0263DF3",
-			"blueprint": "009E702203139DF5",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00B40E9503CF9271",
-						"flag": "5F"
-					}
-				}
-			}
+			"blueprint": "009E702203139DF5"
 		},
 		"9889bc0afe45cb14": {
 			"parent": "f388be84082a3c20",
@@ -202,6 +194,12 @@
 					"value": 0.05000000074505806
 				}
 			}
+		},
+		"cafe587399ffbf38": {
+			"parent": "f388be84082a3c20",
+			"name": "Hair_Top_S_Caesar",
+			"factory": "007ADD444DE5CDEB",
+			"blueprint": "00B1970128611CF9"
 		}
 	},
 	"propertyOverrides": [],

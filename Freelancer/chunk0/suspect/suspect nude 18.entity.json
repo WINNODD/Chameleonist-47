@@ -65,25 +65,6 @@
 			"factory": "008736C2691685B1",
 			"blueprint": "00692FFA2F8F0EB5"
 		},
-		"0ff86ae993344178": {
-			"parent": "363fe48142e888ad",
-			"name": "L_Arm_Attacher",
-			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
-			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
-			"properties": {
-				"m_BoneName": { "type": "ZString", "value": "L_Forearm" },
-				"m_linkedEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "363fe48142e888ad",
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "363fe48142e888ad",
-					"postInit": true
-				}
-			}
-		},
 		"7e0376c9a9d28c87": {
 			"parent": "363fe48142e888ad",
 			"name": "Head_Attacher",
@@ -100,41 +81,6 @@
 					"type": "SEntityTemplateReference",
 					"value": "363fe48142e888ad",
 					"postInit": true
-				}
-			}
-		},
-		"39267b3e8019b71d": {
-			"parent": "0ff86ae993344178",
-			"name": "Watch_HeartMeter",
-			"factory": "0078C746E6015EC3",
-			"blueprint": "0072FAE9722E67B7",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.951630050690296,
-							"y": -12.056127702639216,
-							"z": -85.75721952122053
-						},
-						"position": {
-							"x": 0.243476003408432,
-							"y": -0.00022499999613501132,
-							"z": 0.0015069999499246478
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 1.016080021858215,
-						"y": 0.9993749856948853,
-						"z": 0.9993749856948853
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "0ff86ae993344178"
 				}
 			}
 		},

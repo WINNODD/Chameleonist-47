@@ -104,7 +104,8 @@
 						"6d4821dd1590a0c2",
 						"95d06c34d093a645",
 						"cb71495cccb6897c",
-						"e4529db17b411b79"
+						"e4529db17b411b79",
+						"cafe3588ec64ca0d"
 					],
 					"postInit": true
 				}
@@ -173,6 +174,12 @@
 			"name": "Body_Full",
 			"factory": "008C9419C0263DF3",
 			"blueprint": "009E702203139DF5"
+		},
+		"cafe3588ec64ca0d": {
+			"parent": "71f67ca80e253809",
+			"name": "Hair_Top_S_Caesar",
+			"factory": "007ADD444DE5CDEB",
+			"blueprint": "00B1970128611CF9"
 		}
 	},
 	"propertyOverrides": [],

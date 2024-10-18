@@ -3,18 +3,6 @@
 	"tbluHash": "00AAF492ABF16AE9",
 	"rootEntity": "8751e2ee69b744e1",
 	"entities": {
-		"b71318dbe4a16cca": {
-			"parent": "8751e2ee69b744e1",
-			"name": "Jacket_Suit_Open",
-			"factory": "009682FF35F9ABD6",
-			"blueprint": "00B49353116FF872",
-			"properties": {
-				"Diffuse_Color_01_Value_1": {
-					"type": "SColorRGB",
-					"value": "#dbdbdb"
-				}
-			}
-		},
 		"2ebc2c42607fedbc": {
 			"parent": "940f1d0ed5534aaf",
 			"name": "male_casual_01_hat_03",
@@ -551,7 +539,7 @@
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/assets/individuals/fox/clubowner/geometry/male_reg_clubowner.wl2?/shirt.weightedprim](bodypart).pc_weightedprim",
+						"resource": "[assembly:/_pro/characters/assets/individuals/fox/clubowner/geometry/male_reg_clubowner.wl2?/shirt_47.weightedprim](bodypart).pc_weightedprim",
 						"flag": "5F"
 					}
 				}

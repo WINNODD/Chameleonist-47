@@ -155,7 +155,8 @@
 						"6c04e0eae076b1f3",
 						"48a1fdf873830862",
 						"4b51e8304be43d01",
-						"9766b15aaa9461b4"
+						"9766b15aaa9461b4",
+						"cafe218eb11b6728"
 					]
 				},
 				"m_pBonesAndCollisionResource": {
@@ -170,6 +171,12 @@
 					"value": "ROOM_DYNAMIC"
 				}
 			}
+		},
+		"cafe218eb11b6728": {
+			"parent": "590e0ad7522e9548",
+			"name": "Hair_Top_S_Caesar",
+			"factory": "007ADD444DE5CDEB",
+			"blueprint": "00B1970128611CF9"
 		}
 	},
 	"propertyOverrides": [],

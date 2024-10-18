@@ -262,7 +262,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "New York",
-                "ShareNYDubaiCQ",
+                "ShareEGNYDubaiCQ",
                 "ShareEGNY"
             ]
         }, {
@@ -279,7 +279,7 @@
             "contentFolders": [
                 "Dubai",
                 "ShareDubaiDartmoor",
-                "ShareNYDubaiCQ",
+                "ShareEGNYDubaiCQ",
                 "ShareEGDubai"
             ],
             "dependencies": [{
@@ -324,7 +324,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "Chongqing",
-                "ShareNYDubaiCQ",
+                "ShareEGNYDubaiCQ",
                 "ShareEGCQ"
             ]
         }, {
@@ -368,6 +368,7 @@
             "type": "checkbox",
             "contentFolders": [
                 "Freelancer",
+                "ShareEGNYDubaiCQ",
                 "ShareEGICAParisSapiMarrakesh",
                 "ShareEGSapi",
                 "ShareEGSapiMarrakesh",

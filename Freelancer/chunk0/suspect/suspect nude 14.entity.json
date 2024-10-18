@@ -57,7 +57,8 @@
 						"5567e704ccc35a02",
 						"70aa693d55590b74",
 						"9a2841013cbfe55b",
-						"3e9e9c7d57fc5713"
+						"3e9e9c7d57fc5713",
+						"cafe22113bf73f9c"
 					],
 					"postInit": true
 				}
@@ -118,6 +119,12 @@
 			"name": "Underwear_Boxers",
 			"factory": "008736C2691685B1",
 			"blueprint": "00692FFA2F8F0EB5"
+		},
+		"cafe22113bf73f9c": {
+			"parent": "3c4158c91411a053",
+			"name": "Hair_Top_S_Caesar",
+			"factory": "007ADD444DE5CDEB",
+			"blueprint": "00B1970128611CF9"
 		}
 	},
 	"propertyOverrides": [],

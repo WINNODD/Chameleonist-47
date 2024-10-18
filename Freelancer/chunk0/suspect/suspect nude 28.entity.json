@@ -74,7 +74,8 @@
 						"83dd8a83191b4ac6",
 						"39c857f538a9fcc3",
 						"e0515d762a59d3b6",
-						"f18226b495fd9c66"
+						"f18226b495fd9c66",
+						"cafe363e780eacfe"
 					],
 					"postInit": true
 				}
@@ -181,6 +182,12 @@
 					}
 				}
 			}
+		},
+		"cafe363e780eacfe": {
+			"parent": "076ba09f6cef3e67",
+			"name": "Hair_Top_S_Caesar",
+			"factory": "007ADD444DE5CDEB",
+			"blueprint": "00B1970128611CF9"
 		}
 	},
 	"propertyOverrides": [],

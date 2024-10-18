@@ -75,7 +75,8 @@
 						"22b17aec67d04b75",
 						"8dd20f87fab190cd",
 						"c32dea33c4ece989",
-						"7846e1bda583c98c"
+						"7846e1bda583c98c",
+						"cafe505aeab560ba"
 					],
 					"postInit": true
 				}
@@ -180,6 +181,12 @@
 			"name": "Underwear_Boxers",
 			"factory": "008736C2691685B1",
 			"blueprint": "00692FFA2F8F0EB5"
+		},
+		"cafe505aeab560ba": {
+			"parent": "f4d504031e3380a7",
+			"name": "Hair_Top_M_SideSweptFringe",
+			"factory": "00E643B2AD09B654",
+			"blueprint": "00B022136AB827D8"
 		}
 	},
 	"propertyOverrides": [],
