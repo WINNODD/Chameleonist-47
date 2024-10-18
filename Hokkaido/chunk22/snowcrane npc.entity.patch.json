@@ -4,96 +4,90 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
-				"b80f71b3a92ec458",
+				"b4bfc29fe3033c9c",
 				{
-					"AddEventConnection": [
-						"Stopped",
-						"Start",
-						"cafe19d9c6856b82"
+					"PatchArrayPropertyValue": [
+						"m_aTracksAndGroups",
+						[
+							{
+								"AddItemAfter": [
+									"17fcc730d0e39a76",
+									"cafea92e8b7b8736"
+								]
+							}
+						]
 					]
 				}
 			]
 		},
 		{
 			"SubEntityOperation": [
-				"e1c67a1a04a49473",
+				"6c4c8e376455b249",
 				{
-					"AddEventConnection": [
-						"Stopped",
-						"Start",
-						"cafe8eb9ce3b275b"
+					"PatchArrayPropertyValue": [
+						"m_aTracksAndGroups",
+						[
+							{
+								"AddItemAfter": [
+									"c628ad6bcf77d16e",
+									"cafe9bba5ac4a56f"
+								]
+							}
+						]
 					]
 				}
 			]
 		},
 		{
 			"SubEntityOperation": [
-				"5e8910794777a779",
+				"279bce1b17372ce8",
 				{
-					"AddEventConnection": [
-						"Stopped",
-						"Start",
-						"cafe97aa1322e828"
+					"PatchArrayPropertyValue": [
+						"m_aTracksAndGroups",
+						[
+							{
+								"AddItemAfter": [
+									"2290528ff2dae02e",
+									"cafeea66b3ae45cb"
+								]
+							}
+						]
 					]
 				}
 			]
 		},
 		{
 			"SubEntityOperation": [
-				"2577a6dd04081f4c",
+				"2b0534b59fa6b341",
 				{
-					"AddEventConnection": [
-						"Stopped",
-						"Start",
-						"cafe8eb9ce3b275b"
+					"PatchArrayPropertyValue": [
+						"m_aTracksAndGroups",
+						[
+							{
+								"AddItemAfter": [
+									"f6bfb1119b0abd7e",
+									"cafe16ff777beb82"
+								]
+							}
+						]
 					]
 				}
 			]
 		},
 		{
 			"SubEntityOperation": [
-				"359018a2ce8c7b30",
+				"0095c78a8c2e98b1",
 				{
-					"AddEventConnection": [
-						"Stopped",
-						"Start",
-						"cafe19d9c6856b82"
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"228ac23408220d97",
-				{
-					"AddEventConnection": [
-						"Stopped",
-						"Start",
-						"cafe97aa1322e828"
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"7f07ad006d87fa18",
-				{
-					"AddEventConnection": [
-						"Stopped",
-						"Start",
-						"cafee9835c11817f"
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"fbb5210f8d364c10",
-				{
-					"AddEventConnection": [
-						"Stopped",
-						"Start",
-						"cafe645b7bb6b8ba"
+					"PatchArrayPropertyValue": [
+						"m_aTracksAndGroups",
+						[
+							{
+								"AddItemAfter": [
+									"af0701b7ec5bf041",
+									"cafe1a5cd3398c8d"
+								]
+							}
+						]
 					]
 				}
 			]
@@ -436,8 +430,8 @@
 			"AddEntity": [
 				"cafeea66b3ae45cb",
 				{
-					"parent": "cafee9835c11817f",
-					"name": "EntityTrack_ OUTFIT_Soders_M_Actor_v0",
+					"parent": "279bce1b17372ce8",
+					"name": "EntityTrack_ OUTFIT_Soders_M_Nude_v0",
 					"factory": "[modules:/zentitygroup.class].pc_entitytype",
 					"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
 					"properties": {
@@ -454,39 +448,6 @@
 							],
 							"postInit": true
 						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafee9835c11817f",
-				{
-					"parent": "b159529b63f95189",
-					"name": "SpiderRobot_Dead_Electrify_Nude",
-					"factory": "[modules:/zsequenceentity.class].pc_entitytype",
-					"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
-					"properties": {
-						"m_duration": {
-							"type": "ZGameTime",
-							"value": { "m_nTicks": 4194304 }
-						},
-						"m_nLoopCount": { "type": "int32", "value": -1 },
-						"m_aTracksAndGroups": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafeea66b3ae45cb"],
-							"postInit": true
-						},
-						"m_sequenceOrigin": {
-							"type": "SEntityTemplateReference",
-							"value": "ac939055820ac64e",
-							"postInit": true
-						}
-					},
-					"events": {
-						"Stopped": { "Disable": ["a266884a40f797ea"] },
-						"OnAbort": { "Disable": ["a266884a40f797ea"] },
-						"OnStart": { "Disable": ["a266884a40f797ea"] }
 					}
 				}
 			]
@@ -574,39 +535,6 @@
 		},
 		{
 			"AddEntity": [
-				"cafe19d9c6856b82",
-				{
-					"parent": "b159529b63f95189",
-					"name": "SpiderRobot_Dead_Poison_Nude",
-					"factory": "[modules:/zsequenceentity.class].pc_entitytype",
-					"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
-					"properties": {
-						"m_duration": {
-							"type": "ZGameTime",
-							"value": { "m_nTicks": 4194304 }
-						},
-						"m_nLoopCount": { "type": "int32", "value": -1 },
-						"m_aTracksAndGroups": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafe16ff777beb82"],
-							"postInit": true
-						},
-						"m_sequenceOrigin": {
-							"type": "SEntityTemplateReference",
-							"value": "ac939055820ac64e",
-							"postInit": true
-						}
-					},
-					"events": {
-						"Stopped": { "Disable": ["77c7321de206196f"] },
-						"OnAbort": { "Disable": ["77c7321de206196f"] },
-						"OnStart": { "Disable": ["77c7321de206196f"] }
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
 				"cafee15f8dfb26cd",
 				{
 					"parent": "cafec85a3425ed93",
@@ -659,8 +587,8 @@
 			"AddEntity": [
 				"cafe16ff777beb82",
 				{
-					"parent": "cafe19d9c6856b82",
-					"name": "EntityTrack_ OUTFIT_Soders_M_Actor_v0",
+					"parent": "2b0534b59fa6b341",
+					"name": "EntityTrack_ OUTFIT_Soders_M_Nude_v0",
 					"factory": "[modules:/zentitygroup.class].pc_entitytype",
 					"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
 					"properties": {
@@ -795,42 +723,10 @@
 		},
 		{
 			"AddEntity": [
-				"cafe8eb9ce3b275b",
-				{
-					"parent": "b159529b63f95189",
-					"name": "SpiderRobot_Dead_Shot_Nude",
-					"factory": "[modules:/zsequenceentity.class].pc_entitytype",
-					"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
-					"properties": {
-						"m_duration": {
-							"type": "ZGameTime",
-							"value": { "m_nTicks": 4194304 }
-						},
-						"m_nLoopCount": { "type": "int32", "value": -1 },
-						"m_sequenceOrigin": {
-							"type": "SEntityTemplateReference",
-							"value": "ac939055820ac64e"
-						},
-						"m_aTracksAndGroups": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafe1a5cd3398c8d"],
-							"postInit": true
-						}
-					},
-					"events": {
-						"Stopped": { "Disable": ["7f43bfc4110659cd"] },
-						"OnAbort": { "Disable": ["7f43bfc4110659cd"] },
-						"OnStart": { "Disable": ["7f43bfc4110659cd"] }
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
 				"cafe1a5cd3398c8d",
 				{
-					"parent": "cafe8eb9ce3b275b",
-					"name": "EntityTrack_ OUTFIT_Soders_M_Actor_v0",
+					"parent": "0095c78a8c2e98b1",
+					"name": "EntityTrack_ OUTFIT_Soders_M_Nude_v0",
 					"factory": "[modules:/zentitygroup.class].pc_entitytype",
 					"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
 					"properties": {
@@ -878,39 +774,6 @@
 								"flag": "5F"
 							}
 						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe645b7bb6b8ba",
-				{
-					"parent": "b159529b63f95189",
-					"name": "SpiderRobot_Dead_Shot_Flatline_Nude",
-					"factory": "[modules:/zsequenceentity.class].pc_entitytype",
-					"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
-					"properties": {
-						"m_duration": {
-							"type": "ZGameTime",
-							"value": { "m_nTicks": 4194304 }
-						},
-						"m_nLoopCount": { "type": "int32", "value": -1 },
-						"m_aTracksAndGroups": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafe9bba5ac4a56f"],
-							"postInit": true
-						},
-						"m_sequenceOrigin": {
-							"type": "SEntityTemplateReference",
-							"value": "ac939055820ac64e",
-							"postInit": true
-						}
-					},
-					"events": {
-						"Stopped": { "Disable": ["2568a3f332e57424"] },
-						"OnAbort": { "Disable": ["2568a3f332e57424"] },
-						"OnStart": { "Disable": ["2568a3f332e57424"] }
 					}
 				}
 			]
@@ -1033,8 +896,8 @@
 			"AddEntity": [
 				"cafe9bba5ac4a56f",
 				{
-					"parent": "cafe645b7bb6b8ba",
-					"name": "EntityTrack_ OUTFIT_Soders_M_Actor_v0",
+					"parent": "6c4c8e376455b249",
+					"name": "EntityTrack_ OUTFIT_Soders_M_Nude_v0",
 					"factory": "[modules:/zentitygroup.class].pc_entitytype",
 					"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
 					"properties": {
@@ -1057,8 +920,8 @@
 			"AddEntity": [
 				"cafea92e8b7b8736",
 				{
-					"parent": "cafe97aa1322e828",
-					"name": "EntityTrack_ OUTFIT_Soders_M_Actor_v0",
+					"parent": "b4bfc29fe3033c9c",
+					"name": "EntityTrack_ OUTFIT_Soders_M_Nude_v0",
 					"factory": "[modules:/zentitygroup.class].pc_entitytype",
 					"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
 					"properties": {
@@ -1097,39 +960,6 @@
 							"value": ["cafe56a3f5f99f3e"],
 							"postInit": true
 						}
-					}
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"cafe97aa1322e828",
-				{
-					"parent": "b159529b63f95189",
-					"name": "SpiderRobot_Dead_SuckedDry_Nude",
-					"factory": "[modules:/zsequenceentity.class].pc_entitytype",
-					"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
-					"properties": {
-						"m_duration": {
-							"type": "ZGameTime",
-							"value": { "m_nTicks": 4194304 }
-						},
-						"m_nLoopCount": { "type": "int32", "value": -1 },
-						"m_aTracksAndGroups": {
-							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafea92e8b7b8736"],
-							"postInit": true
-						},
-						"m_sequenceOrigin": {
-							"type": "SEntityTemplateReference",
-							"value": "ac939055820ac64e",
-							"postInit": true
-						}
-					},
-					"events": {
-						"Stopped": { "Disable": ["fd06f54beabab5b0"] },
-						"OnAbort": { "Disable": ["fd06f54beabab5b0"] },
-						"OnStart": { "Disable": ["fd06f54beabab5b0"] }
 					}
 				}
 			]
