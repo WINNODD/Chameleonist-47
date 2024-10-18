@@ -6,10 +6,66 @@
 			"SubEntityOperation": [
 				"922df216c9fe26c9",
 				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_unique_artist_f_name_4575cbc1-e2d7-49dd-b181-f267967090da.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"922df216c9fe26c9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_unique_artist_f_description_4575cbc1-e2d7-49dd-b181-f267967090da.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"922df216c9fe26c9",
+				{
 					"AddProperty": [
 						"m_bHeroDisguiseAvailable",
 						{ "type": "bool", "value": true }
 					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2936df912b051aa7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_unique_artist_f_name_4575cbc1-e2d7-49dd-b181-f267967090da.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2936df912b051aa7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_unique_artist_f_description_4575cbc1-e2d7-49dd-b181-f267967090da.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
 				}
 			]
 		},

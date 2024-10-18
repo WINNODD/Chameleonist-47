@@ -1,1 +1,85 @@
-{"tempHash":"00B1CC0A32BD22D8","tbluHash":"00493E942189CFA8","patch":[{"SubEntityOperation":["38bfcfadb796d31f",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["522f06853b8a215b",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]}],"patchVersion":6}
+{
+	"tempHash": "00B1CC0A32BD22D8",
+	"tbluHash": "00493E942189CFA8",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"38bfcfadb796d31f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_ancestral.sweetmenutext?/ancestral_unique_undertaker_m_name_dc3c386d-52c2-4e17-855d-6c15e080ccf3.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"38bfcfadb796d31f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_ancestral.sweetmenutext?/ancestral_unique_undertaker_m_description_dc3c386d-52c2-4e17-855d-6c15e080ccf3.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"38bfcfadb796d31f",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"522f06853b8a215b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_unique_famouschef_m_name_6dcf16f6-6620-410f-b51c-179f75de938c.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"522f06853b8a215b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_unique_famouschef_m_description_6dcf16f6-6620-410f-b51c-179f75de938c.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"522f06853b8a215b",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
