@@ -6,10 +6,66 @@
 			"SubEntityOperation": [
 				"114e3cac1edb3731",
 				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_edgy.sweetmenutext?/outfits_edgy_unique_pusher_m_name_19e7a4bf-bb33-4ada-a2b4-90459d7ab5cd.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"114e3cac1edb3731",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_edgy.sweetmenutext?/outfits_edgy_unique_pusher_m_desc_19e7a4bf-bb33-4ada-a2b4-90459d7ab5cd.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"114e3cac1edb3731",
+				{
 					"AddProperty": [
 						"m_bHeroDisguiseAvailable",
 						{ "type": "bool", "value": true }
 					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"847aefe74f33b610",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_rat.sweetmenutext?/outfits_npcs_rat_civilians_streets_name.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"847aefe74f33b610",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_rat.sweetmenutext?/outfits_npcs_rat_civilians_streets_desc.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
 				}
 			]
 		},
