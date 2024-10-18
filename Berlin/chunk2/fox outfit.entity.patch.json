@@ -37,7 +37,74 @@
 		},
 		{
 			"SubEntityOperation": [
+				"7637b518f2c2af17",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_mumbai.sweetmenutext?/outfits_mumbai_civilian_civilian_m_pro79300_name_856f9d1e-3094-40d7-bc58-6165eef191ac.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7637b518f2c2af17",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_mumbai.sweetmenutext?/outfits_mumbai_civilian_civilian_m_pro79300_description_856f9d1e-3094-40d7-bc58-6165eef191ac.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"b57de17701947d58",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b57de17701947d58",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_skunk.sweetmenutext?/outfits_skunk_unique_swampthing_pro109397_name_63f384d6-b2ce-4bb1-938d-5aae54b046ea.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b57de17701947d58",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_skunk.sweetmenutext?/outfits_skunk_unique_swampthing_pro109397_description_63f384d6-b2ce-4bb1-938d-5aae54b046ea.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a3e749234496b3fa",
 				{
 					"SetPropertyValue": {
 						"property_name": "m_bHeroDisguiseAvailable",
@@ -51,8 +118,25 @@
 				"a3e749234496b3fa",
 				{
 					"SetPropertyValue": {
-						"property_name": "m_bHeroDisguiseAvailable",
-						"value": true
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_theisland.sweetmenutext?/theisland_guard_sentinel_m_pro99793_name_84c55eed-6891-40b3-9449-6881b53fabdd.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a3e749234496b3fa",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_theisland.sweetmenutext?/theisland_guard_sentinel_m_pro99793_description_84c55eed-6891-40b3-9449-6881b53fabdd.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
 					}
 				}
 			]
@@ -109,11 +193,67 @@
 		},
 		{
 			"SubEntityOperation": [
+				"1c32be6773e3af56",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_unique_assassin_m_name_ef9dddc5-25c7-450f-afcb-ac1b8f9569c9.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1c32be6773e3af56",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_unique_assassin_m_description_ef9dddc5-25c7-450f-afcb-ac1b8f9569c9.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"4a532e8e7a608b4d",
 				{
 					"SetPropertyValue": {
 						"property_name": "m_bHeroDisguiseAvailable",
 						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4a532e8e7a608b4d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_unique_assassin_m_name_ef9dddc5-25c7-450f-afcb-ac1b8f9569c9.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4a532e8e7a608b4d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_unique_assassin_m_description_ef9dddc5-25c7-450f-afcb-ac1b8f9569c9.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
 					}
 				}
 			]
