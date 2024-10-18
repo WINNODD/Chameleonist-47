@@ -1,1 +1,145 @@
-{"tempHash":"00637AA0549EE05A","tbluHash":"00D3B768E70B1F11","patch":[{"SubEntityOperation":["ad764de3dd129236",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["e7fc49553e6f2ef1",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["e2be2c97e1003a72",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["aab8ba79a3945b70",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["cc960524d3851be0",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["5c6f52dc4fc7aa3d",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["c6eb670d6cde347b",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["fec7f0f2684245c5",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["319ce03cd89c99dc",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]},{"SubEntityOperation":["eb2c9e4fd84caf3c",{"AddProperty":["m_bHeroDisguiseAvailable",{"type":"bool","value":true}]}]}],"patchVersion":6}
+{
+	"tempHash": "00637AA0549EE05A",
+	"tbluHash": "00D3B768E70B1F11",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ad764de3dd129236",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e7fc49553e6f2ef1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e2be2c97e1003a72",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"aab8ba79a3945b70",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cc960524d3851be0",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5c6f52dc4fc7aa3d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_miami.sweetmenutext?/outfits_miami_worker_journalist_m_pro74813_name_723e73f3-9fa4-40d8-bb11-b66184c9a795.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5c6f52dc4fc7aa3d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_miami.sweetmenutext?/outfits_miami_worker_journalist_m_pro74813_description_723e73f3-9fa4-40d8-bb11-b66184c9a795.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5c6f52dc4fc7aa3d",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c6eb670d6cde347b",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fec7f0f2684245c5",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"319ce03cd89c99dc",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"eb2c9e4fd84caf3c",
+				{
+					"AddProperty": [
+						"m_bHeroDisguiseAvailable",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
