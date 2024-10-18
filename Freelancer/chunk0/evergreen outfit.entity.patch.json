@@ -15,7 +15,74 @@
 		},
 		{
 			"SubEntityOperation": [
+				"35c1568e3dee5e69",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "0007D6119ADDEB0C",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"35c1568e3dee5e69",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "0007D6119ADDEB0C",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"4ed50c1c86566311",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4ed50c1c86566311",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "001463338651CC20",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4ed50c1c86566311",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "001463338651CC20",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1f70676e8116ac4",
 				{
 					"SetPropertyValue": {
 						"property_name": "m_bHeroDisguiseAvailable",
@@ -29,8 +96,25 @@
 				"c1f70676e8116ac4",
 				{
 					"SetPropertyValue": {
-						"property_name": "m_bHeroDisguiseAvailable",
-						"value": true
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "0064C98B8F4B3441",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1f70676e8116ac4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "0064C98B8F4B3441",
+							"flag": "5F"
+						}
 					}
 				}
 			]
