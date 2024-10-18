@@ -15,6 +15,34 @@
 		},
 		{
 			"SubEntityOperation": [
+				"83f728d075caf76f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_rat.sweetmenutext?/outfits_npcs_rat_civilians_streets_name.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"83f728d075caf76f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_rat.sweetmenutext?/outfits_npcs_rat_civilians_streets_desc.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"3791c7e5f1aee671",
 				{
 					"SetPropertyValue": {
