@@ -1,0 +1,169 @@
+{
+	"tempHash": "009E87262581215D",
+	"tbluHash": "004ECE602FDD7D45",
+	"rootEntity": "985ed75a0e7e7fd5",
+	"entities": {
+		"985ed75a0e7e7fd5": {
+			"parent": null,
+			"name": "OUTFIT_Dugong_Civilian_Local_M_Actor_v10",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 25.707130432128903,
+							"y": 4.593677997589111,
+							"z": 0.0
+						}
+					}
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 10.0
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"a713bca22d263fa5",
+						"878b1b963b0265bb",
+						"4ffc475fa44bb0be",
+						"528a02e2e37092a3",
+						"b661f1cd4b99600d",
+						"bc965d14a058308d",
+						"7921d2bc2f620912"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"a713bca22d263fa5": {
+			"parent": "985ed75a0e7e7fd5",
+			"name": "Arms_Biceps_Hand",
+			"factory": "0081BA55B3D8292E",
+			"blueprint": "00CFA61BB1571AF8"
+		},
+		"528a02e2e37092a3": {
+			"parent": "985ed75a0e7e7fd5",
+			"name": "Shoes_FlipFlops_ThickBand",
+			"factory": "00EAB12AB970C4C5",
+			"blueprint": "000F6E44D5F61F4E",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#4c4b3d"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.41999998688697815
+				}
+			}
+		},
+		"7921d2bc2f620912": {
+			"parent": "985ed75a0e7e7fd5",
+			"name": "Torso_Full",
+			"factory": "00A5D4779E6AA927",
+			"blueprint": "00B53E161DA42DC5"
+		},
+		"b661f1cd4b99600d": {
+			"parent": "985ed75a0e7e7fd5",
+			"name": "Shorts_Chino_Rolled",
+			"factory": "004969335F021990",
+			"blueprint": "00FE2B52763E9C9B",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#695e49"
+				}
+			}
+		},
+		"bc965d14a058308d": {
+			"parent": "985ed75a0e7e7fd5",
+			"name": "Legs_Thigh_Foot",
+			"factory": "00437CF5F116E7E9",
+			"blueprint": "00B815E6A54B09EE"
+		},
+		"878b1b963b0265bb": {
+			"parent": "985ed75a0e7e7fd5",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		},
+		"4ffc475fa44bb0be": {
+			"parent": "985ed75a0e7e7fd5",
+			"name": "Sweater_VNeck_RldSlv",
+			"factory": "00E83B4D35A70A2B",
+			"blueprint": "00DB30AA26E6D29F",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#292624"
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E3FD5B05C1DA9A",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{ "resource": "0082F7967C757800", "flag": "5F" },
+		{ "resource": "007170873AAF14D2", "flag": "5F" },
+		{ "resource": "00D1CD6B3EE80098", "flag": "5F" },
+		{ "resource": "00E0BC49F776A8A0", "flag": "5F" },
+		{ "resource": "006E54C0FBCBF0C0", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/italy/local_mens_old/textures/male_reg_local_old_short_01_test.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/italy/local_mens_old/textures/male_reg_local_old_short_01_test.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/italy/local_mens_old/textures/male_reg_local_old_short_01_test.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00BD5F5C4D186E0A", "flag": "5F" },
+		{ "resource": "004559E007C7BB6E", "flag": "5F" },
+		{ "resource": "0007593338F07F8E", "flag": "5F" },
+		{ "resource": "00697009BA669F9C", "flag": "5F" },
+		{ "resource": "0091FBA017372507", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00CB41D8760D4C07", "flag": "5F" },
+		{ "resource": "0049A5375518F033", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_02/textures/male_reg_printworker_02_shoes_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_02/textures/male_reg_printworker_02_shoes_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_02/textures/male_reg_printworker_02_shoes_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00ED80FEE811695F", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

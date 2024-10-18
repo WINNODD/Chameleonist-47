@@ -1,0 +1,271 @@
+{
+	"tempHash": "00D7C3E251BD3D87",
+	"tbluHash": "002C5D0EDE135CFC",
+	"rootEntity": "1aa76c7353fa58f4",
+	"entities": {
+		"3c87fd4ac9e05da2": {
+			"parent": "1aa76c7353fa58f4",
+			"name": "Legs_Thigh_Shoe",
+			"factory": "00D35AA766FE96D4",
+			"blueprint": "00B13FA86035685D"
+		},
+		"9e5db87f9e888229": {
+			"parent": "51ad9f11c6794d2a",
+			"name": "hat_cap_snapbuckle",
+			"factory": "00AB23C3697D314C",
+			"blueprint": "00055CE9C9EB9DE4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -103.4694470656826,
+							"y": 86.35902929770153,
+							"z": -78.39225543879812
+						},
+						"position": {
+							"x": 0.09307300299406052,
+							"y": 0.0246799997985363,
+							"z": -0.0015709999715909362
+						}
+					}
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#264b66"
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D2EEC6171EA47A",
+						"flag": "5F"
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0057189464569092,
+						"y": 1.0108760595321655,
+						"z": 1.0352200269699097
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "000D8AE8A33D6222",
+						"flag": "5F"
+					}
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "009A9AC8F9E10AE6",
+						"flag": "5F"
+					}
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00FE6431EDEC3045",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "51ad9f11c6794d2a",
+					"postInit": true
+				}
+			}
+		},
+		"51c74428628b34d8": {
+			"parent": "1aa76c7353fa58f4",
+			"name": "Upper_Body_01",
+			"factory": "00E7208BAEDDB24F",
+			"blueprint": "003C889C79F6A7B1"
+		},
+		"bb0e1e59314e8769": {
+			"parent": "1aa76c7353fa58f4",
+			"name": "Shoes_Boots_H_Wellington",
+			"factory": "00E74420268B6D72",
+			"blueprint": "00E030C90C8BC08D",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#e0a289"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/workers/gardeners/textures/male_reg_bangkok_gardener_boots.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"1aa76c7353fa58f4": {
+			"parent": null,
+			"name": "OUTFIT_Dugong_Civilian_Fisherman_M_Actor_v1",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -1.7170104267555653
+						},
+						"position": {
+							"x": -16.078699111938477,
+							"y": 4.759191989898682,
+							"z": 0.0
+						}
+					}
+				},
+				"m_vBodypartBoundingMarginMax": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.009999999776482582
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"bb0e1e59314e8769",
+						"e061ea5ce353d121",
+						"47634985bf841254",
+						"51c74428628b34d8",
+						"8e7f669ffbbad17d",
+						"3c87fd4ac9e05da2"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"47634985bf841254": {
+			"parent": "1aa76c7353fa58f4",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		},
+		"e061ea5ce353d121": {
+			"parent": "1aa76c7353fa58f4",
+			"name": "Shorts_Cargo_Slim",
+			"factory": "00C5D0599CB30831",
+			"blueprint": "00AFE7E769631B0A",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#5e5847"
+				}
+			}
+		},
+		"51ad9f11c6794d2a": {
+			"parent": "1aa76c7353fa58f4",
+			"name": "Attacher_Head",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "Head" },
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "1aa76c7353fa58f4"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "1aa76c7353fa58f4"
+				}
+			}
+		},
+		"8e7f669ffbbad17d": {
+			"parent": "1aa76c7353fa58f4",
+			"name": "TankTop_Loose_LargeLoops_Tkd",
+			"factory": "004E06346EA67E8E",
+			"blueprint": "001185502326CCA6",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#949494"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/workers/printworker_04/textures/male_reg_printworker_04_linen_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{ "resource": "00CDD0D3091D8EA9", "flag": "5F" },
+		{ "resource": "00AFF02D637DFD9B", "flag": "5F" },
+		{ "resource": "00DFD54E80ABDDC2", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "0020D98108900CBD", "flag": "5F" },
+		{ "resource": "002E7541DF988823", "flag": "5F" },
+		{ "resource": "000E0DDE0A90ECB4", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_04/textures/male_reg_printworker_04_linen_01.texture?/specular_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_04/textures/male_reg_printworker_04_linen_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00ED8C7256008401", "flag": "5F" },
+		{ "resource": "00D23ACA2BC93530", "flag": "5F" },
+		{ "resource": "006731C43241B2EA", "flag": "5F" },
+		{ "resource": "007F58CB3A03C028", "flag": "5F" },
+		{ "resource": "0024C776473ABAF9", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/gardeners/textures/male_reg_bangkok_gardener_boots.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/gardeners/textures/male_reg_bangkok_gardener_boots.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00D0491D96AF212A", "flag": "5F" },
+		{ "resource": "005E614397A91266", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_01_shorts_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_01_shorts_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_01_shorts_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00C4ADC44CC24754", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

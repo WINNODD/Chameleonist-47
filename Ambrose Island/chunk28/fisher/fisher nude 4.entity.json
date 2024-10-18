@@ -1,0 +1,151 @@
+{
+	"tempHash": "009DD4BE879D7B10",
+	"tbluHash": "001F4B728700EF68",
+	"rootEntity": "3fb0168df74addab",
+	"entities": {
+		"fe360ee48cd13902": {
+			"parent": "3fb0168df74addab",
+			"name": "Hair_Cap",
+			"factory": "006594C7AF2B3472",
+			"blueprint": "000B3B438FC8C9AC",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#2e2e2e"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#303030"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#bfbfbf"
+				}
+			}
+		},
+		"158a69d63de6f8bd": {
+			"parent": "3fb0168df74addab",
+			"name": "Body_Full",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5"
+		},
+		"c3c542de26d7c6cf": {
+			"parent": "3fb0168df74addab",
+			"name": "Head_african_20s_01",
+			"factory": "00849D69EC7DF741",
+			"blueprint": "00A9727890F842E8",
+			"properties": {
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#d6cece"
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#d6cece"
+				}
+			}
+		},
+		"3fb0168df74addab": {
+			"parent": null,
+			"name": "OUTFIT_Dugong_Civilian_Fisherman_M_Actor_v3",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -1.7170104267555653
+						},
+						"position": {
+							"x": -12.968649864196776,
+							"y": 4.681067943572998,
+							"z": 0.0
+						}
+					}
+				},
+				"m_vBodypartBoundingMarginMax": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.009999999776482582
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"02e059c65844f7ef",
+						"c3c542de26d7c6cf",
+						"158a69d63de6f8bd",
+						"fe360ee48cd13902"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"02e059c65844f7ef": {
+			"parent": "3fb0168df74addab",
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{ "resource": "007C9737A03E217F", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/gardeners/textures/male_reg_bangkok_gardener_boots.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/gardeners/textures/male_reg_bangkok_gardener_boots.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00D0491D96AF212A", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_03/textures/male_reg_printworker_03_shirt_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_03/textures/male_reg_printworker_03_shirt_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00E4CE6140460DF1", "flag": "5F" },
+		{ "resource": "00673F89CA1789DE", "flag": "5F" },
+		{ "resource": "0082CF1540A46EFD", "flag": "5F" },
+		{ "resource": "0000C1FA996B374C", "flag": "5F" },
+		{ "resource": "00493A3ED49C91A7", "flag": "5F" },
+		{ "resource": "00FEFAB2AF01C1B0", "flag": "5F" },
+		{ "resource": "003365359954D879", "flag": "5F" },
+		{ "resource": "00E0084D0A68FEDC", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "00731DEF6E5EDD69", "flag": "5F" },
+		{ "resource": "00EEB8BBC78E3A07", "flag": "5F" },
+		{ "resource": "004811B7821CF036", "flag": "5F" },
+		{ "resource": "00F1F44E4065DFDD", "flag": "5F" },
+		{ "resource": "00CB41D8760D4C07", "flag": "5F" },
+		{ "resource": "00F75AE166B92EA7", "flag": "5F" },
+		{ "resource": "00C8EC7C62C69CFF", "flag": "5F" },
+		{ "resource": "00F7F23614B9A7F9", "flag": "5F" },
+		{ "resource": "00D23ACA2BC93530", "flag": "5F" },
+		{ "resource": "006731C43241B2EA", "flag": "5F" },
+		{ "resource": "007F58CB3A03C028", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

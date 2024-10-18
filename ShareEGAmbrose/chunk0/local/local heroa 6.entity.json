@@ -1,0 +1,183 @@
+{
+	"tempHash": "00A4B1BC40E90C59",
+	"tbluHash": "00707653A237C4F0",
+	"rootEntity": "1fbf3a160bb2a3e5",
+	"entities": {
+		"15644c4751266127": {
+			"parent": "1fbf3a160bb2a3e5",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		},
+		"f395019a947cf81c": {
+			"parent": "1fbf3a160bb2a3e5",
+			"name": "Arms_Biceps_Hand",
+			"factory": "0081BA55B3D8292E",
+			"blueprint": "00CFA61BB1571AF8"
+		},
+		"d78048e88a126266": {
+			"parent": "1fbf3a160bb2a3e5",
+			"name": "Shoes_FlipFlops_ThickBand",
+			"factory": "00EAB12AB970C4C5",
+			"blueprint": "000F6E44D5F61F4E",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#4f4f4f"
+				}
+			}
+		},
+		"f78c63163eda2d14": {
+			"parent": "1fbf3a160bb2a3e5",
+			"name": "Torso_Full",
+			"factory": "00A5D4779E6AA927",
+			"blueprint": "00B53E161DA42DC5"
+		},
+		"d484114faaa650ff": {
+			"parent": "1fbf3a160bb2a3e5",
+			"name": "Pants_Jeans_Slim",
+			"factory": "00D8F98FFC2766FE",
+			"blueprint": "0027BE58478DD2EC",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#a7c6d9"
+				}
+			}
+		},
+		"31faf80e1d66f8c7": {
+			"parent": "1fbf3a160bb2a3e5",
+			"name": "Legs_Thigh_Foot",
+			"factory": "00437CF5F116E7E9",
+			"blueprint": "00B815E6A54B09EE"
+		},
+		"10f4b8abcbee9a4a": {
+			"parent": "1fbf3a160bb2a3e5",
+			"name": "Shirt_Btnup_SrtSlv_HalfOpen",
+			"factory": "00BAFD450E8380FC",
+			"blueprint": "00A5178E8B379B43",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#8f5a7b"
+				}
+			}
+		},
+		"1fbf3a160bb2a3e5": {
+			"parent": null,
+			"name": "OUTFIT_Dugong_Civilian_Local_M_Actor_v6",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"f395019a947cf81c",
+						"15644c4751266127",
+						"10f4b8abcbee9a4a",
+						"d78048e88a126266",
+						"d484114faaa650ff",
+						"31faf80e1d66f8c7",
+						"f78c63163eda2d14"
+					]
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 20.092750549316406,
+							"y": 4.591108798980713,
+							"z": 0.0
+						}
+					}
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 10.0
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{ "resource": "00A7BA97508F89FE", "flag": "5F" },
+		{ "resource": "0024C776473ABAF9", "flag": "5F" },
+		{ "resource": "001A0B0857FCBB9E", "flag": "5F" },
+		{ "resource": "00D7D3BA24A6D79F", "flag": "5F" },
+		{ "resource": "00681267FCACA458", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "0020D98108900CBD", "flag": "5F" },
+		{ "resource": "002E7541DF988823", "flag": "5F" },
+		{ "resource": "00A3549D0FD9D7F8", "flag": "5F" },
+		{ "resource": "0082F7967C757800", "flag": "5F" },
+		{ "resource": "00EA100ADCD3F53C", "flag": "5F" },
+		{ "resource": "00E242B006127188", "flag": "5F" },
+		{ "resource": "007FE6E34103FEED", "flag": "5F" },
+		{ "resource": "00DDEF9A9C62B09D", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_02/textures/male_reg_printworker_02_shirt_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_02/textures/male_reg_printworker_02_shirt_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_02/textures/male_reg_printworker_02_shirt_01.texture?/diffuse_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00DEAA1C4F2DD197", "flag": "5F" },
+		{ "resource": "00587E69ED872EB7", "flag": "5F" },
+		{ "resource": "00489BC36EFE59D3", "flag": "5F" },
+		{ "resource": "00AC36764CCF528C", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/glasses/textures/lens_basic.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_02_hat_01.texture?/diffuse_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_02_hat_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_02_hat_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00D23ACA2BC93530", "flag": "5F" },
+		{ "resource": "006731C43241B2EA", "flag": "5F" },
+		{ "resource": "007F58CB3A03C028", "flag": "5F" },
+		{ "resource": "007170873AAF14D2", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_02/textures/male_reg_printworker_02_shoes_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_02/textures/male_reg_printworker_02_shoes_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_02/textures/male_reg_printworker_02_shoes_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00ED80FEE811695F", "flag": "5F" },
+		{ "resource": "0093884D29103D51", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

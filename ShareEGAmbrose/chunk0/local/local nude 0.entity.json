@@ -1,0 +1,180 @@
+{
+	"tempHash": "000604676A388D1A",
+	"tbluHash": "00D4CF2F0C1B47F7",
+	"rootEntity": "071a1d15ea910223",
+	"entities": {
+		"b6e501a276bf4b9b": {
+			"parent": "071a1d15ea910223",
+			"name": "Hair_Sides_S",
+			"factory": "00538F0D8B33EA7C",
+			"blueprint": "00616A7BAAB2C145",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#1c1c1c"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#f5bdb3"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.4900000095367432
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				}
+			}
+		},
+		"e417e69616ed975d": {
+			"parent": "071a1d15ea910223",
+			"name": "Head_Indian_30s_01",
+			"factory": "00FD3F5B80CC87CB",
+			"blueprint": "0005C933E85E0B83",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#979dc4"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#979dc4"
+				}
+			}
+		},
+		"f0ed32efe0b820e6": {
+			"parent": "071a1d15ea910223",
+			"name": "Hair_Top_S_Caesar",
+			"factory": "007ADD444DE5CDEB",
+			"blueprint": "00B1970128611CF9"
+		},
+		"e55a0d56d6a51381": {
+			"parent": "071a1d15ea910223",
+			"name": "Body_Full",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5"
+		},
+		"712b1e0c0e5a26a5": {
+			"parent": "071a1d15ea910223",
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5"
+		},
+		"071a1d15ea910223": {
+			"parent": null,
+			"name": "OUTFIT_Dugong_Civilian_Local_M_Actor_v0",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 11.486559867858888,
+							"y": 4.586202144622803,
+							"z": 0.0
+						}
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"e55a0d56d6a51381",
+						"e417e69616ed975d",
+						"712b1e0c0e5a26a5",
+						"b6e501a276bf4b9b",
+						"f0ed32efe0b820e6"
+					],
+					"postInit": true
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/tourist_beach/textures/male_reg_tourist_tank_top_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/tourist_beach/textures/male_reg_tourist_tank_top_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/tourist_beach/textures/male_reg_tourist_tank_top_01.texture?/diffuse_b.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00D0294E56BBCEE2", "flag": "5F" },
+		{ "resource": "00C1356C6FD65D00", "flag": "5F" },
+		{ "resource": "00D60C60FCBF6937", "flag": "5F" },
+		{ "resource": "00602D86C531BFD7", "flag": "5F" },
+		{ "resource": "000B4474B64354A2", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "0020D98108900CBD", "flag": "5F" },
+		{ "resource": "002E7541DF988823", "flag": "5F" },
+		{ "resource": "006C4A48286AC989", "flag": "5F" },
+		{ "resource": "00EA8EACBC56C460", "flag": "5F" },
+		{ "resource": "0053B36A5B26B31A", "flag": "5F" },
+		{ "resource": "00A4ACA58900C197", "flag": "5F" },
+		{ "resource": "00F044854D9A6C61", "flag": "5F" },
+		{ "resource": "0082F7967C757800", "flag": "5F" },
+		{ "resource": "00587E69ED872EB7", "flag": "5F" },
+		{ "resource": "00489BC36EFE59D3", "flag": "5F" },
+		{ "resource": "00AC36764CCF528C", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/glasses/textures/lens_basic.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_02_hat_01.texture?/diffuse_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_02_hat_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_02_hat_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00D23ACA2BC93530", "flag": "5F" },
+		{ "resource": "006731C43241B2EA", "flag": "5F" },
+		{ "resource": "007F58CB3A03C028", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/hippie/textures/male_reg_hippie_shorts_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/hippie/textures/male_reg_hippie_shorts_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/hippie/textures/male_reg_hippie_shorts_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00C7A991C84C3A0D", "flag": "5F" },
+		{ "resource": "007170873AAF14D2", "flag": "5F" },
+		{ "resource": "00DFAD01B7BF9B00", "flag": "5F" },
+		{ "resource": "009AA8A3C140EABF", "flag": "5F" },
+		{ "resource": "00C3717C033E7BB9", "flag": "5F" },
+		{ "resource": "00C3722BBBE12B5C", "flag": "5F" },
+		{ "resource": "00CB0AE694EEB877", "flag": "5F" },
+		{ "resource": "0089C0D3A41A2DE1", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

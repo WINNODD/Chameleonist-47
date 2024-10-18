@@ -1,0 +1,354 @@
+{
+	"tempHash": "003C5A0A6DEFE33E",
+	"tbluHash": "003C8815B4235969",
+	"rootEntity": "474d6842c45b0423",
+	"entities": {
+		"2a499b21ecc66c08": {
+			"parent": "474d6842c45b0423",
+			"name": "Arms_Biceps_Hand",
+			"factory": "0081BA55B3D8292E",
+			"blueprint": "00CFA61BB1571AF8"
+		},
+		"33283487eafc0530": {
+			"parent": "474d6842c45b0423",
+			"name": "Attacher_L_Forearm",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "L_Forearm" },
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "474d6842c45b0423",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "474d6842c45b0423",
+					"postInit": true
+				}
+			}
+		},
+		"b2ded88769ae5e95": {
+			"parent": "474d6842c45b0423",
+			"name": "TShirt_CrewNeck",
+			"factory": "00B3F442B79BC755",
+			"blueprint": "0070C89B0DEBD9E3",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ab9e9b"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00C7D0380AE20C5F",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"5f8ca7dc1f7942dd": {
+			"parent": "474d6842c45b0423",
+			"name": "Shoes_Boots_H_Wellington",
+			"factory": "00E74420268B6D72",
+			"blueprint": "00E030C90C8BC08D",
+			"properties": {
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/workers/gardeners/textures/male_reg_bangkok_gardener_boots.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#bfbfbf"
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				}
+			}
+		},
+		"669d97fbfcd43c85": {
+			"parent": "474d6842c45b0423",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		},
+		"7490d28e04cb9fdb": {
+			"parent": "474d6842c45b0423",
+			"name": "Attacher_R_Forearm",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "R_Forearm" },
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "474d6842c45b0423",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "474d6842c45b0423",
+					"postInit": true
+				}
+			}
+		},
+		"f1c0ce7fa3b18202": {
+			"parent": "474d6842c45b0423",
+			"name": "Pants_Cargo_Tkd_H",
+			"factory": "00168D59CEB206D1",
+			"blueprint": "005AE4346F162ADF",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#948181"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "007389CC67F82957",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"474d6842c45b0423": {
+			"parent": null,
+			"name": "OUTFIT_Dugong_Civilian_Fisherman_M_Actor_v2",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"5f8ca7dc1f7942dd",
+						"f1c0ce7fa3b18202",
+						"669d97fbfcd43c85",
+						"b2ded88769ae5e95",
+						"2a499b21ecc66c08"
+					]
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -1.7170104267555653
+						},
+						"position": {
+							"x": -14.57151985168457,
+							"y": 4.8270721435546875,
+							"z": 0.0
+						}
+					}
+				},
+				"m_vBodypartBoundingMarginMax": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.009999999776482582
+					}
+				}
+			}
+		},
+		"0781b108727ad778": {
+			"parent": "474d6842c45b0423",
+			"name": "Attacher_Head",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "Head" },
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "474d6842c45b0423"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "474d6842c45b0423"
+				}
+			}
+		},
+		"c92a7063f5961688": {
+			"parent": "7490d28e04cb9fdb",
+			"name": "Bracelet_Ropes",
+			"factory": "004173BB0538F59B",
+			"blueprint": "0025BC5129F5E8A9",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 5.537624513943576,
+							"y": -21.985196371644005,
+							"z": -78.23523289735395
+						},
+						"position": {
+							"x": 0.24704299867153168,
+							"y": -0.0007609999738633633,
+							"z": 0.0010939999483525753
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "7490d28e04cb9fdb"
+				}
+			}
+		},
+		"6a337bb17f310310": {
+			"parent": "0781b108727ad778",
+			"name": "hat_cap_snapbuckle",
+			"factory": "00AB23C3697D314C",
+			"blueprint": "00055CE9C9EB9DE4",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -103.4694470656826,
+							"y": 86.35902929770153,
+							"z": -78.39225543879812
+						},
+						"position": {
+							"x": 0.09307300299406052,
+							"y": 0.0246799997985363,
+							"z": -0.0015709999715909362
+						}
+					}
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#a7acb0"
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D2EEC6171EA47A",
+						"flag": "5F"
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0057189464569092,
+						"y": 1.0108760595321655,
+						"z": 1.0352200269699097
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "000D8AE8A33D6222",
+						"flag": "5F"
+					}
+				},
+				"m_rLinkedProxyEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "474d6842c45b0423"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0781b108727ad778"
+				}
+			}
+		},
+		"7e227270ca4648df": {
+			"parent": "33283487eafc0530",
+			"name": "Bracelet_Ropes",
+			"factory": "004173BB0538F59B",
+			"blueprint": "0025BC5129F5E8A9",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 1.5339689391133915,
+							"y": 5.618657843865658,
+							"z": -85.26474865352445
+						},
+						"position": {
+							"x": 0.23706099390983584,
+							"y": 0.001193000003695488,
+							"z": 0.0033740000799298286
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0,
+						"y": 1.4137799739837646,
+						"z": 1.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "33283487eafc0530"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{ "resource": "0093884D29103D51", "flag": "5F" },
+		{ "resource": "0024C776473ABAF9", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/gardeners/textures/male_reg_bangkok_gardener_boots.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/gardeners/textures/male_reg_bangkok_gardener_boots.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00D0491D96AF212A", "flag": "5F" },
+		{ "resource": "00F7CB5535CEA22F", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_02_hat_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_02_hat_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00D23ACA2BC93530", "flag": "5F" },
+		{ "resource": "006731C43241B2EA", "flag": "5F" },
+		{ "resource": "007F58CB3A03C028", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/sean/textures/male_regular_sean_02_pant_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/sean/textures/male_regular_sean_02_pant_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "0090D4CC1D50CDDD", "flag": "5F" },
+		{ "resource": "00A6F9B7C3B58D59", "flag": "5F" },
+		{ "resource": "00215062D34FE975", "flag": "5F" },
+		{ "resource": "0066BA02A94EFEC2", "flag": "5F" },
+		{ "resource": "001A0B0857FCBB9E", "flag": "5F" },
+		{ "resource": "00D7D3BA24A6D79F", "flag": "5F" },
+		{ "resource": "00681267FCACA458", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "0020D98108900CBD", "flag": "5F" },
+		{ "resource": "002E7541DF988823", "flag": "5F" },
+		{ "resource": "00A3549D0FD9D7F8", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

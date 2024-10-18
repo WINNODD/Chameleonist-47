@@ -1,0 +1,171 @@
+{
+	"tempHash": "00B86E08A133DBD5",
+	"tbluHash": "004D0E3EE653372F",
+	"rootEntity": "1aa76c7353fa58f4",
+	"entities": {
+		"6dba346d9123b26f": {
+			"parent": "1aa76c7353fa58f4",
+			"name": "Hair_Sides_MS_01",
+			"factory": "004269370D1F2B1E",
+			"blueprint": "0013E8AD280449CA",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#2e2e2e"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#292929"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#bfbfbf"
+				}
+			}
+		},
+		"51c74428628b34d8": {
+			"parent": "1aa76c7353fa58f4",
+			"name": "Body_Full_Slim",
+			"factory": "00F448703BCA480F",
+			"blueprint": "00D7F003FB6F4940"
+		},
+		"1aa76c7353fa58f4": {
+			"parent": null,
+			"name": "OUTFIT_Dugong_Civilian_Fisherman_M_Actor_v1",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -1.7170104267555653
+						},
+						"position": {
+							"x": -16.078699111938477,
+							"y": 4.759191989898682,
+							"z": 0.0
+						}
+					}
+				},
+				"m_vBodypartBoundingMarginMax": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.009999999776482582
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"e061ea5ce353d121",
+						"47634985bf841254",
+						"51c74428628b34d8",
+						"6dba346d9123b26f",
+						"cafed591f8159eed"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"47634985bf841254": {
+			"parent": "1aa76c7353fa58f4",
+			"name": "Head_Hispanic_20s_01",
+			"factory": "000C4E58A1DA8EC1",
+			"blueprint": "0087CB05E0618CD2",
+			"properties": {
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#9e9d9d"
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#9e9d9d"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.8999999761581421
+				},
+				"ConstantVector1D_05_Value_1": {
+					"type": "float32",
+					"value": 0.8999999761581421
+				}
+			}
+		},
+		"e061ea5ce353d121": {
+			"parent": "1aa76c7353fa58f4",
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5"
+		},
+		"cafed591f8159eed": {
+			"parent": "1aa76c7353fa58f4",
+			"name": "Hair_Top_S_Caesar",
+			"factory": "007ADD444DE5CDEB",
+			"blueprint": "00B1970128611CF9"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{ "resource": "00CDD0D3091D8EA9", "flag": "5F" },
+		{ "resource": "00AFF02D637DFD9B", "flag": "5F" },
+		{ "resource": "00DFD54E80ABDDC2", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "0020D98108900CBD", "flag": "5F" },
+		{ "resource": "002E7541DF988823", "flag": "5F" },
+		{ "resource": "000E0DDE0A90ECB4", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_04/textures/male_reg_printworker_04_linen_01.texture?/specular_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_04/textures/male_reg_printworker_04_linen_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00ED8C7256008401", "flag": "5F" },
+		{ "resource": "00D23ACA2BC93530", "flag": "5F" },
+		{ "resource": "006731C43241B2EA", "flag": "5F" },
+		{ "resource": "007F58CB3A03C028", "flag": "5F" },
+		{ "resource": "0024C776473ABAF9", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/gardeners/textures/male_reg_bangkok_gardener_boots.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/gardeners/textures/male_reg_bangkok_gardener_boots.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00D0491D96AF212A", "flag": "5F" },
+		{ "resource": "005E614397A91266", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_01_shorts_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_01_shorts_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/eventscrew_01/textures/male_reg_bangkok_bandcrew_01_shorts_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00C4ADC44CC24754", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

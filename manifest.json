@@ -243,7 +243,8 @@
             "tooltip": "Ambrose Island",
             "type": "checkbox",
             "contentFolders": [
-                "Ambrose Island"
+                "Ambrose Island",
+                "ShareEGAmbrose"
             ]
         }, {
             "name": "Isle of Sgail",
@@ -380,7 +381,8 @@
                 "ShareEGDubai",
                 "ShareEGBerlin",
                 "ShareEGCQ",
-                "ShareEGMendoza"
+                "ShareEGMendoza",
+                "ShareEGAmbrose"
             ]
         }, {
             "name": "Debug",
