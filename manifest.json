@@ -321,7 +321,39 @@
 			"contentFolders": [
 				"Whittleton Creek",
 				"ShareEGWC"
-			]
+			],
+			"localisedLines": {
+				"00F2A31656DF34A3": "40A23355"
+			},
+			"localisation": {
+				"english": {
+					"40A23355": "Galen Vholes"
+				},
+				"french": {
+					"40A23355": "Galen Vholes"
+				},
+				"italian": {
+					"40A23355": "Galen Vholes"
+				},
+				"german": {
+					"40A23355": "Galen Vholes"
+				},
+				"spanish": {
+					"40A23355": "Galen Vholes"
+				},
+				"russian": {
+					"40A23355": "Гален Воулс"
+				},
+				"chineseSimplified": {
+					"40A23355": "盖伦·沃尔斯"
+				},
+				"chineseTraditional": {
+					"40A23355": "蓋倫‧弗爾斯"
+				},
+				"japanese": {
+					"40A23355": "ガレン・ヴォレス"
+				}
+			}
 		},
 		{
 			"name": "Ambrose Island",

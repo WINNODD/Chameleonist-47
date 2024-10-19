@@ -59,6 +59,34 @@
 		},
 		{
 			"SubEntityOperation": [
+				"abcc3f59f28f48aa",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "00137E123B2C936D",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"abcc3f59f28f48aa",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "00137E123B2C936D",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"e243e54ccfbf3316",
 				{
 					"AddProperty": [
