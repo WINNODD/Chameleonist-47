@@ -37,17 +37,6 @@
 		},
 		{
 			"SubEntityOperation": [
-				"9fd13f64320dda80",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_bHeroDisguiseAvailable",
-						"value": true
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"1467c78407e34914",
 				{
 					"SetPropertyValue": {
