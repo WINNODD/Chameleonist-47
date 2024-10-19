@@ -1,0 +1,570 @@
+{
+	"tempHash": "005A1BC5DA8BC588",
+	"tbluHash": "00C485B00F90AA72",
+	"rootEntity": "0499483a7d9a128e",
+	"entities": {
+		"c80343e4982d07bd": {
+			"parent": "0499483a7d9a128e",
+			"name": "Mesh_Shirt",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00690E3E18C945E1",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"f4e79c2bfcce2f1b": {
+			"parent": "0499483a7d9a128e",
+			"name": "Attacher_L_Forearm",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "L_Forearm" },
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "0499483a7d9a128e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0499483a7d9a128e",
+					"postInit": true
+				}
+			}
+		},
+		"a0db2d1a69d0a50d": {
+			"parent": "0499483a7d9a128e",
+			"name": "Attacher_Chest",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "Spine2" },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "0499483a7d9a128e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0499483a7d9a128e",
+					"postInit": true
+				}
+			}
+		},
+		"6d008dece82fd8b0": {
+			"parent": "0499483a7d9a128e",
+			"name": "Arms_Biceps_Hand",
+			"factory": "0081BA55B3D8292E",
+			"blueprint": "00CFA61BB1571AF8"
+		},
+		"0291fc1c9adb41fa": {
+			"parent": "0499483a7d9a128e",
+			"name": "Pants_Cargo_Tucked_Low",
+			"factory": "00E45B9FE4AB5D3C",
+			"blueprint": "00B9CC80CD69339D",
+			"properties": {
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0062E66A62992E8C",
+						"flag": "5F"
+					}
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00DDE168B8C3A503",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00DBA18AC9D9DBBB",
+						"flag": "5F"
+					}
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				}
+			}
+		},
+		"fe114b84c011005a": {
+			"parent": "0499483a7d9a128e",
+			"name": "Shoes_Boots_Military",
+			"factory": "00A7DC37E14B3676",
+			"blueprint": "000315500CD95840",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#404040"
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "004B2350C206F9A8",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"4eac8265122adee3": {
+			"parent": "0499483a7d9a128e",
+			"name": "Mesh_Hat",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0087B778C36A481E",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"34783ab2ec6c4bd6": {
+			"parent": "0499483a7d9a128e",
+			"name": "Torso_Neck",
+			"factory": "00D43167687E61AD",
+			"blueprint": "007E9340AD2C2425"
+		},
+		"0499483a7d9a128e": {
+			"parent": null,
+			"name": "OUTFIT_Hippo_ElusiveTarget_Highball_M_Actor_v0",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 4.179810047149658,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"fe114b84c011005a",
+						"4eac8265122adee3",
+						"0291fc1c9adb41fa",
+						"6d008dece82fd8b0",
+						"3231bf49691f1d9c",
+						"c80343e4982d07bd",
+						"34783ab2ec6c4bd6",
+						"a3ac7a7e97b0bad6",
+						"abcd9acd41350eb9",
+						"cafe6d2252b1b27e"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"104d67b52713f054": {
+			"parent": "a0db2d1a69d0a50d",
+			"name": "WalkieTalkie",
+			"factory": "002B96597756DF50",
+			"blueprint": "005268860122C61E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 91.40387725830078,
+							"y": 78.13088226318355,
+							"z": 116.62621307373044
+						},
+						"position": {
+							"x": 0.0809980034828186,
+							"y": 0.1260010004043579,
+							"z": 0.1242929995059967
+						},
+						"scale": {
+							"x": 1,
+							"y": 1,
+							"z": 1.0000000000000002
+						}
+					}
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#99c3ff"
+				},
+				"LightVisible": { "type": "bool", "value": true },
+				"EmissiveIntensity": { "type": "float32", "value": 50 },
+				"DiffusePower": { "type": "float32", "value": 7 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "a0db2d1a69d0a50d"
+				}
+			}
+		},
+		"a3ac7a7e97b0bad6": {
+			"parent": "0499483a7d9a128e",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		},
+		"09089b8eb81f7bbc": {
+			"parent": "0499483a7d9a128e",
+			"name": "knight_belt",
+			"factory": "0080C269695B8EEF",
+			"blueprint": "005EF79C9A5EB449",
+			"properties": {
+				"1565884279": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 3.9598228931427,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["0499483a7d9a128e"]
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0499483a7d9a128e"
+				}
+			}
+		},
+		"214acd26ffd52781": {
+			"parent": "f4e79c2bfcce2f1b",
+			"name": "Watch_Silver",
+			"factory": "00E37E0E891331BA",
+			"blueprint": "00FD6741270521D1",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -3.1004111766815186,
+							"y": -7.874227523803711,
+							"z": -87.14192199707031
+						},
+						"position": {
+							"x": 0.2351360023021698,
+							"y": 0.0000470000013592653,
+							"z": 0.0026549999602138996
+						},
+						"scale": {
+							"x": 1.0000000000000002,
+							"y": 1,
+							"z": 1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.225000023841858,
+						"y": 1.225000023841858,
+						"z": 1.225000023841858
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f4e79c2bfcce2f1b"
+				}
+			}
+		},
+		"3d5f9f480c925569": {
+			"parent": "0499483a7d9a128e",
+			"name": "buttons_01",
+			"factory": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/materials/buttons_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/materials/buttons_01.mi].pc_entityblueprint",
+			"properties": {
+				"3516673141": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["0499483a7d9a128e"]
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#6b5a52"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0499483a7d9a128e"
+				}
+			}
+		},
+		"3231bf49691f1d9c": {
+			"parent": "0499483a7d9a128e",
+			"name": "EyePatch",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00C08C0855FA8F5D",
+						"flag": "5F"
+					}
+				},
+				"m_ClothColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		"4382587171056aa4": {
+			"parent": "214acd26ffd52781",
+			"name": "male_reg_watch_a",
+			"factory": "[assembly:/_pro/characters/assets/_apparel/accessories/watches/materials/male_reg_watch_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_apparel/accessories/watches/materials/male_reg_watch_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["214acd26ffd52781"]
+				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/watches/textures/male_reg_watch_a.texture?/specular_b.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/watches/textures/male_reg_watch_a.texture?/diffuse_b.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/watches/textures/male_reg_watch_a.texture?/normal_b.tex](asnormalmap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "214acd26ffd52781"
+				}
+			}
+		},
+		"06aef4c82cf9aae8": {
+			"parent": "4eac8265122adee3",
+			"name": "male_reg_resort_security_beret",
+			"factory": "[assembly:/_pro/characters/assets/guards/hokkaido/resort_security/materials/male_reg_resort_security_beret.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/guards/hokkaido/resort_security/materials/male_reg_resort_security_beret.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 0.22005799412727356,
+							"y": -1.596094012260437,
+							"z": 0
+						}
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["4eac8265122adee3"]
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00B0189AEBFB59F8",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00BC79C436C66E41",
+						"flag": "5F"
+					}
+				},
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E4A8755451BC58",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0499483a7d9a128e"
+				}
+			}
+		},
+		"469ebb76c9f74424": {
+			"parent": "3231bf49691f1d9c",
+			"name": "male_reg_fakemaelstrom_eyepatch",
+			"factory": "00EBE71044434717",
+			"blueprint": "00DE1CB83FC95D93",
+			"properties": {
+				"1565884279": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"1787395739": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"2786709788": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"3516673141": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 0.20217299461364743,
+							"y": -1.5964679718017578,
+							"z": 0
+						}
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["3231bf49691f1d9c"]
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 5
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#383838"
+				},
+				"ConstantVector1D_15_Value": {
+					"type": "float32",
+					"value": 0.6800000071525574
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 0.6800000071525574
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0499483a7d9a128e"
+				}
+			}
+		},
+		"abcd9acd41350eb9": {
+			"parent": "0499483a7d9a128e",
+			"name": "Belt",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00A94DF81D5DB494",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe6d2252b1b27e": {
+			"parent": "0499483a7d9a128e",
+			"name": "Flask 2",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "005E522720E5A1A3",
+						"flag": "5F"
+					}
+				},
+				"m_ClothColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
