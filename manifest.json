@@ -280,7 +280,39 @@
 			"contentFolders": [
 				"Mumbai",
 				"ShareEGMumbai"
-			]
+			],
+			"localisedLines": {
+				"002DDC5641A0BA59": "F14F284A"
+			},
+			"localisation": {
+				"english": {
+					"F14F284A": "Basil Carnaby"
+				},
+				"french": {
+					"F14F284A": "Basil Carnaby"
+				},
+				"italian": {
+					"F14F284A": "Basil Carnaby"
+				},
+				"german": {
+					"F14F284A": "Basil Carnaby"
+				},
+				"spanish": {
+					"F14F284A": "Basil Carnaby"
+				},
+				"russian": {
+					"F14F284A": "Базиль Карнеби"
+				},
+				"chineseSimplified": {
+					"F14F284A": "巴瑟尔·卡纳比"
+				},
+				"chineseTraditional": {
+					"F14F284A": "巴希爾‧卡納比"
+				},
+				"japanese": {
+					"F14F284A": "バジル・カーナビー"
+				}
+			}
 		},
 		{
 			"name": "Whittleton Creek",
