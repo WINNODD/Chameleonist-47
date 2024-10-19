@@ -15,6 +15,34 @@
 		},
 		{
 			"SubEntityOperation": [
+				"8168fc3402160a81",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_marrakesh.sweetmenutext?/outfits_marrakesh_unique_cameraman_m_hpa1110_name_e0fc86fb-a852-4652-bb5c-b591f7bfeb29.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8168fc3402160a81",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_marrakesh.sweetmenutext?/outfits_marrakesh_unique_cameraman_m_hpa1110_description_e0fc86fb-a852-4652-bb5c-b591f7bfeb29.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"a2fa7791a28e8074",
 				{
 					"SetPropertyValue": {

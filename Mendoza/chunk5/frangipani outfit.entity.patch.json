@@ -6,6 +6,34 @@
 			"SubEntityOperation": [
 				"c78bcd9f062068c9",
 				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_unique_assassin_m_name_ef9dddc5-25c7-450f-afcb-ac1b8f9569c9.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c78bcd9f062068c9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_unique_assassin_m_description_ef9dddc5-25c7-450f-afcb-ac1b8f9569c9.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c78bcd9f062068c9",
+				{
 					"AddProperty": [
 						"m_bHeroDisguiseAvailable",
 						{ "type": "bool", "value": true }

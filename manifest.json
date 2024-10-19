@@ -1,402 +1,473 @@
 {
-    "version": "1.0.0",
-    "id": "WINNODD.ChameleonUltimate",
-    "name": "Champion Chameleon",
-    "description": "Disguise as everyone in WoA!",
-    "authors": [
-        "WINNODD"
-    ],
-    "frameworkVersion": "2.0.0",
-    "contentFolders": [
-        "ShareAll"
-    ],
-    "options": [{
-            "name": "ICA Facility",
-            "tooltip": "ICA Facility",
-            "type": "checkbox",
-            "contentFolders": [
-                "ICA Facility",
-                "ShareS1",
-                "ShareICAParisSapiMarrakesh",
-                "ShareICAParis",
-                "ShareEGICAParisSapiMarrakesh"
-            ],
-            "dependencies": [{
-                    "runtimeID": "0072C345D02ADE97",
-                    "toChunk": 0
-                },
-                {
-                    "runtimeID": "005CB07C69DFFF2A",
-                    "toChunk": 0
-                },
-                {
-                    "runtimeID": "008E18DFC5DB43AC",
-                    "toChunk": 0
-                }
-            ]
-        }, {
-            "name": "Paris",
-            "tooltip": "Paris",
-            "type": "checkbox",
-            "contentFolders": [
-                "Paris",
-                "ShareS1",
-                "ShareICAParisSapiMarrakesh",
-                "ShareICAParis",
-                "ShareParisMarrakesh",
-                "ShareParisMarrakeshColorado",
-                "ShareEGICAParisSapiMarrakesh"
-            ],
-            "dependencies": [{
-                    "runtimeID": "0072C345D02ADE97",
-                    "toChunk": 0
-                },
-                {
-                    "runtimeID": "005CB07C69DFFF2A",
-                    "toChunk": 0
-                }
-            ]
-        }, {
-            "name": "Sapienza",
-            "tooltip": "Sapienza",
-            "type": "checkbox",
-            "contentFolders": [
-                "Sapienza",
-                "ShareS1",
-                "ShareICAParisSapiMarrakesh",
-                "ShareEGSapiMarrakesh",
-                "ShareSapiMarrakeshBangkok",
-                "ShareEGSapi",
-                "ShareEGICAParisSapiMarrakesh",
-                "ShareSapiBangkokColoradoHokkaido"
-            ],
-            "dependencies": [{
-                    "runtimeID": "0072C345D02ADE97",
-                    "toChunk": 0
-                },
-                {
-                    "runtimeID": "00C48A703EA35E08",
-                    "toChunk": 0
-                },
-                {
-                    "runtimeID": "005CB07C69DFFF2A",
-                    "toChunk": 0
-                },
-                {
-                    "runtimeID": "008E18DFC5DB43AC",
-                    "toChunk": 0
-                },
-                {
-                    "runtimeID": "00F82E54EAC058AF",
-                    "toChunk": 1
-                },
-                {
-                    "runtimeID": "0069176EDF6645C8",
-                    "toChunk": 1
-                },
-                {
-                    "runtimeID": "0097E2AF85F1FE79",
-                    "toChunk": 26
-                }
-            ]
-        }, {
-            "name": "Marrakesh",
-            "tooltip": "Marrakesh",
-            "type": "checkbox",
-            "contentFolders": [
-                "Marrakesh",
-                "ShareS1",
-                "ShareICAParisSapiMarrakesh",
-                "ShareEGSapiMarrakesh",
-                "ShareParisMarrakesh",
-                "ShareParisMarrakeshColorado",
-                "ShareSapiMarrakeshBangkok",
-                "ShareEGICAParisSapiMarrakesh"
-            ],
-            "dependencies": [{
-                    "runtimeID": "0072C345D02ADE97",
-                    "toChunk": 0
-                },
-                {
-                    "runtimeID": "005CB07C69DFFF2A",
-                    "toChunk": 0
-                },
-                {
-                    "runtimeID": "0069176EDF6645C8",
-                    "toChunk": 1
-                }
-            ]
-        }, {
-            "name": "Bangkok",
-            "tooltip": "Bangkok",
-            "type": "checkbox",
-            "contentFolders": [
-                "Bangkok",
-                "ShareS1",
-                "ShareSapiMarrakeshBangkok",
-                "ShareEGBangkok",
-                "ShareSapiBangkokColoradoHokkaido"
-            ],
-            "dependencies": [{
-                    "runtimeID": "0072C345D02ADE97",
-                    "toChunk": 0
-                },
-                {
-                    "runtimeID": "00C48A703EA35E08",
-                    "toChunk": 0
-                },
-                {
-                    "runtimeID": "0069176EDF6645C8",
-                    "toChunk": 1
-                }
-            ]
-        }, {
-            "name": "Colorado",
-            "tooltip": "Colorado",
-            "type": "checkbox",
-            "contentFolders": [
-                "Colorado",
-                "ShareS1",
-                "ShareParisMarrakeshColorado",
-                "ShareSapiBangkokColoradoHokkaido"
-            ],
-            "dependencies": [{
-                    "runtimeID": "0072C345D02ADE97",
-                    "toChunk": 0
-                }
-            ]
-        }, {
-            "name": "Hokkaido",
-            "tooltip": "Hokkaido",
-            "type": "checkbox",
-            "contentFolders": [
-                "Hokkaido",
-                "ShareS1",
-                "ShareSapiBangkokColoradoHokkaido"
-            ],
-            "dependencies": [{
-                    "runtimeID": "0072C345D02ADE97",
-                    "toChunk": 0
-                }
-            ]
-        }, {
-            "name": "Hawke's Bay",
-            "tooltip": "Hawke's Bay",
-            "type": "checkbox",
-            "contentFolders": [
-                "Hawke's Bay"
-            ]
-        }, {
-            "name": "Miami",
-            "tooltip": "Miami",
-            "type": "checkbox",
-            "contentFolders": [
-                "Miami",
-                "ShareMiamiSFMendoza",
-                "ShareMiamiMendoza",
-                "ShareEGMiami"
-            ],
-            "dependencies": [{
-                    "runtimeID": "0021AD85CA03D38B",
-                    "toChunk": 1
-                },
-                {
-                    "runtimeID": "00D82F252DB80A99",
-                    "toChunk": 1
-                },
-                {
-                    "runtimeID": "00865BD6F5F8CF45",
-                    "toChunk": 1
-                },
-                {
-                    "runtimeID": "003C7095A9457C39",
-                    "toChunk": 1
-                }
-            ]
-        }, {
-            "name": "Santa Fortuna",
-            "tooltip": "Santa Fortuna",
-            "type": "checkbox",
-            "contentFolders": [
-                "Santa Fortuna",
-                "ShareMiamiSFMendoza",
-                "ShareEGSF"
-            ]
-        }, {
-            "name": "Mumbai",
-            "tooltip": "Mumbai",
-            "type": "checkbox",
-            "contentFolders": [
-                "Mumbai",
-                "ShareEGMumbai"
-            ]
-        }, {
-            "name": "Whittleton Creek",
-            "tooltip": "Whittleton Creek",
-            "type": "checkbox",
-            "contentFolders": [
-                "Whittleton Creek",
-                "ShareEGWC"
-            ]
-        }, {
-            "name": "Ambrose Island",
-            "tooltip": "Ambrose Island",
-            "type": "checkbox",
-            "contentFolders": [
-                "Ambrose Island",
-                "ShareEGAmbrose"
-            ]
-        }, {
-            "name": "Isle of Sgail",
-            "tooltip": "Isle of Sgail",
-            "type": "checkbox",
-            "contentFolders": [
-                "Isle of Sgail",
-                "ShareSgailBerlin",
-                "ShareSgailRomania",
-                "ShareEGSgailBerlin"
-            ]
-        }, {
-            "name": "New York",
-            "tooltip": "New York",
-            "type": "checkbox",
-            "contentFolders": [
-                "New York",
-                "ShareEGNYDubaiCQ",
-                "ShareEGNY"
-            ]
-        }, {
-            "name": "Haven Island",
-            "tooltip": "Haven Island",
-            "type": "checkbox",
-            "contentFolders": [
-                "Haven Island"
-            ]
-        }, {
-            "name": "Dubai",
-            "tooltip": "Dubai",
-            "type": "checkbox",
-            "contentFolders": [
-                "Dubai",
-                "ShareDubaiDartmoor",
-                "ShareEGNYDubaiCQ",
-                "ShareEGDubai"
-            ],
-            "dependencies": [{
-                    "runtimeID": "00E3AC6141A1094B",
-                    "toChunk": 0
-                },
+	"version": "1.0.0",
+	"id": "WINNODD.ChameleonUltimate",
+	"name": "Champion Chameleon",
+	"description": "Disguise as everyone in WoA!",
+	"authors": [
+		"WINNODD"
+	],
+	"frameworkVersion": "2.33.20",
+	"contentFolders": [
+		"ShareAll"
+	],
+	"options": [
+		{
+			"name": "ICA Facility",
+			"tooltip": "ICA Facility",
+			"type": "checkbox",
+			"contentFolders": [
+				"ICA Facility",
+				"ShareS1",
+				"ShareICAParisSapiMarrakesh",
+				"ShareICAParis",
+				"ShareEGICAParisSapiMarrakesh"
+			],
+			"dependencies": [
 				{
-                    "runtimeID": "008FBF9A390CB64E",
-                    "toChunk": 0
-                },
+					"runtimeID": "0072C345D02ADE97",
+					"toChunk": 0
+				},
 				{
-                    "runtimeID": "004365B9F4B3A727",
-                    "toChunk": 0
-                }
-            ]
-        }, {
-            "name": "Dartmoor",
-            "tooltip": "Dartmoor",
-            "type": "checkbox",
-            "contentFolders": [
-                "Dartmoor",
-                "ShareDubaiDartmoor"
-            ]
-        }, {
-            "name": "Berlin",
-            "tooltip": "Berlin",
-            "type": "checkbox",
-            "contentFolders": [
-                "Berlin",
-                "ShareSgailBerlin",
-                "ShareEGBerlin",
-                "ShareEGSgailBerlin"
-            ],
-            "dependencies": [{
-                    "runtimeID": "0021B7AF35ADF425",
-                    "toChunk": 4
-                }
-            ]
-        }, {
-            "name": "Chongqing",
-            "tooltip": "Chongqing",
-            "type": "checkbox",
-            "contentFolders": [
-                "Chongqing",
-                "ShareEGNYDubaiCQ",
-                "ShareEGCQ"
-            ]
-        }, {
-            "name": "Mendoza",
-            "tooltip": "Mendoza",
-            "type": "checkbox",
-            "contentFolders": [
-                "Mendoza",
-                "ShareMiamiSFMendoza",
-                "ShareMiamiMendoza",
-                "ShareEGMendoza"
-            ],
-            "dependencies": [{
-                    "runtimeID": "0021AD85CA03D38B",
-                    "toChunk": 1
-                },
-                {
-                    "runtimeID": "00D82F252DB80A99",
-                    "toChunk": 1
-                },
-                {
-                    "runtimeID": "00865BD6F5F8CF45",
-                    "toChunk": 1
-                },
-                {
-                    "runtimeID": "003C7095A9457C39",
-                    "toChunk": 1
-                }
-            ]
-        }, {
-            "name": "Carpathian Mountains",
-            "tooltip": "Carpathian Mountains",
-            "type": "checkbox",
-            "contentFolders": [
-                "Carpathian Mountains",
-                "ShareSgailRomania"
-            ]
-        }, {
-            "name": "Freelancer",
-            "tooltip": "Freelancer",
-            "type": "checkbox",
-            "contentFolders": [
-                "Freelancer",
-                "ShareEGNYDubaiCQ",
-                "ShareEGICAParisSapiMarrakesh",
-                "ShareEGSapi",
-                "ShareEGSapiMarrakesh",
-                "ShareEGBangkok",
-                "ShareEGMiami",
-                "ShareEGSF",
-                "ShareEGMumbai",
-                "ShareEGWC",
-                "ShareEGSgailBerlin",
-                "ShareEGNY",
-                "ShareEGDubai",
-                "ShareEGBerlin",
-                "ShareEGCQ",
-                "ShareEGMendoza",
-                "ShareEGAmbrose"
-            ]
-        }, {
-            "name": "Debug",
-            "tooltip": "Debug",
-            "type": "checkbox",
-            "contentFolders": [
-                "Debug"
-            ],
-            "dependencies": [{
-                    "runtimeID": "00E0A4D7CEB97FE9",
-                    "toChunk": 0
-                }
-            ]
-        }
-    ]
+					"runtimeID": "005CB07C69DFFF2A",
+					"toChunk": 0
+				},
+				{
+					"runtimeID": "008E18DFC5DB43AC",
+					"toChunk": 0
+				}
+			]
+		},
+		{
+			"name": "Paris",
+			"tooltip": "Paris",
+			"type": "checkbox",
+			"contentFolders": [
+				"Paris",
+				"ShareS1",
+				"ShareICAParisSapiMarrakesh",
+				"ShareICAParis",
+				"ShareParisMarrakesh",
+				"ShareParisMarrakeshColorado",
+				"ShareEGICAParisSapiMarrakesh"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0072C345D02ADE97",
+					"toChunk": 0
+				},
+				{
+					"runtimeID": "005CB07C69DFFF2A",
+					"toChunk": 0
+				}
+			]
+		},
+		{
+			"name": "Sapienza",
+			"tooltip": "Sapienza",
+			"type": "checkbox",
+			"contentFolders": [
+				"Sapienza",
+				"ShareS1",
+				"ShareICAParisSapiMarrakesh",
+				"ShareEGSapiMarrakesh",
+				"ShareSapiMarrakeshBangkok",
+				"ShareEGSapi",
+				"ShareEGICAParisSapiMarrakesh",
+				"ShareSapiBangkokColoradoHokkaido"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0072C345D02ADE97",
+					"toChunk": 0
+				},
+				{
+					"runtimeID": "00C48A703EA35E08",
+					"toChunk": 0
+				},
+				{
+					"runtimeID": "005CB07C69DFFF2A",
+					"toChunk": 0
+				},
+				{
+					"runtimeID": "008E18DFC5DB43AC",
+					"toChunk": 0
+				},
+				{
+					"runtimeID": "00F82E54EAC058AF",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0069176EDF6645C8",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0097E2AF85F1FE79",
+					"toChunk": 26
+				}
+			]
+		},
+		{
+			"name": "Marrakesh",
+			"tooltip": "Marrakesh",
+			"type": "checkbox",
+			"contentFolders": [
+				"Marrakesh",
+				"ShareS1",
+				"ShareICAParisSapiMarrakesh",
+				"ShareEGSapiMarrakesh",
+				"ShareParisMarrakesh",
+				"ShareParisMarrakeshColorado",
+				"ShareSapiMarrakeshBangkok",
+				"ShareEGICAParisSapiMarrakesh"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0072C345D02ADE97",
+					"toChunk": 0
+				},
+				{
+					"runtimeID": "005CB07C69DFFF2A",
+					"toChunk": 0
+				},
+				{
+					"runtimeID": "0069176EDF6645C8",
+					"toChunk": 1
+				}
+			]
+		},
+		{
+			"name": "Bangkok",
+			"tooltip": "Bangkok",
+			"type": "checkbox",
+			"contentFolders": [
+				"Bangkok",
+				"ShareS1",
+				"ShareSapiMarrakeshBangkok",
+				"ShareEGBangkok",
+				"ShareSapiBangkokColoradoHokkaido"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0072C345D02ADE97",
+					"toChunk": 0
+				},
+				{
+					"runtimeID": "00C48A703EA35E08",
+					"toChunk": 0
+				},
+				{
+					"runtimeID": "0069176EDF6645C8",
+					"toChunk": 1
+				}
+			]
+		},
+		{
+			"name": "Colorado",
+			"tooltip": "Colorado",
+			"type": "checkbox",
+			"contentFolders": [
+				"Colorado",
+				"ShareS1",
+				"ShareParisMarrakeshColorado",
+				"ShareSapiBangkokColoradoHokkaido"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0072C345D02ADE97",
+					"toChunk": 0
+				}
+			]
+		},
+		{
+			"name": "Hokkaido",
+			"tooltip": "Hokkaido",
+			"type": "checkbox",
+			"contentFolders": [
+				"Hokkaido",
+				"ShareS1",
+				"ShareSapiBangkokColoradoHokkaido"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0072C345D02ADE97",
+					"toChunk": 0
+				}
+			]
+		},
+		{
+			"name": "Hawke's Bay",
+			"tooltip": "Hawke's Bay",
+			"type": "checkbox",
+			"contentFolders": [
+				"Hawke's Bay"
+			]
+		},
+		{
+			"name": "Miami",
+			"tooltip": "Miami",
+			"type": "checkbox",
+			"contentFolders": [
+				"Miami",
+				"ShareMiamiSFMendoza",
+				"ShareMiamiMendoza",
+				"ShareEGMiami"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0021AD85CA03D38B",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00D82F252DB80A99",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00865BD6F5F8CF45",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "003C7095A9457C39",
+					"toChunk": 1
+				}
+			]
+		},
+		{
+			"name": "Santa Fortuna",
+			"tooltip": "Santa Fortuna",
+			"type": "checkbox",
+			"contentFolders": [
+				"Santa Fortuna",
+				"ShareMiamiSFMendoza",
+				"ShareEGSF"
+			]
+		},
+		{
+			"name": "Mumbai",
+			"tooltip": "Mumbai",
+			"type": "checkbox",
+			"contentFolders": [
+				"Mumbai",
+				"ShareEGMumbai"
+			]
+		},
+		{
+			"name": "Whittleton Creek",
+			"tooltip": "Whittleton Creek",
+			"type": "checkbox",
+			"contentFolders": [
+				"Whittleton Creek",
+				"ShareEGWC"
+			]
+		},
+		{
+			"name": "Ambrose Island",
+			"tooltip": "Ambrose Island",
+			"type": "checkbox",
+			"contentFolders": [
+				"Ambrose Island",
+				"ShareEGAmbrose"
+			]
+		},
+		{
+			"name": "Isle of Sgail",
+			"tooltip": "Isle of Sgail",
+			"type": "checkbox",
+			"contentFolders": [
+				"Isle of Sgail",
+				"ShareSgailBerlin",
+				"ShareSgailRomania",
+				"ShareEGSgailBerlin"
+			]
+		},
+		{
+			"name": "New York",
+			"tooltip": "New York",
+			"type": "checkbox",
+			"contentFolders": [
+				"New York",
+				"ShareEGNYDubaiCQ",
+				"ShareEGNY"
+			]
+		},
+		{
+			"name": "Haven Island",
+			"tooltip": "Haven Island",
+			"type": "checkbox",
+			"contentFolders": [
+				"Haven Island"
+			]
+		},
+		{
+			"name": "Dubai",
+			"tooltip": "Dubai",
+			"type": "checkbox",
+			"contentFolders": [
+				"Dubai",
+				"ShareDubaiDartmoor",
+				"ShareEGNYDubaiCQ",
+				"ShareEGDubai"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "00E3AC6141A1094B",
+					"toChunk": 0
+				},
+				{
+					"runtimeID": "008FBF9A390CB64E",
+					"toChunk": 0
+				},
+				{
+					"runtimeID": "004365B9F4B3A727",
+					"toChunk": 0
+				}
+			]
+		},
+		{
+			"name": "Dartmoor",
+			"tooltip": "Dartmoor",
+			"type": "checkbox",
+			"contentFolders": [
+				"Dartmoor",
+				"ShareDubaiDartmoor"
+			]
+		},
+		{
+			"name": "Berlin",
+			"tooltip": "Berlin",
+			"type": "checkbox",
+			"contentFolders": [
+				"Berlin",
+				"ShareSgailBerlin",
+				"ShareEGBerlin",
+				"ShareEGSgailBerlin"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0021B7AF35ADF425",
+					"toChunk": 4
+				}
+			]
+		},
+		{
+			"name": "Chongqing",
+			"tooltip": "Chongqing",
+			"type": "checkbox",
+			"contentFolders": [
+				"Chongqing",
+				"ShareEGNYDubaiCQ",
+				"ShareEGCQ"
+			]
+		},
+		{
+			"name": "Mendoza",
+			"tooltip": "Mendoza",
+			"type": "checkbox",
+			"contentFolders": [
+				"Mendoza",
+				"ShareMiamiSFMendoza",
+				"ShareMiamiMendoza",
+				"ShareEGMendoza"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0021AD85CA03D38B",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00D82F252DB80A99",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00865BD6F5F8CF45",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "003C7095A9457C39",
+					"toChunk": 1
+				}
+			],
+			"localisationOverrides": {
+				"0047DDEE21A779C3": {}
+			},
+			"localisedLines": {
+				"00E201B679464DB8": "0F663339-7299-4860-9575-3942C26FE33D_ET_CLERICO_NAME"
+			},
+			"localisation": {
+				"english": {
+					"0F663339-7299-4860-9575-3942C26FE33D_ET_CLERICO_NAME": "Philo Newcombe"
+				},
+				"french": {
+					"0F663339-7299-4860-9575-3942C26FE33D_ET_CLERICO_NAME": "Philo Newcombe"
+				},
+				"italian": {
+					"0F663339-7299-4860-9575-3942C26FE33D_ET_CLERICO_NAME": "Philo Newcombe"
+				},
+				"german": {
+					"0F663339-7299-4860-9575-3942C26FE33D_ET_CLERICO_NAME": "Philo Newcombe"
+				},
+				"spanish": {
+					"0F663339-7299-4860-9575-3942C26FE33D_ET_CLERICO_NAME": "Philo Newcombe"
+				},
+				"russian": {
+					"0F663339-7299-4860-9575-3942C26FE33D_ET_CLERICO_NAME": "Филон Ньюкомб"
+				},
+				"chineseSimplified": {
+					"0F663339-7299-4860-9575-3942C26FE33D_ET_CLERICO_NAME": "菲洛·纽科姆"
+				},
+				"chineseTraditional": {
+					"0F663339-7299-4860-9575-3942C26FE33D_ET_CLERICO_NAME": "斐洛‧紐康姆"
+				},
+				"japanese": {
+					"0F663339-7299-4860-9575-3942C26FE33D_ET_CLERICO_NAME": "フィロ・ニューカム"
+				}
+			}
+		},
+		{
+			"name": "Carpathian Mountains",
+			"tooltip": "Carpathian Mountains",
+			"type": "checkbox",
+			"contentFolders": [
+				"Carpathian Mountains",
+				"ShareSgailRomania"
+			]
+		},
+		{
+			"name": "Freelancer",
+			"tooltip": "Freelancer",
+			"type": "checkbox",
+			"contentFolders": [
+				"Freelancer",
+				"ShareEGNYDubaiCQ",
+				"ShareEGICAParisSapiMarrakesh",
+				"ShareEGSapi",
+				"ShareEGSapiMarrakesh",
+				"ShareEGBangkok",
+				"ShareEGMiami",
+				"ShareEGSF",
+				"ShareEGMumbai",
+				"ShareEGWC",
+				"ShareEGSgailBerlin",
+				"ShareEGNY",
+				"ShareEGDubai",
+				"ShareEGBerlin",
+				"ShareEGCQ",
+				"ShareEGMendoza",
+				"ShareEGAmbrose"
+			]
+		},
+		{
+			"name": "Debug",
+			"tooltip": "Debug",
+			"type": "checkbox",
+			"contentFolders": [
+				"Debug"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "00E0A4D7CEB97FE9",
+					"toChunk": 0
+				}
+			]
+		}
+	]
 }
