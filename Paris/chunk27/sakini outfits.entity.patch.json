@@ -1,1 +1,57 @@
-{"tempHash":"00EE2EC62B9BD27C","tbluHash":"0087B2200A61EC60","patch":[{"SubEntityOperation":["c8211380df6ef53e",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]},{"SubEntityOperation":["90049a21c4707017",{"SetPropertyValue":{"property_name":"m_bHeroDisguiseAvailable","value":true}}]}],"patchVersion":6}
+{
+	"tempHash": "00EE2EC62B9BD27C",
+	"tbluHash": "0087B2200A61EC60",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c8211380df6ef53e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"90049a21c4707017",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"90049a21c4707017",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_greenland.sweetmenutext?/outfits_greenland_guard_bodyguard_m_hpa2055_name_cf170965-5582-48d7-8dd7-774ae0a144dd.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"90049a21c4707017",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_greenland.sweetmenutext?/outfits_greenland_guard_bodyguard_m_hpa2055_description_cf170965-5582-48d7-8dd7-774ae0a144dd.sweetline].pc_sweetline",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
