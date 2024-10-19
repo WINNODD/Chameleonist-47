@@ -26,6 +26,34 @@
 		},
 		{
 			"SubEntityOperation": [
+				"bb9559a2060d1446",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "00C255C30CE4205B",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bb9559a2060d1446",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "00C255C30CE4205B",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"af2283a4cca2aacb",
 				{
 					"SetPropertyValue": {
