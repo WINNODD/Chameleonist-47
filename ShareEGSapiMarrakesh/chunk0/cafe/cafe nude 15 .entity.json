@@ -141,7 +141,6 @@
 					"value": [
 						"c367b2ecd598bec4",
 						"966e30618f5033b2",
-						"80beb977bfafa1a9",
 						"46bda3bab5164fce"
 					],
 					"postInit": true
@@ -177,22 +176,6 @@
 					"type": "SEntityTemplateReference",
 					"value": "6ccdfab90ea634aa"
 				}
-			}
-		},
-		"80beb977bfafa1a9": {
-			"parent": "6ccdfab90ea634aa",
-			"name": "Mesh_Beard",
-			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
-			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00548B38FBC69C3B",
-						"flag": "5F"
-					}
-				},
-				"m_IsHiddenInVR": { "type": "bool", "value": true }
 			}
 		},
 		"c367b2ecd598bec4": {
