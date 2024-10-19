@@ -229,7 +229,39 @@
 					"runtimeID": "003C7095A9457C39",
 					"toChunk": 1
 				}
-			]
+			],
+			"localisedLines": {
+				"0064C88B2F5CE186": "C1B83357"
+			},
+			"localisation": {
+				"english": {
+					"C1B83357": "Ajit \"AJ\" Krish"
+				},
+				"french": {
+					"C1B83357": "Ajit \"AJ\" Krish"
+				},
+				"italian": {
+					"C1B83357": "Ajit \"AJ\" Krish"
+				},
+				"german": {
+					"C1B83357": "Ajit „AJ“ Krish."
+				},
+				"spanish": {
+					"C1B83357": "Ajit «AJ» Krish"
+				},
+				"russian": {
+					"C1B83357": "Аджит «Эйджей» Криш"
+				},
+				"chineseSimplified": {
+					"C1B83357": "亚基·“AJ”·克里什"
+				},
+				"chineseTraditional": {
+					"C1B83357": "阿吉特「AJ」克里西"
+				},
+				"japanese": {
+					"C1B83357": "アジット・クリッシュ"
+				}
+			}
 		},
 		{
 			"name": "Santa Fortuna",
@@ -386,9 +418,6 @@
 					"toChunk": 1
 				}
 			],
-			"localisationOverrides": {
-				"0047DDEE21A779C3": {}
-			},
 			"localisedLines": {
 				"00E201B679464DB8": "0F663339-7299-4860-9575-3942C26FE33D_ET_CLERICO_NAME"
 			},

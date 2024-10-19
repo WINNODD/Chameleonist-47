@@ -12,6 +12,34 @@
 					}
 				}
 			]
+		},
+		{
+			"SubEntityOperation": [
+				"e14fdbff2da6027b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rNameTextResource",
+						"value": {
+							"resource": "0064C88B2F5CE186",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e14fdbff2da6027b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rDescriptionTextResource",
+						"value": {
+							"resource": "0064C88B2F5CE186",
+							"flag": "5F"
+						}
+					}
+				}
+			]
 		}
 	],
 	"patchVersion": 6
