@@ -1,0 +1,261 @@
+{
+	"tempHash": "00EF72B002EF3400",
+	"tbluHash": "0056D883422ABDB5",
+	"rootEntity": "ede298887d71d529",
+	"entities": {
+		"1e65950f61691271": {
+			"parent": "ede298887d71d529",
+			"name": "Shirt_Dress_BtnUp_Tkd_Cut_Jacket",
+			"factory": "0011644483049F85",
+			"blueprint": "000083C995DF8DF6",
+			"properties": {
+				"Diffuse_Color_01_Value_1": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				}
+			}
+		},
+		"952c8059d2f73488": {
+			"parent": "ede298887d71d529",
+			"name": "Jacket_Suit_Open",
+			"factory": "00D195ECE100716C",
+			"blueprint": "007686A5F3DAB3ED",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#444661"
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00EE7A80BCB564F7",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"39e35d62fa9e3d7e": {
+			"parent": "ede298887d71d529",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		},
+		"9ed805f72c1e0c10": {
+			"parent": "ede298887d71d529",
+			"name": "Hands",
+			"factory": "009A6D9F7927FB89",
+			"blueprint": "00F49463DEA8D412"
+		},
+		"dd53cc74099d752b": {
+			"parent": "ede298887d71d529",
+			"name": "Shoes_Derby_CapToe_SquareTip",
+			"factory": "0033E9BBFCA7B067",
+			"blueprint": "0002D822B863CAA8",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#363534"
+				}
+			}
+		},
+		"ede298887d71d529": {
+			"parent": null,
+			"name": "OUTFIT_Gecko_Civilian_Guest_M_Actor_v1",
+			"factory": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -8.83572769165039,
+							"y": 2.258323907852173,
+							"z": 0.0
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_fSkirtConstraintFraction": {
+					"type": "float32",
+					"value": 2.0
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_fSkirtConstraintOffset": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_fWindConstant": { "type": "float32", "value": 0.0 },
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 10.0
+				},
+				"m_fDamping": { "type": "float32", "value": 0.0 },
+				"m_nIterations": { "type": "uint32", "value": 3 },
+				"m_fFrequency": { "type": "float32", "value": 90.0 },
+				"m_bCreateSkirtConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eBendConstrainType": {
+					"type": "EClothBendConstrainType",
+					"value": "eClothBendConstrainType_Triangle"
+				},
+				"m_BodyPartLODCutOffMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00287E08C9B9F695",
+						"flag": "5F"
+					}
+				},
+				"m_nBodypartLODCutOff": { "type": "uint32", "value": 3 },
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"dd53cc74099d752b",
+						"1e65950f61691271",
+						"39e35d62fa9e3d7e",
+						"9ed805f72c1e0c10",
+						"952c8059d2f73488",
+						"1b44b47494a078c9",
+						"5093ae1153e5901d",
+						"934621b2cb4d44df"
+					],
+					"postInit": true
+				}
+			},
+			"exposedInterfaces": {
+				"ZClothColliderGroupAspect": "1e65950f61691271",
+				"ZBodyPartEntity": "1e65950f61691271"
+			}
+		},
+		"934621b2cb4d44df": {
+			"parent": "ede298887d71d529",
+			"name": "Belt_StrapBuckle",
+			"factory": "0017355DDB3D75A3",
+			"blueprint": "005F1B0540C7F863",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#292929"
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00FFC5352D7A5D64",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"5093ae1153e5901d": {
+			"parent": "ede298887d71d529",
+			"name": "Tie_Simple",
+			"factory": "008DAFF880E54167",
+			"blueprint": "00A31B49E5A8A9FC",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#5d3c61"
+				}
+			}
+		},
+		"1b44b47494a078c9": {
+			"parent": "ede298887d71d529",
+			"name": "Pants_Dress_Loose",
+			"factory": "00D447A686EA104A",
+			"blueprint": "00D1FCB0E73F6D8C",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#444661"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_accessories_02.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_accessories_02.texture?/specular_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_accessories_02.texture?/diffuse_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00BA2D6008DDF3D5", "flag": "5F" },
+		{ "resource": "00AF7A6524DA59C8", "flag": "5F" },
+		{ "resource": "008631A82AC9BD09", "flag": "5F" },
+		{ "resource": "006BFA1F7412D4BE", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00B40E9503CF9271", "flag": "5F" },
+		{ "resource": "004DF5FC6EB58717", "flag": "5F" },
+		{ "resource": "003A821D22D0841F", "flag": "5F" },
+		{ "resource": "001592DC8378AC4B", "flag": "5F" },
+		{ "resource": "00E013CFC3E95C1F", "flag": "5F" },
+		{ "resource": "0045F839B337D2B6", "flag": "5F" },
+		{ "resource": "00188997D678EF0B", "flag": "5F" },
+		{ "resource": "006F835120511247", "flag": "5F" },
+		{ "resource": "006A9072F2C78523", "flag": "5F" },
+		{ "resource": "005A3A86E39FBFB7", "flag": "5F" },
+		{ "resource": "006258232B3126D5", "flag": "5F" },
+		{ "resource": "009B5182C6638B75", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00A05761E67B636C", "flag": "5F" },
+		{ "resource": "0041FFD632E83A8A", "flag": "5F" },
+		{ "resource": "004BC0D7F601BBE7", "flag": "5F" },
+		{ "resource": "00919F8F05A47518", "flag": "5F" },
+		{ "resource": "000D9107514409CE", "flag": "5F" },
+		{ "resource": "003BB12E27D95C54", "flag": "5F" },
+		{ "resource": "00CF0262226701E1", "flag": "5F" },
+		{ "resource": "006A4D140C6539BA", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "0091FBA017372507", "flag": "5F" },
+		{ "resource": "002E7541DF988823", "flag": "5F" },
+		{ "resource": "005D3558AA8875F1", "flag": "5F" },
+		{ "resource": "00D93A9C2AE24BA5", "flag": "5F" },
+		{ "resource": "001083E516801F5E", "flag": "5F" },
+		{ "resource": "00E4CE86EE7A5CC2", "flag": "5F" },
+		{ "resource": "004AE40C64125C4E", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

@@ -1,0 +1,206 @@
+{
+	"tempHash": "00EC07A2B08BFF4A",
+	"tbluHash": "00E51F499CA58B66",
+	"rootEntity": "ede298887d71d529",
+	"entities": {
+		"000505309f047c67": {
+			"parent": "ede298887d71d529",
+			"name": "Beard_Cap",
+			"factory": "00EF778CA0CE61B6",
+			"blueprint": "008310C47ABF12C7"
+		},
+		"39e35d62fa9e3d7e": {
+			"parent": "ede298887d71d529",
+			"name": "Head_Caucasian_50s_02_Beard",
+			"factory": "00C4C1C9DA2E3A2B",
+			"blueprint": "005A7FF20C80CE06",
+			"properties": {
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.4000000059604645
+				}
+			}
+		},
+		"9ed805f72c1e0c10": {
+			"parent": "ede298887d71d529",
+			"name": "Body_Full",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5"
+		},
+		"ede298887d71d529": {
+			"parent": null,
+			"name": "OUTFIT_Gecko_Civilian_Guest_M_Actor_v1",
+			"factory": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -8.83572769165039,
+							"y": 2.258323907852173,
+							"z": 0.0
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_fSkirtConstraintFraction": {
+					"type": "float32",
+					"value": 2.0
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_fSkirtConstraintOffset": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_fWindConstant": { "type": "float32", "value": 0.0 },
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 10.0
+				},
+				"m_fDamping": { "type": "float32", "value": 0.0 },
+				"m_nIterations": { "type": "uint32", "value": 3 },
+				"m_fFrequency": { "type": "float32", "value": 90.0 },
+				"m_bCreateSkirtConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eBendConstrainType": {
+					"type": "EClothBendConstrainType",
+					"value": "eClothBendConstrainType_Triangle"
+				},
+				"m_BodyPartLODCutOffMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00287E08C9B9F695",
+						"flag": "5F"
+					}
+				},
+				"m_nBodypartLODCutOff": { "type": "uint32", "value": 3 },
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"39e35d62fa9e3d7e",
+						"9ed805f72c1e0c10",
+						"b0901dab9f5740c2",
+						"000505309f047c67",
+						"1b44b47494a078c9"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"1b44b47494a078c9": {
+			"parent": "ede298887d71d529",
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5"
+		},
+		"b0901dab9f5740c2": {
+			"parent": "ede298887d71d529",
+			"name": "Hair_Full_L_Slickback",
+			"factory": "00C6485FD1F6C874",
+			"blueprint": "000CD21DA8698854",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#29231e"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#ffb38a"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.7900000214576721
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_accessories_02.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_accessories_02.texture?/specular_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/agent47_accessories_02.texture?/diffuse_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00BA2D6008DDF3D5", "flag": "5F" },
+		{ "resource": "00AF7A6524DA59C8", "flag": "5F" },
+		{ "resource": "008631A82AC9BD09", "flag": "5F" },
+		{ "resource": "006BFA1F7412D4BE", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00B40E9503CF9271", "flag": "5F" },
+		{ "resource": "004DF5FC6EB58717", "flag": "5F" },
+		{ "resource": "003A821D22D0841F", "flag": "5F" },
+		{ "resource": "001592DC8378AC4B", "flag": "5F" },
+		{ "resource": "00E013CFC3E95C1F", "flag": "5F" },
+		{ "resource": "0045F839B337D2B6", "flag": "5F" },
+		{ "resource": "00188997D678EF0B", "flag": "5F" },
+		{ "resource": "006F835120511247", "flag": "5F" },
+		{ "resource": "006A9072F2C78523", "flag": "5F" },
+		{ "resource": "005A3A86E39FBFB7", "flag": "5F" },
+		{ "resource": "006258232B3126D5", "flag": "5F" },
+		{ "resource": "009B5182C6638B75", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00A05761E67B636C", "flag": "5F" },
+		{ "resource": "0041FFD632E83A8A", "flag": "5F" },
+		{ "resource": "004BC0D7F601BBE7", "flag": "5F" },
+		{ "resource": "00919F8F05A47518", "flag": "5F" },
+		{ "resource": "000D9107514409CE", "flag": "5F" },
+		{ "resource": "003BB12E27D95C54", "flag": "5F" },
+		{ "resource": "00CF0262226701E1", "flag": "5F" },
+		{ "resource": "006A4D140C6539BA", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "0091FBA017372507", "flag": "5F" },
+		{ "resource": "002E7541DF988823", "flag": "5F" },
+		{ "resource": "005D3558AA8875F1", "flag": "5F" },
+		{ "resource": "00D93A9C2AE24BA5", "flag": "5F" },
+		{ "resource": "001083E516801F5E", "flag": "5F" },
+		{ "resource": "00E4CE86EE7A5CC2", "flag": "5F" },
+		{ "resource": "004AE40C64125C4E", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
