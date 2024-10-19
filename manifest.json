@@ -25,15 +25,18 @@
 			"dependencies": [
 				{
 					"runtimeID": "0072C345D02ADE97",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				},
 				{
 					"runtimeID": "005CB07C69DFFF2A",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				},
 				{
 					"runtimeID": "008E18DFC5DB43AC",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				}
 			]
 		},
@@ -53,11 +56,13 @@
 			"dependencies": [
 				{
 					"runtimeID": "0072C345D02ADE97",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				},
 				{
 					"runtimeID": "005CB07C69DFFF2A",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				}
 			]
 		},
@@ -78,19 +83,23 @@
 			"dependencies": [
 				{
 					"runtimeID": "0072C345D02ADE97",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				},
 				{
 					"runtimeID": "00C48A703EA35E08",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				},
 				{
 					"runtimeID": "005CB07C69DFFF2A",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				},
 				{
 					"runtimeID": "008E18DFC5DB43AC",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				},
 				{
 					"runtimeID": "00F82E54EAC058AF",
@@ -123,11 +132,13 @@
 			"dependencies": [
 				{
 					"runtimeID": "0072C345D02ADE97",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				},
 				{
 					"runtimeID": "005CB07C69DFFF2A",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				},
 				{
 					"runtimeID": "0069176EDF6645C8",
@@ -149,11 +160,13 @@
 			"dependencies": [
 				{
 					"runtimeID": "0072C345D02ADE97",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				},
 				{
 					"runtimeID": "00C48A703EA35E08",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				},
 				{
 					"runtimeID": "0069176EDF6645C8",
@@ -174,7 +187,8 @@
 			"dependencies": [
 				{
 					"runtimeID": "0072C345D02ADE97",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				}
 			]
 		},
@@ -190,7 +204,8 @@
 			"dependencies": [
 				{
 					"runtimeID": "0072C345D02ADE97",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				}
 			]
 		},
@@ -406,15 +421,18 @@
 			"dependencies": [
 				{
 					"runtimeID": "00E3AC6141A1094B",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				},
 				{
 					"runtimeID": "008FBF9A390CB64E",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				},
 				{
 					"runtimeID": "004365B9F4B3A727",
-					"toChunk": 0
+					"toChunk": 0,
+					"portFromChunk1": true
 				}
 			]
 		},
@@ -441,6 +459,11 @@
 				{
 					"runtimeID": "0021B7AF35ADF425",
 					"toChunk": 4
+				},
+				{
+					"runtimeID": "00CDF4692F81ED4C",
+					"toChunk": 0,
+					"portFromChunk1": true
 				}
 			]
 		},
@@ -546,6 +569,13 @@
 				"ShareEGCQ",
 				"ShareEGMendoza",
 				"ShareEGAmbrose"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "00CDF4692F81ED4C",
+					"toChunk": 0,
+					"portFromChunk1": true
+				}
 			]
 		},
 		{
@@ -554,12 +584,6 @@
 			"type": "checkbox",
 			"contentFolders": [
 				"Debug"
-			],
-			"dependencies": [
-				{
-					"runtimeID": "00E0A4D7CEB97FE9",
-					"toChunk": 0
-				}
 			]
 		}
 	]
