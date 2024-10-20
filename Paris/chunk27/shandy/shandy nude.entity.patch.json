@@ -4,6 +4,20 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
+				"e2053b1cb10ce934",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pBonesAndCollisionResource",
+						"value": {
+							"resource": "003AAB3D2C739F59",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"cfe908fe82072dca",
 				{
 					"SetPropertyValue": {

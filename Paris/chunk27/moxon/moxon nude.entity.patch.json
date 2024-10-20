@@ -6,6 +6,40 @@
 			"SubEntityOperation": [
 				"d8f6b23b790a467e",
 				{
+					"SetFactory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d8f6b23b790a467e",
+				{
+					"SetBlueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d8f6b23b790a467e",
+				{ "RemovePropertyByName": "Face_Diffuse_Override" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d8f6b23b790a467e",
+				{ "RemovePropertyByName": "Normal_01" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d8f6b23b790a467e",
+				{ "RemovePropertyByName": "m_ResourceID" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d8f6b23b790a467e",
+				{
 					"AddProperty": [
 						"m_fLODScale",
 						{ "type": "float32", "value": 1 }

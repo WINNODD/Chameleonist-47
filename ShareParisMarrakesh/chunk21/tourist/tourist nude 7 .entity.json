@@ -195,14 +195,14 @@
 		},
 		"0747b16dcbcc082c": {
 			"parent": "d5009f5bfa3eddfb",
-			"name": "Mesh_Hands",
+			"name": "Security_Body",
 			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
 			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
 			"properties": {
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "0067D00FEA9E5C2C",
+						"resource": "001706CDDEFDA9CC",
 						"flag": "5F"
 					}
 				}

@@ -54,13 +54,6 @@
 					}
 				},
 				"Texture2D_01_enab": { "type": "bool", "value": true },
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_head.texture?/diffuse_d.tex](ascolormap).pc_tex",
-						"flag": "5F"
-					}
-				},
 				"ConstantColorRGB_01_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
 					"value": "eReplace"

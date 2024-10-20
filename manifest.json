@@ -52,6 +52,7 @@
 			"contentFolders": [
 				"Paris",
 				"ShareS1",
+				"ShareParisSapi",
 				"ShareICAParisSapiMarrakesh",
 				"ShareParisMarrakesh",
 				"ShareParisMarrakeshColorado",
@@ -78,6 +79,7 @@
 				"Sapienza",
 				"ShareS1",
 				"ShareICASapi",
+				"ShareParisSapi",
 				"ShareICAParisSapiMarrakesh",
 				"ShareEGSapiMarrakesh",
 				"ShareSapiMarrakeshBangkok",
