@@ -333,7 +333,7 @@
 				},
 				"ConstantColorRGB_01_Value": {
 					"type": "SColorRGB",
-					"value": "#d6d2d0"
+					"value": "#ffffff"
 				},
 				"ConstantVector1D_01_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",

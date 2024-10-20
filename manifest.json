@@ -19,7 +19,7 @@
 				"ICA Facility",
 				"ShareS1",
 				"ShareICAParisSapiMarrakesh",
-				"ShareICAParis",
+				"ShareICASapi",
 				"ShareEGICAParisSapiMarrakesh"
 			],
 			"dependencies": [
@@ -37,6 +37,11 @@
 					"runtimeID": "008E18DFC5DB43AC",
 					"toChunk": 0,
 					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00AF11E494E416DC",
+					"toChunk": 0,
+					"portFromChunk1": true
 				}
 			]
 		},
@@ -48,7 +53,6 @@
 				"Paris",
 				"ShareS1",
 				"ShareICAParisSapiMarrakesh",
-				"ShareICAParis",
 				"ShareParisMarrakesh",
 				"ShareParisMarrakeshColorado",
 				"ShareEGICAParisSapiMarrakesh"
@@ -73,6 +77,7 @@
 			"contentFolders": [
 				"Sapienza",
 				"ShareS1",
+				"ShareICASapi",
 				"ShareICAParisSapiMarrakesh",
 				"ShareEGSapiMarrakesh",
 				"ShareSapiMarrakeshBangkok",
