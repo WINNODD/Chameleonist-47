@@ -1,0 +1,21 @@
+{
+	"tempHash": "005EEF909A7CA31C",
+	"tbluHash": "007D8ECDDE39DE7A",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c55b5d8c159ef121",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "[assembly:/_pro/characters/assets/individuals/marrakesh/screwdriver/geometry/male_reg_screwdriver.wl2?/shoes.weightedprim](bodypart).pc_weightedprim",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
