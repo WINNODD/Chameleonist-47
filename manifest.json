@@ -20,6 +20,7 @@
 				"ShareS1",
 				"ShareICAParisSapiMarrakesh",
 				"ShareICASapi",
+				"ShareEGICAParisSapiMarrakeshBangkok",
 				"ShareEGICAParisSapiMarrakesh"
 			],
 			"dependencies": [
@@ -56,6 +57,7 @@
 				"ShareICAParisSapiMarrakesh",
 				"ShareParisMarrakesh",
 				"ShareParisMarrakeshColorado",
+				"ShareEGICAParisSapiMarrakeshBangkok",
 				"ShareEGICAParisSapiMarrakesh"
 			],
 			"dependencies": [
@@ -85,6 +87,7 @@
 				"ShareSapiMarrakeshBangkok",
 				"ShareEGSapi",
 				"ShareEGICAParisSapiMarrakesh",
+				"ShareEGICAParisSapiMarrakeshBangkok",
 				"ShareSapiBangkokColoradoHokkaido"
 			],
 			"dependencies": [
@@ -114,7 +117,8 @@
 				},
 				{
 					"runtimeID": "0069176EDF6645C8",
-					"toChunk": 1
+					"toChunk": 0,
+					"portFromChunk1": true
 				},
 				{
 					"runtimeID": "0097E2AF85F1FE79",
@@ -149,6 +153,7 @@
 				"ShareParisMarrakesh",
 				"ShareParisMarrakeshColorado",
 				"ShareSapiMarrakeshBangkok",
+				"ShareEGICAParisSapiMarrakeshBangkok",
 				"ShareEGICAParisSapiMarrakesh"
 			],
 			"dependencies": [
@@ -164,7 +169,8 @@
 				},
 				{
 					"runtimeID": "0069176EDF6645C8",
-					"toChunk": 1
+					"toChunk": 0,
+					"portFromChunk1": true
 				},
 				{
 					"runtimeID": "00AF11E494E416DC",
@@ -187,6 +193,7 @@
 				"ShareS1",
 				"ShareSapiMarrakeshBangkok",
 				"ShareEGBangkok",
+				"ShareEGICAParisSapiMarrakeshBangkok",
 				"ShareSapiBangkokColoradoHokkaido"
 			],
 			"dependencies": [
@@ -202,7 +209,13 @@
 				},
 				{
 					"runtimeID": "0069176EDF6645C8",
-					"toChunk": 1
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00AF11E494E416DC",
+					"toChunk": 0,
+					"portFromChunk1": true
 				}
 			]
 		},
@@ -593,6 +606,7 @@
 				"Freelancer",
 				"ShareEGNYDubaiCQ",
 				"ShareEGICAParisSapiMarrakesh",
+				"ShareEGICAParisSapiMarrakeshBangkok",
 				"ShareEGSapi",
 				"ShareEGSapiMarrakesh",
 				"ShareEGBangkok",
@@ -626,6 +640,11 @@
 				},
 				{
 					"runtimeID": "008031E3566CA530",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0069176EDF6645C8",
 					"toChunk": 0,
 					"portFromChunk1": true
 				}
