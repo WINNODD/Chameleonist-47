@@ -388,6 +388,13 @@
 				"Whittleton Creek",
 				"ShareEGWC"
 			],
+			"dependencies": [
+				{
+					"runtimeID": "0099FB02AD3493BC",
+					"toChunk": 0,
+					"portFromChunk1": true
+				}
+			],
 			"localisedLines": {
 				"00F2A31656DF34A3": "40A23355"
 			},
