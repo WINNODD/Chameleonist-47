@@ -1,1 +1,191 @@
-{"tempHash":"00A674DC0DE915FA","tbluHash":"008BBA98A1BDAA62","rootEntity":"d954b03b32b71826","entities":{"815b9c9d61d7b83d":{"parent":"d954b03b32b71826","name":"Shoes_Sneakers_Skate","factory":"0051CDBE526A5788","blueprint":"005E95DA5C8F37F9"},"3fd8d2b754f8c56f":{"parent":"d954b03b32b71826","name":"Pants_Jeans_Slim","factory":"00D8F98FFC2766FE","blueprint":"0027BE58478DD2EC","properties":{"Diffuse_Color_01_Value":{"type":"SColorRGB","value":"#545454"}}},"dd15b0ed412a1b8b":{"parent":"9006327ea4d98c7f","name":"Bracelet_Leather_Strap","factory":"001F119BFAE57CF7","blueprint":"00DFC51C8ADFB832","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-1.31574821472168,"y":-0.18185709416866302,"z":-90.14592742919922},"position":{"x":0.2325170934200287,"y":-0.0007590103195980191,"z":0.005127999931573868},"scale":{"x":1.0000000000000002,"y":1,"z":1}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"9006327ea4d98c7f","postInit":true}}},"2316beae1d30847c":{"parent":"d954b03b32b71826","name":"Shirt_Btnup_RldSlv_Open","factory":"007C24D8BEBBA923","blueprint":"00CE401D89902DFC","properties":{"Diffuse_Color_01_Value":{"type":"SColorRGB","value":"#7a9986"}}},"d954b03b32b71826":{"parent":null,"name":"OUTFIT_Maelstrom_Bearded_M_Actor_v1","factory":"00C0753FBF784C66","blueprint":"007294473357329E","properties":{"m_LocalColliders":{"type":"TArray<SEntityTemplateReference>","value":[]},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":4.385781764984131,"y":-3.4746410846710205,"z":0}}},"m_pBonesAndCollisionResource":{"type":"ZRuntimeResourceID","value":{"resource":"0031D11394DACDF3","flag":"5F"}},"m_aBodyParts":{"type":"TArray<SEntityTemplateReference>","value":["2dd5ad63ca1a0904","d6bc07e52ae638c6","2316beae1d30847c","815b9c9d61d7b83d","3fd8d2b754f8c56f","1db274f8c17a2bed","87f5b1c97f83951e","618a854be7d3ba71"],"postInit":true}}},"87f5b1c97f83951e":{"parent":"d954b03b32b71826","name":"Torso_Full","factory":"00A5D4779E6AA927","blueprint":"00B53E161DA42DC5"},"2dd5ad63ca1a0904":{"parent":"d954b03b32b71826","name":"Arms_Biceps_Hand","factory":"0081BA55B3D8292E","blueprint":"00CFA61BB1571AF8"},"9006327ea4d98c7f":{"parent":"d954b03b32b71826","name":"Attacher_Wrist_L","factory":"[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype","blueprint":"[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint","properties":{"m_BoneName":{"type":"ZString","value":"L_Forearm"},"m_linkedEntity":{"type":"SEntityTemplateReference","value":"d954b03b32b71826"},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-0.0000000000000031805545068312735},"position":{"x":0,"y":0.00000000000000039931589529114755,"z":0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"d954b03b32b71826"}}},"618a854be7d3ba71":{"parent":"d954b03b32b71826","name":"Belt_StrapBuckle","factory":"0017355DDB3D75A3","blueprint":"005F1B0540C7F863","properties":{"Diffuse_Color_01_Value":{"type":"SColorRGB","value":"#52463c"}}},"d6bc07e52ae638c6":{"parent":"d954b03b32b71826","name":"Head_47","factory":"00537D16B5CE7286","blueprint":"00F2E4A932ECAA63"},"1db274f8c17a2bed":{"parent":"d954b03b32b71826","name":"TShirt_CrewNeck_Cut_Jacket","factory":"007A2182865B9610","blueprint":"009EDBC596AFF5DA","properties":{"Diffuse_Color_01_Value":{"type":"SColorRGB","value":"#de854e"}}}},"propertyOverrides":[],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":[],"subType":"template","quickEntityVersion":3.1,"extraFactoryDependencies":[],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "00A674DC0DE915FA",
+	"tbluHash": "008BBA98A1BDAA62",
+	"rootEntity": "d954b03b32b71826",
+	"entities": {
+		"815b9c9d61d7b83d": {
+			"parent": "d954b03b32b71826",
+			"name": "Shoes_Sneakers_Skate",
+			"factory": "0051CDBE526A5788",
+			"blueprint": "005E95DA5C8F37F9"
+		},
+		"3fd8d2b754f8c56f": {
+			"parent": "d954b03b32b71826",
+			"name": "Pants_Jeans_Slim",
+			"factory": "00D8F98FFC2766FE",
+			"blueprint": "0027BE58478DD2EC",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#545454"
+				}
+			}
+		},
+		"dd15b0ed412a1b8b": {
+			"parent": "9006327ea4d98c7f",
+			"name": "Bracelet_Leather_Strap",
+			"factory": "001F119BFAE57CF7",
+			"blueprint": "00DFC51C8ADFB832",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.31574821472168,
+							"y": -0.18185709416866305,
+							"z": -90.14592742919922
+						},
+						"position": {
+							"x": 0.2325170934200287,
+							"y": -0.0007590103195980191,
+							"z": 0.005127999931573868
+						},
+						"scale": {
+							"x": 1.0000000000000002,
+							"y": 1,
+							"z": 1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "9006327ea4d98c7f",
+					"postInit": true
+				}
+			}
+		},
+		"2316beae1d30847c": {
+			"parent": "d954b03b32b71826",
+			"name": "Shirt_Btnup_RldSlv_Open",
+			"factory": "007C24D8BEBBA923",
+			"blueprint": "00CE401D89902DFC",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#7a9986"
+				}
+			}
+		},
+		"d954b03b32b71826": {
+			"parent": null,
+			"name": "OUTFIT_Maelstrom_Bearded_M_Actor_v1",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 4.385781764984131,
+							"y": -3.4746410846710205,
+							"z": 0
+						}
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"2dd5ad63ca1a0904",
+						"d6bc07e52ae638c6",
+						"2316beae1d30847c",
+						"815b9c9d61d7b83d",
+						"3fd8d2b754f8c56f",
+						"1db274f8c17a2bed",
+						"87f5b1c97f83951e",
+						"618a854be7d3ba71"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"87f5b1c97f83951e": {
+			"parent": "d954b03b32b71826",
+			"name": "Torso_Full",
+			"factory": "00A5D4779E6AA927",
+			"blueprint": "00B53E161DA42DC5"
+		},
+		"2dd5ad63ca1a0904": {
+			"parent": "d954b03b32b71826",
+			"name": "Arms_Biceps_Hand",
+			"factory": "0081BA55B3D8292E",
+			"blueprint": "00CFA61BB1571AF8"
+		},
+		"9006327ea4d98c7f": {
+			"parent": "d954b03b32b71826",
+			"name": "Attacher_Wrist_L",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "L_Forearm" },
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "d954b03b32b71826"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -3.180554506831274e-15
+						},
+						"position": {
+							"x": 0,
+							"y": 3.993158952911475e-16,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d954b03b32b71826"
+				}
+			}
+		},
+		"618a854be7d3ba71": {
+			"parent": "d954b03b32b71826",
+			"name": "Belt_StrapBuckle",
+			"factory": "0017355DDB3D75A3",
+			"blueprint": "005F1B0540C7F863",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#52463c"
+				}
+			}
+		},
+		"d6bc07e52ae638c6": {
+			"parent": "d954b03b32b71826",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		},
+		"1db274f8c17a2bed": {
+			"parent": "d954b03b32b71826",
+			"name": "TShirt_CrewNeck_Cut_Jacket",
+			"factory": "007A2182865B9610",
+			"blueprint": "009EDBC596AFF5DA",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#de854e"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

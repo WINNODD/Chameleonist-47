@@ -1,1 +1,195 @@
-{"tempHash":"00E65DF7748A52EE","tbluHash":"008BC944992A9BF4","rootEntity":"457b64afab6c598c","entities":{"ff618a6e4fa2a418":{"parent":"457b64afab6c598c","name":"Shoes_Sandals_Floaters","factory":"00D0CF8B548B1A83","blueprint":"00CC534F66B52F02","properties":{"Diffuse_Saturation_01_Value":{"type":"float32","value":0.30000001192092896},"Diffuse_Hue_Shift_01_Value":{"type":"float32","value":0.5699999928474426}}},"f9fc66032990a12b":{"parent":"457b64afab6c598c","name":"Head_47","factory":"00537D16B5CE7286","blueprint":"00F2E4A932ECAA63"},"2a19fff7f25316b0":{"parent":"457b64afab6c598c","name":"Legs_Thigh_Foot","factory":"00437CF5F116E7E9","blueprint":"00B815E6A54B09EE"},"b7bea03bc5c8ed4c":{"parent":"457b64afab6c598c","name":"Attacher_Wrist_L","factory":"[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype","blueprint":"[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint","properties":{"m_BoneName":{"type":"ZString","value":"L_Forearm"},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-0.0000000000000031805545068312735},"position":{"x":0,"y":0.00000000000000039931589529114755,"z":0}}},"m_linkedEntity":{"type":"SEntityTemplateReference","value":"457b64afab6c598c","postInit":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"457b64afab6c598c","postInit":true}}},"457b64afab6c598c":{"parent":null,"name":"OUTFIT_Maelstrom_Bearded_M_Actor_v6","factory":"00C0753FBF784C66","blueprint":"007294473357329E","properties":{"m_LocalColliders":{"type":"TArray<SEntityTemplateReference>","value":[]},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":12.074749946594238,"y":-3.500072956085205,"z":0}}},"m_pBonesAndCollisionResource":{"type":"ZRuntimeResourceID","value":{"resource":"0031D11394DACDF3","flag":"5F"}},"m_fFrustumFarDistanceProperty":{"type":"float32","value":10},"m_aBodyParts":{"type":"TArray<SEntityTemplateReference>","value":["4b2e83824f37fca0","f9fc66032990a12b","ff618a6e4fa2a418","9e78919ad1f39118","063089d1d8c87de7","2a19fff7f25316b0","fd9cd1dac9a6a1ed"],"postInit":true}}},"9e78919ad1f39118":{"parent":"457b64afab6c598c","name":"Pants_Jeans_Slim","factory":"00D8F98FFC2766FE","blueprint":"0027BE58478DD2EC","properties":{"Diffuse_Color_01_Value":{"type":"SColorRGB","value":"#6d879e"}}},"063089d1d8c87de7":{"parent":"457b64afab6c598c","name":"Shirt_Dress_BtnUp_2open","factory":"003B517DD5A49927","blueprint":"004C1F54F1D4A7D9","properties":{"Diffuse_Color_01_Value":{"type":"SColorRGB","value":"#edac9f"},"Diffuse_Color_02_Value":{"type":"SColorRGB","value":"#edac9f"}}},"0df9cd73fc67fe06":{"parent":"b7bea03bc5c8ed4c","name":"Watch_Leather_Strap","factory":"00C1FADA165E42D1","blueprint":"00B9AA6F90A3AEA2","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-1.31574821472168,"y":-0.18185709416866302,"z":-90.14592742919922},"position":{"x":0.2325170934200287,"y":-0.0007590103195980191,"z":0.005127999931573868},"scale":{"x":1.0000000000000002,"y":1,"z":1}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":1,"z":1}},"m_ResourceID":{"type":"ZRuntimeResourceID","value":null},"m_eidParent":{"type":"SEntityTemplateReference","value":"b7bea03bc5c8ed4c"}}},"fd9cd1dac9a6a1ed":{"parent":"457b64afab6c598c","name":"Torso_Neck_01","factory":"00D43167687E61AD","blueprint":"007E9340AD2C2425"},"4b2e83824f37fca0":{"parent":"457b64afab6c598c","name":"Arms_Biceps_Hand","factory":"0081BA55B3D8292E","blueprint":"00CFA61BB1571AF8"}},"propertyOverrides":[],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":[],"subType":"template","quickEntityVersion":3.1,"extraFactoryDependencies":[],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "00E65DF7748A52EE",
+	"tbluHash": "008BC944992A9BF4",
+	"rootEntity": "457b64afab6c598c",
+	"entities": {
+		"ff618a6e4fa2a418": {
+			"parent": "457b64afab6c598c",
+			"name": "Shoes_Sandals_Floaters",
+			"factory": "00D0CF8B548B1A83",
+			"blueprint": "00CC534F66B52F02",
+			"properties": {
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.5699999928474426
+				}
+			}
+		},
+		"f9fc66032990a12b": {
+			"parent": "457b64afab6c598c",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		},
+		"2a19fff7f25316b0": {
+			"parent": "457b64afab6c598c",
+			"name": "Legs_Thigh_Foot",
+			"factory": "00437CF5F116E7E9",
+			"blueprint": "00B815E6A54B09EE"
+		},
+		"b7bea03bc5c8ed4c": {
+			"parent": "457b64afab6c598c",
+			"name": "Attacher_Wrist_L",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "L_Forearm" },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -3.180554506831274e-15
+						},
+						"position": {
+							"x": 0,
+							"y": 3.993158952911475e-16,
+							"z": 0
+						}
+					}
+				},
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "457b64afab6c598c",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "457b64afab6c598c",
+					"postInit": true
+				}
+			}
+		},
+		"457b64afab6c598c": {
+			"parent": null,
+			"name": "OUTFIT_Maelstrom_Bearded_M_Actor_v6",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 12.074749946594238,
+							"y": -3.500072956085205,
+							"z": 0
+						}
+					}
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"4b2e83824f37fca0",
+						"f9fc66032990a12b",
+						"ff618a6e4fa2a418",
+						"9e78919ad1f39118",
+						"063089d1d8c87de7",
+						"2a19fff7f25316b0",
+						"fd9cd1dac9a6a1ed"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"9e78919ad1f39118": {
+			"parent": "457b64afab6c598c",
+			"name": "Pants_Jeans_Slim",
+			"factory": "00D8F98FFC2766FE",
+			"blueprint": "0027BE58478DD2EC",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#6d879e"
+				}
+			}
+		},
+		"063089d1d8c87de7": {
+			"parent": "457b64afab6c598c",
+			"name": "Shirt_Dress_BtnUp_2open",
+			"factory": "003B517DD5A49927",
+			"blueprint": "004C1F54F1D4A7D9",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#edac9f"
+				},
+				"Diffuse_Color_02_Value": {
+					"type": "SColorRGB",
+					"value": "#edac9f"
+				}
+			}
+		},
+		"0df9cd73fc67fe06": {
+			"parent": "b7bea03bc5c8ed4c",
+			"name": "Watch_Leather_Strap",
+			"factory": "00C1FADA165E42D1",
+			"blueprint": "00B9AA6F90A3AEA2",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.31574821472168,
+							"y": -0.18185709416866305,
+							"z": -90.14592742919922
+						},
+						"position": {
+							"x": 0.2325170934200287,
+							"y": -0.0007590103195980191,
+							"z": 0.005127999931573868
+						},
+						"scale": {
+							"x": 1.0000000000000002,
+							"y": 1,
+							"z": 1
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 1, "z": 1 }
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b7bea03bc5c8ed4c"
+				}
+			}
+		},
+		"fd9cd1dac9a6a1ed": {
+			"parent": "457b64afab6c598c",
+			"name": "Torso_Neck_01",
+			"factory": "00D43167687E61AD",
+			"blueprint": "007E9340AD2C2425"
+		},
+		"4b2e83824f37fca0": {
+			"parent": "457b64afab6c598c",
+			"name": "Arms_Biceps_Hand",
+			"factory": "0081BA55B3D8292E",
+			"blueprint": "00CFA61BB1571AF8"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
