@@ -1,0 +1,24 @@
+{
+	"tempHash": "00EC45B10148D4FA",
+	"tbluHash": "00CE3FFF38C765E3",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"e5a7a1288521c212",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "003815FB978E6304",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
