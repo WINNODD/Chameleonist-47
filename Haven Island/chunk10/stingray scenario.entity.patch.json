@@ -10,6 +10,12 @@
 		},
 		{
 			"SubEntityOperation": [
+				"906aea787534e9a2",
+				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"29f5348aa6e288ee",
 				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
 			]

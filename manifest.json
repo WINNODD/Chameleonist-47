@@ -463,7 +463,15 @@
 			"tooltip": "Haven Island",
 			"type": "checkbox",
 			"contentFolders": [
-				"Haven Island"
+				"Haven Island",
+				"ShareEGHaven"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "003EE7407EF7A379",
+					"toChunk": 0,
+					"portFromChunk1": true
+				}
 			]
 		},
 		{
@@ -627,7 +635,8 @@
 				"ShareEGBerlin",
 				"ShareEGCQ",
 				"ShareEGMendoza",
-				"ShareEGAmbrose"
+				"ShareEGAmbrose",
+				"ShareEGHaven"
 			],
 			"dependencies": [
 				{
@@ -652,6 +661,11 @@
 				},
 				{
 					"runtimeID": "0069176EDF6645C8",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "003EE7407EF7A379",
 					"toChunk": 0,
 					"portFromChunk1": true
 				}

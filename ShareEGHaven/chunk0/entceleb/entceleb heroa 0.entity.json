@@ -1,0 +1,194 @@
+{
+	"tempHash": "000B69C8041BE3B8",
+	"tbluHash": "0060F2A5499A27C0",
+	"rootEntity": "81a69b78ee752e89",
+	"entities": {
+		"c7c2a354011f2489": {
+			"parent": "81a69b78ee752e89",
+			"name": "Attacher_Head",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "Head" },
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "81a69b78ee752e89",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "81a69b78ee752e89",
+					"postInit": true
+				}
+			}
+		},
+		"4b3dc6181c7a6b95": {
+			"parent": "c7c2a354011f2489",
+			"name": "hat_bucket",
+			"factory": "0031A010CA1BA416",
+			"blueprint": "00E1C76CF9EEBC9C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -135.09891998330846,
+							"y": -87.46503288057993,
+							"z": -108.4742661647425
+						},
+						"position": {
+							"x": 0.08765900135040283,
+							"y": 0.013788999989628792,
+							"z": 0.00014099999680183828
+						}
+					}
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffeded"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.024999976158142,
+						"y": 1.024999976158142,
+						"z": 1.024999976158142
+					}
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 2.0
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002E4A6122AA5FBF",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "c7c2a354011f2489"
+				}
+			}
+		},
+		"f458fac64d24dc79": {
+			"parent": "81a69b78ee752e89",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		},
+		"3f71c3539597b859": {
+			"parent": "81a69b78ee752e89",
+			"name": "Legs_Thigh_Foot",
+			"factory": "00437CF5F116E7E9",
+			"blueprint": "00B815E6A54B09EE"
+		},
+		"81a69b78ee752e89": {
+			"parent": null,
+			"name": "OUTFIT_Opulent_Civilian_EntCeleb_M_Actor_v0",
+			"factory": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 1.4025429487228394,
+							"y": -6.533316135406494,
+							"z": 0.004666999913752079
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"f458fac64d24dc79",
+						"73edbadd45b05a0a",
+						"3db8d3390f2143bc",
+						"3f71c3539597b859"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"73edbadd45b05a0a": {
+			"parent": "81a69b78ee752e89",
+			"name": "Shorts_Running_Short",
+			"factory": "005CEB633F201813",
+			"blueprint": "004E90FEC8C6CF0B",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#54c3ff"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "006A3D8CF9B38807",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_03_Value": {
+					"type": "float32",
+					"value": 2.0
+				},
+				"ConstantVector1D_14_Value": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"ConstantVector1D_15_Value": {
+					"type": "float32",
+					"value": 0.0
+				}
+			}
+		},
+		"3db8d3390f2143bc": {
+			"parent": "81a69b78ee752e89",
+			"name": "Upper_Body",
+			"factory": "00E7208BAEDDB24F",
+			"blueprint": "003C889C79F6A7B1"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "00C8EC7C62C69CFF", "flag": "5F" },
+		{ "resource": "00F7F23614B9A7F9", "flag": "5F" },
+		{ "resource": "0024C776473ABAF9", "flag": "5F" },
+		{ "resource": "00F1196EC92D4AAF", "flag": "5F" },
+		{ "resource": "005EBE4D76DABC0C", "flag": "5F" },
+		{ "resource": "002E8ED09B3DDB39", "flag": "5F" },
+		{ "resource": "00C4EE1227378E7E", "flag": "5F" },
+		{ "resource": "00E15896084C7AD5", "flag": "5F" },
+		{ "resource": "00A2EE8BB891AFD0", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "004D13182DDE304B", "flag": "5F" },
+		{ "resource": "002114D7210FBBBD", "flag": "5F" },
+		{ "resource": "00C8529E0CCA9EC1", "flag": "5F" },
+		{ "resource": "00D927084DA11024", "flag": "5F" },
+		{ "resource": "0069C29257C6A945", "flag": "5F" },
+		{ "resource": "0098B597BC3F7804", "flag": "5F" },
+		{ "resource": "007170873AAF14D2", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

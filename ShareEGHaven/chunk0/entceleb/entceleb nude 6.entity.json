@@ -1,0 +1,141 @@
+{
+	"tempHash": "000F94D5542748AC",
+	"tbluHash": "00A89E6EDD139CB6",
+	"rootEntity": "2d0972561e428d5c",
+	"entities": {
+		"6af85d3ae7e0cd2c": {
+			"parent": "2d0972561e428d5c",
+			"name": "Hair_Cap",
+			"factory": "006594C7AF2B3472",
+			"blueprint": "000B3B438FC8C9AC",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#33312f"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#33312f"
+				}
+			}
+		},
+		"f5ea3f0f81e7fb70": {
+			"parent": "2d0972561e428d5c",
+			"name": "Head_Arabic_30s_01",
+			"factory": "0035AAEF8283C4C5",
+			"blueprint": "00C39E3D5C3D4AF9",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#f5e4f1"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#f5e4f1"
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"ConstantVector1D_04_Value_1": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				}
+			}
+		},
+		"2d0972561e428d5c": {
+			"parent": null,
+			"name": "OUTFIT_Opulent_Civilian_EntCeleb_M_Actor_v6",
+			"factory": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 10.71623992919922,
+							"y": -6.533316135406494,
+							"z": 0.004666999913752079
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"f5ea3f0f81e7fb70",
+						"4556041f16c500fd",
+						"6af85d3ae7e0cd2c",
+						"fe1cd518e03b29f6"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"fe1cd518e03b29f6": {
+			"parent": "2d0972561e428d5c",
+			"name": "Body_Full",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5"
+		},
+		"4556041f16c500fd": {
+			"parent": "2d0972561e428d5c",
+			"name": "Pants_Worker",
+			"factory": "00231C475724BE68",
+			"blueprint": "00554C4622FC228C",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "003EE7407EF7A379",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/hippie/textures/male_reg_hippie_shorts_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/hippie/textures/male_reg_hippie_shorts_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00C7A991C84C3A0D", "flag": "5F" },
+		{ "resource": "006A14A7FFC89CE8", "flag": "5F" },
+		{ "resource": "00C8EC7C62C69CFF", "flag": "5F" },
+		{ "resource": "00F7F23614B9A7F9", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "0020D98108900CBD", "flag": "5F" },
+		{ "resource": "002E7541DF988823", "flag": "5F" },
+		{ "resource": "007F7A42116FEB7A", "flag": "5F" },
+		{ "resource": "00B71276242DCA29", "flag": "5F" },
+		{ "resource": "00644BAF45FB25CA", "flag": "5F" },
+		{ "resource": "00C3B9C9DEC8812E", "flag": "5F" },
+		{ "resource": "0098B597BC3F7804", "flag": "5F" },
+		{ "resource": "007170873AAF14D2", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

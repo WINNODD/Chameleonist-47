@@ -1,17 +1,17 @@
 {
-	"tempHash": "00463E8EE3DC3700",
-	"tbluHash": "001992DD2C053CAE",
+	"tempHash": "00A11C047BDDA157",
+	"tbluHash": "00EB682F5A20BFC0",
 	"patch": [
 		{
 			"SubEntityOperation": [
-				"2aca629ce9729034",
+				"b6b707667005a79d",
 				{
 					"AddProperty": [
 						"m_Outfit",
 						{
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "006D0F0E795E91BA",
+								"resource": "0094728C524EC367",
 								"flag": "9F"
 							}
 						}
@@ -21,14 +21,14 @@
 		},
 		{
 			"SubEntityOperation": [
-				"aef246b00bc4bf0d",
+				"0e6ef4995117beb3",
 				{
 					"AddProperty": [
 						"m_Outfit",
 						{
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "003511C312720F3B",
+								"resource": "000F94D5542748AC",
 								"flag": "9F"
 							}
 						}
@@ -38,14 +38,14 @@
 		},
 		{
 			"SubEntityOperation": [
-				"6be08da40760f62b",
+				"75d7a3270547b9b4",
 				{
 					"AddProperty": [
 						"m_Outfit",
 						{
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "00EE3D04160B152E",
+								"resource": "0084FCFDF9E67068",
 								"flag": "9F"
 							}
 						}
@@ -55,14 +55,14 @@
 		},
 		{
 			"SubEntityOperation": [
-				"3e2111cb787a40be",
+				"d78d6af8d1c0623f",
 				{
 					"AddProperty": [
 						"m_Outfit",
 						{
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "0023CD7356AAF08B",
+								"resource": "00079BA3D2C6F201",
 								"flag": "9F"
 							}
 						}
@@ -72,14 +72,14 @@
 		},
 		{
 			"SubEntityOperation": [
-				"793b3270982026a0",
+				"1b7decdc53d561a8",
 				{
 					"AddProperty": [
 						"m_Outfit",
 						{
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "006BC682EDF55064",
+								"resource": "00077326A6ED3E0D",
 								"flag": "9F"
 							}
 						}
@@ -89,14 +89,14 @@
 		},
 		{
 			"SubEntityOperation": [
-				"c2595e52d72b63e4",
+				"01f45fa177b22cff",
 				{
 					"AddProperty": [
 						"m_Outfit",
 						{
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "00B7378687FC73AB",
+								"resource": "00F9EDB27572DD55",
 								"flag": "9F"
 							}
 						}
@@ -106,14 +106,14 @@
 		},
 		{
 			"SubEntityOperation": [
-				"9d52fd4428b422c3",
+				"38a184f98d71a1fb",
 				{
 					"AddProperty": [
 						"m_Outfit",
 						{
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "009A296EEF774F74",
+								"resource": "0022BDF1CE91D0E5",
 								"flag": "9F"
 							}
 						}
@@ -123,14 +123,14 @@
 		},
 		{
 			"SubEntityOperation": [
-				"5c00b7c4c8da881e",
+				"000648df35ed090c",
 				{
 					"AddProperty": [
 						"m_Outfit",
 						{
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "0072340E75737519",
+								"resource": "009406FA611880E8",
 								"flag": "9F"
 							}
 						}
@@ -140,14 +140,14 @@
 		},
 		{
 			"SubEntityOperation": [
-				"3325b9c0665b0f06",
+				"0104722dd0e2b291",
 				{
 					"AddProperty": [
 						"m_Outfit",
 						{
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "00C0FD4AF86862BA",
+								"resource": "00790E64DBC4310B",
 								"flag": "9F"
 							}
 						}
@@ -157,14 +157,14 @@
 		},
 		{
 			"SubEntityOperation": [
-				"2b06d3a4e16bc6df",
+				"83d5d69184480d84",
 				{
 					"AddProperty": [
 						"m_Outfit",
 						{
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "00EE9B9705A9FC63",
+								"resource": "000B69C8041BE3B8",
 								"flag": "9F"
 							}
 						}
@@ -174,14 +174,14 @@
 		},
 		{
 			"SubEntityOperation": [
-				"478e5b5618b810d7",
+				"48ad7a19c67183f7",
 				{
 					"AddProperty": [
 						"m_Outfit",
 						{
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "00284C13A875561C",
+								"resource": "009B9F52192DB1DB",
 								"flag": "9F"
 							}
 						}
@@ -191,14 +191,82 @@
 		},
 		{
 			"SubEntityOperation": [
-				"0b92c75784374e1d",
+				"6dd95a9ae196a718",
 				{
 					"AddProperty": [
 						"m_Outfit",
 						{
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "00B70E8FA93ACBA0",
+								"resource": "00F11FB52635D20A",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7eb14900d5ddcf44",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00B8F87C1BDC9610",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"dc106e57e8cddec6",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "0026D06F5A23E29E",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"25f7df0d324faabc",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00127E67D12043F3",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bc1295b7623f07be",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "007777A38BBEADBC",
 								"flag": "9F"
 							}
 						}

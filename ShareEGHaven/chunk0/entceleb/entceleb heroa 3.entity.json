@@ -1,0 +1,208 @@
+{
+	"tempHash": "0094728C524EC367",
+	"tbluHash": "00AE2751AE078194",
+	"rootEntity": "55491b7f5cf874f8",
+	"entities": {
+		"3a8486f3e3c991a0": {
+			"parent": "55491b7f5cf874f8",
+			"name": "Legs_Thigh_Foot",
+			"factory": "00437CF5F116E7E9",
+			"blueprint": "00B815E6A54B09EE"
+		},
+		"55491b7f5cf874f8": {
+			"parent": null,
+			"name": "OUTFIT_Opulent_Civilian_EntCeleb_M_Actor_v3",
+			"factory": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 5.814145088195801,
+							"y": -6.533316135406494,
+							"z": 0.004666999913752079
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"824598c766eb8ae6",
+						"1a01e6937b2d6d22",
+						"3a8486f3e3c991a0",
+						"4161cbf9398037e4"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"f7098c1406a5681a": {
+			"parent": "55491b7f5cf874f8",
+			"name": "Attacher_Head",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zcompositeentity.class].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_BoneName": { "type": "ZString", "value": "Head" },
+				"m_linkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "55491b7f5cf874f8"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "55491b7f5cf874f8"
+				}
+			}
+		},
+		"7a5a8689d78562d8": {
+			"parent": "f7098c1406a5681a",
+			"name": "glasses_sporty_fullframe",
+			"factory": "004EF0F6B640F41B",
+			"blueprint": "00267B08CFE67D2B",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 35.06157479246097,
+							"y": 88.59499336486378,
+							"z": 138.2442397244399
+						},
+						"position": {
+							"x": 0.08055700361728668,
+							"y": 0.010027999989688396,
+							"z": -0.001234999974258244
+						}
+					}
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.9736459851264954,
+						"y": 1.0,
+						"z": 1.0
+					}
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E9C4F8CA40B215",
+						"flag": "5F"
+					}
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f7098c1406a5681a"
+				}
+			}
+		},
+		"4161cbf9398037e4": {
+			"parent": "55491b7f5cf874f8",
+			"name": "Upper_Body",
+			"factory": "00E7208BAEDDB24F",
+			"blueprint": "003C889C79F6A7B1"
+		},
+		"824598c766eb8ae6": {
+			"parent": "55491b7f5cf874f8",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		},
+		"1a01e6937b2d6d22": {
+			"parent": "55491b7f5cf874f8",
+			"name": "Shorts_Swim",
+			"factory": "00141B69B7010E25",
+			"blueprint": "001958668799101B",
+			"properties": {
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"ConstantVector1D_14_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"ConstantVector1D_15_Value": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": -0.9900000095367432
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/italy/hippie/textures/male_reg_hippie_shorts_01.texture?/diffuse_b.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "00C8EC7C62C69CFF", "flag": "5F" },
+		{ "resource": "00F7F23614B9A7F9", "flag": "5F" },
+		{ "resource": "006A14A7FFC89CE8", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "00731DEF6E5EDD69", "flag": "5F" },
+		{ "resource": "00EEB8BBC78E3A07", "flag": "5F" },
+		{ "resource": "004811B7821CF036", "flag": "5F" },
+		{ "resource": "00F1F44E4065DFDD", "flag": "5F" },
+		{ "resource": "00CB41D8760D4C07", "flag": "5F" },
+		{ "resource": "00F75AE166B92EA7", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/hippie/textures/male_reg_hippie_shorts_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/hippie/textures/male_reg_hippie_shorts_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00C7A991C84C3A0D", "flag": "5F" },
+		{ "resource": "0098B597BC3F7804", "flag": "5F" },
+		{ "resource": "007170873AAF14D2", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
