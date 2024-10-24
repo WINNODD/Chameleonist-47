@@ -1,19 +1,16 @@
 {
 	"version": "1.0.0",
-	"id": "WINNODD.ChameleonUltimate",
-	"name": "Champion Chameleon",
-	"description": "Disguise as everyone in WoA!",
+	"id": "WINNODD.Chameleonist47",
+	"name": "Chameleonist 47",
+	"description": "Disguise yourself as anyone in the World of Assassination!",
 	"authors": [
 		"WINNODD"
 	],
 	"frameworkVersion": "2.33.20",
-	"contentFolders": [
-		"ShareAll"
-	],
 	"options": [
 		{
 			"name": "ICA Facility",
-			"tooltip": "ICA Facility",
+			"tooltip": "Disguise as anyone in ICA Facility",
 			"type": "checkbox",
 			"contentFolders": [
 				"ICA Facility",
@@ -48,7 +45,7 @@
 		},
 		{
 			"name": "Paris",
-			"tooltip": "Paris",
+			"tooltip": "Disguise as anyone in Paris",
 			"type": "checkbox",
 			"contentFolders": [
 				"Paris",
@@ -75,7 +72,7 @@
 		},
 		{
 			"name": "Sapienza",
-			"tooltip": "Sapienza",
+			"tooltip": "Disguise as anyone in Sapienza",
 			"type": "checkbox",
 			"contentFolders": [
 				"Sapienza",
@@ -143,7 +140,7 @@
 		},
 		{
 			"name": "Marrakesh",
-			"tooltip": "Marrakesh",
+			"tooltip": "Disguise as anyone in Marrakesh",
 			"type": "checkbox",
 			"contentFolders": [
 				"Marrakesh",
@@ -186,7 +183,7 @@
 		},
 		{
 			"name": "Bangkok",
-			"tooltip": "Bangkok",
+			"tooltip": "Disguise as anyone in Bangkok",
 			"type": "checkbox",
 			"contentFolders": [
 				"Bangkok",
@@ -221,7 +218,7 @@
 		},
 		{
 			"name": "Colorado",
-			"tooltip": "Colorado",
+			"tooltip": "Disguise as anyone in Colorado",
 			"type": "checkbox",
 			"contentFolders": [
 				"Colorado",
@@ -239,7 +236,7 @@
 		},
 		{
 			"name": "Hokkaido",
-			"tooltip": "Hokkaido",
+			"tooltip": "Disguise as anyone in Hokkaido",
 			"type": "checkbox",
 			"contentFolders": [
 				"Hokkaido",
@@ -260,7 +257,7 @@
 		},
 		{
 			"name": "Hawke's Bay",
-			"tooltip": "Hawke's Bay",
+			"tooltip": "Disguise as anyone in Hawke's Bay",
 			"type": "checkbox",
 			"contentFolders": [
 				"Hawke's Bay"
@@ -268,7 +265,7 @@
 		},
 		{
 			"name": "Miami",
-			"tooltip": "Miami",
+			"tooltip": "Disguise as anyone in Miami",
 			"type": "checkbox",
 			"contentFolders": [
 				"Miami",
@@ -329,7 +326,7 @@
 		},
 		{
 			"name": "Santa Fortuna",
-			"tooltip": "Santa Fortuna",
+			"tooltip": "Disguise as anyone in Santa Fortuna",
 			"type": "checkbox",
 			"contentFolders": [
 				"Santa Fortuna",
@@ -345,7 +342,7 @@
 		},
 		{
 			"name": "Mumbai",
-			"tooltip": "Mumbai",
+			"tooltip": "Disguise as anyone in Mumbai",
 			"type": "checkbox",
 			"contentFolders": [
 				"Mumbai",
@@ -386,7 +383,7 @@
 		},
 		{
 			"name": "Whittleton Creek",
-			"tooltip": "Whittleton Creek",
+			"tooltip": "Disguise as anyone in Whittleton Creek",
 			"type": "checkbox",
 			"contentFolders": [
 				"Whittleton Creek",
@@ -434,7 +431,7 @@
 		},
 		{
 			"name": "Ambrose Island",
-			"tooltip": "Ambrose Island",
+			"tooltip": "Disguise as anyone in Ambrose Island",
 			"type": "checkbox",
 			"contentFolders": [
 				"Ambrose Island",
@@ -443,7 +440,7 @@
 		},
 		{
 			"name": "Isle of Sgail",
-			"tooltip": "Isle of Sgail",
+			"tooltip": "Disguise as anyone in Isle of Sgail",
 			"type": "checkbox",
 			"contentFolders": [
 				"Isle of Sgail",
@@ -454,7 +451,7 @@
 		},
 		{
 			"name": "New York",
-			"tooltip": "New York",
+			"tooltip": "Disguise as anyone in New York",
 			"type": "checkbox",
 			"contentFolders": [
 				"New York",
@@ -464,7 +461,7 @@
 		},
 		{
 			"name": "Haven Island",
-			"tooltip": "Haven Island",
+			"tooltip": "Disguise as anyone in Haven Island",
 			"type": "checkbox",
 			"contentFolders": [
 				"Haven Island",
@@ -480,7 +477,7 @@
 		},
 		{
 			"name": "Dubai",
-			"tooltip": "Dubai",
+			"tooltip": "Disguise as anyone in Dubai",
 			"type": "checkbox",
 			"contentFolders": [
 				"Dubai",
@@ -508,7 +505,7 @@
 		},
 		{
 			"name": "Dartmoor",
-			"tooltip": "Dartmoor",
+			"tooltip": "Disguise as anyone in Dartmoor",
 			"type": "checkbox",
 			"contentFolders": [
 				"Dartmoor",
@@ -517,7 +514,7 @@
 		},
 		{
 			"name": "Berlin",
-			"tooltip": "Berlin",
+			"tooltip": "Disguise as anyone in Berlin",
 			"type": "checkbox",
 			"contentFolders": [
 				"Berlin",
@@ -539,7 +536,7 @@
 		},
 		{
 			"name": "Chongqing",
-			"tooltip": "Chongqing",
+			"tooltip": "Disguise as anyone in Chongqing",
 			"type": "checkbox",
 			"contentFolders": [
 				"Chongqing",
@@ -549,7 +546,7 @@
 		},
 		{
 			"name": "Mendoza",
-			"tooltip": "Mendoza",
+			"tooltip": "Disguise as anyone in Mendoza",
 			"type": "checkbox",
 			"contentFolders": [
 				"Mendoza",
@@ -618,7 +615,7 @@
 		},
 		{
 			"name": "Carpathian Mountains",
-			"tooltip": "Carpathian Mountains",
+			"tooltip": "Disguise as anyone in Carpathian Mountains",
 			"type": "checkbox",
 			"contentFolders": [
 				"Carpathian Mountains",
@@ -627,7 +624,7 @@
 		},
 		{
 			"name": "Freelancer",
-			"tooltip": "Freelancer",
+			"tooltip": "Disguise as anyone in Freelancer Mode",
 			"type": "checkbox",
 			"contentFolders": [
 				"Freelancer",
@@ -684,8 +681,8 @@
 			]
 		},
 		{
-			"name": "Debug",
-			"tooltip": "Debug",
+			"name": "Debug: Hover Me plz",
+			"tooltip": "Spawn all freelancer suspects' outfits at the rooftop of safehouse; Add HeroA variation for old targets in Romania level. There is no point enabling this unless you're bored.",
 			"type": "checkbox",
 			"contentFolders": [
 				"Debug"
