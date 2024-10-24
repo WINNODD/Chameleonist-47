@@ -2,6 +2,7 @@
 	"version": "1.0.0",
 	"id": "WINNODD.Chameleonist47",
 	"name": "Chameleonist 47",
+	"updateCheck": "https://raw.githubusercontent.com/WINNODD/mod-update-checks/refs/heads/main/updater-chameleonist-47.json",
 	"description": "Disguise yourself as anyone in the World of Assassination!",
 	"authors": [
 		"WINNODD"
