@@ -8,6 +8,16 @@
 		"WINNODD"
 	],
 	"frameworkVersion": "2.33.20",
+	"contentFolders": [
+		"Freelancer"
+	],
+	"dependencies": [
+		{
+			"runtimeID": "00E3AC6141A1094B",
+			"toChunk": 0,
+			"portFromChunk1": true
+		}
+	],
 	"options": [
 		{
 			"name": "ICA Facility",
@@ -18,8 +28,7 @@
 				"ShareS1",
 				"ShareICAParisSapiMarrakesh",
 				"ShareICASapi",
-				"ShareEGICAParisSapiMarrakeshBangkok",
-				"ShareEGICAParisSapiMarrakesh"
+				"ShareICAParisSapiMarrakeshBangkok"
 			],
 			"dependencies": [
 				{
@@ -60,8 +69,7 @@
 				"ShareICAParisSapiMarrakesh",
 				"ShareParisMarrakesh",
 				"ShareParisMarrakeshColorado",
-				"ShareEGICAParisSapiMarrakeshBangkok",
-				"ShareEGICAParisSapiMarrakesh"
+				"ShareICAParisSapiMarrakeshBangkok"
 			],
 			"dependencies": [
 				{
@@ -86,11 +94,9 @@
 				"ShareICASapi",
 				"ShareParisSapi",
 				"ShareICAParisSapiMarrakesh",
-				"ShareEGSapiMarrakesh",
+				"ShareSapiMarrakesh",
 				"ShareSapiMarrakeshBangkok",
-				"ShareEGSapi",
-				"ShareEGICAParisSapiMarrakesh",
-				"ShareEGICAParisSapiMarrakeshBangkok",
+				"ShareICAParisSapiMarrakeshBangkok",
 				"ShareSapiBangkokColoradoHokkaido"
 			],
 			"dependencies": [
@@ -157,12 +163,11 @@
 				"Marrakesh",
 				"ShareS1",
 				"ShareICAParisSapiMarrakesh",
-				"ShareEGSapiMarrakesh",
+				"ShareSapiMarrakesh",
 				"ShareParisMarrakesh",
 				"ShareParisMarrakeshColorado",
 				"ShareSapiMarrakeshBangkok",
-				"ShareEGICAParisSapiMarrakeshBangkok",
-				"ShareEGICAParisSapiMarrakesh"
+				"ShareICAParisSapiMarrakeshBangkok"
 			],
 			"dependencies": [
 				{
@@ -200,8 +205,7 @@
 				"Bangkok",
 				"ShareS1",
 				"ShareSapiMarrakeshBangkok",
-				"ShareEGBangkok",
-				"ShareEGICAParisSapiMarrakeshBangkok",
+				"ShareICAParisSapiMarrakeshBangkok",
 				"ShareSapiBangkokColoradoHokkaido"
 			],
 			"dependencies": [
@@ -281,8 +285,7 @@
 			"contentFolders": [
 				"Miami",
 				"ShareMiamiSFMendoza",
-				"ShareMiamiMendoza",
-				"ShareEGMiami"
+				"ShareMiamiMendoza"
 			],
 			"dependencies": [
 				{
@@ -341,8 +344,7 @@
 			"type": "checkbox",
 			"contentFolders": [
 				"Santa Fortuna",
-				"ShareMiamiSFMendoza",
-				"ShareEGSF"
+				"ShareMiamiSFMendoza"
 			],
 			"dependencies": [
 				{
@@ -356,8 +358,7 @@
 			"tooltip": "Disguise as anyone in Mumbai",
 			"type": "checkbox",
 			"contentFolders": [
-				"Mumbai",
-				"ShareEGMumbai"
+				"Mumbai"
 			],
 			"localisedLines": {
 				"002DDC5641A0BA59": "F14F284A"
@@ -397,8 +398,7 @@
 			"tooltip": "Disguise as anyone in Whittleton Creek",
 			"type": "checkbox",
 			"contentFolders": [
-				"Whittleton Creek",
-				"ShareEGWC"
+				"Whittleton Creek"
 			],
 			"dependencies": [
 				{
@@ -445,8 +445,7 @@
 			"tooltip": "Disguise as anyone in Ambrose Island",
 			"type": "checkbox",
 			"contentFolders": [
-				"Ambrose Island",
-				"ShareEGAmbrose"
+				"Ambrose Island"
 			]
 		},
 		{
@@ -456,8 +455,7 @@
 			"contentFolders": [
 				"Isle of Sgail",
 				"ShareSgailBerlin",
-				"ShareSgailRomania",
-				"ShareEGSgailBerlin"
+				"ShareSgailRomania"
 			]
 		},
 		{
@@ -465,9 +463,7 @@
 			"tooltip": "Disguise as anyone in New York",
 			"type": "checkbox",
 			"contentFolders": [
-				"New York",
-				"ShareEGNYDubaiCQ",
-				"ShareEGNY"
+				"New York"
 			]
 		},
 		{
@@ -475,8 +471,7 @@
 			"tooltip": "Disguise as anyone in Haven Island",
 			"type": "checkbox",
 			"contentFolders": [
-				"Haven Island",
-				"ShareEGHaven"
+				"Haven Island"
 			],
 			"dependencies": [
 				{
@@ -492,16 +487,9 @@
 			"type": "checkbox",
 			"contentFolders": [
 				"Dubai",
-				"ShareDubaiDartmoor",
-				"ShareEGNYDubaiCQ",
-				"ShareEGDubai"
+				"ShareDubaiDartmoor"
 			],
 			"dependencies": [
-				{
-					"runtimeID": "00E3AC6141A1094B",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
 				{
 					"runtimeID": "008FBF9A390CB64E",
 					"toChunk": 0,
@@ -529,9 +517,7 @@
 			"type": "checkbox",
 			"contentFolders": [
 				"Berlin",
-				"ShareSgailBerlin",
-				"ShareEGBerlin",
-				"ShareEGSgailBerlin"
+				"ShareSgailBerlin"
 			],
 			"dependencies": [
 				{
@@ -550,9 +536,7 @@
 			"tooltip": "Disguise as anyone in Chongqing",
 			"type": "checkbox",
 			"contentFolders": [
-				"Chongqing",
-				"ShareEGNYDubaiCQ",
-				"ShareEGCQ"
+				"Chongqing"
 			]
 		},
 		{
@@ -562,8 +546,7 @@
 			"contentFolders": [
 				"Mendoza",
 				"ShareMiamiSFMendoza",
-				"ShareMiamiMendoza",
-				"ShareEGMendoza"
+				"ShareMiamiMendoza"
 			],
 			"dependencies": [
 				{
@@ -631,69 +614,6 @@
 			"contentFolders": [
 				"Carpathian Mountains",
 				"ShareSgailRomania"
-			]
-		},
-		{
-			"name": "Freelancer",
-			"tooltip": "Disguise as anyone in Freelancer Mode",
-			"type": "checkbox",
-			"contentFolders": [
-				"Freelancer",
-				"ShareEGNYDubaiCQ",
-				"ShareEGICAParisSapiMarrakesh",
-				"ShareEGICAParisSapiMarrakeshBangkok",
-				"ShareEGSapi",
-				"ShareEGSapiMarrakesh",
-				"ShareEGBangkok",
-				"ShareEGMiami",
-				"ShareEGSF",
-				"ShareEGMumbai",
-				"ShareEGWC",
-				"ShareEGSgailBerlin",
-				"ShareEGNY",
-				"ShareEGDubai",
-				"ShareEGBerlin",
-				"ShareEGCQ",
-				"ShareEGMendoza",
-				"ShareEGAmbrose",
-				"ShareEGHaven"
-			],
-			"dependencies": [
-				{
-					"runtimeID": "00CDF4692F81ED4C",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "00AF11E494E416DC",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "0054D5B03CEC2DB7",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "008031E3566CA530",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "0069176EDF6645C8",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "003EE7407EF7A379",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "00D34A349ED35CB5",
-					"toChunk": 0,
-					"portFromChunk1": true
-				}
 			]
 		},
 		{
