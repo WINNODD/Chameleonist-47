@@ -1,1 +1,143 @@
-{"tempHash":"0045E64C23239960","tbluHash":"009F911F0B0C9A4F","patch":[{"SubEntityOperation":["25549d0a1bc28b67",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00F3B95450D7712D","flag":"9F"}}]}]},{"SubEntityOperation":["881f0a867f72d7a9",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"009EDDC64CCCC237","flag":"9F"}}]}]},{"SubEntityOperation":["246b10935a2ced9c",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00FC982E5D81A72A","flag":"9F"}}]}]},{"SubEntityOperation":["85be5fe984c5c727",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00B9E315E52908A8","flag":"9F"}}]}]},{"SubEntityOperation":["7b9d89e914630820",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"003EE8862D25E1AD","flag":"9F"}}]}]},{"SubEntityOperation":["c1167de8f92c221a",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"000DE6371A59EF46","flag":"9F"}}]}]},{"SubEntityOperation":["b808dee89aad1e01",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00E99E57EACFF288","flag":"9F"}}]}]},{"SubEntityOperation":["574a927c30ca3d9c",{"AddProperty":["m_Outfit",{"type":"ZRuntimeResourceID","value":{"resource":"00DB496F144968DD","flag":"9F"}}]}]}],"patchVersion":6}
+{
+	"tempHash": "0045E64C23239960",
+	"tbluHash": "009F911F0B0C9A4F",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"25549d0a1bc28b67",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00F3B95450D7712D",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"881f0a867f72d7a9",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "009EDDC64CCCC237",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"246b10935a2ced9c",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00FC982E5D81A72A",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"85be5fe984c5c727",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00B9E315E52908A8",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7b9d89e914630820",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "003EE8862D25E1AD",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1167de8f92c221a",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "000DE6371A59EF46",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b808dee89aad1e01",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "004E20818C1CC783",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"574a927c30ca3d9c",
+				{
+					"AddProperty": [
+						"m_Outfit",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00DB496F144968DD",
+								"flag": "9F"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
