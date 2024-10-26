@@ -176,7 +176,7 @@
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/assets/_genericparts/fashionmodels/geometry/male_reg_fashionmodels_02.wl2?/head_03.weightedprim](bodypart).pc_weightedprim",
+						"resource": "00D34A349ED35CB5",
 						"flag": "5F"
 					}
 				}
