@@ -1,0 +1,68 @@
+{
+	"tempHash": "00164F4A2D31598A",
+	"tbluHash": "00C185FBB302C613",
+	"rootEntity": "66c5164cf979fe00",
+	"entities": {
+		"2230523a0e5e0563": {
+			"parent": "66c5164cf979fe00",
+			"name": "Keyword_PROF_ROCKY_UNIQUE_HOSTAGE",
+			"factory": "[modules:/zkeywordentity.class].pc_entitytype",
+			"blueprint": "[modules:/zkeywordentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sKeyword": {
+					"type": "ZString",
+					"value": "PROF_ROCKY_UNIQUE_HOSTAGE"
+				},
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "66c5164cf979fe00",
+					"postInit": true
+				}
+			}
+		},
+		"d4a69875dda1e61e": {
+			"parent": "66c5164cf979fe00",
+			"name": "OutfitProfession",
+			"factory": "[modules:/zoutfitprofessionentity.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitprofessionentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rKeywordProfession": {
+					"type": "SEntityTemplateReference",
+					"value": "2230523a0e5e0563"
+				}
+			}
+		},
+		"66c5164cf979fe00": {
+			"parent": null,
+			"name": "Prof_Rocky_Unique_Hostage",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"propertyAliases": {
+				"m_aHolders": [
+					{
+						"originalProperty": "m_aHolders",
+						"originalEntity": "2230523a0e5e0563"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"ZKeywordEntity": "2230523a0e5e0563",
+				"ZOutfitProfessionEntity": "d4a69875dda1e61e"
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
