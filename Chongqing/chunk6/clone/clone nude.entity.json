@@ -1,0 +1,374 @@
+{
+	"tempHash": "007A95A857B901E8",
+	"tbluHash": "006BFC3C961EBF58",
+	"rootEntity": "eaa744d3c4e6fc6d",
+	"entities": {
+		"018a1d5841994693": {
+			"parent": "eaa744d3c4e6fc6d",
+			"name": "base_hair",
+			"factory": "00E71D84A55D0739",
+			"blueprint": "0005F23475432C1C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#402b18"
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.3499999940395355
+				},
+				"ConstantVector1D_05_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_09_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["eaa744d3c4e6fc6d"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "eaa744d3c4e6fc6d",
+					"postInit": true
+				}
+			}
+		},
+		"e5656e016df3efd5": {
+			"parent": "eaa744d3c4e6fc6d",
+			"name": "male_reg_arms_clone_jcvd",
+			"factory": "0081558AF584717E",
+			"blueprint": "0004A2E00FA8AB2E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_06_Value": {
+					"type": "float32",
+					"value": 1.4199999570846558
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#bdb49d"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["eaa744d3c4e6fc6d"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "eaa744d3c4e6fc6d",
+					"postInit": true
+				}
+			}
+		},
+		"359cb2a27d341b77": {
+			"parent": "eaa744d3c4e6fc6d",
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5"
+		},
+		"eaa744d3c4e6fc6d": {
+			"parent": null,
+			"name": "OUTFIT_Lambic_Clone_M_Nude_v0",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 20.0
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 118.9073534577042
+						},
+						"position": {
+							"x": 5.503568172454834,
+							"y": 0.201447993516922,
+							"z": 0.0
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00C435632906594E",
+						"flag": "5F"
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"8855a10588f72a03",
+						"084f5943ff4bc77d",
+						"359cb2a27d341b77",
+						"d8bacde02ab6c03b"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"8855a10588f72a03": {
+			"parent": "eaa744d3c4e6fc6d",
+			"name": "Body_Arms",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0017CE9FDB5EF875",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"232e1de9908517e7": {
+			"parent": "eaa744d3c4e6fc6d",
+			"name": "male_reg_head_jcvd",
+			"factory": "009AA5C28FE4EB03",
+			"blueprint": "0096CEAD8D8D366B",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#e8e0d3"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "eaa744d3c4e6fc6d"
+				}
+			}
+		},
+		"d8bacde02ab6c03b": {
+			"parent": "eaa744d3c4e6fc6d",
+			"name": "Hair",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E600E838C1CC66",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"084f5943ff4bc77d": {
+			"parent": "eaa744d3c4e6fc6d",
+			"name": "Head",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "008ADEAC3F989B1D",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"221d30bd3b311d56": {
+			"parent": "084f5943ff4bc77d",
+			"name": "base_eye",
+			"factory": "00FDEC17A5A2BF5F",
+			"blueprint": "00C4E4179AE75353",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 3.686824083328247,
+							"y": 7.761478900909424,
+							"z": 0.9050309062004088
+						}
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "001105B5B441718B",
+						"flag": "5F"
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["084f5943ff4bc77d"]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "eaa744d3c4e6fc6d"
+				}
+			}
+		},
+		"cafe8e1ddb003b30": {
+			"parent": "eaa744d3c4e6fc6d",
+			"name": "male_reg_body",
+			"factory": "003DCA5E22F37B5F",
+			"blueprint": "0041C89DFA9D7801",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_06_Value": {
+					"type": "float32",
+					"value": 1.4199999570846558
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#bdb49d"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["eaa744d3c4e6fc6d"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "eaa744d3c4e6fc6d",
+					"postInit": true
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "00818BA637895231", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/variance_a.tex](asheightmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "008E0FCF89ED862E", "flag": "5F" },
+		{ "resource": "002C7E7EE46D0CD2", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_spec_ops/textures/male_reg_militia_spec_ops_holster.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_spec_ops/textures/male_reg_militia_spec_ops_holster.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_spec_ops/textures/male_reg_militia_spec_ops_holster.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_technician/textures/male_reg_militia_technician_gloves.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_technician/textures/male_reg_militia_technician_gloves.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_technician/textures/male_reg_militia_technician_gloves.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00FA08144629D3E8", "flag": "5F" },
+		{ "resource": "00C25CB591B96517", "flag": "5F" },
+		{ "resource": "00D3BC49978B5E5D", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "004095A16C07D0DD", "flag": "5F" },
+		{ "resource": "00F3654BB38A68EC", "flag": "5F" },
+		{ "resource": "00A6C81E5700BB08", "flag": "5F" },
+		{ "resource": "005B98F6E523D233", "flag": "5F" },
+		{ "resource": "00BC38B1FBD65A9A", "flag": "5F" },
+		{ "resource": "0095B5FD674F7345", "flag": "5F" },
+		{ "resource": "002C16F0BDF8B090", "flag": "5F" },
+		{ "resource": "000CA187229A0B9A", "flag": "5F" },
+		{ "resource": "001CCD61C48848A9", "flag": "5F" },
+		{ "resource": "006CC298BECC0708", "flag": "5F" },
+		{ "resource": "00D790732E8C2D6B", "flag": "5F" },
+		{ "resource": "001A5838D3AC6A31", "flag": "5F" },
+		{ "resource": "006FC31B17B5DF35", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/directional_a.texture?/normal_a.tex](ascompoundnormal).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "0006237DF989C3F0", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
