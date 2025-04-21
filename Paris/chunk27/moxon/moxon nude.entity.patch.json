@@ -4,196 +4,27 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
-				"d8f6b23b790a467e",
+				"0d94b82a9e43e305",
 				{
-					"SetFactory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entitytype"
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"d8f6b23b790a467e",
-				{
-					"SetBlueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entityblueprint"
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"d8f6b23b790a467e",
-				{ "RemovePropertyByName": "Face_Diffuse_Override" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"d8f6b23b790a467e",
-				{ "RemovePropertyByName": "Normal_01" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"d8f6b23b790a467e",
-				{ "RemovePropertyByName": "m_ResourceID" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"d8f6b23b790a467e",
-				{
-					"AddProperty": [
-						"m_fLODScale",
-						{ "type": "float32", "value": 1 }
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"d8f6b23b790a467e",
-				{
-					"AddProperty": [
-						"m_pBonesAndCollisionResource",
-						{
-							"type": "ZRuntimeResourceID",
-							"value": {
-								"resource": "003AAB3D2C739F59",
-								"flag": "5F"
-							}
-						}
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"d8f6b23b790a467e",
-				{
-					"AddProperty": [
-						"m_bUsePerVertexStiffness",
-						{ "type": "bool", "value": false }
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"d8f6b23b790a467e",
-				{
-					"AddProperty": [
-						"m_bGlobalCollidersEnabled",
-						{ "type": "bool", "value": true }
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"d8f6b23b790a467e",
-				{
-					"AddProperty": [
-						"m_fWindConstant",
-						{ "type": "float32", "value": 0 }
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"d8f6b23b790a467e",
-				{
-					"AddProperty": [
-						"m_fShearStiffness",
-						{ "type": "float32", "value": 1 }
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"d8f6b23b790a467e",
-				{
-					"AddProperty": [
-						"m_bUseSkinningNegNormalConstrains",
-						{ "type": "bool", "value": true }
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"d8f6b23b790a467e",
-				{
-					"AddProperty": [
-						"m_fFrequency",
-						{ "type": "float32", "value": 60 }
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"d8f6b23b790a467e",
-				{
-					"AddProperty": [
-						"m_nIterations",
-						{ "type": "uint32", "value": 2 }
-					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"d8f6b23b790a467e",
-				{
-					"AddProperty": [
-						"m_aBodyParts",
-						{
-							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"12d0f1f248f74dd3",
-								"2719d2575d12af67"
-							],
-							"postInit": true
-						}
-					]
-				}
-			]
-		},
-		{
-			"AddEntity": [
-				"2719d2575d12af67",
-				{
-					"parent": "d8f6b23b790a467e",
-					"name": "Security_Body",
-					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
-					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
-					"properties": {
-						"m_pMeshResource": {
-							"type": "ZRuntimeResourceID",
-							"value": {
-								"resource": "001706CDDEFDA9CC",
-								"flag": "5F"
-							}
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "00264A3DDB035AA0",
+							"flag": "5F"
 						}
 					}
 				}
 			]
 		},
 		{
-			"AddEntity": [
-				"12d0f1f248f74dd3",
+			"SubEntityOperation": [
+				"1bf1306aa6865699",
 				{
-					"parent": "d8f6b23b790a467e",
-					"name": "Security_Head",
-					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
-					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
-					"properties": {
-						"m_pMeshResource": {
-							"type": "ZRuntimeResourceID",
-							"value": {
-								"resource": "[assembly:/_pro/characters/assets/individuals/italy/psychiatrist/geometry/male_reg_psychiatrist.wl2?/head_01.weightedprim](bodypart).pc_weightedprim",
-								"flag": "5F"
-							}
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "001706CDDEFDA9CC",
+							"flag": "5F"
 						}
 					}
 				}

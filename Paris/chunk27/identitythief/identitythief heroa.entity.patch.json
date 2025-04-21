@@ -4,13 +4,100 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
-				"64bcc12d6abfa41e",
+				"1479345825db3516",
 				{
-					"SetPropertyValue": {
-						"property_name": "m_pMeshResource",
-						"value": {
-							"resource": "009B141405F226E2",
-							"flag": "5F"
+					"PatchArrayPropertyValue": [
+						"m_LocalColliders",
+						[{ "AddItem": "cafecc8b9ac87bbd" }]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecc8b9ac87bbd",
+				{
+					"parent": "1479345825db3516",
+					"name": "NPC_Standard_Collider",
+					"factory": "00B308F61A901BA0",
+					"blueprint": "000E2A97CF82CA66",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": -3.3093678951263428,
+									"y": 6.5521440505981445,
+									"z": -1.1583110094070437
+								}
+							}
+						},
+						"Head_Top_Enabled": {
+							"type": "bool",
+							"value": false
+						},
+						"Head_Low_Enabled": {
+							"type": "bool",
+							"value": false
+						},
+						"Neck_Enabled": { "type": "bool", "value": false },
+						"Shoulder_L_Enabled": {
+							"type": "bool",
+							"value": false
+						},
+						"Shoulder_R_Enabled": {
+							"type": "bool",
+							"value": false
+						},
+						"Elbow_L_Enabled": {
+							"type": "bool",
+							"value": false
+						},
+						"Elbow_R_Enabled": {
+							"type": "bool",
+							"value": false
+						},
+						"Hand_L_Enabled": {
+							"type": "bool",
+							"value": false
+						},
+						"Hand_R_Enabled": {
+							"type": "bool",
+							"value": false
+						},
+						"Spine_Top_Enabled": {
+							"type": "bool",
+							"value": true
+						},
+						"Foot_R_Enabled": {
+							"type": "bool",
+							"value": false
+						},
+						"Foot_L_Enabled": {
+							"type": "bool",
+							"value": false
+						},
+						"Knee_R_Enabled": {
+							"type": "bool",
+							"value": false
+						},
+						"Knee_L_Enabled": {
+							"type": "bool",
+							"value": false
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "1479345825db3516"
+						},
+						"m_linkedEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "1479345825db3516",
+							"postInit": true
 						}
 					}
 				}
