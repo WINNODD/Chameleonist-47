@@ -1,0 +1,171 @@
+{
+	"tempHash": "00EEABD17ECCFCDE",
+	"tbluHash": "00E8646F6FEB67EF",
+	"rootEntity": "9bba3af6dd33dbfd",
+	"entities": {
+		"ff65da652ddfbd22": {
+			"parent": "9bba3af6dd33dbfd",
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5"
+		},
+		"796965221d0acf0f": {
+			"parent": "9bba3af6dd33dbfd",
+			"name": "Head_asian_20s_01",
+			"factory": "00A94B9CAEE90DDE",
+			"blueprint": "00FFDD45283B402F",
+			"properties": {
+				"Texture2D_Eye": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00C5DEA56B29F493",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"9bba3af6dd33dbfd": {
+			"parent": null,
+			"name": "OUTFIT_Versus_Target_WhiteParty_Actor_V3",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_vBodypartBoundingMarginMax": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.009999999776482582
+					}
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 40.0
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 5.198782920837402,
+							"y": 0.0,
+							"z": 0.0
+						}
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"249fbf0f7817f186",
+						"ff65da652ddfbd22",
+						"796965221d0acf0f",
+						"50a2551bee463c0d"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"249fbf0f7817f186": {
+			"parent": "9bba3af6dd33dbfd",
+			"name": "Body_Full",
+			"factory": "008C9419C0263DF3",
+			"blueprint": "009E702203139DF5"
+		},
+		"50a2551bee463c0d": {
+			"parent": "9bba3af6dd33dbfd",
+			"name": "Hair_Cap",
+			"factory": "006594C7AF2B3472",
+			"blueprint": "000B3B438FC8C9AC",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#edcfab"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#edcfab"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{ "resource": "00B40E9503CF9271", "flag": "5F" },
+		{ "resource": "007C9737A03E217F", "flag": "5F" },
+		{ "resource": "0045F839B337D2B6", "flag": "5F" },
+		{ "resource": "00188997D678EF0B", "flag": "5F" },
+		{ "resource": "006F835120511247", "flag": "5F" },
+		{ "resource": "006A9072F2C78523", "flag": "5F" },
+		{ "resource": "005A3A86E39FBFB7", "flag": "5F" },
+		{ "resource": "006258232B3126D5", "flag": "5F" },
+		{ "resource": "0032D629877D1614", "flag": "5F" },
+		{ "resource": "0083569F0A8B08AB", "flag": "5F" },
+		{ "resource": "001EF1004CE6F7CE", "flag": "5F" },
+		{ "resource": "008BB6CA0D18340D", "flag": "5F" },
+		{ "resource": "00344C94EBBA9DC3", "flag": "5F" },
+		{ "resource": "00BD9113080F093E", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/glasses/textures/lens_basic.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "008631A82AC9BD09", "flag": "5F" },
+		{ "resource": "00E4D84877F98EC6", "flag": "5F" },
+		{ "resource": "006BFA1F7412D4BE", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/hokkaido/hospitaldirector/textures/hospitaldirector_pants.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/hokkaido/hospitaldirector/textures/hospitaldirector_pants.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/hokkaido/hospitaldirector/textures/hospitaldirector_pants.texture?/diffuse_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00C48BCE68F17B93", "flag": "5F" },
+		{ "resource": "00012F793421E839", "flag": "5F" },
+		{ "resource": "0025EA2D5483AF7D", "flag": "5F" },
+		{ "resource": "00B1533EE52DC7EA", "flag": "5F" },
+		{ "resource": "0020B8CC72C6219F", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00A190ED8F396A4A", "flag": "5F" },
+		{ "resource": "00C8EC7C62C69CFF", "flag": "5F" },
+		{ "resource": "00F7F23614B9A7F9", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/male/casual_01/textures/male_casual_01_shoes_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/male/casual_01/textures/male_casual_01_shoes_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/male/casual_01/textures/male_casual_01_shoes_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "001042253CCEF227", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

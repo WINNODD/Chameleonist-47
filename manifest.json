@@ -620,6 +620,14 @@
 			]
 		},
 		{
+			"name": "Ghost Mode",
+			"tooltip": "Disguise as ghost mode targets if you play ghost mode mod",
+			"type": "checkbox",
+			"contentFolders": [
+				"ShareHBMiamiSF"
+			]
+		},
+		{
 			"name": "Debug Hover Me plz",
 			"tooltip": "Spawn all freelancer suspects' outfits at the rooftop of safehouse; Add HeroA variation for old targets in Romania level. There is no point enabling this unless you're bored.",
 			"type": "checkbox",
