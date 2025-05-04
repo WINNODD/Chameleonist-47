@@ -8,6 +8,9 @@
 		"WINNODD"
 	],
 	"frameworkVersion": "2.33.25",
+	"loadBefore": [
+		"KevinRudd.FreelancerVariations"
+	],
 	"contentFolders": [
 		"Freelancer"
 	],
