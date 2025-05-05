@@ -1,0 +1,223 @@
+{
+	"tempHash": "00F75555EB6DE8CB",
+	"tbluHash": "00F0488CDBEF0936",
+	"rootEntity": "ac9e5b67ab61f23e",
+	"entities": {
+		"ac9e5b67ab61f23e": {
+			"parent": null,
+			"name": "OUTFIT_Falcon_Target_ThePrisoner_M_Actor_v0",
+			"factory": "00028BAEA86DD2FD",
+			"blueprint": "002045A6D2A25237",
+			"properties": {
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 1.295078992843628,
+							"y": -0.10673999786376952,
+							"z": 0.0
+						}
+					}
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 200.0
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"e42dc9b10cb0c6f8",
+						"df31bf94d3cfc48f",
+						"4aff2439bf04c0e3",
+						"cafe53958a806e06"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"df31bf94d3cfc48f": {
+			"parent": "ac9e5b67ab61f23e",
+			"name": "Upper_Body",
+			"factory": "00E7208BAEDDB24F",
+			"blueprint": "003C889C79F6A7B1",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002C61A3422445A3",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"4aff2439bf04c0e3": {
+			"parent": "ac9e5b67ab61f23e",
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "008FBF9A390CB64E",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"e42dc9b10cb0c6f8": {
+			"parent": "ac9e5b67ab61f23e",
+			"name": "Head_RomanKhabko",
+			"factory": "00E15188BB510304",
+			"blueprint": "0045B2C0542C2D72",
+			"properties": {
+				"EyeShader_01_PupilSize": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"EyeShader_01_IrisBrightness": {
+					"type": "float32",
+					"value": 5.0
+				},
+				"Texture2D_01_2": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002E7541DF988823",
+						"flag": "5F"
+					}
+				},
+				"ConstantColorRGB_02_Value_2": {
+					"type": "SColorRGB",
+					"value": "#474342"
+				},
+				"ConstantColorRGB_02_Value_4": {
+					"type": "SColorRGB",
+					"value": "#424242"
+				},
+				"ConstantColorRGB_02_Value_1": {
+					"type": "SColorRGB",
+					"value": "#363636"
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"ConstantColorRGB_05_Value_3": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"EyeShader_01_Albedo": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"Texture2D_04": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "008B9B82794B4DF3",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_02": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00FCC9900A20FDD8",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe53958a806e06": {
+			"parent": "ac9e5b67ab61f23e",
+			"name": "Legs_Thigh_Foot",
+			"factory": "00437CF5F116E7E9",
+			"blueprint": "00B815E6A54B09EE"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/colorado/ezraberg/textures/male_reg_ezraberg_boots.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/colorado/ezraberg/textures/male_reg_ezraberg_boots.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_04/textures/male_reg_printworker_04_pant_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_04/textures/male_reg_printworker_04_pant_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_04/textures/male_reg_printworker_04_pant_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00223B8F3CEF5AD0", "flag": "5F" },
+		{ "resource": "0024AAE62C50B2B4", "flag": "5F" },
+		{ "resource": "00C197DBB1B74FF6", "flag": "5F" },
+		{ "resource": "007E2F6DB1068A8D", "flag": "5F" },
+		{ "resource": "00AAD107E192CFAE", "flag": "5F" },
+		{ "resource": "00415207126097CF", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_02/textures/male_reg_printworker_02_shirt_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_02/textures/male_reg_printworker_02_shirt_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/workers/printworker_02/textures/male_reg_printworker_02_shirt_01.texture?/diffuse_white.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/italy/local_mens_old/textures/male_reg_local_old_short_01_test.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/italy/local_mens_old/textures/male_reg_local_old_short_01_test.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/civilians/italy/local_mens_old/textures/male_reg_local_old_short_01_test.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "001083E516801F5E", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/private_investigator/textures/male_reg_investigator_shoes_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/private_investigator/textures/male_reg_investigator_shoes_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/private_investigator/textures/male_reg_investigator_shoes_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "0014C251EC13E2CD", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

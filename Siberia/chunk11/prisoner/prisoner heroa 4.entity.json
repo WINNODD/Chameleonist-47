@@ -1,0 +1,223 @@
+{
+	"tempHash": "001B7E6FAD3BC5C7",
+	"tbluHash": "000B9F7807B0C46C",
+	"rootEntity": "b128d1d938fae880",
+	"entities": {
+		"381ea05bd2d6988f": {
+			"parent": "b128d1d938fae880",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		},
+		"119a4162214becb2": {
+			"parent": "b128d1d938fae880",
+			"name": "Torso_Neck_LowCut",
+			"factory": "00AC8D5EB0F5A755",
+			"blueprint": "00CC398F7A37A27F"
+		},
+		"a2eaf2f1ac0cf5fe": {
+			"parent": "b128d1d938fae880",
+			"name": "Pants_Worker",
+			"factory": "00231C475724BE68",
+			"blueprint": "00554C4622FC228C",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00047BE2F7720F02",
+						"flag": "5F"
+					}
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "009DBD5C1B5F9B92",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00C31571415142FE",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.800000011920929
+				}
+			}
+		},
+		"b128d1d938fae880": {
+			"parent": null,
+			"name": "OUTFIT_Falcon_Civilian_Prisoner_M_Actor_v4",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.545970391208329
+						},
+						"position": {
+							"x": 7.046092987060547,
+							"y": -0.9659219980239868,
+							"z": 0.0
+						}
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"24916a79b0abbc9e",
+						"381ea05bd2d6988f",
+						"592fe238397a5735",
+						"119a4162214becb2",
+						"a2eaf2f1ac0cf5fe",
+						"4c4b1b66c80fa91c",
+						"bf1c7f4ae2dc6079"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"592fe238397a5735": {
+			"parent": "b128d1d938fae880",
+			"name": "Shoes_Boots_Plain",
+			"factory": "00636C233DF7C596",
+			"blueprint": "00285A52ACEC10A2",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"Diffuse_Hue_Shift_01_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/colorado/ezraberg/textures/male_reg_ezraberg_boots.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"24916a79b0abbc9e": {
+			"parent": "b128d1d938fae880",
+			"name": "Hands",
+			"factory": "009A6D9F7927FB89",
+			"blueprint": "00F49463DEA8D412"
+		},
+		"4c4b1b66c80fa91c": {
+			"parent": "b128d1d938fae880",
+			"name": "Shirt_Military",
+			"factory": "0052A66DC416CFD8",
+			"blueprint": "00FD91EFD3FBCCE2",
+			"properties": {
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/crowd/male/falcon/textures/shirt_military.texture?/normal_a.tex](asnormalmap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0035F05ABC4A6081",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/crowd/male/falcon/textures/shirt_military.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/crowd/male/falcon/textures/shirt_military.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.800000011920929
+				}
+			}
+		},
+		"bf1c7f4ae2dc6079": {
+			"parent": "b128d1d938fae880",
+			"name": "TShirt_CrewNeck_Cut_Shirt",
+			"factory": "0022F9ED0553A2A4",
+			"blueprint": "0031A0C1A5777750",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#a6a6a6"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0065F6E19C893E6F",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{ "resource": "006F77B2B1322E4C", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/colorado/ezraberg/textures/male_reg_ezraberg_boots.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/colorado/ezraberg/textures/male_reg_ezraberg_boots.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00BCC2015A3ECBD3", "flag": "5F" },
+		{ "resource": "005501948A1843D9", "flag": "5F" },
+		{ "resource": "00C8EC7C62C69CFF", "flag": "5F" },
+		{ "resource": "00F7F23614B9A7F9", "flag": "5F" },
+		{ "resource": "00A6F9B7C3B58D59", "flag": "5F" },
+		{ "resource": "00215062D34FE975", "flag": "5F" },
+		{ "resource": "003C362845AF78E8", "flag": "5F" },
+		{ "resource": "00805288E400FD72", "flag": "5F" },
+		{ "resource": "004D13182DDE304B", "flag": "5F" },
+		{ "resource": "00767C52DE9FB6FD", "flag": "5F" },
+		{ "resource": "0091FBA017372507", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
+		{ "resource": "00B40E9503CF9271", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

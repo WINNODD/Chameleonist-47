@@ -1,0 +1,154 @@
+{
+	"tempHash": "003B01DEA0FC8B94",
+	"tbluHash": "0094548C953F7E90",
+	"rootEntity": "0f3fab25dc9da19b",
+	"entities": {
+		"40896a79551c9cc2": {
+			"parent": "0f3fab25dc9da19b",
+			"name": "Hair_Cap",
+			"factory": "006594C7AF2B3472",
+			"blueprint": "000B3B438FC8C9AC",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#473728"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#9e8064"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.7200000286102295
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#ffa575"
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0.0
+				}
+			}
+		},
+		"0f3fab25dc9da19b": {
+			"parent": null,
+			"name": "OUTFIT_Falcon_Civilian_Prisoner_M_Actor_v3",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5459703912083287
+						},
+						"position": {
+							"x": 5.603439807891846,
+							"y": -0.9269859790802002,
+							"z": 0.0
+						}
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"ce6335456c5875a2",
+						"12fa4e305e0f4992",
+						"41b78a4bccf5c219",
+						"40896a79551c9cc2"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"41b78a4bccf5c219": {
+			"parent": "0f3fab25dc9da19b",
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5"
+		},
+		"12fa4e305e0f4992": {
+			"parent": "0f3fab25dc9da19b",
+			"name": "Head_Caucasian_40s_03",
+			"factory": "0003F77742902D42",
+			"blueprint": "00B4E810253CD608",
+			"properties": {
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0013A9980D516E01",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "005C1C32951E06A1",
+						"flag": "5F"
+					}
+				},
+				"Texture2DNormal_02": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00FA3AB506F70BAF",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"ce6335456c5875a2": {
+			"parent": "0f3fab25dc9da19b",
+			"name": "Body_Full_Slim",
+			"factory": "00F448703BCA480F",
+			"blueprint": "00D7F003FB6F4940"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{ "resource": "0082F7967C757800", "flag": "5F" },
+		{ "resource": "00C8EC7C62C69CFF", "flag": "5F" },
+		{ "resource": "00F7F23614B9A7F9", "flag": "5F" },
+		{ "resource": "005501948A1843D9", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/colorado/ezraberg/textures/male_reg_ezraberg_boots.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/colorado/ezraberg/textures/male_reg_ezraberg_boots.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00BCC2015A3ECBD3", "flag": "5F" },
+		{ "resource": "00A6F9B7C3B58D59", "flag": "5F" },
+		{ "resource": "00215062D34FE975", "flag": "5F" },
+		{ "resource": "00772D6D04C6AE2F", "flag": "5F" },
+		{ "resource": "0077BA10D71696B8", "flag": "5F" },
+		{ "resource": "001FBDED6297C15B", "flag": "5F" },
+		{ "resource": "0036DB60CEBDF1E3", "flag": "5F" },
+		{ "resource": "00E15896084C7AD5", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "0091FBA017372507", "flag": "5F" },
+		{ "resource": "004D13182DDE304B", "flag": "5F" },
+		{ "resource": "005CD124BA436D3F", "flag": "5F" },
+		{ "resource": "00B40E9503CF9271", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

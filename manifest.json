@@ -620,6 +620,14 @@
 			]
 		},
 		{
+			"name": "Siberia",
+			"tooltip": "Disguise as anyone in Siberia",
+			"type": "checkbox",
+			"contentFolders": [
+				"Siberia"
+			]
+		},
+		{
 			"name": "Ghost Mode",
 			"tooltip": "Disguise as ghost mode targets if you play ghost mode mod",
 			"type": "checkbox",

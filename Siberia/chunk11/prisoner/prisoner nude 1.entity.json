@@ -1,0 +1,148 @@
+{
+	"tempHash": "0034D43698E093C2",
+	"tbluHash": "00FE4D27442CCD77",
+	"rootEntity": "d64687077ae9204a",
+	"entities": {
+		"7ce9d8e395671901": {
+			"parent": "d64687077ae9204a",
+			"name": "Head_Caucasian_30s_01",
+			"factory": "0073EFBE6243316D",
+			"blueprint": "005DD303B9A53A90",
+			"properties": {
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "009A5E99B00D794C",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "005C1C32951E06A1",
+						"flag": "5F"
+					}
+				},
+				"Texture2DNormal_02": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00FA3AB506F70BAF",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"6825fedba7391466": {
+			"parent": "d64687077ae9204a",
+			"name": "Body_Full_Slim",
+			"factory": "00F448703BCA480F",
+			"blueprint": "00D7F003FB6F4940"
+		},
+		"5f90a2ff949b3141": {
+			"parent": "d64687077ae9204a",
+			"name": "Hair_Cap",
+			"factory": "006594C7AF2B3472",
+			"blueprint": "000B3B438FC8C9AC",
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#473728"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#9e8064"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.7200000286102295
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#ffa575"
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0.0
+				}
+			}
+		},
+		"29f26bd1b9a51b6c": {
+			"parent": "d64687077ae9204a",
+			"name": "Underwear_Boxers",
+			"factory": "008736C2691685B1",
+			"blueprint": "00692FFA2F8F0EB5"
+		},
+		"d64687077ae9204a": {
+			"parent": null,
+			"name": "OUTFIT_Falcon_Civilian_Prisoner_M_Actor_v1",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5459703912083287
+						},
+						"position": {
+							"x": 2.515921115875244,
+							"y": -0.8436570167541504,
+							"z": 0.0
+						}
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"6825fedba7391466",
+						"7ce9d8e395671901",
+						"29f26bd1b9a51b6c",
+						"5f90a2ff949b3141"
+					],
+					"postInit": true
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "009683E9932B03A8", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/colorado/ezraberg/textures/male_reg_ezraberg_boots.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/colorado/ezraberg/textures/male_reg_ezraberg_boots.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00BCC2015A3ECBD3", "flag": "5F" },
+		{ "resource": "005501948A1843D9", "flag": "5F" },
+		{ "resource": "00751F249D042475", "flag": "5F" },
+		{ "resource": "0091FBA017372507", "flag": "5F" },
+		{ "resource": "004D13182DDE304B", "flag": "5F" },
+		{ "resource": "001BA9CE15147C92", "flag": "5F" },
+		{ "resource": "005C32F93033DDDD", "flag": "5F" },
+		{ "resource": "00C8EC7C62C69CFF", "flag": "5F" },
+		{ "resource": "00F7F23614B9A7F9", "flag": "5F" },
+		{ "resource": "0082F7967C757800", "flag": "5F" },
+		{ "resource": "00B40E9503CF9271", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
