@@ -1,5 +1,5 @@
 {
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"id": "WINNODD.Chameleonist47",
 	"name": "Chameleonist 47",
 	"updateCheck": "https://raw.githubusercontent.com/WINNODD/mod-update-checks/refs/heads/main/updater-chameleonist-47.json",
@@ -9,7 +9,8 @@
 	],
 	"frameworkVersion": "2.33.25",
 	"loadBefore": [
-		"KevinRudd.FreelancerVariations"
+		"KevinRudd.FreelancerVariations",
+		"KevinRudd.SeafoodMassacre"
 	],
 	"contentFolders": [
 		"Freelancer"
@@ -69,12 +70,17 @@
 				"Paris",
 				"ShareS1",
 				"ShareParisSapi",
+				"ShareParisSF",
 				"ShareICAParisSapiMarrakesh",
 				"ShareParisMarrakesh",
 				"ShareParisMarrakeshColorado",
 				"ShareICAParisSapiMarrakeshBangkok"
 			],
 			"dependencies": [
+				{
+					"runtimeID": "0092267520FF9A64",
+					"toChunk": 8
+				},
 				{
 					"runtimeID": "0072C345D02ADE97",
 					"toChunk": 0,
@@ -347,9 +353,14 @@
 			"type": "checkbox",
 			"contentFolders": [
 				"Santa Fortuna",
+				"ShareParisSF",
 				"ShareMiamiSFMendoza"
 			],
 			"dependencies": [
+				{
+					"runtimeID": "0092267520FF9A64",
+					"toChunk": 8
+				},
 				{
 					"runtimeID": "0087B778C36A481E",
 					"toChunk": 18

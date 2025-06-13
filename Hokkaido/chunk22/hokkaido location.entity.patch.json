@@ -1,0 +1,25 @@
+{
+	"tempHash": "00DC179DAB61D86D",
+	"tbluHash": "00FB4EFEB6BCC8AD",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"42ae7953e3ce0bed",
+				{
+					"AddProperty": [
+						"m_aHolders",
+						{
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"25d25b7a89c2b108",
+								"57951b2ca64312fd"
+							],
+							"postInit": true
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

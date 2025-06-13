@@ -56,6 +56,197 @@
 					}
 				}
 			]
+		},
+		{
+			"AddEntity": [
+				"cafe88efdf77efcb",
+				{
+					"parent": "b809de6c483c37c8",
+					"name": "Prof_Greedy_Worker_Tier1",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier1.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier1.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["b809de6c483c37c8"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeedc8e8b3f356",
+				{
+					"parent": "b809de6c483c37c8",
+					"name": "Prof_Greedy_Worker_Tier2",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier2.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier2.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["b809de6c483c37c8"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea2b953432077",
+				{
+					"parent": "b809de6c483c37c8",
+					"name": "Prof_Greedy_Worker_Tier3",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier3.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier3.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["b809de6c483c37c8"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed75d6a859663",
+				{
+					"parent": "4226dbdaeb047378",
+					"name": "Prof_Greedy_Worker_Tier3",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier3.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier3.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["4226dbdaeb047378"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1cc42f75fd95",
+				{
+					"parent": "4226dbdaeb047378",
+					"name": "Prof_Greedy_Worker_Tier2",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier2.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier2.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["4226dbdaeb047378"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef2824f2741b0",
+				{
+					"parent": "4226dbdaeb047378",
+					"name": "Prof_Greedy_Worker_Tier1",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier1.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier1.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["4226dbdaeb047378"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec20a9a0dfe30",
+				{
+					"parent": "c9338becb8d16759",
+					"name": "Prof_Greedy_Worker_Tier2",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier2.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier2.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["c9338becb8d16759"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe98f2a2918027",
+				{
+					"parent": "c9338becb8d16759",
+					"name": "Prof_Greedy_Worker_Tier1",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier1.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier1.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["c9338becb8d16759"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe849b8b8c7f25",
+				{
+					"parent": "c9338becb8d16759",
+					"name": "Prof_Greedy_Worker_Tier3",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier3.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_tier3.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["c9338becb8d16759"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0f6dcfcba3d3",
+				{
+					"parent": "4226dbdaeb047378",
+					"name": "Prof_Greedy_Guard_Tier2",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_guard_tier2.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_guard_tier2.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["4226dbdaeb047378"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe442a67808dff",
+				{
+					"parent": "4226dbdaeb047378",
+					"name": "Prof_Greedy_Guard_Tier1",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_guard_tier1.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_guard_tier1.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["4226dbdaeb047378"],
+							"postInit": true
+						}
+					}
+				}
+			]
 		}
 	],
 	"patchVersion": 6

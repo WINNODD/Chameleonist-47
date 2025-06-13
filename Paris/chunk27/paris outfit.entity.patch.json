@@ -48,7 +48,29 @@
 		},
 		{
 			"SubEntityOperation": [
+				"ac152353e400c419",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"f4c1e0ac49c10bb5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"eac9ed3ee67c422f",
 				{
 					"SetPropertyValue": {
 						"property_name": "m_bHeroDisguiseAvailable",
@@ -82,6 +104,17 @@
 		{
 			"SubEntityOperation": [
 				"66eea5cc32faaa53",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f7b61aacc54a3f5f",
 				{
 					"SetPropertyValue": {
 						"property_name": "m_bHeroDisguiseAvailable",
@@ -137,6 +170,17 @@
 		{
 			"SubEntityOperation": [
 				"e60c76f750aa970e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bHeroDisguiseAvailable",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d3a9602148e0bb99",
 				{
 					"SetPropertyValue": {
 						"property_name": "m_bHeroDisguiseAvailable",

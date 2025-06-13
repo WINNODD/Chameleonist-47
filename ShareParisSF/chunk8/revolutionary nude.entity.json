@@ -59,7 +59,6 @@
 					"value": [
 						"137f179998061182",
 						"6d008dece82fd8b0",
-						"8cc69bf862fe35e1",
 						"c80343e4982d07bd",
 						"a3ac7a7e97b0bad6"
 					],
@@ -69,9 +68,18 @@
 		},
 		"137f179998061182": {
 			"parent": "0499483a7d9a128e",
-			"name": "Hair_Sides_S",
-			"factory": "00538F0D8B33EA7C",
-			"blueprint": "00616A7BAAB2C145"
+			"name": "Mesh_Hair",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0092267520FF9A64",
+						"flag": "5F"
+					}
+				}
+			}
 		},
 		"a3ac7a7e97b0bad6": {
 			"parent": "0499483a7d9a128e",
@@ -108,10 +116,37 @@
 			}
 		},
 		"8cc69bf862fe35e1": {
-			"parent": "0499483a7d9a128e",
-			"name": "Hair_Top_S_Caesar",
-			"factory": "007ADD444DE5CDEB",
-			"blueprint": "00B1970128611CF9"
+			"parent": "137f179998061182",
+			"name": "base_hair",
+			"factory": "00E71D84A55D0739",
+			"blueprint": "0005F23475432C1C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#70675e"
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["137f179998061182"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "0499483a7d9a128e",
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [],

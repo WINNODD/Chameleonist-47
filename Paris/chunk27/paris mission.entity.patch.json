@@ -1,0 +1,507 @@
+{
+	"tempHash": "006D465C6F70C066",
+	"tbluHash": "0056098CF4136A8D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b8537f8d55f72bc9",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafecd4051b7a888"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafebf944a25063e"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafea04432ca58b2"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"7faf63a8666b5d0c"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafe7869913531d3"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"880fbc0fc492b7bb"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6d8533ce2a1bf53c",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"72d3ea85e28cba2f",
+									"cafecd4051b7a888"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"72d3ea85e28cba2f",
+									"cafebf944a25063e"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"72d3ea85e28cba2f",
+									"cafea04432ca58b2"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"72d3ea85e28cba2f",
+									"7faf63a8666b5d0c"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"72d3ea85e28cba2f",
+									"cafe7869913531d3"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"72d3ea85e28cba2f",
+									"880fbc0fc492b7bb"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0b487ef0203156c7",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"65514eff992bfff7",
+									"cafecd4051b7a888"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"65514eff992bfff7",
+									"cafebf944a25063e"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"65514eff992bfff7",
+									"cafea04432ca58b2"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"65514eff992bfff7",
+									"7faf63a8666b5d0c"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"65514eff992bfff7",
+									"cafe7869913531d3"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"65514eff992bfff7",
+									"880fbc0fc492b7bb"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c6ec3b4ce8f34ed0",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafebf944a25063e"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafea04432ca58b2"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafe7869913531d3"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"880fbc0fc492b7bb"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"96a4c099ed07ea1f",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafea04432ca58b2"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"880fbc0fc492b7bb"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1e19042a2cc2392e",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"7f04a96139aeddf4",
+									"cafebf944a25063e"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"7f04a96139aeddf4",
+									"cafea04432ca58b2"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"7f04a96139aeddf4",
+									"880fbc0fc492b7bb"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"31257aed55707272",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafebf944a25063e"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafea04432ca58b2"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"880fbc0fc492b7bb"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"58f6fb0bdeb26abc",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"21184ce9b45a5d76",
+									"cafebf944a25063e"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"21184ce9b45a5d76",
+									"cafea04432ca58b2"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"21184ce9b45a5d76",
+									"880fbc0fc492b7bb"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d98d5926f204045a",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafebf944a25063e"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafea04432ca58b2"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"880fbc0fc492b7bb"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4fe46cd75a2d53fc",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafecd4051b7a888"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafebf944a25063e"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafea04432ca58b2"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"7faf63a8666b5d0c"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafe7869913531d3"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"880fbc0fc492b7bb"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"41e42f972269de22",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafebf944a25063e"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafea04432ca58b2"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafe7869913531d3"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"880fbc0fc492b7bb"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"298e5cae5702cf03",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"72d3ea85e28cba2f",
+									"880fbc0fc492b7bb"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e361091a034b5691",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"7faf63a8666b5d0c"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"cafe7869913531d3"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"da508ae741d15132",
+									"880fbc0fc492b7bb"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7869913531d3",
+				{
+					"parent": "e23c14667d64a624",
+					"name": "Prof_Paris_Unique_SebastianSato",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_paris_unique_sebastiansato.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_paris_unique_sebastiansato.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea04432ca58b2",
+				{
+					"parent": "e23c14667d64a624",
+					"name": "Prof_Paris_Unique_DahliaAssisstant",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_paris_unique_dahliaassisstant.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_paris_unique_dahliaassisstant.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebf944a25063e",
+				{
+					"parent": "e23c14667d64a624",
+					"name": "Prof_Paris_Unique_NovikovAssisstant",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_paris_unique_novikovassisstant.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_paris_unique_novikovassisstant.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecd4051b7a888",
+				{
+					"parent": "e23c14667d64a624",
+					"name": "Prof_Paris_Worker_Cameraman",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_paris_worker_cameraman.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_paris_worker_cameraman.entitytemplate].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

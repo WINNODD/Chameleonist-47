@@ -58,6 +58,30 @@
 		},
 		{
 			"SubEntityOperation": [
+				"0a34b430b499a20a",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"4d915ad7ceabe495",
+									"95d96fbbea901c91"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"4d915ad7ceabe495",
+									"de4724b795fabb93"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"6a97668f14e0fa10",
 				{
 					"AddEventConnection": [
@@ -97,6 +121,24 @@
 								"AddItemAfter": [
 									"ff8b8f96b55154fb",
 									"cafe36e92122a19a"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2e71acef6d7d0b9d",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"4d915ad7ceabe495",
+									"95d96fbbea901c91"
 								]
 							}
 						]

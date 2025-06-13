@@ -4,8 +4,567 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
+				"4de544466cee4cd0",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"85173a39c8ce24ea",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"85173a39c8ce24ea",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e332bc6bd656c5a3",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"19298915b8153c11"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ada37576ef120635",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"d45c0331312252a7",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"d45c0331312252a7",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9c9d2c2380f5f828",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"1de695e0e63bcf32",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1de695e0e63bcf32",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3a475c0a10fa82c9",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[{ "RemoveItemByValue": "154d877424fd0ed5" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fc378d8c15763235",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"045cc88ad06c09ef",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"045cc88ad06c09ef",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c74fb0423d3cd567",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"88c05129e739b22d",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"88c05129e739b22d",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4bfd6f9329155bf4",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{ "RemoveItemByValue": "154d877424fd0ed5" },
+							{ "RemoveItemByValue": "3704b547662127df" }
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"efddca5d782ec838",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[{ "RemoveItemByValue": "154d877424fd0ed5" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9c217ae172d3cc51",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[{ "RemoveItemByValue": "154d877424fd0ed5" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9767a2fc770cf6b2",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{ "RemoveItemByValue": "154d877424fd0ed5" },
+							{ "RemoveItemByValue": "3704b547662127df" }
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a827d548f5aaf740",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[{ "RemoveItemByValue": "3704b547662127df" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d65bd27b6c8f0831",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[{ "RemoveItemByValue": "154d877424fd0ed5" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"12f1f8b87ed48246",
 				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"11b32baf98bfc7e8",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"d45c0331312252a7",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"d45c0331312252a7",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b41f4e33e2f7a8f2",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[{ "RemoveItemByValue": "154d877424fd0ed5" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f0f63ce89b26a329",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"88c05129e739b22d",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"88c05129e739b22d",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1c8dc7f38b5ba4c",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"511ec5faa2ce8ae0",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"4e1ee7136199015a",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"4e1ee7136199015a",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7fe31b98c07e6c97",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"77696bf194b93b70",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e5f5e7947ae29c2d",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fc25f9d0890d672c",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f7ccc01817579466",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{ "RemoveItemByValue": "154d877424fd0ed5" },
+							{ "RemoveItemByValue": "3704b547662127df" }
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1180100a0530c0c4",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"88c05129e739b22d",
+									"19298915b8153c11"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"88c05129e739b22d",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"88c05129e739b22d",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"982bdbb79dfcd8c3",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[{ "RemoveItemByValue": "154d877424fd0ed5" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"142bb5a2a0a3e1a9",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"1de695e0e63bcf32",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"dc196be6e99752f5",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9dfbd602fe3a2b9f",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{ "RemoveItemByValue": "154d877424fd0ed5" },
+							{ "RemoveItemByValue": "3704b547662127df" }
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7aacdb857eda3fb3",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
 			]
 		},
 		{
@@ -16,8 +575,78 @@
 		},
 		{
 			"SubEntityOperation": [
+				"7f480137fd64475f",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"be02c0abc527c773",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"be02c0abc527c773",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4791c18903a86693",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[{ "RemoveItemByValue": "3704b547662127df" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"29f5348aa6e288ee",
 				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8b81649dd159206f",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[{ "RemoveItemByValue": "3704b547662127df" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"609a9c57437dac66",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"3704b547662127df"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"cbd0a23017d9afaf",
+									"154d877424fd0ed5"
+								]
+							}
+						]
+					]
+				}
 			]
 		}
 	],

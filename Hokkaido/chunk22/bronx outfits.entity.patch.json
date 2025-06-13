@@ -12,6 +12,23 @@
 					}
 				}
 			]
+		},
+		{
+			"AddEntity": [
+				"cafe631372cc7d8f",
+				{
+					"parent": "b88f64bb964e2016",
+					"name": "Prof_Hokkaido_Unique_PatientZero",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hokkaido_unique_patientzero.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hokkaido_unique_patientzero.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["b88f64bb964e2016"]
+						}
+					}
+				}
+			]
 		}
 	],
 	"patchVersion": 6

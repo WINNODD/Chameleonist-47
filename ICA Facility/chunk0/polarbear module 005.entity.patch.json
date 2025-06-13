@@ -1,0 +1,61 @@
+{
+	"tempHash": "00FFDF4AE1FF37D3",
+	"tbluHash": "0026E48E6A4334E4",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"64cde49fce345f20",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"f425f8ae90a29172",
+									"414c2870d984e094"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b034d61f5c891b7b",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"60f6b4b93748056e",
+									"414c2870d984e094"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"58ffd2a7ae705f3e",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"7a1ee5964cd9473c",
+									"414c2870d984e094"
+								]
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

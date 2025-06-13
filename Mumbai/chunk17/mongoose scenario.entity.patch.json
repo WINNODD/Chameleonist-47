@@ -1,0 +1,43 @@
+{
+	"tempHash": "00D9B106D7ABFEFA",
+	"tbluHash": "00BC2760EC34A91F",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"4192ebdffe7467f5",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"f3cda9dbcc81523a",
+									"97ddc2964f2d2ea4"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7c06f6f3ea142753",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"f3cda9dbcc81523a",
+									"97ddc2964f2d2ea4"
+								]
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

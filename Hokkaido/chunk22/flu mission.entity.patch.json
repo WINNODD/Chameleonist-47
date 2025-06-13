@@ -1,0 +1,66 @@
+{
+	"tempHash": "007DF361D5B7606D",
+	"tbluHash": "003EEA6770CDD15B",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"1c3b8bc862db9082",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bBlockDisguisePickup",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "84d830d404998853",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_snowcrane.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 100.34005197645679,
+							"y": -74.94001549946596,
+							"z": -126.00471087461989
+						},
+						"position": {
+							"x": -28.868200302124023,
+							"y": 68.4378890991211,
+							"z": -3.3405799865722656
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "84d830d404998853",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_snowcrane.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 100.3400519764568,
+							"y": -74.94001549946596,
+							"z": -126.00471087461987
+						},
+						"position": {
+							"x": -28.868200302124023,
+							"y": 68.4378890991211,
+							"z": -3.3405799865722656
+						}
+					}
+				}
+			}
+		}
+	],
+	"patchVersion": 6
+}

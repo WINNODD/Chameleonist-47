@@ -1,0 +1,125 @@
+{
+	"tempHash": "004F945201F83AB1",
+	"tbluHash": "0061ABD80908FB2A",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c30c1ff90f3a6df4",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"e489ed4d852e4adc",
+									"f8946103a9cd615d"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"e489ed4d852e4adc",
+									"1d33e82936d18417"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"e489ed4d852e4adc",
+									"6724c043bb5beac9"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"17a383f09eed983b",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"d3fd76734386e6fe",
+									"f8946103a9cd615d"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"d3fd76734386e6fe",
+									"1d33e82936d18417"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"d3fd76734386e6fe",
+									"6724c043bb5beac9"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"d3fd76734386e6fe",
+									"9154d9f28f7691e3"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"86302f97895e439b",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[{ "RemoveItemByValue": "0ae62fcf9dd08a53" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5c2fcf471b4ad878",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"05f1bce8ff73255d",
+									"f8946103a9cd615d"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"05f1bce8ff73255d",
+									"1d33e82936d18417"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"05f1bce8ff73255d",
+									"6724c043bb5beac9"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2c02fa7cf7860d98",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[{ "RemoveItemByValue": "94def45d89c41cbb" }]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
