@@ -47,6 +47,159 @@
 		},
 		{
 			"SubEntityOperation": [
+				"1645e996540502e3",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3bf52e745bbe5e4c",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									},
+									{
+										"ref": "52b98baba5b3ad1f",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1645e996540502e3",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesFriskExempt",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "2a045d9a7347abe3",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									},
+									{
+										"ref": "52b98baba5b3ad1f",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d8caa65feb18b6e1",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "158be035048cd4e5",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									},
+									"7f85bb6ed69e46b3"
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "158be035048cd4e5",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									},
+									{
+										"ref": "8b4dcc741332ca34",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "158be035048cd4e5",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									},
+									{
+										"ref": "b1d41a5be6b0a6c1",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "158be035048cd4e5",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									},
+									{
+										"ref": "52b98baba5b3ad1f",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f9f6829c304c1907",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "63a132dbde39ec53",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									},
+									{
+										"ref": "52b98baba5b3ad1f",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f9f6829c304c1907",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesFriskExempt",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "2a045d9a7347abe3",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									},
+									{
+										"ref": "52b98baba5b3ad1f",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"af88c1e8839f7f88",
 				{
 					"PatchArrayPropertyValue": [
@@ -131,6 +284,54 @@
 								"AddItemAfter": [
 									{
 										"ref": "63a132dbde39ec53",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									},
+									{
+										"ref": "52b98baba5b3ad1f",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6913828eaa111344",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "63a132dbde39ec53",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									},
+									{
+										"ref": "52b98baba5b3ad1f",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6913828eaa111344",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesFriskExempt",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "2a045d9a7347abe3",
 										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
 									},
 									{
@@ -281,6 +482,27 @@
 										"ref": "52b98baba5b3ad1f",
 										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
 									}
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"07d2ff4572496295",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "158be035048cd4e5",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									},
+									"7f85bb6ed69e46b3"
 								]
 							}
 						]

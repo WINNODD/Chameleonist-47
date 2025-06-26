@@ -4,9 +4,420 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
+				"aab3f6ff0a52c23c",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"5fcb639aa7f035d0",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5604afc9b1a38639",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"85550593996bd715",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5604afc9b1a38639",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesFriskExempt",
+						[
+							{
+								"AddItemAfter": [
+									"85550593996bd715",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"23bd911f811b13fb",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "b469254a082c850b",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									},
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"23bd911f811b13fb",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesFriskExempt",
+						[
+							{
+								"AddItemAfter": [
+									"5fcb639aa7f035d0",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"67f84835a319c84d",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"49a67ee39bb0a4de",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"55ac05bb4b10fe6a",
 				{ "RemovePropertyByName": "m_bBlockDisguisePickup" }
 			]
+		},
+		{
+			"SubEntityOperation": [
+				"44c3112c5d6bc0f8",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"85550593996bd715",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"44c3112c5d6bc0f8",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesFriskExempt",
+						[
+							{
+								"AddItemAfter": [
+									"85550593996bd715",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"96d96d9d32c71787",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"49a67ee39bb0a4de",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"35e752b8fd4a2d78",
+				{
+					"AddProperty": [
+						"m_AllowedProfessions",
+						{
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["fe5a59ffed3e356e"],
+							"postInit": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"090eddfb77258c89",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"5fcb639aa7f035d0",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"090eddfb77258c89",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesFriskExempt",
+						[
+							{
+								"AddItemAfter": [
+									"5fcb639aa7f035d0",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"88e30a7ca0740c9f",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"5fcb639aa7f035d0",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bc279f3b82234d56",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "158be035048cd4e5",
+										"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+									},
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b8ddb6e7ae85f518",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"5fcb639aa7f035d0",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fd94839edc9d09c5",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesFriskExempt",
+						[
+							{
+								"AddItemAfter": [
+									"5fcb639aa7f035d0",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fd94839edc9d09c5",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"5fcb639aa7f035d0",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"00e1bd5c762f54aa",
+				{
+					"PatchArrayPropertyValue": [
+						"m_AllowedProfessions",
+						[
+							{
+								"AddItemAfter": [
+									"85550593996bd715",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"54bbde65e0efed43",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"5fcb639aa7f035d0",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"54bbde65e0efed43",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesFriskExempt",
+						[
+							{
+								"AddItemAfter": [
+									"5fcb639aa7f035d0",
+									"fe5a59ffed3e356e"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "2eb4a77d61863e0f",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -90.42026836492471
+						},
+						"position": {
+							"x": 74.47592163085938,
+							"y": -70.56495666503906,
+							"z": 71.28690338134766
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "2eb4a77d61863e0f",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -90.42026836492472
+						},
+						"position": {
+							"x": 74.47592163085938,
+							"y": -70.56495666503906,
+							"z": 71.28690338134766
+						}
+					}
+				}
+			}
 		}
 	],
 	"patchVersion": 6

@@ -4,6 +4,30 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
+				"d6c6100f1a9441e4",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"e158fd3a70e882f7",
+									"cafe3c2f1dd7b544"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"e158fd3a70e882f7",
+									"5eb2a7a3ecf866be"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"4ff15f1eaf9342a6",
 				{
 					"PatchArrayPropertyValue": [
@@ -64,6 +88,24 @@
 		},
 		{
 			"SubEntityOperation": [
+				"7652209fa3e2cdd2",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"1c08e3596983873e",
+									"6184b3c3ad069f94"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"4657c21c04995fd3",
 				{
 					"PatchArrayPropertyValue": [
@@ -73,6 +115,24 @@
 								"AddItemAfter": [
 									"35654685cc125650",
 									"5eb2a7a3ecf866be"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"50e8ccfe2bd6e66b",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"564d809115851f11",
+									"6184b3c3ad069f94"
 								]
 							}
 						]
@@ -148,6 +208,42 @@
 		},
 		{
 			"SubEntityOperation": [
+				"64664ac951ec29f8",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"0c4d21210cfdd009",
+									"6184b3c3ad069f94"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"580ec0370e20e60a",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"16c15dc9c87d0dc4",
+									"5eb2a7a3ecf866be"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"d0ebc746febf36e5",
 				{
 					"PatchArrayPropertyValue": [
@@ -181,6 +277,48 @@
 								"AddItemAfter": [
 									"8c1ac039d4264613",
 									"fa450a85e3a36494"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8afd1a3f2752be85",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"f769f86fa840c5ec",
+									"cafe3c2f1dd7b544"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"f769f86fa840c5ec",
+									"5eb2a7a3ecf866be"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8afd1a3f2752be85",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesFriskExempt",
+						[
+							{
+								"AddItemAfter": [
+									"f29b76f95a885c86",
+									"5eb2a7a3ecf866be"
 								]
 							}
 						]
@@ -274,6 +412,24 @@
 		},
 		{
 			"SubEntityOperation": [
+				"48ea92393cbeffad",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"6d0dc1a445682479",
+									"6184b3c3ad069f94"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"3f1cc445f1638724",
 				{
 					"PatchArrayPropertyValue": [
@@ -334,6 +490,42 @@
 		},
 		{
 			"SubEntityOperation": [
+				"9985fb6046e78188",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"6d0dc1a445682479",
+									"6184b3c3ad069f94"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7366601405326340",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"e158fd3a70e882f7",
+									"6184b3c3ad069f94"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"92633347f6dce0a2",
 				{
 					"PatchArrayPropertyValue": [
@@ -376,6 +568,90 @@
 		},
 		{
 			"SubEntityOperation": [
+				"ee20202179db64bf",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesFriskExempt",
+						[
+							{
+								"AddItemAfter": [
+									"e158fd3a70e882f7",
+									"5eb2a7a3ecf866be"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ee20202179db64bf",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"1f8d688e1fcd168d",
+									"cafe3c2f1dd7b544"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1f8d688e1fcd168d",
+									"5eb2a7a3ecf866be"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9a211cefe6f87c0a",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"1f8d688e1fcd168d",
+									"cafe3c2f1dd7b544"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1f8d688e1fcd168d",
+									"5eb2a7a3ecf866be"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9a211cefe6f87c0a",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesFriskExempt",
+						[
+							{
+								"AddItemAfter": [
+									"e158fd3a70e882f7",
+									"5eb2a7a3ecf866be"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"773886afd104b83f",
 				{
 					"PatchArrayPropertyValue": [
@@ -409,6 +685,24 @@
 								"AddItemAfter": [
 									"9c829b5b38c5e076",
 									"5eb2a7a3ecf866be"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"162c37729b2bb849",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"73847b66228ac7b3",
+									"6184b3c3ad069f94"
 								]
 							}
 						]

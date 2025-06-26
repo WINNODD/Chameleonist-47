@@ -4,6 +4,24 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
+				"9887d0a204774f8c",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"ed7e40c5f2ae417f",
+									"9a0282f7747bf6f8"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"4dddd41175fde34f",
 				{
 					"PatchArrayPropertyValue": [
@@ -19,6 +37,24 @@
 								"AddItemAfter": [
 									"d2213d246f552e08",
 									"71391b5311d37fda"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4e549c4130c08996",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"0737faab060fbcee",
+									"9a0282f7747bf6f8"
 								]
 							}
 						]
@@ -50,6 +86,24 @@
 		},
 		{
 			"SubEntityOperation": [
+				"0f915e5f9fc72519",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"22ec890bd479a399",
+									"9a0282f7747bf6f8"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"5fc51ea7984fbac2",
 				{
 					"PatchArrayPropertyValue": [
@@ -74,6 +128,78 @@
 		},
 		{
 			"SubEntityOperation": [
+				"96b644912fbfaaf2",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"966964e6845b379c",
+									"9a0282f7747bf6f8"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"96b644912fbfaaf2",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesFriskExempt",
+						[
+							{
+								"AddItemAfter": [
+									"966964e6845b379c",
+									"9a0282f7747bf6f8"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bbc86003454b5b56",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"41c4089c583305bc",
+									"9a0282f7747bf6f8"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1fd8e46fd72d77fc",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"bd1bdcd7db4ee818",
+									"9a0282f7747bf6f8"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"eeca8d74b7840e73",
 				{
 					"PatchArrayPropertyValue": [
@@ -83,6 +209,42 @@
 								"AddItemAfter": [
 									"6b264e0875eb3fa5",
 									"3b9c29fe4da1fbbf"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"878e7c75c8386404",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"ac00ac356d588356",
+									"9a0282f7747bf6f8"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"878e7c75c8386404",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesFriskExempt",
+						[
+							{
+								"AddItemAfter": [
+									"ac00ac356d588356",
+									"9a0282f7747bf6f8"
 								]
 							}
 						]
@@ -184,13 +346,13 @@
 							{
 								"AddItemBefore": [
 									"6b264e0875eb3fa5",
-									"3b9c29fe4da1fbbf"
+									"71391b5311d37fda"
 								]
 							},
 							{
 								"AddItemBefore": [
 									"6b264e0875eb3fa5",
-									"71391b5311d37fda"
+									"3b9c29fe4da1fbbf"
 								]
 							}
 						]
@@ -285,13 +447,13 @@
 							{
 								"AddItemBefore": [
 									"6b264e0875eb3fa5",
-									"3b9c29fe4da1fbbf"
+									"71391b5311d37fda"
 								]
 							},
 							{
 								"AddItemBefore": [
 									"6b264e0875eb3fa5",
-									"71391b5311d37fda"
+									"3b9c29fe4da1fbbf"
 								]
 							}
 						]
@@ -427,6 +589,24 @@
 					"PatchArrayPropertyValue": [
 						"m_AllowedProfessions",
 						[{ "RemoveItemByValue": "9426ea8651ff0d7c" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fe2c16307573f3f2",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aDisguisesAllowed",
+						[
+							{
+								"AddItemAfter": [
+									"a2fd25a9de71ba6c",
+									"9a0282f7747bf6f8"
+								]
+							}
+						]
 					]
 				}
 			]
